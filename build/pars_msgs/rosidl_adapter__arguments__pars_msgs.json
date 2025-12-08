@@ -1,0 +1,7 @@
+{
+  "package_name": "pars_msgs",
+  "non_idl_tuples": [
+    "/root/bridges/jetson_workspace/src/pars_msgs:msg/Data.msg",
+    "/root/bridges/jetson_workspace/src/pars_msgs:msg/Target.msg"
+  ]
+}

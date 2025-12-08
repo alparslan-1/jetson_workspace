@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/install/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+-- Found rclcpp: 16.0.6 (/opt/ros/humble/install/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found image_transport: 3.1.7 (/opt/ros/humble/install/share/image_transport/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/install/share/cv_bridge/cmake)
+-- Found CUDA: /usr/local/cuda (found suitable exact version "11.4") 
+-- Found OpenCV: /usr (found version "4.5.0") 
+-- ONNX Runtime bulundu: /root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib/libonnxruntime.so
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/bridges/jetson_workspace/src/atmaca_vision/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (11.3s)
+-- Generating done (0.2s)
+-- Build files have been written to: /root/bridges/jetson_workspace/build/atmaca_vision
+[ 16%] [32mBuilding CXX object CMakeFiles/camera_publisher_node.dir/src/camera_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/target_detection_node.dir/src/target_detection_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/qr_detector_node.dir/src/qr_detection_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable camera_publisher_node[0m
+[ 66%] Built target camera_publisher_node
+[ 83%] [32m[1mLinking CXX executable qr_detector_node[0m
+[ 83%] Built target qr_detector_node
+[100%] [32m[1mLinking CXX executable target_detection_node[0m
+[100%] Built target target_detection_node
+-- Install configuration: ""
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/camera_publisher_node
+-- Set runtime path of "/root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/camera_publisher_node" to ""
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/qr_detector_node
+-- Set runtime path of "/root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/qr_detector_node" to ""
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/target_detection_node
+-- Set runtime path of "/root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/target_detection_node" to ""
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/ament_index/resource_index/package_run_dependencies/atmaca_vision
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/ament_index/resource_index/parent_prefix_path/atmaca_vision
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/ament_prefix_path.sh
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/ament_prefix_path.dsv
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/path.sh
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/path.dsv
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.bash
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.sh
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.zsh
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.dsv
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.dsv
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/ament_index/resource_index/packages/atmaca_vision
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/cmake/atmaca_visionConfig.cmake
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/cmake/atmaca_visionConfig-version.cmake
+-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.xml

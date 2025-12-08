@@ -1,0 +1,27 @@
+{
+  "package_name": "pars_msgs",
+  "output_dir": "/root/bridges/jetson_workspace/build/pars_msgs/rosidl_typesupport_introspection_cpp/pars_msgs",
+  "template_dir": "/opt/ros/humble/install/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/root/bridges/jetson_workspace/build/pars_msgs/rosidl_adapter/pars_msgs:msg/Data.idl",
+    "/root/bridges/jetson_workspace/build/pars_msgs/rosidl_adapter/pars_msgs:msg/Target.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/humble/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/install/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/humble/install/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/install/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/root/bridges/jetson_workspace/build/pars_msgs/rosidl_adapter/pars_msgs/msg/Data.idl",
+    "/root/bridges/jetson_workspace/build/pars_msgs/rosidl_adapter/pars_msgs/msg/Target.idl",
+    "/opt/ros/humble/install/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/install/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

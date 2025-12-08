@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pars_msgs/msg/Target.msg
+// generated code does not contain a copyright notice
+
+
+module pars_msgs {
+  module msg {
+    struct Target {
+      boolean target_detected;
+
+      float x_center;
+
+      float y_center;
+
+      float image_width;
+
+      float image_height;
+    };
+  };
+};

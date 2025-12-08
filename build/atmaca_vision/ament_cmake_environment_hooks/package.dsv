@@ -1,0 +1,4 @@
+source;share/atmaca_vision/local_setup.bash
+source;share/atmaca_vision/local_setup.dsv
+source;share/atmaca_vision/local_setup.sh
+source;share/atmaca_vision/local_setup.zsh
