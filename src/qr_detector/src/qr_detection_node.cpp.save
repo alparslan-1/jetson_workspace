@@ -1,0 +1,63 @@
+#include "qr_detector/qr_detection_node.hpp"
+#include <memory>
+#include <chrono>
+
+QRDetectionNode::QRDetectionNode()
+    : Node("qr_detection_node"), is_active_(false)
+{
+    // 1. Sadece temel de?i?kenleri ve CUDA kontrol?n? burada b?rak?yoruz.
+    // shared_from_this() gerektirmeyen her ?ey burada kalabilir.
+
+    // Check CUDA availability
+    cuda_available_ = (cv::cuda::getCudaEnabledDeviceCount() > 0);
+    
+    if (cuda_available_) {
+        RCLCPP_INFO(this->get_logger(), "CUDA is available. GPU acceleration enabled.");
+        RCLCPP_INFO(this->get_logger(), "CUDA Device Count: %d", cv::cuda::getCudaEnabledDeviceCount());
+    } else {
+        RCLCPP_WARN(this->get_logger(), "CUDA is not available. Falling back to CPU processing.");
+    }
+
+    // Publishers (create_publisher constructor i?inde ?al??abilir, sorun yok)
+    qr_data_publisher_ = this->create_publisher<std_msgs::msg::String>(
+        "/vision/qr_data",
+        10
+    );
+
+    RCLCPP_INFO(this->get_logger(), "Node created. Waiting for initialization...");
+}
+
+// 2. YEN? FONKS?YON: shared_from_this() kullanan her ?eyi buraya ta??d?k.
+void QRDetectionNode::initialize()
+{
+    // Initialize image transport (BU SATIR ARTIK G?VENL?)
+    image_transport_ = std::make_shared<image_transport::ImageTransport>(shared_from_this());
+    
+    // Subscriptions
+    state_subscription_ = this->create_subscription<std_msgs::msg::String>(
+        "/state",
+        10,
+        std::bind(&QRDetectionNode::state_callback, this, std::placeholders::_1)
+    );
+    
+    image_subscriber_ = image_transport_->subscribe(
+        "/image_raw",
+        1,
+        std::bind(&QRDetectionNode::image_callback, this, std::placeholders::_1),
+        nullptr
+    );
+    
+    // Image transport publisher
+    debug_image_publisher_ = image_transport_->advertise("/vision/qr_debug_image", 1);
+    
+    RCLCPP_INFO(this->get_logger(), "QR Detection Node initialized and subscriptions active.");
+    RCLCPP_INFO(this->get_logger(), "Waiting for '/state' topic to receive 'kamikaze' command...");
+}
+
+QRDetectionNode::~QRDetectionNode()
+{
+    RCLCPP_INFO(this->get_logger(), "QR Detection Node shutting down");
+}
+
+// ... (Geri kalan state_callback, image_callback, detect_qr_code fonksiyonlar? ayn? kalacak) ...
+// ... (Sadece en alttaki main fonksiyonunu de?i?tirmemiz gerek) ...

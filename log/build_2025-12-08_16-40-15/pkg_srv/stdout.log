@@ -1,0 +1,149 @@
+[  3%] Built target pkg_srv__cpp
+[ 12%] Built target pkg_srv__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_pkg_srv
+[ 21%] Built target pkg_srv__rosidl_typesupport_introspection_cpp
+[ 30%] Built target pkg_srv__rosidl_typesupport_fastrtps_cpp
+[ 39%] Built target pkg_srv__rosidl_typesupport_cpp
+[ 48%] Built target pkg_srv__rosidl_typesupport_fastrtps_c
+[ 57%] Built target pkg_srv__rosidl_typesupport_introspection_c
+[ 66%] Built target pkg_srv__rosidl_typesupport_c
+[ 66%] Built target pkg_srv
+[ 69%] Built target pkg_srv__py
+[ 72%] [32mBuilding CXX object CMakeFiles/mission_control_server.dir/src/mission_control_server.cpp.o[0m
+[ 78%] Built target pkg_srv__rosidl_generator_py
+[ 90%] Built target pkg_srv__rosidl_typesupport_introspection_c__pyext
+[ 90%] Built target pkg_srv__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target pkg_srv__rosidl_typesupport_c__pyext
+running egg_info
+writing pkg_srv.egg-info/PKG-INFO
+writing dependency_links to pkg_srv.egg-info/dependency_links.txt
+writing top-level names to pkg_srv.egg-info/top_level.txt
+reading manifest file 'pkg_srv.egg-info/SOURCES.txt'
+writing manifest file 'pkg_srv.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_pkg_srv_egg
+[100%] [32m[1mLinking CXX executable mission_control_server[0m
+[100%] Built target mission_control_server
+-- Install configuration: ""
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/rosidl_interfaces/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/mission_control.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__functions.c
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__type_support.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__functions.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__struct.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/library_path.sh
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/library_path.dsv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_generator_c.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/mission_control.hpp
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__builder.hpp
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__struct.hpp
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__traits.hpp
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/dds_fastrtps
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__type_support.c
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_c.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__type_support.cpp
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_cpp.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/pythonpath.sh
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/pythonpath.dsv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info
+-- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/top_level.txt
+-- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/PKG-INFO
+-- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/SOURCES.txt
+-- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/dependency_links.txt
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/libpkg_srv__rosidl_generator_py.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/__init__.py
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/_mission_control_s.c
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/__init__.py
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/_mission_control.py
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+Listing '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv'...
+Listing '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv'...
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_generator_py.so
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl.idl
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl.srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl_Request.msg
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl_Response.msg
+-- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/pkg_srv/mission_control_server
+-- Set runtime path of "/root/bridges/jetson_workspace/install/pkg_srv/lib/pkg_srv/mission_control_server" to ""
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/package_run_dependencies/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/parent_prefix_path/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/ament_prefix_path.sh
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/path.sh
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/path.dsv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.bash
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.sh
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.zsh
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.dsv
+-- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.dsv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/packages/pkg_srv
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_cExport.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_cppExport.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_pyExport.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srvConfig.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srvConfig-version.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.xml

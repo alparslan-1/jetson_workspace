@@ -1,0 +1,153 @@
+[0.686s] Invoking command in '/root/bridges/jetson_workspace/build/pkg_srv': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pkg_srv -- -j4 -l4
+[1.006s] [  3%] Built target pkg_srv__cpp
+[1.020s] [ 12%] Built target pkg_srv__rosidl_generator_c
+[1.030s] [ 12%] Built target ament_cmake_python_copy_pkg_srv
+[1.246s] [ 21%] Built target pkg_srv__rosidl_typesupport_introspection_cpp
+[1.260s] [ 30%] Built target pkg_srv__rosidl_typesupport_fastrtps_cpp
+[1.266s] [ 39%] Built target pkg_srv__rosidl_typesupport_cpp
+[1.288s] [ 48%] Built target pkg_srv__rosidl_typesupport_fastrtps_c
+[1.333s] [ 57%] Built target pkg_srv__rosidl_typesupport_introspection_c
+[1.346s] [ 66%] Built target pkg_srv__rosidl_typesupport_c
+[1.406s] [ 66%] Built target pkg_srv
+[1.472s] [ 69%] Built target pkg_srv__py
+[1.532s] [ 72%] [32mBuilding CXX object CMakeFiles/mission_control_server.dir/src/mission_control_server.cpp.o[0m
+[1.554s] [ 78%] Built target pkg_srv__rosidl_generator_py
+[1.638s] [ 90%] Built target pkg_srv__rosidl_typesupport_introspection_c__pyext
+[1.639s] [ 90%] Built target pkg_srv__rosidl_typesupport_fastrtps_c__pyext
+[1.719s] [ 96%] Built target pkg_srv__rosidl_typesupport_c__pyext
+[2.641s] running egg_info
+[2.744s] writing pkg_srv.egg-info/PKG-INFO
+[2.747s] writing dependency_links to pkg_srv.egg-info/dependency_links.txt
+[2.749s] writing top-level names to pkg_srv.egg-info/top_level.txt
+[3.180s] reading manifest file 'pkg_srv.egg-info/SOURCES.txt'
+[3.187s] writing manifest file 'pkg_srv.egg-info/SOURCES.txt'
+[3.312s] [ 96%] Built target ament_cmake_python_build_pkg_srv_egg
+[55.342s] [100%] [32m[1mLinking CXX executable mission_control_server[0m
+[57.606s] [100%] Built target mission_control_server
+[57.675s] Invoked command in '/root/bridges/jetson_workspace/build/pkg_srv' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pkg_srv -- -j4 -l4
+[58.624s] Invoking command in '/root/bridges/jetson_workspace/build/pkg_srv': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pkg_srv
+[58.796s] -- Install configuration: ""
+[58.797s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/rosidl_interfaces/pkg_srv
+[58.798s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+[58.799s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg
+[58.799s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_generator_c__visibility_control.h
+[58.800s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+[58.800s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/mission_control.h
+[58.801s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+[58.801s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__functions.c
+[58.802s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__type_support.h
+[58.803s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__functions.h
+[58.803s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__struct.h
+[58.804s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/library_path.sh
+[58.804s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/library_path.dsv
+[58.805s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_generator_c.so
+[58.806s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+[58.806s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg
+[58.807s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[58.807s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+[58.808s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+[58.808s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_fastrtps_c.h
+[58.809s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_fastrtps_c.so
+[58.810s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+[58.811s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+[58.811s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/mission_control.hpp
+[58.812s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+[58.813s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__builder.hpp
+[58.814s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__struct.hpp
+[58.815s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__traits.hpp
+[58.815s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+[58.815s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg
+[58.816s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[58.816s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+[58.817s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+[58.817s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_fastrtps_cpp.hpp
+[58.817s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/dds_fastrtps
+[58.818s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_fastrtps_cpp.so
+[58.818s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+[58.819s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg
+[58.820s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[58.820s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+[58.821s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+[58.821s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__type_support.c
+[58.821s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_introspection_c.h
+[58.822s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_introspection_c.so
+[58.825s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_c.so
+[58.827s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv
+[58.828s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv
+[58.828s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail
+[58.829s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__type_support.cpp
+[58.829s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_introspection_cpp.hpp
+[58.829s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_introspection_cpp.so
+[58.833s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_cpp.so
+[58.835s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/pythonpath.sh
+[58.835s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/pythonpath.dsv
+[58.836s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info
+[58.837s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/top_level.txt
+[58.839s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/PKG-INFO
+[58.840s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/SOURCES.txt
+[58.841s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/dependency_links.txt
+[58.842s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv
+[58.843s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/libpkg_srv__rosidl_generator_py.so
+[58.844s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[58.845s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_fastrtps_c.c
+[58.845s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[58.846s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_introspection_c.c
+[58.846s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/__init__.py
+[58.846s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_c.c
+[58.847s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv
+[58.847s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/_mission_control_s.c
+[58.848s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/__init__.py
+[58.848s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/_mission_control.py
+[58.848s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[59.020s] Listing '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv'...
+[59.021s] Listing '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv'...
+[59.040s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[59.042s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[59.045s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[59.048s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_generator_py.so
+[59.050s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl.idl
+[59.051s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl.srv
+[59.051s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl_Request.msg
+[59.052s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl_Response.msg
+[59.052s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/pkg_srv/mission_control_server
+[59.221s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pkg_srv/lib/pkg_srv/mission_control_server" to ""
+[59.223s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/package_run_dependencies/pkg_srv
+[59.224s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/parent_prefix_path/pkg_srv
+[59.225s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/ament_prefix_path.sh
+[59.226s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/ament_prefix_path.dsv
+[59.226s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/path.sh
+[59.228s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/path.dsv
+[59.229s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.bash
+[59.229s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.sh
+[59.230s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.zsh
+[59.231s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.dsv
+[59.232s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.dsv
+[59.233s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/packages/pkg_srv
+[59.233s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_cExport.cmake
+[59.234s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_cExport-noconfig.cmake
+[59.235s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cExport.cmake
+[59.235s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[59.236s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_cppExport.cmake
+[59.246s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cppExport.cmake
+[59.247s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[59.247s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cExport.cmake
+[59.248s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[59.248s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cExport.cmake
+[59.248s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cExport-noconfig.cmake
+[59.249s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cppExport.cmake
+[59.249s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[59.250s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cppExport.cmake
+[59.250s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cppExport-noconfig.cmake
+[59.251s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_pyExport.cmake
+[59.251s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_pyExport-noconfig.cmake
+[59.251s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/rosidl_cmake-extras.cmake
+[59.252s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.252s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.253s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_libraries-extras.cmake
+[59.253s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_targets-extras.cmake
+[59.254s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[59.254s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[59.254s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srvConfig.cmake
+[59.255s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srvConfig-version.cmake
+[59.256s] -- Up-to-date: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.xml
+[59.283s] Invoked command in '/root/bridges/jetson_workspace/build/pkg_srv' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pkg_srv

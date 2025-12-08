@@ -1,0 +1,17 @@
+/root/bridges/jetson_workspace/install/qr_detector/lib/qr_detector/qr_detection_node
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector//launch/qr_detection.launch.py
+/root/bridges/jetson_workspace/install/qr_detector/share/ament_index/resource_index/package_run_dependencies/qr_detector
+/root/bridges/jetson_workspace/install/qr_detector/share/ament_index/resource_index/parent_prefix_path/qr_detector
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/environment/ament_prefix_path.sh
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/environment/ament_prefix_path.dsv
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/environment/path.sh
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/environment/path.dsv
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/local_setup.bash
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/local_setup.sh
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/local_setup.zsh
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/local_setup.dsv
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.dsv
+/root/bridges/jetson_workspace/install/qr_detector/share/ament_index/resource_index/packages/qr_detector
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/cmake/qr_detectorConfig.cmake
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/cmake/qr_detectorConfig-version.cmake
+/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.xml

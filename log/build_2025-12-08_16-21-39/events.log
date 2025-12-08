@@ -1,0 +1,558 @@
+[0.000000] (-) TimerEvent: {}
+[0.004345] (-) JobUnselected: {'identifier': 'atmaca_vision'}
+[0.005460] (-) JobUnselected: {'identifier': 'pars_msgs'}
+[0.005945] (-) JobUnselected: {'identifier': 'pkg_srv'}
+[0.006081] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.006327] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.006466] (-) JobUnselected: {'identifier': 'siha_camera_pkg'}
+[0.006664] (qr_detector) JobQueued: {'identifier': 'qr_detector', 'dependencies': OrderedDict([('px4_msgs', '/root/bridges/jetson_workspace/install/px4_msgs')])}
+[0.007289] (qr_detector) JobStarted: {'identifier': 'qr_detector'}
+[0.098155] (-) TimerEvent: {}
+[0.199267] (-) TimerEvent: {}
+[0.300604] (-) TimerEvent: {}
+[0.403045] (-) TimerEvent: {}
+[0.437405] (qr_detector) JobProgress: {'identifier': 'qr_detector', 'progress': 'cmake'}
+[0.439948] (qr_detector) Command: {'cmd': ['/usr/local/bin/cmake', '/root/bridges/jetson_workspace/src/qr_detector', '-DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/qr_detector'], 'cwd': '/root/bridges/jetson_workspace/build/qr_detector', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'tanyeli'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib'), ('HOME', '/root'), ('OLDPWD', '/root/bridges/jetson_workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\033[1;31m\\]\\u@\\h\\[\\033[0m\\]:\\[\\033[1;34m\\]\\w\\[\\033[0m\\]#'), ('COLCON_PREFIX_PATH', '/root/bridges/jetson_workspace/install:/opt/ros/humble/install'), ('TORCH_HOME', '/data/models/torch'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/root/bridges/jetson_workspace/build/qr_detector'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install')]), 'shell': False}
+[0.503439] (-) TimerEvent: {}
+[0.613129] (-) TimerEvent: {}
+[0.733384] (-) TimerEvent: {}
+[0.837069] (-) TimerEvent: {}
+[0.938533] (-) TimerEvent: {}
+[1.039788] (-) TimerEvent: {}
+[1.142062] (-) TimerEvent: {}
+[1.174379] (qr_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.242356] (-) TimerEvent: {}
+[1.343501] (-) TimerEvent: {}
+[1.444587] (-) TimerEvent: {}
+[1.545788] (-) TimerEvent: {}
+[1.575514] (qr_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.648440] (-) TimerEvent: {}
+[1.765784] (-) TimerEvent: {}
+[1.811642] (qr_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.865593] (-) TimerEvent: {}
+[1.966998] (-) TimerEvent: {}
+[2.068082] (-) TimerEvent: {}
+[2.169359] (-) TimerEvent: {}
+[2.270438] (-) TimerEvent: {}
+[2.305816] (qr_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.360266] (qr_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.361637] (qr_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.363919] (qr_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.370606] (-) TimerEvent: {}
+[2.458912] (qr_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.470809] (-) TimerEvent: {}
+[2.571872] (-) TimerEvent: {}
+[2.675925] (-) TimerEvent: {}
+[2.783708] (-) TimerEvent: {}
+[2.888422] (-) TimerEvent: {}
+[2.991635] (-) TimerEvent: {}
+[3.094666] (-) TimerEvent: {}
+[3.111375] (qr_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.169946] (qr_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.172963] (qr_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.176505] (qr_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.194841] (-) TimerEvent: {}
+[3.198941] (qr_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[3.295111] (-) TimerEvent: {}
+[3.396225] (-) TimerEvent: {}
+[3.497747] (-) TimerEvent: {}
+[3.598773] (-) TimerEvent: {}
+[3.700138] (-) TimerEvent: {}
+[3.803639] (-) TimerEvent: {}
+[3.906728] (-) TimerEvent: {}
+[4.008289] (-) TimerEvent: {}
+[4.109435] (-) TimerEvent: {}
+[4.210472] (-) TimerEvent: {}
+[4.311463] (-) TimerEvent: {}
+[4.412458] (-) TimerEvent: {}
+[4.513481] (-) TimerEvent: {}
+[4.616698] (-) TimerEvent: {}
+[4.764203] (-) TimerEvent: {}
+[4.868481] (-) TimerEvent: {}
+[4.971231] (-) TimerEvent: {}
+[5.072967] (-) TimerEvent: {}
+[5.174138] (-) TimerEvent: {}
+[5.275380] (-) TimerEvent: {}
+[5.376858] (-) TimerEvent: {}
+[5.477943] (-) TimerEvent: {}
+[5.579059] (-) TimerEvent: {}
+[5.683214] (-) TimerEvent: {}
+[5.793575] (-) TimerEvent: {}
+[5.897800] (-) TimerEvent: {}
+[5.999310] (-) TimerEvent: {}
+[6.100532] (-) TimerEvent: {}
+[6.201692] (-) TimerEvent: {}
+[6.302754] (-) TimerEvent: {}
+[6.404445] (-) TimerEvent: {}
+[6.505347] (-) TimerEvent: {}
+[6.619039] (-) TimerEvent: {}
+[6.742028] (-) TimerEvent: {}
+[6.843486] (-) TimerEvent: {}
+[6.944853] (-) TimerEvent: {}
+[7.046609] (-) TimerEvent: {}
+[7.148564] (-) TimerEvent: {}
+[7.250724] (-) TimerEvent: {}
+[7.352284] (-) TimerEvent: {}
+[7.453357] (-) TimerEvent: {}
+[7.554479] (-) TimerEvent: {}
+[7.656557] (-) TimerEvent: {}
+[7.773201] (-) TimerEvent: {}
+[7.875084] (-) TimerEvent: {}
+[7.977875] (-) TimerEvent: {}
+[8.079595] (-) TimerEvent: {}
+[8.181586] (-) TimerEvent: {}
+[8.282820] (-) TimerEvent: {}
+[8.383812] (-) TimerEvent: {}
+[8.484788] (-) TimerEvent: {}
+[8.585782] (-) TimerEvent: {}
+[8.692224] (-) TimerEvent: {}
+[8.810039] (-) TimerEvent: {}
+[8.912548] (-) TimerEvent: {}
+[9.013764] (-) TimerEvent: {}
+[9.115217] (-) TimerEvent: {}
+[9.216638] (-) TimerEvent: {}
+[9.317807] (-) TimerEvent: {}
+[9.419308] (-) TimerEvent: {}
+[9.521041] (-) TimerEvent: {}
+[9.623986] (-) TimerEvent: {}
+[9.750165] (-) TimerEvent: {}
+[9.853468] (-) TimerEvent: {}
+[9.955720] (-) TimerEvent: {}
+[10.057304] (-) TimerEvent: {}
+[10.159039] (-) TimerEvent: {}
+[10.260342] (-) TimerEvent: {}
+[10.362144] (-) TimerEvent: {}
+[10.463647] (-) TimerEvent: {}
+[10.564619] (-) TimerEvent: {}
+[10.689170] (-) TimerEvent: {}
+[10.805138] (-) TimerEvent: {}
+[10.909020] (-) TimerEvent: {}
+[11.011360] (-) TimerEvent: {}
+[11.112675] (-) TimerEvent: {}
+[11.213973] (-) TimerEvent: {}
+[11.315439] (-) TimerEvent: {}
+[11.416637] (-) TimerEvent: {}
+[11.517742] (-) TimerEvent: {}
+[11.621049] (-) TimerEvent: {}
+[11.728854] (-) TimerEvent: {}
+[11.833591] (-) TimerEvent: {}
+[11.934907] (-) TimerEvent: {}
+[11.956543] (qr_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[12.035278] (-) TimerEvent: {}
+[12.137080] (-) TimerEvent: {}
+[12.238912] (-) TimerEvent: {}
+[12.340518] (-) TimerEvent: {}
+[12.441844] (-) TimerEvent: {}
+[12.468584] (qr_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/install/share/rclcpp/cmake)\n'}
+[12.542190] (-) TimerEvent: {}
+[12.667416] (-) TimerEvent: {}
+[12.787854] (-) TimerEvent: {}
+[12.895109] (-) TimerEvent: {}
+[12.923072] (qr_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[12.964194] (qr_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[12.995262] (-) TimerEvent: {}
+[13.027415] (qr_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[13.095509] (-) TimerEvent: {}
+[13.132701] (qr_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.195766] (-) TimerEvent: {}
+[13.278871] (qr_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.295941] (-) TimerEvent: {}
+[13.396890] (-) TimerEvent: {}
+[13.497968] (-) TimerEvent: {}
+[13.599062] (-) TimerEvent: {}
+[13.702528] (-) TimerEvent: {}
+[13.816959] (-) TimerEvent: {}
+[13.897106] (qr_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[13.916501] (-) TimerEvent: {}
+[13.918045] (qr_detector) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[14.016735] (-) TimerEvent: {}
+[14.118164] (-) TimerEvent: {}
+[14.161160] (qr_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[14.218423] (-) TimerEvent: {}
+[14.231453] (qr_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.318659] (-) TimerEvent: {}
+[14.419792] (-) TimerEvent: {}
+[14.522315] (-) TimerEvent: {}
+[14.628791] (-) TimerEvent: {}
+[14.745726] (-) TimerEvent: {}
+[14.784206] (qr_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[14.787453] (qr_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[14.845620] (-) TimerEvent: {}
+[14.946999] (-) TimerEvent: {}
+[15.048072] (-) TimerEvent: {}
+[15.145768] (qr_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[15.146803] (qr_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[15.148171] (-) TimerEvent: {}
+[15.249188] (-) TimerEvent: {}
+[15.350797] (-) TimerEvent: {}
+[15.452011] (-) TimerEvent: {}
+[15.515657] (qr_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[15.521572] (qr_detector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.552255] (-) TimerEvent: {}
+[15.657874] (-) TimerEvent: {}
+[15.779221] (-) TimerEvent: {}
+[15.885667] (-) TimerEvent: {}
+[15.987902] (-) TimerEvent: {}
+[16.089778] (-) TimerEvent: {}
+[16.190982] (-) TimerEvent: {}
+[16.292220] (-) TimerEvent: {}
+[16.393639] (-) TimerEvent: {}
+[16.495109] (-) TimerEvent: {}
+[16.592890] (qr_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[16.595503] (-) TimerEvent: {}
+[16.704382] (-) TimerEvent: {}
+[16.824321] (-) TimerEvent: {}
+[16.926382] (-) TimerEvent: {}
+[17.029667] (-) TimerEvent: {}
+[17.132349] (-) TimerEvent: {}
+[17.234493] (-) TimerEvent: {}
+[17.336577] (-) TimerEvent: {}
+[17.437990] (-) TimerEvent: {}
+[17.449724] (qr_detector) StdoutLine: {'line': b'-- Found image_transport: 3.1.7 (/opt/ros/humble/install/share/image_transport/cmake)\n'}
+[17.538444] (-) TimerEvent: {}
+[17.645800] (-) TimerEvent: {}
+[17.765593] (-) TimerEvent: {}
+[17.840604] (qr_detector) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/install/share/cv_bridge/cmake)\n'}
+[17.865091] (-) TimerEvent: {}
+[17.870137] (qr_detector) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):\n'}
+[17.872036] (qr_detector) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[17.872713] (qr_detector) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[17.873463] (qr_detector) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[17.874009] (qr_detector) StderrLine: {'line': b'\n'}
+[17.874460] (qr_detector) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[17.875717] (qr_detector) StderrLine: {'line': b'  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)\n'}
+[17.876436] (qr_detector) StderrLine: {'line': b'  /opt/ros/humble/install/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[17.876983] (qr_detector) StderrLine: {'line': b'  /opt/ros/humble/install/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)\n'}
+[17.877572] (qr_detector) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[17.878422] (qr_detector) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[17.878851] (qr_detector) StderrLine: {'line': b'\x1b[0m\n'}
+[17.965489] (-) TimerEvent: {}
+[18.036866] (qr_detector) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found suitable exact version "11.4") \n'}
+[18.065726] (-) TimerEvent: {}
+[18.166843] (-) TimerEvent: {}
+[18.168693] (qr_detector) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.0") found components: core imgproc imgcodecs \n'}
+[18.184819] (qr_detector) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.0") found components: cudaimgproc cudawarping \n'}
+[18.212223] (qr_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[18.267092] (-) TimerEvent: {}
+[18.368672] (-) TimerEvent: {}
+[18.469949] (-) TimerEvent: {}
+[18.570873] (-) TimerEvent: {}
+[18.674310] (-) TimerEvent: {}
+[18.785655] (-) TimerEvent: {}
+[18.798071] (qr_detector) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[18.808613] (qr_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[18.810014] (qr_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/bridges/jetson_workspace/src/qr_detector/include\n'}
+[18.810816] (qr_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[18.820080] (qr_detector) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[18.860002] (qr_detector) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[18.862587] (qr_detector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[18.868020] (qr_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.872152] (qr_detector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[18.882449] (qr_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[18.883728] (qr_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[18.885111] (-) TimerEvent: {}
+[18.888675] (qr_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.898031] (qr_detector) StdoutLine: {'line': b'-- Configuring done (18.1s)\n'}
+[18.985545] (-) TimerEvent: {}
+[19.042862] (qr_detector) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[19.054116] (qr_detector) StdoutLine: {'line': b'-- Build files have been written to: /root/bridges/jetson_workspace/build/qr_detector\n'}
+[19.085797] (-) TimerEvent: {}
+[19.120018] (qr_detector) CommandEnded: {'returncode': 0}
+[19.127439] (qr_detector) JobProgress: {'identifier': 'qr_detector', 'progress': 'build'}
+[19.136095] (qr_detector) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/bridges/jetson_workspace/build/qr_detector', '--', '-j4', '-l4'], 'cwd': '/root/bridges/jetson_workspace/build/qr_detector', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'tanyeli'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib'), ('HOME', '/root'), ('OLDPWD', '/root/bridges/jetson_workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\033[1;31m\\]\\u@\\h\\[\\033[0m\\]:\\[\\033[1;34m\\]\\w\\[\\033[0m\\]#'), ('COLCON_PREFIX_PATH', '/root/bridges/jetson_workspace/install:/opt/ros/humble/install'), ('TORCH_HOME', '/data/models/torch'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/root/bridges/jetson_workspace/build/qr_detector'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install')]), 'shell': False}
+[19.186244] (-) TimerEvent: {}
+[19.287695] (-) TimerEvent: {}
+[19.388712] (-) TimerEvent: {}
+[19.447368] (qr_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/qr_detection_node.dir/src/qr_detection_node.cpp.o\x1b[0m\n'}
+[19.488971] (-) TimerEvent: {}
+[19.590079] (-) TimerEvent: {}
+[19.695019] (-) TimerEvent: {}
+[19.810552] (-) TimerEvent: {}
+[19.915230] (-) TimerEvent: {}
+[20.026095] (-) TimerEvent: {}
+[20.128155] (-) TimerEvent: {}
+[20.229415] (-) TimerEvent: {}
+[20.330573] (-) TimerEvent: {}
+[20.431633] (-) TimerEvent: {}
+[20.532677] (-) TimerEvent: {}
+[20.640798] (-) TimerEvent: {}
+[20.767594] (-) TimerEvent: {}
+[20.875031] (-) TimerEvent: {}
+[20.977075] (-) TimerEvent: {}
+[21.079156] (-) TimerEvent: {}
+[21.180795] (-) TimerEvent: {}
+[21.282274] (-) TimerEvent: {}
+[21.383467] (-) TimerEvent: {}
+[21.484594] (-) TimerEvent: {}
+[21.585775] (-) TimerEvent: {}
+[21.707803] (-) TimerEvent: {}
+[21.815487] (-) TimerEvent: {}
+[21.922356] (-) TimerEvent: {}
+[22.024505] (-) TimerEvent: {}
+[22.126268] (-) TimerEvent: {}
+[22.228081] (-) TimerEvent: {}
+[22.330230] (-) TimerEvent: {}
+[22.432326] (-) TimerEvent: {}
+[22.533935] (-) TimerEvent: {}
+[22.647759] (-) TimerEvent: {}
+[22.789845] (-) TimerEvent: {}
+[22.895010] (-) TimerEvent: {}
+[22.998752] (-) TimerEvent: {}
+[23.104585] (-) TimerEvent: {}
+[23.206043] (-) TimerEvent: {}
+[23.307257] (-) TimerEvent: {}
+[23.408423] (-) TimerEvent: {}
+[23.509651] (-) TimerEvent: {}
+[23.610772] (-) TimerEvent: {}
+[23.714656] (-) TimerEvent: {}
+[23.828018] (-) TimerEvent: {}
+[23.936116] (-) TimerEvent: {}
+[24.038042] (-) TimerEvent: {}
+[24.139845] (-) TimerEvent: {}
+[24.241401] (-) TimerEvent: {}
+[24.342876] (-) TimerEvent: {}
+[24.443952] (-) TimerEvent: {}
+[24.545554] (-) TimerEvent: {}
+[24.655479] (-) TimerEvent: {}
+[24.784630] (-) TimerEvent: {}
+[24.887918] (-) TimerEvent: {}
+[24.989601] (-) TimerEvent: {}
+[25.091216] (-) TimerEvent: {}
+[25.192468] (-) TimerEvent: {}
+[25.294705] (-) TimerEvent: {}
+[25.396568] (-) TimerEvent: {}
+[25.497919] (-) TimerEvent: {}
+[25.599361] (-) TimerEvent: {}
+[25.704509] (-) TimerEvent: {}
+[25.828429] (-) TimerEvent: {}
+[25.942210] (-) TimerEvent: {}
+[26.045561] (-) TimerEvent: {}
+[26.147803] (-) TimerEvent: {}
+[26.249647] (-) TimerEvent: {}
+[26.351041] (-) TimerEvent: {}
+[26.452286] (-) TimerEvent: {}
+[26.553538] (-) TimerEvent: {}
+[26.658361] (-) TimerEvent: {}
+[26.787493] (-) TimerEvent: {}
+[26.898050] (-) TimerEvent: {}
+[27.001283] (-) TimerEvent: {}
+[27.102985] (-) TimerEvent: {}
+[27.204442] (-) TimerEvent: {}
+[27.305792] (-) TimerEvent: {}
+[27.406984] (-) TimerEvent: {}
+[27.508426] (-) TimerEvent: {}
+[27.610153] (-) TimerEvent: {}
+[27.714472] (-) TimerEvent: {}
+[27.836627] (-) TimerEvent: {}
+[27.942114] (-) TimerEvent: {}
+[28.044566] (-) TimerEvent: {}
+[28.147077] (-) TimerEvent: {}
+[28.248914] (-) TimerEvent: {}
+[28.350712] (-) TimerEvent: {}
+[28.452946] (-) TimerEvent: {}
+[28.554346] (-) TimerEvent: {}
+[28.660972] (-) TimerEvent: {}
+[28.785433] (-) TimerEvent: {}
+[28.891228] (-) TimerEvent: {}
+[29.033495] (-) TimerEvent: {}
+[29.134915] (-) TimerEvent: {}
+[29.236543] (-) TimerEvent: {}
+[29.338227] (-) TimerEvent: {}
+[29.440040] (-) TimerEvent: {}
+[29.541493] (-) TimerEvent: {}
+[29.649819] (-) TimerEvent: {}
+[29.785793] (-) TimerEvent: {}
+[29.891963] (-) TimerEvent: {}
+[29.994545] (-) TimerEvent: {}
+[30.096619] (-) TimerEvent: {}
+[30.198103] (-) TimerEvent: {}
+[30.299388] (-) TimerEvent: {}
+[30.400589] (-) TimerEvent: {}
+[30.501867] (-) TimerEvent: {}
+[30.603392] (-) TimerEvent: {}
+[30.714105] (-) TimerEvent: {}
+[30.833764] (-) TimerEvent: {}
+[30.938516] (-) TimerEvent: {}
+[31.042627] (-) TimerEvent: {}
+[31.145716] (-) TimerEvent: {}
+[31.247260] (-) TimerEvent: {}
+[31.348866] (-) TimerEvent: {}
+[31.450415] (-) TimerEvent: {}
+[31.551750] (-) TimerEvent: {}
+[31.671281] (-) TimerEvent: {}
+[31.810732] (-) TimerEvent: {}
+[31.916792] (-) TimerEvent: {}
+[32.020881] (-) TimerEvent: {}
+[32.123056] (-) TimerEvent: {}
+[32.224314] (-) TimerEvent: {}
+[32.325932] (-) TimerEvent: {}
+[32.427171] (-) TimerEvent: {}
+[32.528313] (-) TimerEvent: {}
+[32.635636] (-) TimerEvent: {}
+[32.770317] (-) TimerEvent: {}
+[32.879301] (-) TimerEvent: {}
+[32.984278] (-) TimerEvent: {}
+[33.086539] (-) TimerEvent: {}
+[33.188273] (-) TimerEvent: {}
+[33.289916] (-) TimerEvent: {}
+[33.391234] (-) TimerEvent: {}
+[33.492596] (-) TimerEvent: {}
+[33.593888] (-) TimerEvent: {}
+[33.700398] (-) TimerEvent: {}
+[33.835399] (-) TimerEvent: {}
+[33.940892] (-) TimerEvent: {}
+[34.047193] (-) TimerEvent: {}
+[34.148687] (-) TimerEvent: {}
+[34.250569] (-) TimerEvent: {}
+[34.352339] (-) TimerEvent: {}
+[34.454103] (-) TimerEvent: {}
+[34.555990] (-) TimerEvent: {}
+[34.674311] (-) TimerEvent: {}
+[34.804407] (-) TimerEvent: {}
+[34.910991] (-) TimerEvent: {}
+[35.016051] (-) TimerEvent: {}
+[35.117813] (-) TimerEvent: {}
+[35.219115] (-) TimerEvent: {}
+[35.320287] (-) TimerEvent: {}
+[35.421767] (-) TimerEvent: {}
+[35.522888] (-) TimerEvent: {}
+[35.623968] (-) TimerEvent: {}
+[35.736235] (-) TimerEvent: {}
+[35.849593] (-) TimerEvent: {}
+[35.956256] (-) TimerEvent: {}
+[36.060124] (-) TimerEvent: {}
+[36.162061] (-) TimerEvent: {}
+[36.263426] (-) TimerEvent: {}
+[36.364566] (-) TimerEvent: {}
+[36.465992] (-) TimerEvent: {}
+[36.567359] (-) TimerEvent: {}
+[36.672242] (-) TimerEvent: {}
+[36.827591] (-) TimerEvent: {}
+[36.936096] (-) TimerEvent: {}
+[37.039261] (-) TimerEvent: {}
+[37.140987] (-) TimerEvent: {}
+[37.242515] (-) TimerEvent: {}
+[37.343803] (-) TimerEvent: {}
+[37.445332] (-) TimerEvent: {}
+[37.546506] (-) TimerEvent: {}
+[37.659180] (-) TimerEvent: {}
+[37.796640] (-) TimerEvent: {}
+[37.900620] (-) TimerEvent: {}
+[38.002596] (-) TimerEvent: {}
+[38.104158] (-) TimerEvent: {}
+[38.206480] (-) TimerEvent: {}
+[38.308240] (-) TimerEvent: {}
+[38.410120] (-) TimerEvent: {}
+[38.511598] (-) TimerEvent: {}
+[38.613388] (-) TimerEvent: {}
+[38.717947] (-) TimerEvent: {}
+[38.834549] (-) TimerEvent: {}
+[38.940640] (-) TimerEvent: {}
+[39.084921] (-) TimerEvent: {}
+[39.186762] (-) TimerEvent: {}
+[39.288219] (-) TimerEvent: {}
+[39.390439] (-) TimerEvent: {}
+[39.491507] (-) TimerEvent: {}
+[39.592625] (-) TimerEvent: {}
+[39.722263] (-) TimerEvent: {}
+[39.869410] (-) TimerEvent: {}
+[39.972317] (-) TimerEvent: {}
+[40.075304] (-) TimerEvent: {}
+[40.177145] (-) TimerEvent: {}
+[40.279004] (-) TimerEvent: {}
+[40.380387] (-) TimerEvent: {}
+[40.481774] (-) TimerEvent: {}
+[40.583288] (-) TimerEvent: {}
+[40.691785] (-) TimerEvent: {}
+[40.859505] (-) TimerEvent: {}
+[40.964407] (-) TimerEvent: {}
+[41.067623] (-) TimerEvent: {}
+[41.133984] (qr_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/qr_detector/src/qr_detection_node.cpp:32:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvvoid\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[41.137933] (qr_detector) StderrLine: {'line': b'   32 | \x1b[01;31m\x1b[Kvvoid\x1b[m\x1b[K QRDetectionNode::initialize()\n'}
+[41.138689] (qr_detector) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[41.139408] (qr_detector) StderrLine: {'line': b'      | \x1b[32m\x1b[Kvoid\x1b[m\x1b[K\n'}
+[41.167817] (-) TimerEvent: {}
+[41.269477] (-) TimerEvent: {}
+[41.370599] (-) TimerEvent: {}
+[41.471704] (-) TimerEvent: {}
+[41.572854] (-) TimerEvent: {}
+[41.683624] (-) TimerEvent: {}
+[41.814389] (-) TimerEvent: {}
+[41.924284] (-) TimerEvent: {}
+[42.027289] (-) TimerEvent: {}
+[42.128884] (-) TimerEvent: {}
+[42.230252] (-) TimerEvent: {}
+[42.331668] (-) TimerEvent: {}
+[42.432778] (-) TimerEvent: {}
+[42.533952] (-) TimerEvent: {}
+[42.636276] (-) TimerEvent: {}
+[42.759332] (-) TimerEvent: {}
+[42.876744] (-) TimerEvent: {}
+[42.980632] (-) TimerEvent: {}
+[43.085629] (-) TimerEvent: {}
+[43.188795] (-) TimerEvent: {}
+[43.291924] (-) TimerEvent: {}
+[43.393802] (-) TimerEvent: {}
+[43.495968] (-) TimerEvent: {}
+[43.597003] (-) TimerEvent: {}
+[43.706651] (-) TimerEvent: {}
+[43.848730] (-) TimerEvent: {}
+[43.952193] (-) TimerEvent: {}
+[44.054920] (-) TimerEvent: {}
+[44.157044] (-) TimerEvent: {}
+[44.259340] (-) TimerEvent: {}
+[44.362128] (-) TimerEvent: {}
+[44.463396] (-) TimerEvent: {}
+[44.564508] (-) TimerEvent: {}
+[44.676147] (-) TimerEvent: {}
+[44.813766] (-) TimerEvent: {}
+[44.921002] (-) TimerEvent: {}
+[45.024194] (-) TimerEvent: {}
+[45.126109] (-) TimerEvent: {}
+[45.227550] (-) TimerEvent: {}
+[45.328972] (-) TimerEvent: {}
+[45.430176] (-) TimerEvent: {}
+[45.531274] (-) TimerEvent: {}
+[45.632280] (-) TimerEvent: {}
+[45.740598] (-) TimerEvent: {}
+[45.862867] (-) TimerEvent: {}
+[45.968075] (-) TimerEvent: {}
+[46.069650] (-) TimerEvent: {}
+[46.171583] (-) TimerEvent: {}
+[46.273103] (-) TimerEvent: {}
+[46.374512] (-) TimerEvent: {}
+[46.476077] (-) TimerEvent: {}
+[46.577425] (-) TimerEvent: {}
+[46.689172] (-) TimerEvent: {}
+[46.835925] (-) TimerEvent: {}
+[46.946333] (-) TimerEvent: {}
+[47.050881] (-) TimerEvent: {}
+[47.152669] (-) TimerEvent: {}
+[47.254160] (-) TimerEvent: {}
+[47.355500] (-) TimerEvent: {}
+[47.456687] (-) TimerEvent: {}
+[47.557802] (-) TimerEvent: {}
+[47.664643] (-) TimerEvent: {}
+[47.810017] (-) TimerEvent: {}
+[47.917080] (-) TimerEvent: {}
+[48.018938] (-) TimerEvent: {}
+[48.120421] (-) TimerEvent: {}
+[48.221813] (-) TimerEvent: {}
+[48.323055] (-) TimerEvent: {}
+[48.424251] (-) TimerEvent: {}
+[48.525383] (-) TimerEvent: {}
+[48.626425] (-) TimerEvent: {}
+[48.759008] (-) TimerEvent: {}
+[48.778271] (qr_detector) StderrLine: {'line': b'make[2]: *** [CMakeFiles/qr_detection_node.dir/build.make:76: CMakeFiles/qr_detection_node.dir/src/qr_detection_node.cpp.o] Error 1\n'}
+[48.782387] (qr_detector) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/qr_detection_node.dir/all] Error 2\n'}
+[48.784877] (qr_detector) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[48.816193] (qr_detector) CommandEnded: {'returncode': 2}
+[48.858891] (-) TimerEvent: {}
+[48.960583] (-) TimerEvent: {}
+[49.062833] (-) TimerEvent: {}
+[49.165324] (-) TimerEvent: {}
+[49.266105] (-) TimerEvent: {}
+[49.367457] (-) TimerEvent: {}
+[49.463421] (qr_detector) JobEnded: {'identifier': 'qr_detector', 'rc': 2}
+[49.478374] (-) TimerEvent: {}
+[49.479282] (-) EventReactorShutdown: {}

@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/qr_detection_node.dir/src/qr_detection_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable qr_detection_node[0m
+[100%] Built target qr_detection_node
+-- Install configuration: ""
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/lib/qr_detector/qr_detection_node
+-- Set runtime path of "/root/bridges/jetson_workspace/install/qr_detector/lib/qr_detector/qr_detection_node" to ""
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector//launch
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector//launch/qr_detection.launch.py
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/ament_index/resource_index/package_run_dependencies/qr_detector
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/ament_index/resource_index/parent_prefix_path/qr_detector
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/environment/ament_prefix_path.sh
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/environment/ament_prefix_path.dsv
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/environment/path.sh
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/environment/path.dsv
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/local_setup.bash
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/local_setup.sh
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/local_setup.zsh
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/local_setup.dsv
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.dsv
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/ament_index/resource_index/packages/qr_detector
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/cmake/qr_detectorConfig.cmake
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/cmake/qr_detectorConfig-version.cmake
+-- Installing: /root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.xml
