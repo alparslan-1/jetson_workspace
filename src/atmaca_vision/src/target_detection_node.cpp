@@ -1,12 +1,15 @@
 #include "target_detection_node.hpp"
 #include <iostream>
+#include "std_msgs/msg/string.hpp" // EKLENDI: Mod mesajini okumak icin gerekli
 
 using std::placeholders::_1;
 
 YoloNode::YoloNode() 
     : Node("atmaca_vision_node"), 
+      is_active_(false), // EKLENDI: Varsayilan olarak sistem PASIF baslar
       ort_env_(ORT_LOGGING_LEVEL_WARNING, "YoloV8_Atmaca") {
 
+    // --- PARAMETRELER ---
     this->declare_parameter("model_path", "/root/bridges/jetson_workspace/best.onnx");
     this->declare_parameter("conf_threshold", 0.5);
     this->declare_parameter("nms_threshold", 0.45);
@@ -17,19 +20,64 @@ YoloNode::YoloNode()
 
     RCLCPP_INFO(this->get_logger(), "Model Yolu: %s", model_path_.c_str());
 
+    // --- ONNX BASLATMA ---
     try {
         initialize_onnx();
-        RCLCPP_INFO(this->get_logger(), "ONNX Model Ba?ar?yla Y?klendi!");
+        RCLCPP_INFO(this->get_logger(), "ONNX Model Basariyla Yuklendi!");
     } catch (const std::exception& e) {
-        RCLCPP_FATAL(this->get_logger(), "ONNX Hatas?: %s", e.what());
+        RCLCPP_FATAL(this->get_logger(), "ONNX Hatasi: %s", e.what());
     }
 
+    // --- EKLENDI: MODE SUBSCRIPTION (KAMIKAZE KONTROLU) ---
+    // Mission Control node'u "transient_local" (kalici) yayin yaptigi icin
+    // biz de ayni ayarlarla dinlemeliyiz. Aksi takdirde gecmis mesaji alamayiz.
+    rclcpp::QoS qos_profile(1);
+    qos_profile.reliable();
+    qos_profile.transient_local(); 
+    qos_profile.keep_last(1);
+
+    state_subscription_ = this->create_subscription<std_msgs::msg::String>(
+        "/success/lockon_success", 
+        qos_profile, 
+        std::bind(&YoloNode::state_callback, this, _1)
+    );
+    
+    RCLCPP_INFO(this->get_logger(), "Mode dinleyici baslatildi. '/success/lockon_success' bekleniyor...");
+    // ---------------------------------------------------------
+
+    // --- GORUNTU SUBSCRIPTION ---
     image_sub_ = this->create_subscription<sensor_msgs::msg::Image>(
         "/image_raw", rclcpp::SensorDataQoS(), 
         std::bind(&YoloNode::image_callback, this, _1));
 
+    // --- YOLO PUBLISHER ---
     image_pub_ = this->create_publisher<sensor_msgs::msg::Image>(
         "/yolo/detections", 10);
+}
+
+// --- EKLENDI: STATE CALLBACK ---
+void YoloNode::state_callback(const std_msgs::msg::String::SharedPtr msg)
+{
+    std::string current_mode = msg->data;
+    
+    // Gelen modu terminalde gorelim (Opsiyonel, cok spam yaparsa silebilirsiniz)
+    // RCLCPP_INFO(this->get_logger(), "Mode data received: '%s'", current_mode.c_str());
+
+    // Hem BUYUK hem kucuk harf kontrolu (Garanti olmasi icin)
+    if (current_mode == "KILITLENME") 
+    {
+        if (!is_active_) {
+            is_active_ = true;
+            RCLCPP_WARN(this->get_logger(), ">>> YOLO AKTIFLESTIRILDI (Mod: %s) <<<", current_mode.c_str());
+        }
+    } 
+    else 
+    {
+        if (is_active_) {
+            is_active_ = false;
+            RCLCPP_INFO(this->get_logger(), ">>> YOLO DURDURULDU (Mod: %s) <<<", current_mode.c_str());
+        }
+    }
 }
 
 void YoloNode::initialize_onnx() {
@@ -99,11 +147,18 @@ cv::Mat YoloNode::preprocess(const cv::Mat& img, float& scale_factor, cv::Point2
 }
 
 void YoloNode::image_callback(const sensor_msgs::msg::Image::SharedPtr msg) {
+    // --- EKLENDI: GUVENLIK KONTROLU ---
+    // Eger mod KAMIKAZE degilse, CPU/GPU yormamak icin islem yapmadan geri don.
+    if (!is_active_) {
+        return; 
+    }
+    // ----------------------------------
+
     cv_bridge::CvImagePtr cv_ptr;
     try {
         cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);
     } catch (cv_bridge::Exception& e) {
-        RCLCPP_ERROR(this->get_logger(), "cv_bridge hatas?: %s", e.what());
+        RCLCPP_ERROR(this->get_logger(), "cv_bridge hatasi: %s", e.what());
         return;
     }
 
@@ -112,32 +167,7 @@ void YoloNode::image_callback(const sensor_msgs::msg::Image::SharedPtr msg) {
     cv::Mat processed_img = preprocess(cv_ptr->image, scale_factor, shift);
     
     cv::Mat blob;
-    if (!blob.empty()) {
-    // Blob'un merkezindeki piksel de?erine eri?elim
-    // Blob shape:  varsayal?m
-    int c = 0; // 0. kanal (R veya B)
-    int h = 320; // Y?ksekli?in yar?s?
-    int w = 320; // Geni?li?in yar?s?
-    
-    // OpenCV Mat eri?imi (N, C, H, W)
-    // 4 boyutlu oldu?u i?in ptr() kullan?m? biraz karma??k olabilir, 
-    // ancak d?zle?tirilmi? indis ile eri?ebiliriz veya basit?e at<float> deneriz.
-    // G?venli eri?im i?in:
-    const float* blobPtr = blob.ptr<float>();
-    int index = (0 * 3 * 640 * 640) + (0 * 640 * 640) + (320 * 640) + 320; 
-    float sampleValue = blobPtr[index];
-    
-    std::cout << "\n --- GIRIS VERISI ANALIZI ---" << std::endl;
-    std::cout << " Blob Boyutu: " << blob.size << std::endl;
-    std::cout << " Ornek Piksel Degeri (Normalize): " << sampleValue << std::endl;
-    
-    if (sampleValue > 1.0f) {
-        std::cerr << " Giris verisi normalize edilmemis! Deger > 1.0. (Beklenen: 0.0 - 1.0 arasi)" << std::endl;
-        std::cerr << "[COZUM] cv::dnn::blobFromImage fonksiyonunda scalefactor parametresini 1/255.0 olarak ayarlayin." << std::endl;
-    } else {
-        std::cout << "[OK] Normalizasyon makul gorunuyor (Deger <= 1.0)." << std::endl;
-    }
-    }
+    // Not: blobFromImage, pikselleri 0-1 arasina normalize eder (1/255.0)
     cv::dnn::blobFromImage(processed_img, blob, 1.0/255.0, cv::Size(), cv::Scalar(), true, false);
     
     size_t input_tensor_size = 1 * 3 * 640 * 640;
@@ -164,36 +194,32 @@ void YoloNode::image_callback(const sensor_msgs::msg::Image::SharedPtr msg) {
         cv::rectangle(cv_ptr->image, det.box, cv::Scalar(0, 255, 0), 2);
         std::string label = "Ucak " + std::to_string(det.confidence).substr(0, 4);
         cv::putText(cv_ptr->image, label, cv::Point(det.box.x, det.box.y - 5),
-                   cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 255, 0), 2);
+                    cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 255, 0), 2);
     }
 
     image_pub_->publish(*cv_ptr->toImageMsg());
 }
 
 std::vector<Detection> YoloNode::postprocess(const float* output, 
-                                           const std::vector<int64_t>& shape,
-                                           float scale_factor,
-                                           const cv::Point2f& shift) {
+                                             const std::vector<int64_t>& shape,
+                                             float scale_factor,
+                                             const cv::Point2f& shift) {
     
-    // G?venlik kontrol?: ?ekil bilgisi bo?sa i?lem yapma
     if (shape.size() < 3) return {};
 
-    int num_channels = shape[1]; // Genellikle 5 (x,y,w,h,score)
-    int num_anchors = shape[2];  // 8400
+    int num_channels = shape[1]; 
+    int num_anchors = shape[2];  
 
     std::vector<cv::Rect> boxes;
     std::vector<float> confidences;
     std::vector<int> class_ids;
 
-    // DEBUG DE???KENLER? (Sorunu bulmam?z? sa?layacak k?s?m)
     float max_score_found = 0.0f;
     int max_score_index = -1;
 
     for (int i = 0; i < num_anchors; ++i) {
-        // 4. indeks (5. eleman) skor de?eridir
         float score = output[4 * num_anchors + i];
         
-        // En y?ksek skoru kaydet (Analiz i?in)
         if (score > max_score_found) {
             max_score_found = score;
             max_score_index = i;
@@ -216,20 +242,18 @@ std::vector<Detection> YoloNode::postprocess(const float* output,
         }
     }
 
-    // --- KR?T?K DEBUG ?IKTISI ---
-    // Her 30 karede bir (yakla??k saniyede 1) durumu rapor et
+    // --- DEBUG LOGLARI ---
     static int log_counter = 0;
-    if (log_counter++ % 30 == 0) {
+    if (log_counter++ % 30 == 0) { // Saniyede yaklasik 1 kere bas
         if (max_score_found < 0.01) {
-            RCLCPP_WARN(this->get_logger(), "UYARI: Model hicbir sey gormuyor! Max Skor: %.5f (Cok Dusuk)", max_score_found);
-            RCLCPP_WARN(this->get_logger(), "Olas? Sebepler: 1) Resim cok karanlik/aydinlik 2) RGB/BGR hatasi 3) Normalizasyon hatasi");
+             RCLCPP_WARN(this->get_logger(), "UYARI: Model hicbir sey gormuyor! Max Skor: %.5f", max_score_found);
         } else if (max_score_found < conf_threshold_) {
-            RCLCPP_INFO(this->get_logger(), "Tespit Var ama Esigin Altinda. Max Skor: %.2f (Esik: %.2f)", max_score_found, conf_threshold_);
+            RCLCPP_INFO(this->get_logger(), "Tespit Var ama Esigin Altinda. Max: %.2f", max_score_found);
         } else {
-            RCLCPP_INFO(this->get_logger(), "BASARILI: Tespit Yapildi! Max Skor: %.2f", max_score_found);
+            RCLCPP_INFO(this->get_logger(), "BASARILI: Tespit Yapildi! Max: %.2f", max_score_found);
         }
     }
-    // ----------------------------
+    // --------------------
     
     std::vector<int> indices;
     cv::dnn::NMSBoxes(boxes, confidences, conf_threshold_, nms_threshold_, indices);

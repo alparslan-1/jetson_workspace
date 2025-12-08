@@ -1,0 +1,190 @@
+[0.668s] Invoking command in '/root/bridges/jetson_workspace/build/atmaca_vision': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/atmaca_vision -- -j4 -l4
+[1.012s] [ 66%] Built target qr_detector_node
+[1.013s] [ 66%] Built target camera_publisher_node
+[1.058s] [ 83%] [32mBuilding CXX object CMakeFiles/target_detection_node.dir/src/target_detection_node.cpp.o[0m
+[23.871s] In file included from [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:26[m[K,
+[23.872s]                  from [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:11[m[K,
+[23.873s]                  from [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:1[m[K:
+[23.874s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:276:23:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.875s]   276 | ORT_RUNTIME_CLASS(Env)[01;35m[K;[m[K
+[23.875s]       |                       [01;35m[K^[m[K
+[23.876s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:277:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.876s]   277 | ORT_RUNTIME_CLASS(Status)[01;35m[K;[m[K  // nullptr for Status* indicates success
+[23.877s]       |                          [01;35m[K^[m[K
+[23.877s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:278:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.878s]   278 | ORT_RUNTIME_CLASS(MemoryInfo)[01;35m[K;[m[K
+[23.878s]       |                              [01;35m[K^[m[K
+[23.879s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:279:29:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.880s]   279 | ORT_RUNTIME_CLASS(IoBinding)[01;35m[K;[m[K
+[23.880s]       |                             [01;35m[K^[m[K
+[23.880s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:280:27:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.881s]   280 | ORT_RUNTIME_CLASS(Session)[01;35m[K;[m[K  // Don't call ReleaseSession from Dllmain (because session owns a thread pool)
+[23.881s]       |                           [01;35m[K^[m[K
+[23.882s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:281:25:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.882s]   281 | ORT_RUNTIME_CLASS(Value)[01;35m[K;[m[K
+[23.883s]       |                         [01;35m[K^[m[K
+[23.884s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:282:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.884s]   282 | ORT_RUNTIME_CLASS(RunOptions)[01;35m[K;[m[K
+[23.885s]       |                              [01;35m[K^[m[K
+[23.885s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:283:28:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.886s]   283 | ORT_RUNTIME_CLASS(TypeInfo)[01;35m[K;[m[K
+[23.886s]       |                            [01;35m[K^[m[K
+[23.886s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:284:42:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.887s]   284 | ORT_RUNTIME_CLASS(TensorTypeAndShapeInfo)[01;35m[K;[m[K
+[23.887s]       |                                          [01;35m[K^[m[K
+[23.887s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:285:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.888s]   285 | ORT_RUNTIME_CLASS(MapTypeInfo)[01;35m[K;[m[K
+[23.888s]       |                               [01;35m[K^[m[K
+[23.889s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:286:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.889s]   286 | ORT_RUNTIME_CLASS(SequenceTypeInfo)[01;35m[K;[m[K
+[23.889s]       |                                    [01;35m[K^[m[K
+[23.890s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:287:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.891s]   287 | ORT_RUNTIME_CLASS(OptionalTypeInfo)[01;35m[K;[m[K
+[23.891s]       |                                    [01;35m[K^[m[K
+[23.892s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:288:34:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.892s]   288 | ORT_RUNTIME_CLASS(SessionOptions)[01;35m[K;[m[K
+[23.892s]       |                                  [01;35m[K^[m[K
+[23.893s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:289:34:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.893s]   289 | ORT_RUNTIME_CLASS(CustomOpDomain)[01;35m[K;[m[K
+[23.894s]       |                                  [01;35m[K^[m[K
+[23.894s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:290:33:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.894s]   290 | ORT_RUNTIME_CLASS(ModelMetadata)[01;35m[K;[m[K
+[23.895s]       |                                 [01;35m[K^[m[K
+[23.895s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:291:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.895s]   291 | ORT_RUNTIME_CLASS(ThreadPoolParams)[01;35m[K;[m[K
+[23.896s]       |                                    [01;35m[K^[m[K
+[23.896s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:292:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.896s]   292 | ORT_RUNTIME_CLASS(ThreadingOptions)[01;35m[K;[m[K
+[23.897s]       |                                    [01;35m[K^[m[K
+[23.898s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:293:28:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.899s]   293 | ORT_RUNTIME_CLASS(ArenaCfg)[01;35m[K;[m[K
+[23.899s]       |                            [01;35m[K^[m[K
+[23.899s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:294:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.900s]   294 | ORT_RUNTIME_CLASS(PrepackedWeightsContainer)[01;35m[K;[m[K
+[23.900s]       |                                             [01;35m[K^[m[K
+[23.900s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:295:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.901s]   295 | ORT_RUNTIME_CLASS(TensorRTProviderOptionsV2)[01;35m[K;[m[K
+[23.901s]       |                                             [01;35m[K^[m[K
+[23.902s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:296:41:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.902s]   296 | ORT_RUNTIME_CLASS(CUDAProviderOptionsV2)[01;35m[K;[m[K
+[23.902s]       |                                         [01;35m[K^[m[K
+[23.903s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:297:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.903s]   297 | ORT_RUNTIME_CLASS(CANNProviderOptions)[01;35m[K;[m[K
+[23.903s]       |                                       [01;35m[K^[m[K
+[23.904s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:298:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.904s]   298 | ORT_RUNTIME_CLASS(DnnlProviderOptions)[01;35m[K;[m[K
+[23.904s]       |                                       [01;35m[K^[m[K
+[23.905s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:299:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.905s]   299 | ORT_RUNTIME_CLASS(Op)[01;35m[K;[m[K
+[23.906s]       |                      [01;35m[K^[m[K
+[23.906s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:300:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.906s]   300 | ORT_RUNTIME_CLASS(OpAttr)[01;35m[K;[m[K
+[23.907s]       |                          [01;35m[K^[m[K
+[23.907s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:301:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.907s]   301 | ORT_RUNTIME_CLASS(Logger)[01;35m[K;[m[K
+[23.908s]       |                          [01;35m[K^[m[K
+[23.929s] In file included from [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:11[m[K,
+[23.930s]                  from [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:1[m[K:
+[23.930s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:505:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.931s]   505 | ORT_DEFINE_RELEASE(Allocator)[01;35m[K;[m[K
+[23.931s]       |                              [01;35m[K^[m[K
+[23.932s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:506:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.932s]   506 | ORT_DEFINE_RELEASE(MemoryInfo)[01;35m[K;[m[K
+[23.932s]       |                               [01;35m[K^[m[K
+[23.933s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:507:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.933s]   507 | ORT_DEFINE_RELEASE(CustomOpDomain)[01;35m[K;[m[K
+[23.933s]       |                                   [01;35m[K^[m[K
+[23.934s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:508:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.934s]   508 | ORT_DEFINE_RELEASE(ThreadingOptions)[01;35m[K;[m[K
+[23.934s]       |                                     [01;35m[K^[m[K
+[23.935s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:509:24:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.935s]   509 | ORT_DEFINE_RELEASE(Env)[01;35m[K;[m[K
+[23.935s]       |                        [01;35m[K^[m[K
+[23.936s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:510:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.936s]   510 | ORT_DEFINE_RELEASE(RunOptions)[01;35m[K;[m[K
+[23.937s]       |                               [01;35m[K^[m[K
+[23.937s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:511:28:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.937s]   511 | ORT_DEFINE_RELEASE(Session)[01;35m[K;[m[K
+[23.938s]       |                            [01;35m[K^[m[K
+[23.938s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:512:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.938s]   512 | ORT_DEFINE_RELEASE(SessionOptions)[01;35m[K;[m[K
+[23.939s]       |                                   [01;35m[K^[m[K
+[23.939s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:513:43:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.940s]   513 | ORT_DEFINE_RELEASE(TensorTypeAndShapeInfo)[01;35m[K;[m[K
+[23.940s]       |                                           [01;35m[K^[m[K
+[23.940s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:514:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.941s]   514 | ORT_DEFINE_RELEASE(SequenceTypeInfo)[01;35m[K;[m[K
+[23.941s]       |                                     [01;35m[K^[m[K
+[23.942s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:515:32:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.942s]   515 | ORT_DEFINE_RELEASE(MapTypeInfo)[01;35m[K;[m[K
+[23.942s]       |                                [01;35m[K^[m[K
+[23.943s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:516:29:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.943s]   516 | ORT_DEFINE_RELEASE(TypeInfo)[01;35m[K;[m[K
+[23.943s]       |                             [01;35m[K^[m[K
+[23.944s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:517:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.944s]   517 | ORT_DEFINE_RELEASE(Value)[01;35m[K;[m[K
+[23.945s]       |                          [01;35m[K^[m[K
+[23.945s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:518:34:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.945s]   518 | ORT_DEFINE_RELEASE(ModelMetadata)[01;35m[K;[m[K
+[23.946s]       |                                  [01;35m[K^[m[K
+[23.946s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:519:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.946s]   519 | ORT_DEFINE_RELEASE(IoBinding)[01;35m[K;[m[K
+[23.947s]       |                              [01;35m[K^[m[K
+[23.947s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:520:29:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.947s]   520 | ORT_DEFINE_RELEASE(ArenaCfg)[01;35m[K;[m[K
+[23.948s]       |                             [01;35m[K^[m[K
+[23.948s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:521:27:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.948s]   521 | ORT_DEFINE_RELEASE(Status)[01;35m[K;[m[K
+[23.949s]       |                           [01;35m[K^[m[K
+[23.949s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:522:27:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.950s]   522 | ORT_DEFINE_RELEASE(OpAttr)[01;35m[K;[m[K
+[23.950s]       |                           [01;35m[K^[m[K
+[23.950s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:523:23:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.951s]   523 | ORT_DEFINE_RELEASE(Op)[01;35m[K;[m[K
+[23.951s]       |                       [01;35m[K^[m[K
+[23.951s] [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:524:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[23.952s]   524 | ORT_DEFINE_RELEASE(KernelInfo)[01;35m[K;[m[K
+[23.952s]       |                               [01;35m[K^[m[K
+[25.022s] In file included from [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:1[m[K:
+[25.024s] [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:[m[K In constructor ‘[01m[KYoloNode::YoloNode()[m[K’:
+[25.025s] [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:65:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KYoloNode::is_active_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[25.026s]    65 |     bool [01;35m[Kis_active_[m[K; // Modun aktif olup olmad???n? tutar
+[25.027s]       |          [01;35m[K^~~~~~~~~~[m[K
+[25.027s] [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:41:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KOrt::Env YoloNode::ort_env_[m[K’ [[01;35m[K-Wreorder[m[K]
+[25.028s]    41 |     Ort::Env [01;35m[Kort_env_[m[K;
+[25.028s]       |              [01;35m[K^~~~~~~~[m[K
+[25.029s] [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[25.030s]     7 | [01;35m[KYoloNode[m[K::YoloNode()
+[25.030s]       | [01;35m[K^~~~~~~~[m[K
+[25.474s] [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:[m[K In member function ‘[01m[Kstd::vector<Detection> YoloNode::postprocess(const float*, const std::vector<long int, std::allocator<long int> >&, float, const Point2f&)[m[K’:
+[25.475s] [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:210:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_channels[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[25.476s]   210 |     int [01;35m[Knum_channels[m[K = shape[1];
+[25.476s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[25.476s] [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:218:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmax_score_index[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[25.477s]   218 |     int [01;35m[Kmax_score_index[m[K = -1;
+[25.478s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[82.162s] [100%] [32m[1mLinking CXX executable target_detection_node[0m
+[85.888s] [100%] Built target target_detection_node
+[85.954s] Invoked command in '/root/bridges/jetson_workspace/build/atmaca_vision' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/atmaca_vision -- -j4 -l4
+[86.686s] Invoking command in '/root/bridges/jetson_workspace/build/atmaca_vision': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/atmaca_vision
+[86.852s] -- Install configuration: ""
+[86.854s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/camera_publisher_node
+[86.860s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/qr_detector_node
+[86.864s] -- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/target_detection_node
+[86.926s] -- Set runtime path of "/root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/target_detection_node" to ""
+[86.927s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/ament_index/resource_index/package_run_dependencies/atmaca_vision
+[86.928s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/ament_index/resource_index/parent_prefix_path/atmaca_vision
+[86.928s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/ament_prefix_path.sh
+[86.929s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/ament_prefix_path.dsv
+[86.929s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/path.sh
+[86.930s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/path.dsv
+[86.930s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.bash
+[86.931s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.sh
+[86.931s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.zsh
+[86.932s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.dsv
+[86.932s] -- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.dsv
+[86.933s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/ament_index/resource_index/packages/atmaca_vision
+[86.933s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/cmake/atmaca_visionConfig.cmake
+[86.933s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/cmake/atmaca_visionConfig-version.cmake
+[86.934s] -- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.xml
+[86.954s] Invoked command in '/root/bridges/jetson_workspace/build/atmaca_vision' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/atmaca_vision

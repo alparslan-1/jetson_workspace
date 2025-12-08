@@ -1,6 +1,7 @@
 #ifndef TARGET_DETECTION_NODE_HPP
 #define TARGET_DETECTION_NODE_HPP
 
+#include "std_msgs/msg/string.hpp"
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/image.hpp>
 #include <cv_bridge/cv_bridge.h>
@@ -61,6 +62,9 @@ private:
                                      const std::vector<int64_t>& shape,
                                      float scale_factor,
                                      const cv::Point2f& shift);
+    bool is_active_; // Modun aktif olup olmad???n? tutar
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr state_subscription_; // Modu dinleyen subscriber
+    void state_callback(const std_msgs::msg::String::SharedPtr msg); // Callback fonksiyonu
 };
 
 #endif // TARGET_DETECTION_NODE_HPP
