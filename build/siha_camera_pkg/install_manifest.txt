@@ -1,0 +1,17 @@
+/root/bridges/jetson_workspace/install/siha_camera_pkg/lib/siha_camera_pkg/camera_publisher
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/launch/camera.launch.py
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/ament_index/resource_index/package_run_dependencies/siha_camera_pkg
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/ament_index/resource_index/parent_prefix_path/siha_camera_pkg
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/environment/ament_prefix_path.sh
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/environment/ament_prefix_path.dsv
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/environment/path.sh
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/environment/path.dsv
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/local_setup.bash
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/local_setup.sh
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/local_setup.zsh
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/local_setup.dsv
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.dsv
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/ament_index/resource_index/packages/siha_camera_pkg
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/cmake/siha_camera_pkgConfig.cmake
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/cmake/siha_camera_pkgConfig-version.cmake
+/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.xml

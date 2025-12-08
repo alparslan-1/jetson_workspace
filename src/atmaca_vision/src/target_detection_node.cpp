@@ -19,9 +19,9 @@ YoloNode::YoloNode()
 
     try {
         initialize_onnx();
-        RCLCPP_INFO(this->get_logger(), "ONNX Model Başarıyla Yüklendi!");
+        RCLCPP_INFO(this->get_logger(), "ONNX Model Ba?ar?yla Y?klendi!");
     } catch (const std::exception& e) {
-        RCLCPP_FATAL(this->get_logger(), "ONNX Hatası: %s", e.what());
+        RCLCPP_FATAL(this->get_logger(), "ONNX Hatas?: %s", e.what());
     }
 
     image_sub_ = this->create_subscription<sensor_msgs::msg::Image>(
@@ -103,7 +103,7 @@ void YoloNode::image_callback(const sensor_msgs::msg::Image::SharedPtr msg) {
     try {
         cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);
     } catch (cv_bridge::Exception& e) {
-        RCLCPP_ERROR(this->get_logger(), "cv_bridge hatası: %s", e.what());
+        RCLCPP_ERROR(this->get_logger(), "cv_bridge hatas?: %s", e.what());
         return;
     }
 
@@ -113,16 +113,16 @@ void YoloNode::image_callback(const sensor_msgs::msg::Image::SharedPtr msg) {
     
     cv::Mat blob;
     if (!blob.empty()) {
-    // Blob'un merkezindeki piksel değerine erişelim
-    // Blob shape:  varsayalım
+    // Blob'un merkezindeki piksel de?erine eri?elim
+    // Blob shape:  varsayal?m
     int c = 0; // 0. kanal (R veya B)
-    int h = 320; // Yüksekliğin yarısı
-    int w = 320; // Genişliğin yarısı
+    int h = 320; // Y?ksekli?in yar?s?
+    int w = 320; // Geni?li?in yar?s?
     
-    // OpenCV Mat erişimi (N, C, H, W)
-    // 4 boyutlu olduğu için ptr() kullanımı biraz karmaşık olabilir, 
-    // ancak düzleştirilmiş indis ile erişebiliriz veya basitçe at<float> deneriz.
-    // Güvenli erişim için:
+    // OpenCV Mat eri?imi (N, C, H, W)
+    // 4 boyutlu oldu?u i?in ptr() kullan?m? biraz karma??k olabilir, 
+    // ancak d?zle?tirilmi? indis ile eri?ebiliriz veya basit?e at<float> deneriz.
+    // G?venli eri?im i?in:
     const float* blobPtr = blob.ptr<float>();
     int index = (0 * 3 * 640 * 640) + (0 * 640 * 640) + (320 * 640) + 320; 
     float sampleValue = blobPtr[index];
@@ -175,7 +175,7 @@ std::vector<Detection> YoloNode::postprocess(const float* output,
                                            float scale_factor,
                                            const cv::Point2f& shift) {
     
-    // Güvenlik kontrolü: Şekil bilgisi boşsa işlem yapma
+    // G?venlik kontrol?: ?ekil bilgisi bo?sa i?lem yapma
     if (shape.size() < 3) return {};
 
     int num_channels = shape[1]; // Genellikle 5 (x,y,w,h,score)
@@ -185,15 +185,15 @@ std::vector<Detection> YoloNode::postprocess(const float* output,
     std::vector<float> confidences;
     std::vector<int> class_ids;
 
-    // DEBUG DEĞİŞKENLERİ (Sorunu bulmamızı sağlayacak kısım)
+    // DEBUG DE???KENLER? (Sorunu bulmam?z? sa?layacak k?s?m)
     float max_score_found = 0.0f;
     int max_score_index = -1;
 
     for (int i = 0; i < num_anchors; ++i) {
-        // 4. indeks (5. eleman) skor değeridir
+        // 4. indeks (5. eleman) skor de?eridir
         float score = output[4 * num_anchors + i];
         
-        // En yüksek skoru kaydet (Analiz için)
+        // En y?ksek skoru kaydet (Analiz i?in)
         if (score > max_score_found) {
             max_score_found = score;
             max_score_index = i;
@@ -216,13 +216,13 @@ std::vector<Detection> YoloNode::postprocess(const float* output,
         }
     }
 
-    // --- KRİTİK DEBUG ÇIKTISI ---
-    // Her 30 karede bir (yaklaşık saniyede 1) durumu rapor et
+    // --- KR?T?K DEBUG ?IKTISI ---
+    // Her 30 karede bir (yakla??k saniyede 1) durumu rapor et
     static int log_counter = 0;
     if (log_counter++ % 30 == 0) {
         if (max_score_found < 0.01) {
             RCLCPP_WARN(this->get_logger(), "UYARI: Model hicbir sey gormuyor! Max Skor: %.5f (Cok Dusuk)", max_score_found);
-            RCLCPP_WARN(this->get_logger(), "Olası Sebepler: 1) Resim cok karanlik/aydinlik 2) RGB/BGR hatasi 3) Normalizasyon hatasi");
+            RCLCPP_WARN(this->get_logger(), "Olas? Sebepler: 1) Resim cok karanlik/aydinlik 2) RGB/BGR hatasi 3) Normalizasyon hatasi");
         } else if (max_score_found < conf_threshold_) {
             RCLCPP_INFO(this->get_logger(), "Tespit Var ama Esigin Altinda. Max Skor: %.2f (Esik: %.2f)", max_score_found, conf_threshold_);
         } else {

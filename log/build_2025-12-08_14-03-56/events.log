@@ -1,0 +1,866 @@
+[0.000000] (-) TimerEvent: {}
+[0.001622] (-) JobUnselected: {'identifier': 'pars_msgs'}
+[0.001967] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.002127] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.002256] (atmaca_vision) JobQueued: {'identifier': 'atmaca_vision', 'dependencies': OrderedDict([('pars_msgs', '/root/bridges/jetson_workspace/install/pars_msgs')])}
+[0.003963] (atmaca_vision) JobStarted: {'identifier': 'atmaca_vision'}
+[0.098087] (-) TimerEvent: {}
+[0.199483] (-) TimerEvent: {}
+[0.301918] (-) TimerEvent: {}
+[0.406574] (-) TimerEvent: {}
+[0.457363] (atmaca_vision) JobProgress: {'identifier': 'atmaca_vision', 'progress': 'cmake'}
+[0.462853] (atmaca_vision) JobProgress: {'identifier': 'atmaca_vision', 'progress': 'build'}
+[0.525900] (-) TimerEvent: {}
+[0.620965] (atmaca_vision) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/bridges/jetson_workspace/build/atmaca_vision', '--', '-j4', '-l4'], 'cwd': '/root/bridges/jetson_workspace/build/atmaca_vision', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'tanyeli'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib'), ('HOME', '/root'), ('OLDPWD', '/root/bridges/jetson_workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\033[1;31m\\]\\u@\\h\\[\\033[0m\\]:\\[\\033[1;34m\\]\\w\\[\\033[0m\\]#'), ('COLCON_PREFIX_PATH', '/root/bridges/jetson_workspace/install:/opt/ros/humble/install'), ('TORCH_HOME', '/data/models/torch'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/root/bridges/jetson_workspace/build/atmaca_vision'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install')]), 'shell': False}
+[0.665116] (-) TimerEvent: {}
+[0.772069] (-) TimerEvent: {}
+[0.873649] (-) TimerEvent: {}
+[0.976462] (-) TimerEvent: {}
+[1.045215] (atmaca_vision) StdoutLine: {'line': b'[ 33%] Built target camera_publisher_node\n'}
+[1.053654] (atmaca_vision) StdoutLine: {'line': b'[ 66%] Built target qr_detector_node\n'}
+[1.076744] (-) TimerEvent: {}
+[1.099145] (atmaca_vision) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/target_detection_node.dir/src/target_detection_node.cpp.o\x1b[0m\n'}
+[1.177053] (-) TimerEvent: {}
+[1.278683] (-) TimerEvent: {}
+[1.379795] (-) TimerEvent: {}
+[1.486992] (-) TimerEvent: {}
+[1.619793] (-) TimerEvent: {}
+[1.733437] (-) TimerEvent: {}
+[1.836307] (-) TimerEvent: {}
+[1.938372] (-) TimerEvent: {}
+[2.041012] (-) TimerEvent: {}
+[2.142515] (-) TimerEvent: {}
+[2.243615] (-) TimerEvent: {}
+[2.344808] (-) TimerEvent: {}
+[2.446058] (-) TimerEvent: {}
+[2.563939] (-) TimerEvent: {}
+[2.687603] (-) TimerEvent: {}
+[2.793909] (-) TimerEvent: {}
+[2.898347] (-) TimerEvent: {}
+[3.000514] (-) TimerEvent: {}
+[3.102374] (-) TimerEvent: {}
+[3.203809] (-) TimerEvent: {}
+[3.305115] (-) TimerEvent: {}
+[3.408971] (-) TimerEvent: {}
+[3.524119] (-) TimerEvent: {}
+[3.640283] (-) TimerEvent: {}
+[3.749213] (-) TimerEvent: {}
+[3.854597] (-) TimerEvent: {}
+[3.957237] (-) TimerEvent: {}
+[4.058587] (-) TimerEvent: {}
+[4.159846] (-) TimerEvent: {}
+[4.261025] (-) TimerEvent: {}
+[4.362095] (-) TimerEvent: {}
+[4.463262] (-) TimerEvent: {}
+[4.569501] (-) TimerEvent: {}
+[4.709191] (-) TimerEvent: {}
+[4.816050] (-) TimerEvent: {}
+[4.919931] (-) TimerEvent: {}
+[5.021426] (-) TimerEvent: {}
+[5.123270] (-) TimerEvent: {}
+[5.224980] (-) TimerEvent: {}
+[5.326162] (-) TimerEvent: {}
+[5.427335] (-) TimerEvent: {}
+[5.539472] (-) TimerEvent: {}
+[5.679214] (-) TimerEvent: {}
+[5.786632] (-) TimerEvent: {}
+[5.890829] (-) TimerEvent: {}
+[5.992127] (-) TimerEvent: {}
+[6.094270] (-) TimerEvent: {}
+[6.196880] (-) TimerEvent: {}
+[6.299389] (-) TimerEvent: {}
+[6.401822] (-) TimerEvent: {}
+[6.507961] (-) TimerEvent: {}
+[6.633197] (-) TimerEvent: {}
+[6.738906] (-) TimerEvent: {}
+[6.843556] (-) TimerEvent: {}
+[6.945161] (-) TimerEvent: {}
+[7.047044] (-) TimerEvent: {}
+[7.148761] (-) TimerEvent: {}
+[7.250041] (-) TimerEvent: {}
+[7.351298] (-) TimerEvent: {}
+[7.452483] (-) TimerEvent: {}
+[7.558996] (-) TimerEvent: {}
+[7.707498] (-) TimerEvent: {}
+[7.811484] (-) TimerEvent: {}
+[7.915491] (-) TimerEvent: {}
+[8.017717] (-) TimerEvent: {}
+[8.119082] (-) TimerEvent: {}
+[8.220314] (-) TimerEvent: {}
+[8.321500] (-) TimerEvent: {}
+[8.422712] (-) TimerEvent: {}
+[8.530968] (-) TimerEvent: {}
+[8.671109] (-) TimerEvent: {}
+[8.777800] (-) TimerEvent: {}
+[8.881793] (-) TimerEvent: {}
+[8.983220] (-) TimerEvent: {}
+[9.084660] (-) TimerEvent: {}
+[9.186340] (-) TimerEvent: {}
+[9.287484] (-) TimerEvent: {}
+[9.388766] (-) TimerEvent: {}
+[9.491445] (-) TimerEvent: {}
+[9.620264] (-) TimerEvent: {}
+[9.728316] (-) TimerEvent: {}
+[9.833662] (-) TimerEvent: {}
+[9.936017] (-) TimerEvent: {}
+[10.037765] (-) TimerEvent: {}
+[10.139083] (-) TimerEvent: {}
+[10.240419] (-) TimerEvent: {}
+[10.341744] (-) TimerEvent: {}
+[10.443347] (-) TimerEvent: {}
+[10.548388] (-) TimerEvent: {}
+[10.681363] (-) TimerEvent: {}
+[10.793681] (-) TimerEvent: {}
+[10.897578] (-) TimerEvent: {}
+[10.998823] (-) TimerEvent: {}
+[11.100673] (-) TimerEvent: {}
+[11.202745] (-) TimerEvent: {}
+[11.305592] (-) TimerEvent: {}
+[11.406956] (-) TimerEvent: {}
+[11.511795] (-) TimerEvent: {}
+[11.635176] (-) TimerEvent: {}
+[11.740419] (-) TimerEvent: {}
+[11.842520] (-) TimerEvent: {}
+[11.950826] (-) TimerEvent: {}
+[12.055095] (-) TimerEvent: {}
+[12.157425] (-) TimerEvent: {}
+[12.258662] (-) TimerEvent: {}
+[12.360191] (-) TimerEvent: {}
+[12.461490] (-) TimerEvent: {}
+[12.568368] (-) TimerEvent: {}
+[12.695373] (-) TimerEvent: {}
+[12.803911] (-) TimerEvent: {}
+[12.907038] (-) TimerEvent: {}
+[13.009196] (-) TimerEvent: {}
+[13.110736] (-) TimerEvent: {}
+[13.212819] (-) TimerEvent: {}
+[13.314283] (-) TimerEvent: {}
+[13.415518] (-) TimerEvent: {}
+[13.534555] (-) TimerEvent: {}
+[13.678527] (-) TimerEvent: {}
+[13.788347] (-) TimerEvent: {}
+[13.890703] (-) TimerEvent: {}
+[13.994967] (-) TimerEvent: {}
+[14.096355] (-) TimerEvent: {}
+[14.198263] (-) TimerEvent: {}
+[14.299833] (-) TimerEvent: {}
+[14.401128] (-) TimerEvent: {}
+[14.507796] (-) TimerEvent: {}
+[14.637418] (-) TimerEvent: {}
+[14.747401] (-) TimerEvent: {}
+[14.851670] (-) TimerEvent: {}
+[14.954810] (-) TimerEvent: {}
+[15.057474] (-) TimerEvent: {}
+[15.158990] (-) TimerEvent: {}
+[15.260256] (-) TimerEvent: {}
+[15.361529] (-) TimerEvent: {}
+[15.462689] (-) TimerEvent: {}
+[15.567728] (-) TimerEvent: {}
+[15.712657] (-) TimerEvent: {}
+[15.821228] (-) TimerEvent: {}
+[15.924954] (-) TimerEvent: {}
+[16.026983] (-) TimerEvent: {}
+[16.128926] (-) TimerEvent: {}
+[16.230817] (-) TimerEvent: {}
+[16.332234] (-) TimerEvent: {}
+[16.433528] (-) TimerEvent: {}
+[16.550182] (-) TimerEvent: {}
+[16.677343] (-) TimerEvent: {}
+[16.785809] (-) TimerEvent: {}
+[16.891817] (-) TimerEvent: {}
+[16.994506] (-) TimerEvent: {}
+[17.095927] (-) TimerEvent: {}
+[17.197421] (-) TimerEvent: {}
+[17.299365] (-) TimerEvent: {}
+[17.400679] (-) TimerEvent: {}
+[17.509468] (-) TimerEvent: {}
+[17.642342] (-) TimerEvent: {}
+[17.751178] (-) TimerEvent: {}
+[17.853743] (-) TimerEvent: {}
+[17.955396] (-) TimerEvent: {}
+[18.057179] (-) TimerEvent: {}
+[18.158501] (-) TimerEvent: {}
+[18.260491] (-) TimerEvent: {}
+[18.362433] (-) TimerEvent: {}
+[18.463763] (-) TimerEvent: {}
+[18.566424] (-) TimerEvent: {}
+[18.700229] (-) TimerEvent: {}
+[18.846452] (-) TimerEvent: {}
+[18.949972] (-) TimerEvent: {}
+[19.053369] (-) TimerEvent: {}
+[19.156076] (-) TimerEvent: {}
+[19.262931] (-) TimerEvent: {}
+[19.367446] (-) TimerEvent: {}
+[19.468739] (-) TimerEvent: {}
+[19.572066] (-) TimerEvent: {}
+[19.724091] (-) TimerEvent: {}
+[19.832156] (-) TimerEvent: {}
+[19.937605] (-) TimerEvent: {}
+[20.040281] (-) TimerEvent: {}
+[20.142111] (-) TimerEvent: {}
+[20.243744] (-) TimerEvent: {}
+[20.345366] (-) TimerEvent: {}
+[20.446522] (-) TimerEvent: {}
+[20.559635] (-) TimerEvent: {}
+[20.691970] (-) TimerEvent: {}
+[20.797695] (-) TimerEvent: {}
+[20.901633] (-) TimerEvent: {}
+[21.003733] (-) TimerEvent: {}
+[21.105749] (-) TimerEvent: {}
+[21.207677] (-) TimerEvent: {}
+[21.309522] (-) TimerEvent: {}
+[21.411879] (-) TimerEvent: {}
+[21.542305] (-) TimerEvent: {}
+[21.681241] (-) TimerEvent: {}
+[21.790579] (-) TimerEvent: {}
+[21.894496] (-) TimerEvent: {}
+[21.997672] (-) TimerEvent: {}
+[22.100389] (-) TimerEvent: {}
+[22.202474] (-) TimerEvent: {}
+[22.304231] (-) TimerEvent: {}
+[22.405610] (-) TimerEvent: {}
+[22.519359] (-) TimerEvent: {}
+[22.681579] (-) TimerEvent: {}
+[22.793940] (-) TimerEvent: {}
+[22.899863] (-) TimerEvent: {}
+[23.003223] (-) TimerEvent: {}
+[23.106366] (-) TimerEvent: {}
+[23.208058] (-) TimerEvent: {}
+[23.309306] (-) TimerEvent: {}
+[23.411419] (-) TimerEvent: {}
+[23.521686] (-) TimerEvent: {}
+[23.642186] (-) TimerEvent: {}
+[23.751040] (-) TimerEvent: {}
+[23.855519] (-) TimerEvent: {}
+[23.957841] (-) TimerEvent: {}
+[24.060103] (-) TimerEvent: {}
+[24.161579] (-) TimerEvent: {}
+[24.197675] (atmaca_vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:26\x1b[m\x1b[K,\n'}
+[24.200700] (atmaca_vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:10\x1b[m\x1b[K,\n'}
+[24.202187] (atmaca_vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:1\x1b[m\x1b[K:\n'}
+[24.203297] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:276:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.204328] (atmaca_vision) StderrLine: {'line': b'  276 | ORT_RUNTIME_CLASS(Env)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.204789] (atmaca_vision) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.205168] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:277:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.205530] (atmaca_vision) StderrLine: {'line': b'  277 | ORT_RUNTIME_CLASS(Status)\x1b[01;35m\x1b[K;\x1b[m\x1b[K  // nullptr for Status* indicates success\n'}
+[24.206095] (atmaca_vision) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.206639] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:278:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.207017] (atmaca_vision) StderrLine: {'line': b'  278 | ORT_RUNTIME_CLASS(MemoryInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.207368] (atmaca_vision) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.207712] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:279:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.208051] (atmaca_vision) StderrLine: {'line': b'  279 | ORT_RUNTIME_CLASS(IoBinding)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.208446] (atmaca_vision) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.209075] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:280:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.209476] (atmaca_vision) StderrLine: {'line': b"  280 | ORT_RUNTIME_CLASS(Session)\x1b[01;35m\x1b[K;\x1b[m\x1b[K  // Don't call ReleaseSession from Dllmain (because session owns a thread pool)\n"}
+[24.209844] (atmaca_vision) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.210203] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:281:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.210540] (atmaca_vision) StderrLine: {'line': b'  281 | ORT_RUNTIME_CLASS(Value)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.210879] (atmaca_vision) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.211252] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:282:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.211672] (atmaca_vision) StderrLine: {'line': b'  282 | ORT_RUNTIME_CLASS(RunOptions)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.212734] (atmaca_vision) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.213165] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:283:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.213514] (atmaca_vision) StderrLine: {'line': b'  283 | ORT_RUNTIME_CLASS(TypeInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.213864] (atmaca_vision) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.214204] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:284:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.214537] (atmaca_vision) StderrLine: {'line': b'  284 | ORT_RUNTIME_CLASS(TensorTypeAndShapeInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.214872] (atmaca_vision) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.215241] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:285:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.215637] (atmaca_vision) StderrLine: {'line': b'  285 | ORT_RUNTIME_CLASS(MapTypeInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.216011] (atmaca_vision) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.216404] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:286:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.216840] (atmaca_vision) StderrLine: {'line': b'  286 | ORT_RUNTIME_CLASS(SequenceTypeInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.217172] (atmaca_vision) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.217497] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:287:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.217888] (atmaca_vision) StderrLine: {'line': b'  287 | ORT_RUNTIME_CLASS(OptionalTypeInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.218243] (atmaca_vision) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.218608] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:288:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.218975] (atmaca_vision) StderrLine: {'line': b'  288 | ORT_RUNTIME_CLASS(SessionOptions)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.219326] (atmaca_vision) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.219705] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:289:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.220054] (atmaca_vision) StderrLine: {'line': b'  289 | ORT_RUNTIME_CLASS(CustomOpDomain)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.220378] (atmaca_vision) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.220801] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:290:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.221164] (atmaca_vision) StderrLine: {'line': b'  290 | ORT_RUNTIME_CLASS(ModelMetadata)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.221495] (atmaca_vision) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.221830] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:291:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.222178] (atmaca_vision) StderrLine: {'line': b'  291 | ORT_RUNTIME_CLASS(ThreadPoolParams)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.222548] (atmaca_vision) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.222895] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:292:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.223273] (atmaca_vision) StderrLine: {'line': b'  292 | ORT_RUNTIME_CLASS(ThreadingOptions)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.223755] (atmaca_vision) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.224097] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:293:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.224431] (atmaca_vision) StderrLine: {'line': b'  293 | ORT_RUNTIME_CLASS(ArenaCfg)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.224870] (atmaca_vision) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.225202] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:294:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.225597] (atmaca_vision) StderrLine: {'line': b'  294 | ORT_RUNTIME_CLASS(PrepackedWeightsContainer)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.225949] (atmaca_vision) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.226314] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:295:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.226685] (atmaca_vision) StderrLine: {'line': b'  295 | ORT_RUNTIME_CLASS(TensorRTProviderOptionsV2)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.227036] (atmaca_vision) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.227392] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:296:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.227736] (atmaca_vision) StderrLine: {'line': b'  296 | ORT_RUNTIME_CLASS(CUDAProviderOptionsV2)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.228074] (atmaca_vision) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.228426] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:297:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.228853] (atmaca_vision) StderrLine: {'line': b'  297 | ORT_RUNTIME_CLASS(CANNProviderOptions)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.229189] (atmaca_vision) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.229514] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:298:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.229881] (atmaca_vision) StderrLine: {'line': b'  298 | ORT_RUNTIME_CLASS(DnnlProviderOptions)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.230230] (atmaca_vision) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.230587] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:299:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.230944] (atmaca_vision) StderrLine: {'line': b'  299 | ORT_RUNTIME_CLASS(Op)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.231334] (atmaca_vision) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.231656] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:300:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.232033] (atmaca_vision) StderrLine: {'line': b'  300 | ORT_RUNTIME_CLASS(OpAttr)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.232357] (atmaca_vision) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.232771] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:301:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.233134] (atmaca_vision) StderrLine: {'line': b'  301 | ORT_RUNTIME_CLASS(Logger)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.233458] (atmaca_vision) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.259821] (atmaca_vision) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:10\x1b[m\x1b[K,\n'}
+[24.262398] (-) TimerEvent: {}
+[24.264663] (atmaca_vision) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:1\x1b[m\x1b[K:\n'}
+[24.265322] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:505:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.265736] (atmaca_vision) StderrLine: {'line': b'  505 | ORT_DEFINE_RELEASE(Allocator)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.266097] (atmaca_vision) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.266573] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:506:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.267020] (atmaca_vision) StderrLine: {'line': b'  506 | ORT_DEFINE_RELEASE(MemoryInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.267399] (atmaca_vision) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.267816] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:507:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.268203] (atmaca_vision) StderrLine: {'line': b'  507 | ORT_DEFINE_RELEASE(CustomOpDomain)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.268645] (atmaca_vision) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.269078] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:508:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.269551] (atmaca_vision) StderrLine: {'line': b'  508 | ORT_DEFINE_RELEASE(ThreadingOptions)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.269925] (atmaca_vision) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.270265] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:509:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.270654] (atmaca_vision) StderrLine: {'line': b'  509 | ORT_DEFINE_RELEASE(Env)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.271030] (atmaca_vision) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.271400] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:510:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.271757] (atmaca_vision) StderrLine: {'line': b'  510 | ORT_DEFINE_RELEASE(RunOptions)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.272098] (atmaca_vision) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.272481] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:511:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.273004] (atmaca_vision) StderrLine: {'line': b'  511 | ORT_DEFINE_RELEASE(Session)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.273370] (atmaca_vision) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.273716] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:512:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.274055] (atmaca_vision) StderrLine: {'line': b'  512 | ORT_DEFINE_RELEASE(SessionOptions)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.274720] (atmaca_vision) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.275138] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:513:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.275502] (atmaca_vision) StderrLine: {'line': b'  513 | ORT_DEFINE_RELEASE(TensorTypeAndShapeInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.275906] (atmaca_vision) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.276243] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:514:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.276687] (atmaca_vision) StderrLine: {'line': b'  514 | ORT_DEFINE_RELEASE(SequenceTypeInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.277130] (atmaca_vision) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.277548] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:515:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.277921] (atmaca_vision) StderrLine: {'line': b'  515 | ORT_DEFINE_RELEASE(MapTypeInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.278255] (atmaca_vision) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.278589] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:516:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.278921] (atmaca_vision) StderrLine: {'line': b'  516 | ORT_DEFINE_RELEASE(TypeInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.279367] (atmaca_vision) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.279752] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:517:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.280114] (atmaca_vision) StderrLine: {'line': b'  517 | ORT_DEFINE_RELEASE(Value)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.280442] (atmaca_vision) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.280868] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:518:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.281212] (atmaca_vision) StderrLine: {'line': b'  518 | ORT_DEFINE_RELEASE(ModelMetadata)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.281553] (atmaca_vision) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.281896] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:519:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.282255] (atmaca_vision) StderrLine: {'line': b'  519 | ORT_DEFINE_RELEASE(IoBinding)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.282617] (atmaca_vision) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.282953] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:520:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.283351] (atmaca_vision) StderrLine: {'line': b'  520 | ORT_DEFINE_RELEASE(ArenaCfg)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.283680] (atmaca_vision) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.284058] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:521:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.284389] (atmaca_vision) StderrLine: {'line': b'  521 | ORT_DEFINE_RELEASE(Status)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.284806] (atmaca_vision) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.285156] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:522:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.285520] (atmaca_vision) StderrLine: {'line': b'  522 | ORT_DEFINE_RELEASE(OpAttr)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.285868] (atmaca_vision) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.286232] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:523:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.286567] (atmaca_vision) StderrLine: {'line': b'  523 | ORT_DEFINE_RELEASE(Op)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.286891] (atmaca_vision) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.287221] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:524:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[24.287551] (atmaca_vision) StderrLine: {'line': b'  524 | ORT_DEFINE_RELEASE(KernelInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[24.287875] (atmaca_vision) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.362744] (-) TimerEvent: {}
+[24.464053] (-) TimerEvent: {}
+[24.575034] (-) TimerEvent: {}
+[24.707215] (-) TimerEvent: {}
+[24.814703] (-) TimerEvent: {}
+[24.918337] (-) TimerEvent: {}
+[25.021184] (-) TimerEvent: {}
+[25.123739] (-) TimerEvent: {}
+[25.225542] (-) TimerEvent: {}
+[25.327915] (-) TimerEvent: {}
+[25.360648] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YoloNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.362041] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:118:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[25.362845] (atmaca_vision) StderrLine: {'line': b'  118 |     int \x1b[01;35m\x1b[Kc\x1b[m\x1b[K = 0; // 0. kanal (R veya B)\n'}
+[25.363751] (atmaca_vision) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[25.364800] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:119:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kh\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[25.365502] (atmaca_vision) StderrLine: {'line': b'  119 |     int \x1b[01;35m\x1b[Kh\x1b[m\x1b[K = 320; // Y?ksekli?in yar?s?\n'}
+[25.366412] (atmaca_vision) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[25.366887] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:120:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[25.369430] (atmaca_vision) StderrLine: {'line': b'  120 |     int \x1b[01;35m\x1b[Kw\x1b[m\x1b[K = 320; // Geni?li?in yar?s?\n'}
+[25.370097] (atmaca_vision) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[25.424569] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Detection> YoloNode::postprocess(const float*, const std::vector<long int, std::allocator<long int> >&, float, const Point2f&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.426077] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:181:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Knum_channels\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[25.427099] (atmaca_vision) StderrLine: {'line': b'  181 |     int \x1b[01;35m\x1b[Knum_channels\x1b[m\x1b[K = shape[1]; // Genellikle 5 (x,y,w,h,score)\n'}
+[25.427650] (atmaca_vision) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.428144] (-) TimerEvent: {}
+[25.428708] (atmaca_vision) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:190:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kmax_score_index\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[25.429362] (atmaca_vision) StderrLine: {'line': b'  190 |     int \x1b[01;35m\x1b[Kmax_score_index\x1b[m\x1b[K = -1;\n'}
+[25.429772] (atmaca_vision) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.535464] (-) TimerEvent: {}
+[25.652792] (-) TimerEvent: {}
+[25.759958] (-) TimerEvent: {}
+[25.863503] (-) TimerEvent: {}
+[25.966450] (-) TimerEvent: {}
+[26.068253] (-) TimerEvent: {}
+[26.169934] (-) TimerEvent: {}
+[26.271255] (-) TimerEvent: {}
+[26.373363] (-) TimerEvent: {}
+[26.475788] (-) TimerEvent: {}
+[26.602910] (-) TimerEvent: {}
+[26.713314] (-) TimerEvent: {}
+[26.820373] (-) TimerEvent: {}
+[26.924383] (-) TimerEvent: {}
+[27.026068] (-) TimerEvent: {}
+[27.127474] (-) TimerEvent: {}
+[27.228911] (-) TimerEvent: {}
+[27.331615] (-) TimerEvent: {}
+[27.432839] (-) TimerEvent: {}
+[27.593706] (-) TimerEvent: {}
+[27.713334] (-) TimerEvent: {}
+[27.832327] (-) TimerEvent: {}
+[27.940106] (-) TimerEvent: {}
+[28.042885] (-) TimerEvent: {}
+[28.145905] (-) TimerEvent: {}
+[28.247370] (-) TimerEvent: {}
+[28.348742] (-) TimerEvent: {}
+[28.450059] (-) TimerEvent: {}
+[28.577498] (-) TimerEvent: {}
+[28.708749] (-) TimerEvent: {}
+[28.812958] (-) TimerEvent: {}
+[28.915561] (-) TimerEvent: {}
+[29.017716] (-) TimerEvent: {}
+[29.119824] (-) TimerEvent: {}
+[29.221806] (-) TimerEvent: {}
+[29.323499] (-) TimerEvent: {}
+[29.424741] (-) TimerEvent: {}
+[29.551026] (-) TimerEvent: {}
+[29.680847] (-) TimerEvent: {}
+[29.786923] (-) TimerEvent: {}
+[29.890400] (-) TimerEvent: {}
+[29.992490] (-) TimerEvent: {}
+[30.094704] (-) TimerEvent: {}
+[30.196082] (-) TimerEvent: {}
+[30.298020] (-) TimerEvent: {}
+[30.400146] (-) TimerEvent: {}
+[30.509220] (-) TimerEvent: {}
+[30.642300] (-) TimerEvent: {}
+[30.757043] (-) TimerEvent: {}
+[30.862130] (-) TimerEvent: {}
+[30.964085] (-) TimerEvent: {}
+[31.066200] (-) TimerEvent: {}
+[31.169788] (-) TimerEvent: {}
+[31.271724] (-) TimerEvent: {}
+[31.373362] (-) TimerEvent: {}
+[31.475163] (-) TimerEvent: {}
+[31.578996] (-) TimerEvent: {}
+[31.711221] (-) TimerEvent: {}
+[31.814378] (-) TimerEvent: {}
+[31.919631] (-) TimerEvent: {}
+[32.023614] (-) TimerEvent: {}
+[32.125507] (-) TimerEvent: {}
+[32.227555] (-) TimerEvent: {}
+[32.329732] (-) TimerEvent: {}
+[32.430855] (-) TimerEvent: {}
+[32.534926] (-) TimerEvent: {}
+[32.683937] (-) TimerEvent: {}
+[32.801825] (-) TimerEvent: {}
+[32.905260] (-) TimerEvent: {}
+[33.008822] (-) TimerEvent: {}
+[33.111761] (-) TimerEvent: {}
+[33.213973] (-) TimerEvent: {}
+[33.315233] (-) TimerEvent: {}
+[33.416354] (-) TimerEvent: {}
+[33.522301] (-) TimerEvent: {}
+[33.680058] (-) TimerEvent: {}
+[33.796437] (-) TimerEvent: {}
+[33.903283] (-) TimerEvent: {}
+[34.008227] (-) TimerEvent: {}
+[34.111027] (-) TimerEvent: {}
+[34.212599] (-) TimerEvent: {}
+[34.314592] (-) TimerEvent: {}
+[34.416860] (-) TimerEvent: {}
+[34.527049] (-) TimerEvent: {}
+[34.682523] (-) TimerEvent: {}
+[34.792172] (-) TimerEvent: {}
+[34.899268] (-) TimerEvent: {}
+[35.001639] (-) TimerEvent: {}
+[35.104449] (-) TimerEvent: {}
+[35.206359] (-) TimerEvent: {}
+[35.307777] (-) TimerEvent: {}
+[35.409090] (-) TimerEvent: {}
+[35.518566] (-) TimerEvent: {}
+[35.632638] (-) TimerEvent: {}
+[35.748334] (-) TimerEvent: {}
+[35.855377] (-) TimerEvent: {}
+[35.957515] (-) TimerEvent: {}
+[36.059225] (-) TimerEvent: {}
+[36.161362] (-) TimerEvent: {}
+[36.263642] (-) TimerEvent: {}
+[36.364776] (-) TimerEvent: {}
+[36.466203] (-) TimerEvent: {}
+[36.569316] (-) TimerEvent: {}
+[36.734759] (-) TimerEvent: {}
+[36.844107] (-) TimerEvent: {}
+[36.947014] (-) TimerEvent: {}
+[37.048739] (-) TimerEvent: {}
+[37.150465] (-) TimerEvent: {}
+[37.252052] (-) TimerEvent: {}
+[37.353547] (-) TimerEvent: {}
+[37.454952] (-) TimerEvent: {}
+[37.578710] (-) TimerEvent: {}
+[37.697339] (-) TimerEvent: {}
+[37.803373] (-) TimerEvent: {}
+[37.905922] (-) TimerEvent: {}
+[38.007411] (-) TimerEvent: {}
+[38.109528] (-) TimerEvent: {}
+[38.211562] (-) TimerEvent: {}
+[38.312716] (-) TimerEvent: {}
+[38.414322] (-) TimerEvent: {}
+[38.519398] (-) TimerEvent: {}
+[38.642302] (-) TimerEvent: {}
+[38.750714] (-) TimerEvent: {}
+[38.854597] (-) TimerEvent: {}
+[38.956402] (-) TimerEvent: {}
+[39.058537] (-) TimerEvent: {}
+[39.160162] (-) TimerEvent: {}
+[39.261487] (-) TimerEvent: {}
+[39.362770] (-) TimerEvent: {}
+[39.464011] (-) TimerEvent: {}
+[39.570047] (-) TimerEvent: {}
+[39.713677] (-) TimerEvent: {}
+[39.818752] (-) TimerEvent: {}
+[39.921616] (-) TimerEvent: {}
+[40.023752] (-) TimerEvent: {}
+[40.125816] (-) TimerEvent: {}
+[40.227418] (-) TimerEvent: {}
+[40.329426] (-) TimerEvent: {}
+[40.430807] (-) TimerEvent: {}
+[40.536258] (-) TimerEvent: {}
+[40.670957] (-) TimerEvent: {}
+[40.779721] (-) TimerEvent: {}
+[40.883545] (-) TimerEvent: {}
+[40.986975] (-) TimerEvent: {}
+[41.089212] (-) TimerEvent: {}
+[41.190463] (-) TimerEvent: {}
+[41.291623] (-) TimerEvent: {}
+[41.392768] (-) TimerEvent: {}
+[41.493816] (-) TimerEvent: {}
+[41.599236] (-) TimerEvent: {}
+[41.721401] (-) TimerEvent: {}
+[41.827838] (-) TimerEvent: {}
+[41.932050] (-) TimerEvent: {}
+[42.034612] (-) TimerEvent: {}
+[42.136408] (-) TimerEvent: {}
+[42.237508] (-) TimerEvent: {}
+[42.338676] (-) TimerEvent: {}
+[42.439863] (-) TimerEvent: {}
+[42.563301] (-) TimerEvent: {}
+[42.689502] (-) TimerEvent: {}
+[42.798406] (-) TimerEvent: {}
+[42.902104] (-) TimerEvent: {}
+[43.005496] (-) TimerEvent: {}
+[43.107086] (-) TimerEvent: {}
+[43.208867] (-) TimerEvent: {}
+[43.310150] (-) TimerEvent: {}
+[43.411397] (-) TimerEvent: {}
+[43.514629] (-) TimerEvent: {}
+[43.641025] (-) TimerEvent: {}
+[43.750244] (-) TimerEvent: {}
+[43.855328] (-) TimerEvent: {}
+[43.958439] (-) TimerEvent: {}
+[44.099366] (-) TimerEvent: {}
+[44.200740] (-) TimerEvent: {}
+[44.302234] (-) TimerEvent: {}
+[44.403742] (-) TimerEvent: {}
+[44.520013] (-) TimerEvent: {}
+[44.632381] (-) TimerEvent: {}
+[44.738275] (-) TimerEvent: {}
+[44.841521] (-) TimerEvent: {}
+[44.943962] (-) TimerEvent: {}
+[45.046053] (-) TimerEvent: {}
+[45.147681] (-) TimerEvent: {}
+[45.250185] (-) TimerEvent: {}
+[45.352051] (-) TimerEvent: {}
+[45.453646] (-) TimerEvent: {}
+[45.556492] (-) TimerEvent: {}
+[45.705894] (-) TimerEvent: {}
+[45.816400] (-) TimerEvent: {}
+[45.919344] (-) TimerEvent: {}
+[46.020650] (-) TimerEvent: {}
+[46.122120] (-) TimerEvent: {}
+[46.223387] (-) TimerEvent: {}
+[46.324420] (-) TimerEvent: {}
+[46.425607] (-) TimerEvent: {}
+[46.544874] (-) TimerEvent: {}
+[46.672399] (-) TimerEvent: {}
+[46.778656] (-) TimerEvent: {}
+[46.881241] (-) TimerEvent: {}
+[46.983045] (-) TimerEvent: {}
+[47.084090] (-) TimerEvent: {}
+[47.185161] (-) TimerEvent: {}
+[47.286579] (-) TimerEvent: {}
+[47.388039] (-) TimerEvent: {}
+[47.489255] (-) TimerEvent: {}
+[47.596113] (-) TimerEvent: {}
+[47.713443] (-) TimerEvent: {}
+[47.818707] (-) TimerEvent: {}
+[47.921544] (-) TimerEvent: {}
+[48.023218] (-) TimerEvent: {}
+[48.124338] (-) TimerEvent: {}
+[48.225516] (-) TimerEvent: {}
+[48.326821] (-) TimerEvent: {}
+[48.428101] (-) TimerEvent: {}
+[48.532838] (-) TimerEvent: {}
+[48.667395] (-) TimerEvent: {}
+[48.775352] (-) TimerEvent: {}
+[48.879488] (-) TimerEvent: {}
+[48.980871] (-) TimerEvent: {}
+[49.099107] (-) TimerEvent: {}
+[49.200177] (-) TimerEvent: {}
+[49.301363] (-) TimerEvent: {}
+[49.402472] (-) TimerEvent: {}
+[49.507102] (-) TimerEvent: {}
+[49.651746] (-) TimerEvent: {}
+[49.759864] (-) TimerEvent: {}
+[49.862711] (-) TimerEvent: {}
+[49.967002] (-) TimerEvent: {}
+[50.068038] (-) TimerEvent: {}
+[50.169202] (-) TimerEvent: {}
+[50.270252] (-) TimerEvent: {}
+[50.371193] (-) TimerEvent: {}
+[50.472826] (-) TimerEvent: {}
+[50.577216] (-) TimerEvent: {}
+[50.724512] (-) TimerEvent: {}
+[50.829718] (-) TimerEvent: {}
+[50.932346] (-) TimerEvent: {}
+[51.033569] (-) TimerEvent: {}
+[51.134690] (-) TimerEvent: {}
+[51.235749] (-) TimerEvent: {}
+[51.337028] (-) TimerEvent: {}
+[51.438146] (-) TimerEvent: {}
+[51.548059] (-) TimerEvent: {}
+[51.689643] (-) TimerEvent: {}
+[51.798346] (-) TimerEvent: {}
+[51.903757] (-) TimerEvent: {}
+[52.007661] (-) TimerEvent: {}
+[52.109826] (-) TimerEvent: {}
+[52.211027] (-) TimerEvent: {}
+[52.313183] (-) TimerEvent: {}
+[52.414818] (-) TimerEvent: {}
+[52.521922] (-) TimerEvent: {}
+[52.687339] (-) TimerEvent: {}
+[52.793206] (-) TimerEvent: {}
+[52.895744] (-) TimerEvent: {}
+[52.997439] (-) TimerEvent: {}
+[53.098472] (-) TimerEvent: {}
+[53.199474] (-) TimerEvent: {}
+[53.300735] (-) TimerEvent: {}
+[53.402250] (-) TimerEvent: {}
+[53.503586] (-) TimerEvent: {}
+[53.628463] (-) TimerEvent: {}
+[53.735508] (-) TimerEvent: {}
+[53.839221] (-) TimerEvent: {}
+[53.943273] (-) TimerEvent: {}
+[54.045489] (-) TimerEvent: {}
+[54.146533] (-) TimerEvent: {}
+[54.247698] (-) TimerEvent: {}
+[54.348747] (-) TimerEvent: {}
+[54.449917] (-) TimerEvent: {}
+[54.558085] (-) TimerEvent: {}
+[54.684282] (-) TimerEvent: {}
+[54.795697] (-) TimerEvent: {}
+[54.899475] (-) TimerEvent: {}
+[55.000770] (-) TimerEvent: {}
+[55.101875] (-) TimerEvent: {}
+[55.202924] (-) TimerEvent: {}
+[55.305119] (-) TimerEvent: {}
+[55.406252] (-) TimerEvent: {}
+[55.513836] (-) TimerEvent: {}
+[55.671367] (-) TimerEvent: {}
+[55.776955] (-) TimerEvent: {}
+[55.879869] (-) TimerEvent: {}
+[55.982334] (-) TimerEvent: {}
+[56.083491] (-) TimerEvent: {}
+[56.184641] (-) TimerEvent: {}
+[56.285768] (-) TimerEvent: {}
+[56.386909] (-) TimerEvent: {}
+[56.487969] (-) TimerEvent: {}
+[56.590614] (-) TimerEvent: {}
+[56.719345] (-) TimerEvent: {}
+[56.825298] (-) TimerEvent: {}
+[56.927992] (-) TimerEvent: {}
+[57.029099] (-) TimerEvent: {}
+[57.130189] (-) TimerEvent: {}
+[57.231289] (-) TimerEvent: {}
+[57.332575] (-) TimerEvent: {}
+[57.433770] (-) TimerEvent: {}
+[57.539613] (-) TimerEvent: {}
+[57.665027] (-) TimerEvent: {}
+[57.772132] (-) TimerEvent: {}
+[57.875089] (-) TimerEvent: {}
+[57.976379] (-) TimerEvent: {}
+[58.077474] (-) TimerEvent: {}
+[58.178610] (-) TimerEvent: {}
+[58.279763] (-) TimerEvent: {}
+[58.381035] (-) TimerEvent: {}
+[58.482541] (-) TimerEvent: {}
+[58.589953] (-) TimerEvent: {}
+[58.721637] (-) TimerEvent: {}
+[58.829745] (-) TimerEvent: {}
+[58.934487] (-) TimerEvent: {}
+[59.035607] (-) TimerEvent: {}
+[59.136756] (-) TimerEvent: {}
+[59.237791] (-) TimerEvent: {}
+[59.338821] (-) TimerEvent: {}
+[59.440912] (-) TimerEvent: {}
+[59.550080] (-) TimerEvent: {}
+[59.672071] (-) TimerEvent: {}
+[59.777226] (-) TimerEvent: {}
+[59.880092] (-) TimerEvent: {}
+[59.981815] (-) TimerEvent: {}
+[60.082941] (-) TimerEvent: {}
+[60.183948] (-) TimerEvent: {}
+[60.285109] (-) TimerEvent: {}
+[60.386875] (-) TimerEvent: {}
+[60.488038] (-) TimerEvent: {}
+[60.590883] (-) TimerEvent: {}
+[60.703606] (-) TimerEvent: {}
+[60.808028] (-) TimerEvent: {}
+[60.909551] (-) TimerEvent: {}
+[61.012298] (-) TimerEvent: {}
+[61.113791] (-) TimerEvent: {}
+[61.215643] (-) TimerEvent: {}
+[61.317167] (-) TimerEvent: {}
+[61.418563] (-) TimerEvent: {}
+[61.532256] (-) TimerEvent: {}
+[61.652904] (-) TimerEvent: {}
+[61.760008] (-) TimerEvent: {}
+[61.862861] (-) TimerEvent: {}
+[61.964334] (-) TimerEvent: {}
+[62.065615] (-) TimerEvent: {}
+[62.167075] (-) TimerEvent: {}
+[62.268287] (-) TimerEvent: {}
+[62.369475] (-) TimerEvent: {}
+[62.472054] (-) TimerEvent: {}
+[62.587540] (-) TimerEvent: {}
+[62.737296] (-) TimerEvent: {}
+[62.844836] (-) TimerEvent: {}
+[62.949243] (-) TimerEvent: {}
+[63.051052] (-) TimerEvent: {}
+[63.153034] (-) TimerEvent: {}
+[63.254753] (-) TimerEvent: {}
+[63.356210] (-) TimerEvent: {}
+[63.457462] (-) TimerEvent: {}
+[63.583544] (-) TimerEvent: {}
+[63.717474] (-) TimerEvent: {}
+[63.823329] (-) TimerEvent: {}
+[63.925063] (-) TimerEvent: {}
+[64.026579] (-) TimerEvent: {}
+[64.130386] (-) TimerEvent: {}
+[64.232039] (-) TimerEvent: {}
+[64.333471] (-) TimerEvent: {}
+[64.434589] (-) TimerEvent: {}
+[64.540267] (-) TimerEvent: {}
+[64.677262] (-) TimerEvent: {}
+[64.782940] (-) TimerEvent: {}
+[64.886000] (-) TimerEvent: {}
+[64.988443] (-) TimerEvent: {}
+[65.089851] (-) TimerEvent: {}
+[65.191599] (-) TimerEvent: {}
+[65.293255] (-) TimerEvent: {}
+[65.394676] (-) TimerEvent: {}
+[65.495837] (-) TimerEvent: {}
+[65.599439] (-) TimerEvent: {}
+[65.712270] (-) TimerEvent: {}
+[65.815999] (-) TimerEvent: {}
+[65.917731] (-) TimerEvent: {}
+[66.019983] (-) TimerEvent: {}
+[66.121507] (-) TimerEvent: {}
+[66.222703] (-) TimerEvent: {}
+[66.324368] (-) TimerEvent: {}
+[66.365266] (atmaca_vision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable target_detection_node\x1b[0m\n'}
+[66.424306] (-) TimerEvent: {}
+[66.530564] (-) TimerEvent: {}
+[66.643822] (-) TimerEvent: {}
+[66.751605] (-) TimerEvent: {}
+[66.856474] (-) TimerEvent: {}
+[66.959991] (-) TimerEvent: {}
+[67.062585] (-) TimerEvent: {}
+[67.164634] (-) TimerEvent: {}
+[67.266410] (-) TimerEvent: {}
+[67.368262] (-) TimerEvent: {}
+[67.469910] (-) TimerEvent: {}
+[67.573024] (-) TimerEvent: {}
+[67.723004] (-) TimerEvent: {}
+[67.830110] (-) TimerEvent: {}
+[67.934020] (-) TimerEvent: {}
+[68.035915] (-) TimerEvent: {}
+[68.137336] (-) TimerEvent: {}
+[68.238720] (-) TimerEvent: {}
+[68.339971] (-) TimerEvent: {}
+[68.441196] (-) TimerEvent: {}
+[68.545437] (-) TimerEvent: {}
+[68.682264] (-) TimerEvent: {}
+[68.786690] (-) TimerEvent: {}
+[68.890201] (-) TimerEvent: {}
+[68.992677] (-) TimerEvent: {}
+[69.094067] (-) TimerEvent: {}
+[69.195510] (-) TimerEvent: {}
+[69.209765] (atmaca_vision) StdoutLine: {'line': b'[100%] Built target target_detection_node\n'}
+[69.274842] (atmaca_vision) CommandEnded: {'returncode': 0}
+[69.296656] (-) TimerEvent: {}
+[69.399090] (-) TimerEvent: {}
+[69.501351] (-) TimerEvent: {}
+[69.603624] (-) TimerEvent: {}
+[69.716914] (-) TimerEvent: {}
+[69.753505] (atmaca_vision) JobProgress: {'identifier': 'atmaca_vision', 'progress': 'install'}
+[69.816939] (-) TimerEvent: {}
+[69.920748] (-) TimerEvent: {}
+[69.966670] (atmaca_vision) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/bridges/jetson_workspace/build/atmaca_vision'], 'cwd': '/root/bridges/jetson_workspace/build/atmaca_vision', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'tanyeli'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib'), ('HOME', '/root'), ('OLDPWD', '/root/bridges/jetson_workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\033[1;31m\\]\\u@\\h\\[\\033[0m\\]:\\[\\033[1;34m\\]\\w\\[\\033[0m\\]#'), ('COLCON_PREFIX_PATH', '/root/bridges/jetson_workspace/install:/opt/ros/humble/install'), ('TORCH_HOME', '/data/models/torch'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/root/bridges/jetson_workspace/build/atmaca_vision'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install')]), 'shell': False}
+[70.021202] (-) TimerEvent: {}
+[70.122743] (-) TimerEvent: {}
+[70.131165] (atmaca_vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[70.133155] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/camera_publisher_node\n'}
+[70.136827] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/qr_detector_node\n'}
+[70.140075] (atmaca_vision) StdoutLine: {'line': b'-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/target_detection_node\n'}
+[70.187844] (atmaca_vision) StdoutLine: {'line': b'-- Set runtime path of "/root/bridges/jetson_workspace/install/atmaca_vision/lib/atmaca_vision/target_detection_node" to ""\n'}
+[70.189033] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/ament_index/resource_index/package_run_dependencies/atmaca_vision\n'}
+[70.190052] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/ament_index/resource_index/parent_prefix_path/atmaca_vision\n'}
+[70.190710] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/ament_prefix_path.sh\n'}
+[70.191729] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/ament_prefix_path.dsv\n'}
+[70.192473] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/path.sh\n'}
+[70.192969] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/environment/path.dsv\n'}
+[70.193388] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.bash\n'}
+[70.193819] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.sh\n'}
+[70.194750] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.zsh\n'}
+[70.195173] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/local_setup.dsv\n'}
+[70.195573] (atmaca_vision) StdoutLine: {'line': b'-- Installing: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.dsv\n'}
+[70.195941] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/ament_index/resource_index/packages/atmaca_vision\n'}
+[70.196409] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/cmake/atmaca_visionConfig.cmake\n'}
+[70.196945] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/cmake/atmaca_visionConfig-version.cmake\n'}
+[70.197367] (atmaca_vision) StdoutLine: {'line': b'-- Up-to-date: /root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.xml\n'}
+[70.215199] (atmaca_vision) CommandEnded: {'returncode': 0}
+[70.223109] (-) TimerEvent: {}
+[70.324326] (-) TimerEvent: {}
+[70.428132] (-) TimerEvent: {}
+[70.546321] (-) TimerEvent: {}
+[70.718285] (-) TimerEvent: {}
+[70.822126] (-) TimerEvent: {}
+[70.923787] (-) TimerEvent: {}
+[71.025930] (-) TimerEvent: {}
+[71.127664] (-) TimerEvent: {}
+[71.228928] (-) TimerEvent: {}
+[71.330510] (-) TimerEvent: {}
+[71.373700] (atmaca_vision) JobEnded: {'identifier': 'atmaca_vision', 'rc': 0}
+[71.386908] (-) EventReactorShutdown: {}

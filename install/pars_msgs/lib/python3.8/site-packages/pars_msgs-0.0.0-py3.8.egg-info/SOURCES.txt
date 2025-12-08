@@ -4,3 +4,6 @@ pars_msgs.egg-info/PKG-INFO
 pars_msgs.egg-info/SOURCES.txt
 pars_msgs.egg-info/dependency_links.txt
 pars_msgs.egg-info/top_level.txt
+pars_msgs/msg/__init__.py
+pars_msgs/msg/_data.py
+pars_msgs/msg/_target.py

@@ -1,0 +1,147 @@
+[0.640s] Invoking command in '/root/bridges/jetson_workspace/build/px4_ros_com': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /root/bridges/jetson_workspace/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/px4_ros_com
+[1.187s] -- The C compiler identification is GNU 9.4.0
+[1.722s] -- The CXX compiler identification is GNU 9.4.0
+[1.860s] -- Detecting C compiler ABI info
+[2.339s] -- Detecting C compiler ABI info - done
+[2.526s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.527s] -- Detecting C compile features
+[2.530s] -- Detecting C compile features - done
+[2.636s] -- Detecting CXX compiler ABI info
+[3.180s] -- Detecting CXX compiler ABI info - done
+[3.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.250s] -- Detecting CXX compile features
+[3.254s] -- Detecting CXX compile features - done
+[3.278s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[11.861s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[12.341s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/install/share/builtin_interfaces/cmake)
+[12.718s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[12.758s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[12.822s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[12.933s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.084s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.224s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)
+[13.252s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[13.263s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/install/share/geometry_msgs/cmake)
+[14.017s] -- Found px4_msgs: 2.0.1 (/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/cmake)
+[14.240s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/install/share/rclcpp/cmake)
+[14.834s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[14.852s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[15.105s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[15.175s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.787s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[15.788s] -- Looking for pthread_create in pthreads
+[16.114s] -- Looking for pthread_create in pthreads - not found
+[16.116s] -- Looking for pthread_create in pthread
+[16.633s] -- Looking for pthread_create in pthread - found
+[16.644s] -- Found Threads: TRUE  
+[17.583s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[18.063s] -- Found rclpy: 3.3.10 (/opt/ros/humble/install/share/rclpy/cmake)
+[18.124s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[18.964s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.988s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.992s] -- Configured cppcheck include dirs: /root/bridges/jetson_workspace/src/px4_ros_com/include;$<BUILD_INTERFACE:/root/bridges/jetson_workspace/src/px4_ros_com/include/px4_ros_com>
+[18.993s] -- Configured cppcheck exclude dirs and/or files: 
+[19.016s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[19.017s] -- Configured cpplint exclude dirs and/or files: 
+[19.022s] -- Added test 'flake8' to check Python code syntax and style conventions
+[19.031s] -- Added test 'lint_cmake' to check CMake code style
+[19.037s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[19.060s] -- Added test 'uncrustify' to check C / C++ code style
+[19.061s] -- Configured uncrustify additional arguments: 
+[19.066s] -- Added test 'xmllint' to check XML markup files
+[19.083s] -- Configuring done (18.3s)
+[19.300s] -- Generating done (0.2s)
+[19.317s] -- Build files have been written to: /root/bridges/jetson_workspace/build/px4_ros_com
+[19.375s] Invoked command in '/root/bridges/jetson_workspace/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /root/bridges/jetson_workspace/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/px4_ros_com
+[19.500s] Invoking command in '/root/bridges/jetson_workspace/build/px4_ros_com': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/px4_ros_com -- -j6 -l6
+[19.841s] [ 33%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[19.842s] [ 33%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[19.843s] [ 33%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[19.845s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[19.846s] [ 41%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[19.848s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[53.688s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[55.175s] [ 58%] Built target debug_vect_advertiser
+[55.259s] [ 58%] Built target ament_cmake_python_copy_px4_ros_com
+[57.231s] running egg_info
+[57.239s] creating px4_ros_com.egg-info
+[57.413s] writing px4_ros_com.egg-info/PKG-INFO
+[57.413s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[57.418s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[57.420s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[58.044s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[58.051s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[58.194s] [ 58%] Built target ament_cmake_python_build_px4_ros_com_egg
+[59.742s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[61.087s] [ 66%] Built target offboard_control
+[62.901s] [ 75%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[63.807s] [ 83%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[64.266s] [ 83%] Built target frame_transforms
+[65.207s] [ 83%] Built target offboard_control_srv
+[76.106s] [ 91%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[76.581s] [100%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[78.132s] [100%] Built target vehicle_gps_position_listener
+[78.558s] [100%] Built target sensor_combined_listener
+[78.606s] Invoked command in '/root/bridges/jetson_workspace/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/px4_ros_com -- -j6 -l6
+[78.996s] Invoking command in '/root/bridges/jetson_workspace/build/px4_ros_com': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/px4_ros_com
+[79.155s] -- Install configuration: ""
+[79.157s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[79.190s] -- Set runtime path of "/root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[79.191s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[79.222s] -- Set runtime path of "/root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[79.223s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[79.234s] -- Set runtime path of "/root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[79.234s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[79.249s] -- Set runtime path of "/root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[79.250s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[79.266s] -- Set runtime path of "/root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[79.268s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[79.269s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[79.270s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/include/px4_ros_com
+[79.271s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[79.272s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/libframe_transforms.so
+[79.301s] -- Set runtime path of "/root/bridges/jetson_workspace/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[79.302s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com//launch
+[79.302s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[79.303s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[79.304s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com//test
+[79.304s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[79.305s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[79.306s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[79.307s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[79.308s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[79.313s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[79.315s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com-0.1.0-py3.8.egg-info
+[79.316s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com-0.1.0-py3.8.egg-info/top_level.txt
+[79.316s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com-0.1.0-py3.8.egg-info/PKG-INFO
+[79.317s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com-0.1.0-py3.8.egg-info/SOURCES.txt
+[79.317s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com-0.1.0-py3.8.egg-info/dependency_links.txt
+[79.318s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com
+[79.318s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com/__init__.py
+[79.319s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com/module_to_import.py
+[79.674s] Listing '/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com'...
+[79.674s] Compiling '/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com/__init__.py'...
+[79.675s] Compiling '/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages/px4_ros_com/module_to_import.py'...
+[79.696s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[79.700s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[79.703s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[79.704s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[79.705s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[79.706s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[79.708s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[79.709s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[79.710s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[79.711s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[79.712s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[79.713s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.dsv
+[79.714s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[79.716s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[79.717s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[79.718s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[79.719s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[79.720s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[79.722s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[79.723s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[79.724s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[79.725s] -- Installing: /root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.xml
+[79.751s] Invoked command in '/root/bridges/jetson_workspace/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/px4_ros_com

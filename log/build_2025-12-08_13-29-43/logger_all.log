@@ -1,0 +1,424 @@
+[12.169s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[12.169s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa7e33be0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa7e33be0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa7b14970>)
+[12.742s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[12.742s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[12.742s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[12.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[12.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[12.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[12.743s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/bridges/jetson_workspace'
+[12.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[12.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[12.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[12.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[12.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[12.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[12.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[12.832s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[12.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[12.833s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[12.834s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[12.834s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[12.834s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[12.835s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[12.835s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[12.836s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[12.836s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[12.837s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[12.837s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[12.837s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['ignore', 'ignore_ament_install']
+[12.838s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'ignore'
+[12.838s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'ignore_ament_install'
+[12.838s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['colcon_pkg']
+[12.839s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'colcon_pkg'
+[12.839s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['colcon_meta']
+[12.839s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'colcon_meta'
+[12.839s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['ros']
+[12.840s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'ros'
+[12.840s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['cmake', 'python']
+[12.840s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'cmake'
+[12.841s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'python'
+[12.841s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['python_setup_py']
+[12.841s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'python_setup_py'
+[12.841s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['ignore', 'ignore_ament_install']
+[12.842s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'ignore'
+[12.842s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'ignore_ament_install'
+[12.842s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['colcon_pkg']
+[12.843s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'colcon_pkg'
+[12.843s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['colcon_meta']
+[12.843s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'colcon_meta'
+[12.843s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['ros']
+[12.844s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'ros'
+[12.844s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['cmake', 'python']
+[12.844s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'cmake'
+[12.844s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'python'
+[12.845s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['python_setup_py']
+[12.845s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'python_setup_py'
+[12.845s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['ignore', 'ignore_ament_install']
+[12.846s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'ignore'
+[12.846s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'ignore_ament_install'
+[12.846s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['colcon_pkg']
+[12.847s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'colcon_pkg'
+[12.847s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['colcon_meta']
+[12.847s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'colcon_meta'
+[12.847s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['ros']
+[12.848s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'ros'
+[12.848s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['cmake', 'python']
+[12.848s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'cmake'
+[12.848s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'python'
+[12.849s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['python_setup_py']
+[12.849s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'python_setup_py'
+[12.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[12.850s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[12.850s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[12.850s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[12.850s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[12.851s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[12.851s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[12.851s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[12.851s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[12.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[12.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[12.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[12.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[12.853s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[12.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['ignore', 'ignore_ament_install']
+[12.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'ignore'
+[12.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'ignore_ament_install'
+[12.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['colcon_pkg']
+[12.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'colcon_pkg'
+[12.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['colcon_meta']
+[12.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'colcon_meta'
+[12.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['ros']
+[12.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'ros'
+[12.871s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atmaca_vision' with type 'ros.ament_cmake' and name 'atmaca_vision'
+[12.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['ignore', 'ignore_ament_install']
+[12.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'ignore'
+[12.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'ignore_ament_install'
+[12.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['colcon_pkg']
+[12.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'colcon_pkg'
+[12.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['colcon_meta']
+[12.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'colcon_meta'
+[12.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['ros']
+[12.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'ros'
+[12.878s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pars_msgs' with type 'ros.ament_cmake' and name 'pars_msgs'
+[12.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[12.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[12.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[12.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[12.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[12.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[12.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[12.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[12.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[12.885s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[12.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[12.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[12.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[12.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[12.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[12.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[12.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[12.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[12.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[12.896s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[12.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[12.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[12.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[12.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[12.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[13.336s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_args' from command line to 'None'
+[13.337s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_target' from command line to 'None'
+[13.337s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.337s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[13.337s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[13.337s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[13.337s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[13.338s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[13.338s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.338s] DEBUG:colcon.colcon_core.verb:Building package 'pars_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/pars_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/pars_msgs', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/pars_msgs', 'symlink_install': False, 'test_result_base': None}
+[13.414s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[13.415s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[13.415s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.415s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[13.415s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[13.416s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[13.416s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[13.416s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[13.416s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.416s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/px4_msgs', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[13.492s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_args' from command line to 'None'
+[13.493s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_target' from command line to 'None'
+[13.493s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.493s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[13.493s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_clean_first' from command line to 'False'
+[13.493s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_force_configure' from command line to 'False'
+[13.494s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'ament_cmake_args' from command line to 'None'
+[13.494s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[13.494s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.494s] DEBUG:colcon.colcon_core.verb:Building package 'atmaca_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/atmaca_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/atmaca_vision', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/atmaca_vision', 'symlink_install': False, 'test_result_base': None}
+[13.569s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[13.569s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[13.569s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.569s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[13.569s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[13.570s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[13.570s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[13.570s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[13.570s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.570s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/px4_ros_com', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[13.645s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[13.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[13.726s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/pars_msgs' with build type 'ament_cmake'
+[13.727s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/pars_msgs'
+[13.819s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[13.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.821s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.135s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/px4_msgs' with build type 'ament_cmake'
+[14.138s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/px4_msgs'
+[14.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/pars_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pars_msgs -- -j6 -l6
+[14.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/px4_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/px4_msgs
+[16.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/pars_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pars_msgs -- -j6 -l6
+[17.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/pars_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pars_msgs
+[18.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pars_msgs)
+[18.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/pars_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pars_msgs
+[18.231s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs' for CMake module files
+[18.235s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs' for CMake config files
+[18.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'cmake_prefix_path')
+[18.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.ps1'
+[18.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.dsv'
+[18.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.sh'
+[18.332s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib'
+[18.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'ld_library_path_lib')
+[18.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.ps1'
+[18.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.dsv'
+[18.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.sh'
+[18.419s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/bin'
+[18.420s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib/pkgconfig/pars_msgs.pc'
+[18.425s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages'
+[18.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'pythonpath')
+[18.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.ps1'
+[18.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.dsv'
+[18.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.sh'
+[18.514s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/bin'
+[18.595s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.ps1'
+[18.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.dsv'
+[18.604s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.sh'
+[18.609s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.bash'
+[18.614s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.zsh'
+[18.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/pars_msgs/share/colcon-core/packages/pars_msgs)
+[19.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pars_msgs)
+[19.375s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs' for CMake module files
+[19.380s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs' for CMake config files
+[19.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'cmake_prefix_path')
+[19.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.ps1'
+[19.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.dsv'
+[19.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.sh'
+[19.473s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib'
+[19.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'ld_library_path_lib')
+[19.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.ps1'
+[19.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.dsv'
+[19.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.sh'
+[19.560s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/bin'
+[19.561s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib/pkgconfig/pars_msgs.pc'
+[19.562s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages'
+[19.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'pythonpath')
+[19.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.ps1'
+[19.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.dsv'
+[19.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.sh'
+[19.650s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/bin'
+[19.731s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.ps1'
+[19.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.dsv'
+[19.739s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.sh'
+[19.742s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.bash'
+[19.744s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.zsh'
+[19.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/pars_msgs/share/colcon-core/packages/pars_msgs)
+[19.749s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/atmaca_vision' with build type 'ament_cmake'
+[19.751s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/atmaca_vision'
+[19.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/atmaca_vision': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/atmaca_vision -- -j6 -l6
+[53.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/px4_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/px4_msgs
+[53.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/px4_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/px4_msgs -- -j6 -l6
+[92.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/atmaca_vision' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/atmaca_vision -- -j6 -l6
+[92.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/atmaca_vision': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/atmaca_vision
+[93.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atmaca_vision)
+[93.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/atmaca_vision' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/atmaca_vision
+[93.148s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision' for CMake module files
+[93.152s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision' for CMake config files
+[93.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('atmaca_vision', 'cmake_prefix_path')
+[93.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.ps1'
+[93.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.dsv'
+[93.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.sh'
+[93.248s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib'
+[93.248s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/bin'
+[93.249s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib/pkgconfig/atmaca_vision.pc'
+[93.250s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib/python3.8/site-packages'
+[93.252s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/bin'
+[93.332s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.ps1'
+[93.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.dsv'
+[93.338s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.sh'
+[93.340s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.bash'
+[93.342s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.zsh'
+[93.344s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/atmaca_vision/share/colcon-core/packages/atmaca_vision)
+[93.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atmaca_vision)
+[94.002s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision' for CMake module files
+[94.007s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision' for CMake config files
+[94.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('atmaca_vision', 'cmake_prefix_path')
+[94.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.ps1'
+[94.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.dsv'
+[94.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.sh'
+[94.111s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib'
+[94.112s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/bin'
+[94.112s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib/pkgconfig/atmaca_vision.pc'
+[94.114s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib/python3.8/site-packages'
+[94.115s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/bin'
+[94.200s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.ps1'
+[94.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.dsv'
+[94.206s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.sh'
+[94.209s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.bash'
+[94.211s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.zsh'
+[94.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/atmaca_vision/share/colcon-core/packages/atmaca_vision)
+[1355.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/px4_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/px4_msgs -- -j6 -l6
+[1384.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/px4_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/px4_msgs
+[1392.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1392.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/px4_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/px4_msgs
+[1393.066s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs' for CMake module files
+[1393.073s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs' for CMake config files
+[1393.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1393.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1393.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1393.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1393.190s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib'
+[1393.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1393.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1393.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1393.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1393.276s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/bin'
+[1393.276s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1393.278s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages'
+[1393.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[1393.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[1393.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[1393.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[1393.365s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/bin'
+[1393.444s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.ps1'
+[1393.448s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.dsv'
+[1393.452s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.sh'
+[1393.455s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.bash'
+[1393.457s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.zsh'
+[1393.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1421.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1422.032s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs' for CMake module files
+[1422.040s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs' for CMake config files
+[1422.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1422.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1422.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1422.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1422.158s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib'
+[1422.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1422.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1422.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1422.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1422.245s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/bin'
+[1422.245s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1422.247s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages'
+[1422.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[1422.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[1422.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[1422.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[1422.332s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/bin'
+[1422.412s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.ps1'
+[1422.416s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.dsv'
+[1422.420s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.sh'
+[1422.423s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.bash'
+[1422.425s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.zsh'
+[1422.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1422.430s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/px4_ros_com' with build type 'ament_cmake'
+[1422.431s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/px4_ros_com'
+[1422.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1422.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1423.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/px4_ros_com': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /root/bridges/jetson_workspace/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/px4_ros_com
+[1441.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /root/bridges/jetson_workspace/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/px4_ros_com
+[1441.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/px4_ros_com': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/px4_ros_com -- -j6 -l6
+[1501.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/px4_ros_com -- -j6 -l6
+[1501.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/px4_ros_com': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/px4_ros_com
+[1502.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[1502.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/px4_ros_com
+[1502.281s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com' for CMake module files
+[1502.286s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com' for CMake config files
+[1502.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[1502.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[1502.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[1502.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[1502.377s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com/lib'
+[1502.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[1502.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[1502.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[1502.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[1502.463s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com/bin'
+[1502.463s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[1502.465s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages'
+[1502.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonpath')
+[1502.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.ps1'
+[1502.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.dsv'
+[1502.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.sh'
+[1502.550s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com/bin'
+[1502.630s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[1502.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[1502.637s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.sh'
+[1502.639s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.bash'
+[1502.641s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[1502.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[1503.249s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[1503.330s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com' for CMake module files
+[1503.336s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com' for CMake config files
+[1503.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[1503.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[1503.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[1503.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[1503.430s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com/lib'
+[1503.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[1503.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[1503.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[1503.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[1503.515s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com/bin'
+[1503.516s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[1503.517s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages'
+[1503.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'pythonpath')
+[1503.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.ps1'
+[1503.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.dsv'
+[1503.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/hook/pythonpath.sh'
+[1503.603s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_ros_com/bin'
+[1503.682s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[1503.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[1503.690s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.sh'
+[1503.693s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.bash'
+[1503.695s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[1503.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[1503.700s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1503.702s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1503.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1503.704s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1503.837s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1503.837s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1503.838s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1503.838s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1503.839s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[1503.839s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1504.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.ps1'
+[1504.073s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/bridges/jetson_workspace/install/_local_setup_util_ps1.py'
+[1504.082s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.ps1'
+[1504.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.sh'
+[1504.175s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/bridges/jetson_workspace/install/_local_setup_util_sh.py'
+[1504.178s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.sh'
+[1504.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.bash'
+[1504.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.bash'
+[1504.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.zsh'
+[1504.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.zsh'
