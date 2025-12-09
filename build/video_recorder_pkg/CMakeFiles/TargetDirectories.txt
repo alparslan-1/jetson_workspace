@@ -1,0 +1,11 @@
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/uninstall.dir
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/video_recorder_pkg_uninstall.dir
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/video_writer_node.dir
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/video_recorder_control_node.dir
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/test.dir
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/edit_cache.dir
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/rebuild_cache.dir
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/list_install_components.dir
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/install.dir
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/install/local.dir
+/root/bridges/jetson_workspace/build/video_recorder_pkg/CMakeFiles/install/strip.dir

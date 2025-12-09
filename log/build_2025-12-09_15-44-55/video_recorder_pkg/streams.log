@@ -1,0 +1,55 @@
+[0.484s] Invoking command in '/root/bridges/jetson_workspace/build/video_recorder_pkg': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/video_recorder_pkg -- -j4 -l4
+[0.765s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[3.139s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.200s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/install/share/rclcpp/cmake)
+[3.433s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[3.454s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[3.499s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[3.588s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.708s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.280s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[4.288s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[4.482s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.568s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[6.353s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/install/share/cv_bridge/cmake)
+[6.361s] [33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+[6.362s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[6.362s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[6.363s]   set the policy and suppress this warning.
+[6.363s] 
+[6.364s] Call Stack (most recent call first):
+[6.364s]   /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+[6.365s]   /opt/ros/humble/install/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.365s]   /opt/ros/humble/install/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)
+[6.366s]   CMakeLists.txt:14 (find_package)
+[6.366s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.366s] [0m
+[7.155s] -- Configuring done (6.4s)
+[7.335s] -- Generating done (0.1s)
+[7.350s] -- Build files have been written to: /root/bridges/jetson_workspace/build/video_recorder_pkg
+[7.536s] [ 50%] Built target video_recorder_control_node
+[7.554s] [ 75%] [32mBuilding CXX object CMakeFiles/video_writer_node.dir/src/video_writer_node.cpp.o[0m
+[80.753s] [100%] [32m[1mLinking CXX executable video_writer_node[0m
+[84.851s] [100%] Built target video_writer_node
+[85.045s] Invoked command in '/root/bridges/jetson_workspace/build/video_recorder_pkg' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/video_recorder_pkg -- -j4 -l4
+[85.607s] Invoking command in '/root/bridges/jetson_workspace/build/video_recorder_pkg': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/video_recorder_pkg
+[85.765s] -- Install configuration: ""
+[85.770s] -- Execute custom install script
+[85.776s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/video_recorder_pkg/lib/video_recorder_pkg/video_writer_node
+[85.781s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/video_recorder_pkg/lib/video_recorder_pkg/video_recorder_control_node
+[85.783s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/ament_index/resource_index/package_run_dependencies/video_recorder_pkg
+[85.805s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/ament_index/resource_index/parent_prefix_path/video_recorder_pkg
+[85.825s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/ament_prefix_path.sh
+[85.845s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/ament_prefix_path.dsv
+[85.863s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/path.sh
+[85.882s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/path.dsv
+[85.902s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.bash
+[86.060s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.sh
+[86.095s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.zsh
+[86.114s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.dsv
+[86.132s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.dsv
+[86.151s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/ament_index/resource_index/packages/video_recorder_pkg
+[86.172s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/cmake/video_recorder_pkgConfig.cmake
+[86.192s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/cmake/video_recorder_pkgConfig-version.cmake
+[86.211s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.xml
+[86.263s] Invoked command in '/root/bridges/jetson_workspace/build/video_recorder_pkg' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/video_recorder_pkg

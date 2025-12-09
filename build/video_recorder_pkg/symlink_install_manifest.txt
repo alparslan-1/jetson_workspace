@@ -1,0 +1,17 @@
+/root/bridges/jetson_workspace/install/video_recorder_pkg/lib/video_recorder_pkg/video_writer_node
+/root/bridges/jetson_workspace/install/video_recorder_pkg/lib/video_recorder_pkg/video_recorder_control_node
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/ament_index/resource_index/package_run_dependencies/video_recorder_pkg
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/ament_index/resource_index/parent_prefix_path/video_recorder_pkg
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/ament_prefix_path.sh
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/ament_prefix_path.dsv
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/path.sh
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/path.dsv
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.bash
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.sh
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.zsh
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.dsv
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.dsv
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/ament_index/resource_index/packages/video_recorder_pkg
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/cmake/video_recorder_pkgConfig.cmake
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/cmake/video_recorder_pkgConfig-version.cmake
+/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.xml

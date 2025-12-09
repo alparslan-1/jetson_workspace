@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/bridges/jetson_workspace/build/video_recorder_pkg/video_writer_node" "/root/bridges/jetson_workspace/build/video_recorder_pkg/video_recorder_control_node" "TARGETS" "video_writer_node" "video_recorder_control_node" "DESTINATION" "lib/video_recorder_pkg")

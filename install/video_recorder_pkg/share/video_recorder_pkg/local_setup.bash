@@ -1,0 +1,1 @@
+/root/bridges/jetson_workspace/build/video_recorder_pkg/ament_cmake_environment_hooks/local_setup.bash
