@@ -137,13 +137,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: alt_acceptance_radius
-  {
-    out << "alt_acceptance_radius: ";
-    rosidl_generator_traits::value_to_yaml(msg.alt_acceptance_radius, out);
-    out << ", ";
-  }
-
   // member: cruising_speed
   {
     out << "cruising_speed: ";
@@ -327,16 +320,6 @@ inline void to_block_style_yaml(
     }
     out << "acceptance_radius: ";
     rosidl_generator_traits::value_to_yaml(msg.acceptance_radius, out);
-    out << "\n";
-  }
-
-  // member: alt_acceptance_radius
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "alt_acceptance_radius: ";
-    rosidl_generator_traits::value_to_yaml(msg.alt_acceptance_radius, out);
     out << "\n";
   }
 

@@ -1,5 +1,1 @@
-uint64 timestamp		# time since system start (microseconds)
-
-int32 val
-
-uint8[512] junk
+/root/bridges/jetson_workspace/src/px4_msgs/msg/OrbTestLarge.msg

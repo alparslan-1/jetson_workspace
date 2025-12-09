@@ -135,42 +135,42 @@ get_serialized_size(
   }
   // Member: svid
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
     size_t item_size = sizeof(ros_message.svid[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
   // Member: used
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
     size_t item_size = sizeof(ros_message.used[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
   // Member: elevation
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
     size_t item_size = sizeof(ros_message.elevation[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
   // Member: azimuth
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
     size_t item_size = sizeof(ros_message.azimuth[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
   // Member: snr
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
     size_t item_size = sizeof(ros_message.snr[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
   // Member: prn
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
     size_t item_size = sizeof(ros_message.prn[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
@@ -214,42 +214,42 @@ max_serialized_size_SatelliteInfo(
 
   // Member: svid
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
 
     current_alignment += array_size * sizeof(uint8_t);
   }
 
   // Member: used
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
 
     current_alignment += array_size * sizeof(uint8_t);
   }
 
   // Member: elevation
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
 
     current_alignment += array_size * sizeof(uint8_t);
   }
 
   // Member: azimuth
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
 
     current_alignment += array_size * sizeof(uint8_t);
   }
 
   // Member: snr
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
 
     current_alignment += array_size * sizeof(uint8_t);
   }
 
   // Member: prn
   {
-    size_t array_size = 40;
+    size_t array_size = 20;
 
     current_alignment += array_size * sizeof(uint8_t);
   }

@@ -85,32 +85,16 @@ private:
   ::px4_msgs::msg::ArmingCheckReply msg_;
 };
 
-class Init_ArmingCheckReply_mode_req_global_position_relaxed
-{
-public:
-  explicit Init_ArmingCheckReply_mode_req_global_position_relaxed(::px4_msgs::msg::ArmingCheckReply & msg)
-  : msg_(msg)
-  {}
-  Init_ArmingCheckReply_mode_req_mission mode_req_global_position_relaxed(::px4_msgs::msg::ArmingCheckReply::_mode_req_global_position_relaxed_type arg)
-  {
-    msg_.mode_req_global_position_relaxed = std::move(arg);
-    return Init_ArmingCheckReply_mode_req_mission(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::ArmingCheckReply msg_;
-};
-
 class Init_ArmingCheckReply_mode_req_global_position
 {
 public:
   explicit Init_ArmingCheckReply_mode_req_global_position(::px4_msgs::msg::ArmingCheckReply & msg)
   : msg_(msg)
   {}
-  Init_ArmingCheckReply_mode_req_global_position_relaxed mode_req_global_position(::px4_msgs::msg::ArmingCheckReply::_mode_req_global_position_type arg)
+  Init_ArmingCheckReply_mode_req_mission mode_req_global_position(::px4_msgs::msg::ArmingCheckReply::_mode_req_global_position_type arg)
   {
     msg_.mode_req_global_position = std::move(arg);
-    return Init_ArmingCheckReply_mode_req_global_position_relaxed(msg_);
+    return Init_ArmingCheckReply_mode_req_mission(msg_);
   }
 
 private:

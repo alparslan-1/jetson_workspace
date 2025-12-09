@@ -36,8 +36,6 @@ cdr_serialize(
   cdr << ros_message.timestamp;
   // Member: airspeed_timestamp_rel
   cdr << ros_message.airspeed_timestamp_rel;
-  // Member: airspeed_validated_timestamp_rel
-  cdr << ros_message.airspeed_validated_timestamp_rel;
   // Member: distance_sensor_timestamp_rel
   cdr << ros_message.distance_sensor_timestamp_rel;
   // Member: optical_flow_timestamp_rel
@@ -62,9 +60,6 @@ cdr_deserialize(
 
   // Member: airspeed_timestamp_rel
   cdr >> ros_message.airspeed_timestamp_rel;
-
-  // Member: airspeed_validated_timestamp_rel
-  cdr >> ros_message.airspeed_validated_timestamp_rel;
 
   // Member: distance_sensor_timestamp_rel
   cdr >> ros_message.distance_sensor_timestamp_rel;
@@ -106,12 +101,6 @@ get_serialized_size(
   // Member: airspeed_timestamp_rel
   {
     size_t item_size = sizeof(ros_message.airspeed_timestamp_rel);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: airspeed_validated_timestamp_rel
-  {
-    size_t item_size = sizeof(ros_message.airspeed_validated_timestamp_rel);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -176,14 +165,6 @@ max_serialized_size_Ekf2Timestamps(
   }
 
   // Member: airspeed_timestamp_rel
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint16_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
-  }
-
-  // Member: airspeed_validated_timestamp_rel
   {
     size_t array_size = 1;
 

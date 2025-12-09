@@ -1,4 +1,1 @@
-source;share/pkg_srv/environment/ament_prefix_path.sh
-source;share/pkg_srv/environment/library_path.sh
-source;share/pkg_srv/environment/path.sh
-source;share/pkg_srv/environment/pythonpath.sh
+/root/bridges/jetson_workspace/build/pkg_srv/ament_cmake_environment_hooks/local_setup.dsv

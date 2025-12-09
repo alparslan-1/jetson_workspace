@@ -154,11 +154,6 @@ static bool _ArmingCheckReply__cdr_serialize(
     cdr << (ros_message->mode_req_global_position ? true : false);
   }
 
-  // Field name: mode_req_global_position_relaxed
-  {
-    cdr << (ros_message->mode_req_global_position_relaxed ? true : false);
-  }
-
   // Field name: mode_req_mission
   {
     cdr << (ros_message->mode_req_mission ? true : false);
@@ -304,13 +299,6 @@ static bool _ArmingCheckReply__cdr_deserialize(
     ros_message->mode_req_global_position = tmp ? true : false;
   }
 
-  // Field name: mode_req_global_position_relaxed
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->mode_req_global_position_relaxed = tmp ? true : false;
-  }
-
   // Field name: mode_req_mission
   {
     uint8_t tmp;
@@ -453,12 +441,6 @@ size_t get_serialized_size_px4_msgs__msg__ArmingCheckReply(
   // field.name mode_req_global_position
   {
     size_t item_size = sizeof(ros_message->mode_req_global_position);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name mode_req_global_position_relaxed
-  {
-    size_t item_size = sizeof(ros_message->mode_req_global_position_relaxed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -614,12 +596,6 @@ size_t max_serialized_size_px4_msgs__msg__ArmingCheckReply(
     current_alignment += array_size * sizeof(uint8_t);
   }
   // member: mode_req_global_position
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: mode_req_global_position_relaxed
   {
     size_t array_size = 1;
 

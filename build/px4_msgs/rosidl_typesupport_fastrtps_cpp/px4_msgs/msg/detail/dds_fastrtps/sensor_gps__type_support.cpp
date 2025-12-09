@@ -70,8 +70,6 @@ cdr_serialize(
   cdr << ros_message.jamming_indicator;
   // Member: spoofing_state
   cdr << ros_message.spoofing_state;
-  // Member: authentication_state
-  cdr << ros_message.authentication_state;
   // Member: vel_m_s
   cdr << ros_message.vel_m_s;
   // Member: vel_n_m_s
@@ -90,8 +88,6 @@ cdr_serialize(
   cdr << ros_message.time_utc_usec;
   // Member: satellites_used
   cdr << ros_message.satellites_used;
-  // Member: system_error
-  cdr << ros_message.system_error;
   // Member: heading
   cdr << ros_message.heading;
   // Member: heading_offset
@@ -172,9 +168,6 @@ cdr_deserialize(
   // Member: spoofing_state
   cdr >> ros_message.spoofing_state;
 
-  // Member: authentication_state
-  cdr >> ros_message.authentication_state;
-
   // Member: vel_m_s
   cdr >> ros_message.vel_m_s;
 
@@ -205,9 +198,6 @@ cdr_deserialize(
 
   // Member: satellites_used
   cdr >> ros_message.satellites_used;
-
-  // Member: system_error
-  cdr >> ros_message.system_error;
 
   // Member: heading
   cdr >> ros_message.heading;
@@ -364,12 +354,6 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: authentication_state
-  {
-    size_t item_size = sizeof(ros_message.authentication_state);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // Member: vel_m_s
   {
     size_t item_size = sizeof(ros_message.vel_m_s);
@@ -421,12 +405,6 @@ get_serialized_size(
   // Member: satellites_used
   {
     size_t item_size = sizeof(ros_message.satellites_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: system_error
-  {
-    size_t item_size = sizeof(ros_message.system_error);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -643,13 +621,6 @@ max_serialized_size_SensorGps(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  // Member: authentication_state
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
   // Member: vel_m_s
   {
     size_t array_size = 1;
@@ -718,14 +689,6 @@ max_serialized_size_SensorGps(
     size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: system_error
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
   // Member: heading

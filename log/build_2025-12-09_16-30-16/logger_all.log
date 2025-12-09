@@ -1,0 +1,722 @@
+[11.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[11.111s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff98bbb9d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff98bbb9d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9889f9d0>)
+[11.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.600s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/bridges/jetson_workspace'
+[11.601s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.601s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.678s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.678s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.678s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.679s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.679s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.679s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.680s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.680s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.681s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.681s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['ignore', 'ignore_ament_install']
+[11.681s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'ignore'
+[11.682s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'ignore_ament_install'
+[11.682s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['colcon_pkg']
+[11.682s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'colcon_pkg'
+[11.682s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['colcon_meta']
+[11.683s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'colcon_meta'
+[11.683s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['ros']
+[11.683s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'ros'
+[11.683s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['cmake', 'python']
+[11.684s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'cmake'
+[11.684s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'python'
+[11.684s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['python_setup_py']
+[11.684s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'python_setup_py'
+[11.685s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['ignore', 'ignore_ament_install']
+[11.685s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'ignore'
+[11.685s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'ignore_ament_install'
+[11.686s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['colcon_pkg']
+[11.686s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'colcon_pkg'
+[11.686s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['colcon_meta']
+[11.686s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'colcon_meta'
+[11.686s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['ros']
+[11.687s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'ros'
+[11.687s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['cmake', 'python']
+[11.687s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'cmake'
+[11.687s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'python'
+[11.688s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['python_setup_py']
+[11.688s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'python_setup_py'
+[11.688s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['ignore', 'ignore_ament_install']
+[11.689s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'ignore'
+[11.689s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'ignore_ament_install'
+[11.689s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['colcon_pkg']
+[11.689s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'colcon_pkg'
+[11.690s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['colcon_meta']
+[11.690s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'colcon_meta'
+[11.690s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['ros']
+[11.690s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'ros'
+[11.691s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['cmake', 'python']
+[11.691s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'cmake'
+[11.691s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'python'
+[11.691s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['python_setup_py']
+[11.691s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'python_setup_py'
+[11.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.695s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extensions ['ignore', 'ignore_ament_install']
+[11.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extension 'ignore'
+[11.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extension 'ignore_ament_install'
+[11.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extensions ['colcon_pkg']
+[11.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extension 'colcon_pkg'
+[11.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extensions ['colcon_meta']
+[11.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extension 'colcon_meta'
+[11.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extensions ['ros']
+[11.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extension 'ros'
+[11.711s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atmaca_flight_control' with type 'ros.ament_cmake' and name 'atmaca_flight_control'
+[11.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['ignore', 'ignore_ament_install']
+[11.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'ignore'
+[11.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'ignore_ament_install'
+[11.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['colcon_pkg']
+[11.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'colcon_pkg'
+[11.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['colcon_meta']
+[11.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'colcon_meta'
+[11.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['ros']
+[11.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'ros'
+[11.719s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atmaca_vision' with type 'ros.ament_cmake' and name 'atmaca_vision'
+[11.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['ignore', 'ignore_ament_install']
+[11.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'ignore'
+[11.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'ignore_ament_install'
+[11.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['colcon_pkg']
+[11.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'colcon_pkg'
+[11.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['colcon_meta']
+[11.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'colcon_meta'
+[11.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['ros']
+[11.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'ros'
+[11.725s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pars_msgs' with type 'ros.ament_cmake' and name 'pars_msgs'
+[11.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extensions ['ignore', 'ignore_ament_install']
+[11.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extension 'ignore'
+[11.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extension 'ignore_ament_install'
+[11.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extensions ['colcon_pkg']
+[11.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extension 'colcon_pkg'
+[11.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extensions ['colcon_meta']
+[11.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extension 'colcon_meta'
+[11.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extensions ['ros']
+[11.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extension 'ros'
+[11.730s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_srv' with type 'ros.ament_cmake' and name 'pkg_srv'
+[11.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[11.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[11.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[11.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[11.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[11.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[11.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[11.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[11.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[11.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[11.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[11.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[11.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[11.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[11.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[11.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[11.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[11.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['cmake', 'python']
+[11.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'cmake'
+[11.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'python'
+[11.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['python_setup_py']
+[11.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'python_setup_py'
+[11.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['ignore', 'ignore_ament_install']
+[11.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'ignore'
+[11.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'ignore_ament_install'
+[11.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['colcon_pkg']
+[11.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'colcon_pkg'
+[11.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['colcon_meta']
+[11.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'colcon_meta'
+[11.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['ros']
+[11.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'ros'
+[11.746s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qr_detector' with type 'ros.ament_cmake' and name 'qr_detector'
+[11.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extensions ['ignore', 'ignore_ament_install']
+[11.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extension 'ignore'
+[11.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extension 'ignore_ament_install'
+[11.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extensions ['colcon_pkg']
+[11.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extension 'colcon_pkg'
+[11.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extensions ['colcon_meta']
+[11.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extension 'colcon_meta'
+[11.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extensions ['ros']
+[11.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extension 'ros'
+[11.753s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siha_camera_pkg' with type 'ros.ament_cmake' and name 'siha_camera_pkg'
+[11.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extensions ['ignore', 'ignore_ament_install']
+[11.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extension 'ignore'
+[11.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extension 'ignore_ament_install'
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extensions ['colcon_pkg']
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extension 'colcon_pkg'
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extensions ['colcon_meta']
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extension 'colcon_meta'
+[11.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extensions ['ros']
+[11.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extension 'ros'
+[11.759s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_recorder_pkg' with type 'ros.ament_cmake' and name 'video_recorder_pkg'
+[11.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[11.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[11.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[11.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[11.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[12.151s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_args' from command line to 'None'
+[12.151s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_target' from command line to 'None'
+[12.151s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.151s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[12.151s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[12.152s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[12.152s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[12.152s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[12.152s] Level 5:colcon.colcon_core.verb:set package 'pars_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.152s] DEBUG:colcon.colcon_core.verb:Building package 'pars_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/pars_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/pars_msgs', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/pars_msgs', 'symlink_install': True, 'test_result_base': None}
+[12.224s] Level 5:colcon.colcon_core.verb:set package 'pkg_srv' build argument 'cmake_args' from command line to 'None'
+[12.225s] Level 5:colcon.colcon_core.verb:set package 'pkg_srv' build argument 'cmake_target' from command line to 'None'
+[12.225s] Level 5:colcon.colcon_core.verb:set package 'pkg_srv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.225s] Level 5:colcon.colcon_core.verb:set package 'pkg_srv' build argument 'cmake_clean_cache' from command line to 'False'
+[12.225s] Level 5:colcon.colcon_core.verb:set package 'pkg_srv' build argument 'cmake_clean_first' from command line to 'False'
+[12.225s] Level 5:colcon.colcon_core.verb:set package 'pkg_srv' build argument 'cmake_force_configure' from command line to 'False'
+[12.225s] Level 5:colcon.colcon_core.verb:set package 'pkg_srv' build argument 'ament_cmake_args' from command line to 'None'
+[12.226s] Level 5:colcon.colcon_core.verb:set package 'pkg_srv' build argument 'catkin_cmake_args' from command line to 'None'
+[12.226s] Level 5:colcon.colcon_core.verb:set package 'pkg_srv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.226s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_srv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/pkg_srv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/pkg_srv', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/pkg_srv', 'symlink_install': True, 'test_result_base': None}
+[12.298s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[12.298s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[12.298s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.299s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[12.299s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[12.299s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[12.299s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[12.299s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[12.299s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.299s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/px4_msgs', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/px4_msgs', 'symlink_install': True, 'test_result_base': None}
+[12.373s] Level 5:colcon.colcon_core.verb:set package 'video_recorder_pkg' build argument 'cmake_args' from command line to 'None'
+[12.374s] Level 5:colcon.colcon_core.verb:set package 'video_recorder_pkg' build argument 'cmake_target' from command line to 'None'
+[12.374s] Level 5:colcon.colcon_core.verb:set package 'video_recorder_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.374s] Level 5:colcon.colcon_core.verb:set package 'video_recorder_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[12.374s] Level 5:colcon.colcon_core.verb:set package 'video_recorder_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[12.374s] Level 5:colcon.colcon_core.verb:set package 'video_recorder_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[12.374s] Level 5:colcon.colcon_core.verb:set package 'video_recorder_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[12.374s] Level 5:colcon.colcon_core.verb:set package 'video_recorder_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[12.375s] Level 5:colcon.colcon_core.verb:set package 'video_recorder_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.375s] DEBUG:colcon.colcon_core.verb:Building package 'video_recorder_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/video_recorder_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/video_recorder_pkg', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/video_recorder_pkg', 'symlink_install': True, 'test_result_base': None}
+[12.448s] Level 5:colcon.colcon_core.verb:set package 'atmaca_flight_control' build argument 'cmake_args' from command line to 'None'
+[12.448s] Level 5:colcon.colcon_core.verb:set package 'atmaca_flight_control' build argument 'cmake_target' from command line to 'None'
+[12.449s] Level 5:colcon.colcon_core.verb:set package 'atmaca_flight_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.449s] Level 5:colcon.colcon_core.verb:set package 'atmaca_flight_control' build argument 'cmake_clean_cache' from command line to 'False'
+[12.449s] Level 5:colcon.colcon_core.verb:set package 'atmaca_flight_control' build argument 'cmake_clean_first' from command line to 'False'
+[12.449s] Level 5:colcon.colcon_core.verb:set package 'atmaca_flight_control' build argument 'cmake_force_configure' from command line to 'False'
+[12.449s] Level 5:colcon.colcon_core.verb:set package 'atmaca_flight_control' build argument 'ament_cmake_args' from command line to 'None'
+[12.449s] Level 5:colcon.colcon_core.verb:set package 'atmaca_flight_control' build argument 'catkin_cmake_args' from command line to 'None'
+[12.450s] Level 5:colcon.colcon_core.verb:set package 'atmaca_flight_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.450s] DEBUG:colcon.colcon_core.verb:Building package 'atmaca_flight_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/atmaca_flight_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/atmaca_flight_control', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/atmaca_flight_control', 'symlink_install': True, 'test_result_base': None}
+[12.523s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_args' from command line to 'None'
+[12.523s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_target' from command line to 'None'
+[12.523s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.523s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[12.523s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_clean_first' from command line to 'False'
+[12.524s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'cmake_force_configure' from command line to 'False'
+[12.524s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'ament_cmake_args' from command line to 'None'
+[12.524s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[12.524s] Level 5:colcon.colcon_core.verb:set package 'atmaca_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.524s] DEBUG:colcon.colcon_core.verb:Building package 'atmaca_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/atmaca_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/atmaca_vision', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/atmaca_vision', 'symlink_install': True, 'test_result_base': None}
+[12.597s] Level 5:colcon.colcon_core.verb:set package 'qr_detector' build argument 'cmake_args' from command line to 'None'
+[12.597s] Level 5:colcon.colcon_core.verb:set package 'qr_detector' build argument 'cmake_target' from command line to 'None'
+[12.597s] Level 5:colcon.colcon_core.verb:set package 'qr_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.597s] Level 5:colcon.colcon_core.verb:set package 'qr_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[12.598s] Level 5:colcon.colcon_core.verb:set package 'qr_detector' build argument 'cmake_clean_first' from command line to 'False'
+[12.598s] Level 5:colcon.colcon_core.verb:set package 'qr_detector' build argument 'cmake_force_configure' from command line to 'False'
+[12.598s] Level 5:colcon.colcon_core.verb:set package 'qr_detector' build argument 'ament_cmake_args' from command line to 'None'
+[12.598s] Level 5:colcon.colcon_core.verb:set package 'qr_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[12.598s] Level 5:colcon.colcon_core.verb:set package 'qr_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.598s] DEBUG:colcon.colcon_core.verb:Building package 'qr_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/qr_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/qr_detector', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/qr_detector', 'symlink_install': True, 'test_result_base': None}
+[12.672s] Level 5:colcon.colcon_core.verb:set package 'siha_camera_pkg' build argument 'cmake_args' from command line to 'None'
+[12.672s] Level 5:colcon.colcon_core.verb:set package 'siha_camera_pkg' build argument 'cmake_target' from command line to 'None'
+[12.672s] Level 5:colcon.colcon_core.verb:set package 'siha_camera_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.672s] Level 5:colcon.colcon_core.verb:set package 'siha_camera_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[12.672s] Level 5:colcon.colcon_core.verb:set package 'siha_camera_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[12.673s] Level 5:colcon.colcon_core.verb:set package 'siha_camera_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[12.673s] Level 5:colcon.colcon_core.verb:set package 'siha_camera_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[12.673s] Level 5:colcon.colcon_core.verb:set package 'siha_camera_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[12.673s] Level 5:colcon.colcon_core.verb:set package 'siha_camera_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.673s] DEBUG:colcon.colcon_core.verb:Building package 'siha_camera_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/siha_camera_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/siha_camera_pkg', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/siha_camera_pkg', 'symlink_install': True, 'test_result_base': None}
+[12.744s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[12.820s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[12.822s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/px4_msgs' with build type 'ament_cmake'
+[12.823s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/px4_msgs'
+[12.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[12.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.913s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.994s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/bridges/jetson_workspace/install/video_recorder_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[12.994s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/bridges/jetson_workspace/install/siha_camera_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[12.994s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/bridges/jetson_workspace/install/qr_detector' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[12.995s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/bridges/jetson_workspace/install/px4_ros_com' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[12.995s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/bridges/jetson_workspace/install/px4_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[12.995s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/bridges/jetson_workspace/install/pkg_srv' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[12.995s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/bridges/jetson_workspace/install/atmaca_vision' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[12.996s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/bridges/jetson_workspace/install/pars_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[12.996s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/bridges/jetson_workspace/install/video_recorder_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[12.997s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/bridges/jetson_workspace/install/siha_camera_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[12.997s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/bridges/jetson_workspace/install/qr_detector' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[12.997s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/bridges/jetson_workspace/install/px4_ros_com' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[12.997s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/bridges/jetson_workspace/install/px4_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[12.997s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/bridges/jetson_workspace/install/pkg_srv' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[12.998s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/bridges/jetson_workspace/install/atmaca_vision' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[12.998s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/bridges/jetson_workspace/install/pars_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[13.211s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/pars_msgs' with build type 'ament_cmake'
+[13.215s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/pars_msgs'
+[13.303s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.589s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/pkg_srv' with build type 'ament_cmake'
+[13.592s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/pkg_srv'
+[13.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.970s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/video_recorder_pkg' with build type 'ament_cmake'
+[13.975s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/video_recorder_pkg'
+[14.062s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/px4_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/px4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/px4_msgs
+[14.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/pars_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/pars_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/pars_msgs
+[14.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/pkg_srv': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/pkg_srv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/pkg_srv
+[14.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/video_recorder_pkg': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/video_recorder_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/video_recorder_pkg
+[30.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/video_recorder_pkg' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/video_recorder_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/video_recorder_pkg
+[30.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/video_recorder_pkg': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/video_recorder_pkg -- -j4 -l4
+[44.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/pars_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/pars_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/pars_msgs
+[44.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/pars_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pars_msgs -- -j4 -l4
+[52.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/pkg_srv' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/pkg_srv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/pkg_srv
+[52.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/pkg_srv': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pkg_srv -- -j4 -l4
+[69.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/px4_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/px4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/px4_msgs
+[69.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/px4_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/px4_msgs -- -j4 -l4
+[79.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/pars_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pars_msgs -- -j4 -l4
+[81.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/pars_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pars_msgs
+[87.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pars_msgs)
+[87.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/pars_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pars_msgs
+[87.628s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs' for CMake module files
+[87.645s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs' for CMake config files
+[87.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'cmake_prefix_path')
+[87.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.ps1'
+[87.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.dsv'
+[87.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.sh'
+[87.811s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib'
+[87.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'ld_library_path_lib')
+[87.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.ps1'
+[87.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.dsv'
+[87.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.sh'
+[87.925s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/bin'
+[87.925s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib/pkgconfig/pars_msgs.pc'
+[87.931s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages'
+[87.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'pythonpath')
+[88.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.ps1'
+[88.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.dsv'
+[88.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.sh'
+[88.095s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/bin'
+[88.440s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.ps1'
+[88.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.dsv'
+[88.451s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.sh'
+[88.456s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.bash'
+[88.460s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.zsh'
+[88.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/pars_msgs/share/colcon-core/packages/pars_msgs)
+[91.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pars_msgs)
+[91.603s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs' for CMake module files
+[91.612s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs' for CMake config files
+[91.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'cmake_prefix_path')
+[91.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.ps1'
+[91.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.dsv'
+[91.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/cmake_prefix_path.sh'
+[91.784s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib'
+[91.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'ld_library_path_lib')
+[91.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.ps1'
+[91.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.dsv'
+[91.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/ld_library_path_lib.sh'
+[91.883s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/bin'
+[91.883s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib/pkgconfig/pars_msgs.pc'
+[91.885s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages'
+[91.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('pars_msgs', 'pythonpath')
+[91.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.ps1'
+[92.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.dsv'
+[92.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/hook/pythonpath.sh'
+[92.007s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pars_msgs/bin'
+[92.312s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.ps1'
+[92.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.dsv'
+[92.342s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.sh'
+[92.349s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.bash'
+[92.354s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.zsh'
+[92.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/pars_msgs/share/colcon-core/packages/pars_msgs)
+[92.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/atmaca_vision' with build type 'ament_cmake'
+[92.395s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/atmaca_vision'
+[92.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[92.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[93.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/atmaca_vision': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake /root/bridges/jetson_workspace/src/atmaca_vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/atmaca_vision
+[124.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/atmaca_vision' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake /root/bridges/jetson_workspace/src/atmaca_vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/atmaca_vision
+[124.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/atmaca_vision': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/atmaca_vision -- -j4 -l4
+[140.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/video_recorder_pkg' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/video_recorder_pkg -- -j4 -l4
+[141.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/video_recorder_pkg': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/video_recorder_pkg
+[142.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video_recorder_pkg)
+[142.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/video_recorder_pkg' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/video_recorder_pkg
+[142.372s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg' for CMake module files
+[142.392s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg' for CMake config files
+[142.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_recorder_pkg', 'cmake_prefix_path')
+[142.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/hook/cmake_prefix_path.ps1'
+[142.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/hook/cmake_prefix_path.dsv'
+[142.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/hook/cmake_prefix_path.sh'
+[142.505s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg/lib'
+[142.506s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg/bin'
+[142.506s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg/lib/pkgconfig/video_recorder_pkg.pc'
+[142.508s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg/lib/python3.8/site-packages'
+[142.509s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg/bin'
+[142.597s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.ps1'
+[142.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.dsv'
+[142.603s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.sh'
+[142.606s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.bash'
+[142.607s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.zsh'
+[142.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/video_recorder_pkg/share/colcon-core/packages/video_recorder_pkg)
+[143.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video_recorder_pkg)
+[143.338s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg' for CMake module files
+[143.350s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg' for CMake config files
+[143.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_recorder_pkg', 'cmake_prefix_path')
+[143.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/hook/cmake_prefix_path.ps1'
+[143.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/hook/cmake_prefix_path.dsv'
+[143.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/hook/cmake_prefix_path.sh'
+[143.458s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg/lib'
+[143.459s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg/bin'
+[143.460s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg/lib/pkgconfig/video_recorder_pkg.pc'
+[143.462s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg/lib/python3.8/site-packages'
+[143.463s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/video_recorder_pkg/bin'
+[143.630s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.ps1'
+[143.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.dsv'
+[143.637s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.sh'
+[143.640s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.bash'
+[143.642s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.zsh'
+[143.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/video_recorder_pkg/share/colcon-core/packages/video_recorder_pkg)
+[154.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/pkg_srv' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pkg_srv -- -j4 -l4
+[155.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/pkg_srv': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pkg_srv
+[157.610s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_srv)
+[157.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/pkg_srv' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pkg_srv
+[157.718s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv' for CMake module files
+[157.724s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv' for CMake config files
+[157.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_srv', 'cmake_prefix_path')
+[157.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/cmake_prefix_path.ps1'
+[157.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/cmake_prefix_path.dsv'
+[157.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/cmake_prefix_path.sh'
+[157.824s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv/lib'
+[157.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_srv', 'ld_library_path_lib')
+[157.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/ld_library_path_lib.ps1'
+[157.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/ld_library_path_lib.dsv'
+[157.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/ld_library_path_lib.sh'
+[157.917s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv/bin'
+[157.917s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv/lib/pkgconfig/pkg_srv.pc'
+[157.919s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages'
+[157.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_srv', 'pythonpath')
+[158.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/pythonpath.ps1'
+[158.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/pythonpath.dsv'
+[158.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/pythonpath.sh'
+[158.010s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv/bin'
+[158.112s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.ps1'
+[158.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.dsv'
+[158.120s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.sh'
+[158.123s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.bash'
+[158.125s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.zsh'
+[158.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/pkg_srv/share/colcon-core/packages/pkg_srv)
+[159.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_srv)
+[159.095s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv' for CMake module files
+[159.099s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv' for CMake config files
+[159.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_srv', 'cmake_prefix_path')
+[159.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/cmake_prefix_path.ps1'
+[159.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/cmake_prefix_path.dsv'
+[159.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/cmake_prefix_path.sh'
+[159.408s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv/lib'
+[159.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_srv', 'ld_library_path_lib')
+[159.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/ld_library_path_lib.ps1'
+[159.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/ld_library_path_lib.dsv'
+[159.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/ld_library_path_lib.sh'
+[159.514s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv/bin'
+[159.515s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv/lib/pkgconfig/pkg_srv.pc'
+[159.517s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages'
+[159.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_srv', 'pythonpath')
+[159.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/pythonpath.ps1'
+[159.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/pythonpath.dsv'
+[159.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/hook/pythonpath.sh'
+[159.608s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/pkg_srv/bin'
+[159.697s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.ps1'
+[159.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.dsv'
+[159.706s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.sh'
+[159.709s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.bash'
+[159.711s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.zsh'
+[159.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/pkg_srv/share/colcon-core/packages/pkg_srv)
+[281.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/atmaca_vision' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/atmaca_vision -- -j4 -l4
+[282.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/atmaca_vision': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/atmaca_vision
+[282.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atmaca_vision)
+[282.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/atmaca_vision' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/atmaca_vision
+[282.875s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision' for CMake module files
+[282.879s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision' for CMake config files
+[282.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('atmaca_vision', 'cmake_prefix_path')
+[282.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.ps1'
+[282.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.dsv'
+[282.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.sh'
+[282.971s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib'
+[282.971s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/bin'
+[282.972s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib/pkgconfig/atmaca_vision.pc'
+[282.974s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib/python3.8/site-packages'
+[282.974s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/bin'
+[283.054s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.ps1'
+[283.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.dsv'
+[283.059s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.sh'
+[283.061s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.bash'
+[283.063s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.zsh'
+[283.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/atmaca_vision/share/colcon-core/packages/atmaca_vision)
+[283.692s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atmaca_vision)
+[283.775s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision' for CMake module files
+[283.779s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision' for CMake config files
+[283.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('atmaca_vision', 'cmake_prefix_path')
+[283.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.ps1'
+[283.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.dsv'
+[283.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/hook/cmake_prefix_path.sh'
+[283.873s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib'
+[283.874s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/bin'
+[283.874s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib/pkgconfig/atmaca_vision.pc'
+[283.876s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/lib/python3.8/site-packages'
+[283.877s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_vision/bin'
+[283.958s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.ps1'
+[283.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.dsv'
+[283.964s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.sh'
+[283.967s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.bash'
+[283.969s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_vision/share/atmaca_vision/package.zsh'
+[283.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/atmaca_vision/share/colcon-core/packages/atmaca_vision)
+[3726.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/px4_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/px4_msgs -- -j4 -l4
+[3756.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/px4_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/px4_msgs
+[3829.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[3829.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/px4_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/px4_msgs
+[3829.569s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs' for CMake module files
+[3829.574s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs' for CMake config files
+[3829.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[3829.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[3829.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[3829.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[3829.772s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib'
+[3829.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[3829.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[3829.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[3829.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[3829.859s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/bin'
+[3829.860s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[3829.861s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages'
+[3829.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[3830.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[3830.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[3830.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[3830.082s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/bin'
+[3830.170s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.ps1'
+[3830.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.dsv'
+[3830.179s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.sh'
+[3830.182s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.bash'
+[3830.184s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.zsh'
+[3830.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[3859.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[3859.423s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs' for CMake module files
+[3859.429s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs' for CMake config files
+[3859.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[3859.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[3859.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[3859.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[3859.614s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib'
+[3859.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[3859.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[3859.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[3859.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[3859.701s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/bin'
+[3859.701s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[3859.703s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages'
+[3859.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[3859.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[3859.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[3859.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[3859.791s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/px4_msgs/bin'
+[3859.874s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.ps1'
+[3859.878s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.dsv'
+[3859.882s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.sh'
+[3859.885s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.bash'
+[3859.888s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/package.zsh'
+[3859.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[3859.894s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/atmaca_flight_control' with build type 'ament_cmake'
+[3859.895s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/atmaca_flight_control'
+[3860.100s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3860.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3860.424s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/qr_detector' with build type 'ament_cmake'
+[3860.428s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/qr_detector'
+[3860.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3860.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3860.840s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/bridges/jetson_workspace/src/siha_camera_pkg' with build type 'ament_cmake'
+[3860.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/siha_camera_pkg'
+[3860.953s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3860.954s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3861.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/atmaca_flight_control': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake /root/bridges/jetson_workspace/src/atmaca_flight_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/atmaca_flight_control
+[3861.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/qr_detector': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake /root/bridges/jetson_workspace/src/qr_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/qr_detector
+[3861.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/siha_camera_pkg': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake /root/bridges/jetson_workspace/src/siha_camera_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/siha_camera_pkg
+[3881.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/qr_detector' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake /root/bridges/jetson_workspace/src/qr_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/qr_detector
+[3881.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/qr_detector': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/qr_detector -- -j4 -l4
+[3881.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/siha_camera_pkg' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake /root/bridges/jetson_workspace/src/siha_camera_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/siha_camera_pkg
+[3881.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/siha_camera_pkg': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/siha_camera_pkg -- -j4 -l4
+[3883.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/atmaca_flight_control' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake /root/bridges/jetson_workspace/src/atmaca_flight_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/atmaca_flight_control
+[3883.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/atmaca_flight_control': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/atmaca_flight_control -- -j4 -l4
+[3968.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/qr_detector' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/qr_detector -- -j4 -l4
+[3968.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/qr_detector': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/qr_detector
+[3969.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qr_detector)
+[3969.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/qr_detector' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/qr_detector
+[3969.482s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector' for CMake module files
+[3969.486s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector' for CMake config files
+[3969.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_detector', 'cmake_prefix_path')
+[3969.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/hook/cmake_prefix_path.ps1'
+[3969.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/hook/cmake_prefix_path.dsv'
+[3969.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/hook/cmake_prefix_path.sh'
+[3969.592s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector/lib'
+[3969.592s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector/bin'
+[3969.593s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector/lib/pkgconfig/qr_detector.pc'
+[3969.595s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector/lib/python3.8/site-packages'
+[3969.596s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector/bin'
+[3969.686s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.ps1'
+[3969.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.dsv'
+[3969.693s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.sh'
+[3969.696s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.bash'
+[3969.698s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.zsh'
+[3969.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/qr_detector/share/colcon-core/packages/qr_detector)
+[3970.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qr_detector)
+[3970.407s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector' for CMake module files
+[3970.412s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector' for CMake config files
+[3970.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_detector', 'cmake_prefix_path')
+[3970.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/hook/cmake_prefix_path.ps1'
+[3970.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/hook/cmake_prefix_path.dsv'
+[3970.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/hook/cmake_prefix_path.sh'
+[3970.520s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector/lib'
+[3970.521s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector/bin'
+[3970.521s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector/lib/pkgconfig/qr_detector.pc'
+[3970.524s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector/lib/python3.8/site-packages'
+[3970.525s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/qr_detector/bin'
+[3970.613s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.ps1'
+[3970.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.dsv'
+[3970.621s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.sh'
+[3970.625s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.bash'
+[3970.628s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/qr_detector/share/qr_detector/package.zsh'
+[3970.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/qr_detector/share/colcon-core/packages/qr_detector)
+[4001.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/siha_camera_pkg' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/siha_camera_pkg -- -j4 -l4
+[4001.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/siha_camera_pkg': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/siha_camera_pkg
+[4002.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(siha_camera_pkg)
+[4002.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/siha_camera_pkg' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/siha_camera_pkg
+[4002.221s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg' for CMake module files
+[4002.228s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg' for CMake config files
+[4002.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('siha_camera_pkg', 'cmake_prefix_path')
+[4002.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/hook/cmake_prefix_path.ps1'
+[4002.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/hook/cmake_prefix_path.dsv'
+[4002.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/hook/cmake_prefix_path.sh'
+[4002.332s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg/lib'
+[4002.333s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg/bin'
+[4002.333s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg/lib/pkgconfig/siha_camera_pkg.pc'
+[4002.335s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg/lib/python3.8/site-packages'
+[4002.336s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg/bin'
+[4002.418s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.ps1'
+[4002.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.dsv'
+[4002.425s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.sh'
+[4002.427s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.bash'
+[4002.430s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.zsh'
+[4002.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/siha_camera_pkg/share/colcon-core/packages/siha_camera_pkg)
+[4002.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(siha_camera_pkg)
+[4002.911s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg' for CMake module files
+[4002.914s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg' for CMake config files
+[4002.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('siha_camera_pkg', 'cmake_prefix_path')
+[4003.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/hook/cmake_prefix_path.ps1'
+[4003.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/hook/cmake_prefix_path.dsv'
+[4003.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/hook/cmake_prefix_path.sh'
+[4003.012s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg/lib'
+[4003.013s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg/bin'
+[4003.013s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg/lib/pkgconfig/siha_camera_pkg.pc'
+[4003.015s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg/lib/python3.8/site-packages'
+[4003.016s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/siha_camera_pkg/bin'
+[4003.218s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.ps1'
+[4003.226s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.dsv'
+[4003.234s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.sh'
+[4003.237s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.bash'
+[4003.240s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/siha_camera_pkg/share/siha_camera_pkg/package.zsh'
+[4003.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/siha_camera_pkg/share/colcon-core/packages/siha_camera_pkg)
+[4123.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/atmaca_flight_control' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/atmaca_flight_control -- -j4 -l4
+[4124.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/atmaca_flight_control': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/atmaca_flight_control
+[4124.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atmaca_flight_control)
+[4124.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/atmaca_flight_control' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/px4_ros_com/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/px4_ros_com/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/atmaca_flight_control
+[4124.849s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control' for CMake module files
+[4124.853s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control' for CMake config files
+[4124.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('atmaca_flight_control', 'cmake_prefix_path')
+[4124.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/hook/cmake_prefix_path.ps1'
+[4124.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/hook/cmake_prefix_path.dsv'
+[4124.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/hook/cmake_prefix_path.sh'
+[4124.944s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control/lib'
+[4124.945s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control/bin'
+[4124.945s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control/lib/pkgconfig/atmaca_flight_control.pc'
+[4124.947s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control/lib/python3.8/site-packages'
+[4124.947s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control/bin'
+[4125.027s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.ps1'
+[4125.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.dsv'
+[4125.032s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.sh'
+[4125.035s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.bash'
+[4125.037s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.zsh'
+[4125.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/atmaca_flight_control/share/colcon-core/packages/atmaca_flight_control)
+[4125.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atmaca_flight_control)
+[4125.729s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control' for CMake module files
+[4125.733s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control' for CMake config files
+[4125.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('atmaca_flight_control', 'cmake_prefix_path')
+[4125.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/hook/cmake_prefix_path.ps1'
+[4125.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/hook/cmake_prefix_path.dsv'
+[4125.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/hook/cmake_prefix_path.sh'
+[4125.824s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control/lib'
+[4125.825s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control/bin'
+[4125.825s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control/lib/pkgconfig/atmaca_flight_control.pc'
+[4125.826s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control/lib/python3.8/site-packages'
+[4125.827s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/atmaca_flight_control/bin'
+[4125.905s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.ps1'
+[4125.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.dsv'
+[4125.911s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.sh'
+[4125.914s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.bash'
+[4125.916s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.zsh'
+[4125.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/atmaca_flight_control/share/colcon-core/packages/atmaca_flight_control)
+[4125.920s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4125.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4125.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4125.923s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4126.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4126.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4126.046s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4126.046s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4126.047s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[4126.048s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4126.130s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.ps1'
+[4126.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/bridges/jetson_workspace/install/_local_setup_util_ps1.py'
+[4126.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.ps1'
+[4126.390s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.sh'
+[4126.395s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/bridges/jetson_workspace/install/_local_setup_util_sh.py'
+[4126.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.sh'
+[4126.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.bash'
+[4126.490s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.bash'
+[4126.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.zsh'
+[4126.573s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.zsh'

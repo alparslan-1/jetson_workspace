@@ -7,7 +7,6 @@ module px4_msgs {
   module msg {
     typedef uint8 uint8__25[25];
     module RegisterExtComponentReply_Constants {
-      const uint32 MESSAGE_VERSION = 1;
       const uint8 ORB_QUEUE_LENGTH = 2;
     };
     struct RegisterExtComponentReply {
@@ -38,10 +37,6 @@ module px4_msgs {
       @verbatim (language="comment", text=
         "assigned mode executor ID (-1 if invalid)")
       int8 mode_executor_id;
-
-      @verbatim (language="comment", text=
-        "mode cannot be selected by the user")
-      boolean not_user_selectable;
     };
   };
 };

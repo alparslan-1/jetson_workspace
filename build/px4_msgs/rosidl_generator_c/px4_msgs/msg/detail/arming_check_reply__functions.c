@@ -43,7 +43,6 @@ px4_msgs__msg__ArmingCheckReply__init(px4_msgs__msg__ArmingCheckReply * msg)
   // mode_req_local_position
   // mode_req_local_position_relaxed
   // mode_req_global_position
-  // mode_req_global_position_relaxed
   // mode_req_mission
   // mode_req_home_position
   // mode_req_prevent_arming
@@ -76,7 +75,6 @@ px4_msgs__msg__ArmingCheckReply__fini(px4_msgs__msg__ArmingCheckReply * msg)
   // mode_req_local_position
   // mode_req_local_position_relaxed
   // mode_req_global_position
-  // mode_req_global_position_relaxed
   // mode_req_mission
   // mode_req_home_position
   // mode_req_prevent_arming
@@ -157,10 +155,6 @@ px4_msgs__msg__ArmingCheckReply__are_equal(const px4_msgs__msg__ArmingCheckReply
   if (lhs->mode_req_global_position != rhs->mode_req_global_position) {
     return false;
   }
-  // mode_req_global_position_relaxed
-  if (lhs->mode_req_global_position_relaxed != rhs->mode_req_global_position_relaxed) {
-    return false;
-  }
   // mode_req_mission
   if (lhs->mode_req_mission != rhs->mode_req_mission) {
     return false;
@@ -226,8 +220,6 @@ px4_msgs__msg__ArmingCheckReply__copy(
   output->mode_req_local_position_relaxed = input->mode_req_local_position_relaxed;
   // mode_req_global_position
   output->mode_req_global_position = input->mode_req_global_position;
-  // mode_req_global_position_relaxed
-  output->mode_req_global_position_relaxed = input->mode_req_global_position_relaxed;
   // mode_req_mission
   output->mode_req_mission = input->mode_req_mission;
   // mode_req_home_position

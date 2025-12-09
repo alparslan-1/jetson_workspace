@@ -85,7 +85,7 @@ bool px4_msgs__msg__adc_report__convert_from_py(PyObject * _pymsg, void * _ros_m
       Py_INCREF(seq_field);
       assert(PyArray_NDIM(seq_field) == 1);
       assert(PyArray_TYPE(seq_field) == NPY_INT16);
-      Py_ssize_t size = 16;
+      Py_ssize_t size = 12;
       int16_t * dest = ros_message->channel_id;
       for (Py_ssize_t i = 0; i < size; ++i) {
         int16_t tmp = *(npy_int16 *)PyArray_GETPTR1(seq_field, i);
@@ -109,7 +109,7 @@ bool px4_msgs__msg__adc_report__convert_from_py(PyObject * _pymsg, void * _ros_m
       Py_INCREF(seq_field);
       assert(PyArray_NDIM(seq_field) == 1);
       assert(PyArray_TYPE(seq_field) == NPY_INT32);
-      Py_ssize_t size = 16;
+      Py_ssize_t size = 12;
       int32_t * dest = ros_message->raw_data;
       for (Py_ssize_t i = 0; i < size; ++i) {
         int32_t tmp = *(npy_int32 *)PyArray_GETPTR1(seq_field, i);
@@ -196,7 +196,7 @@ PyObject * px4_msgs__msg__adc_report__convert_to_py(void * raw_ros_message)
     assert(sizeof(npy_int16) == sizeof(int16_t));
     npy_int16 * dst = (npy_int16 *)PyArray_GETPTR1(seq_field, 0);
     int16_t * src = &(ros_message->channel_id[0]);
-    memcpy(dst, src, 16 * sizeof(int16_t));
+    memcpy(dst, src, 12 * sizeof(int16_t));
     Py_DECREF(field);
   }
   {  // raw_data
@@ -214,7 +214,7 @@ PyObject * px4_msgs__msg__adc_report__convert_to_py(void * raw_ros_message)
     assert(sizeof(npy_int32) == sizeof(int32_t));
     npy_int32 * dst = (npy_int32 *)PyArray_GETPTR1(seq_field, 0);
     int32_t * src = &(ros_message->raw_data[0]);
-    memcpy(dst, src, 16 * sizeof(int32_t));
+    memcpy(dst, src, 12 * sizeof(int32_t));
     Py_DECREF(field);
   }
   {  // resolution

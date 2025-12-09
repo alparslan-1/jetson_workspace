@@ -19,7 +19,6 @@ px4_msgs__msg__ArmingCheckRequest__init(px4_msgs__msg__ArmingCheckRequest * msg)
   }
   // timestamp
   // request_id
-  // valid_registrations_mask
   return true;
 }
 
@@ -31,7 +30,6 @@ px4_msgs__msg__ArmingCheckRequest__fini(px4_msgs__msg__ArmingCheckRequest * msg)
   }
   // timestamp
   // request_id
-  // valid_registrations_mask
 }
 
 bool
@@ -46,10 +44,6 @@ px4_msgs__msg__ArmingCheckRequest__are_equal(const px4_msgs__msg__ArmingCheckReq
   }
   // request_id
   if (lhs->request_id != rhs->request_id) {
-    return false;
-  }
-  // valid_registrations_mask
-  if (lhs->valid_registrations_mask != rhs->valid_registrations_mask) {
     return false;
   }
   return true;
@@ -67,8 +61,6 @@ px4_msgs__msg__ArmingCheckRequest__copy(
   output->timestamp = input->timestamp;
   // request_id
   output->request_id = input->request_id;
-  // valid_registrations_mask
-  output->valid_registrations_mask = input->valid_registrations_mask;
   return true;
 }
 

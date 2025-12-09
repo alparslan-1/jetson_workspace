@@ -1,0 +1,265 @@
+[1.202s] Invoking command in '/root/bridges/jetson_workspace/build/pars_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/pars_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/pars_msgs
+[1.730s] -- The C compiler identification is GNU 9.4.0
+[2.120s] -- The CXX compiler identification is GNU 9.4.0
+[2.327s] -- Detecting C compiler ABI info
+[2.937s] -- Detecting C compiler ABI info - done
+[2.999s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.000s] -- Detecting C compile features
+[3.003s] -- Detecting C compile features - done
+[3.178s] -- Detecting CXX compiler ABI info
+[3.811s] -- Detecting CXX compiler ABI info - done
+[3.866s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.867s] -- Detecting CXX compile features
+[3.871s] -- Detecting CXX compile features - done
+[3.888s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[11.444s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[11.758s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.916s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/install/share/builtin_interfaces/cmake)
+[12.141s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[12.177s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[12.236s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[12.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.598s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)
+[16.009s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/install/share/ament_cmake_cppcheck/cmake)
+[16.023s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/install/share/ament_cmake_cpplint/cmake)
+[16.036s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/install/share/ament_cmake_uncrustify/cmake)
+[16.051s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[24.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[29.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[29.216s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[29.217s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[29.217s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[29.218s]   the cmake_policy command to set the policy and suppress this warning.
+[29.218s] 
+[29.219s] Call Stack (most recent call first):
+[29.220s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[29.221s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[29.222s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[29.223s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[29.224s] [0m
+[29.404s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[29.413s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[29.416s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[29.418s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[29.419s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[29.420s]   the cmake_policy command to set the policy and suppress this warning.
+[29.420s] 
+[29.422s] Call Stack (most recent call first):
+[29.423s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[29.424s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[29.425s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[29.426s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[29.427s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[29.428s] [0m
+[29.694s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[29.695s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[29.695s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[29.696s]   the cmake_policy command to set the policy and suppress this warning.
+[29.696s] 
+[29.696s] Call Stack (most recent call first):
+[29.697s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[29.697s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[29.698s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[29.699s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[29.699s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[29.700s] [0m
+[29.806s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[29.806s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[29.807s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[29.807s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[30.039s] -- Found PythonExtra: .so  
+[30.818s] -- Using numpy include directory: /usr/local/lib/python3.8/dist-packages/numpy/core/include
+[30.918s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/install/share/ament_cmake_flake8/cmake)
+[30.932s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/install/share/ament_cmake_pep257/cmake)
+[31.024s] -- Configuring done (29.7s)
+[31.291s] -- Generating done (0.2s)
+[31.309s] -- Build files have been written to: /root/bridges/jetson_workspace/build/pars_msgs
+[31.372s] Invoked command in '/root/bridges/jetson_workspace/build/pars_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/pars_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/pars_msgs
+[31.390s] Invoking command in '/root/bridges/jetson_workspace/build/pars_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pars_msgs -- -j4 -l4
+[31.683s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[31.783s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[31.853s] [  5%] Built target ament_cmake_python_symlink_pars_msgs
+[34.390s] running egg_info
+[34.396s] creating pars_msgs.egg-info
+[34.432s] [  5%] Built target pars_msgs__cpp
+[34.460s] [  7%] [32mBuilding C object CMakeFiles/pars_msgs__rosidl_generator_c.dir/rosidl_generator_c/pars_msgs/msg/detail/data__functions.c.o[0m
+[34.479s] [ 10%] [32mBuilding C object CMakeFiles/pars_msgs__rosidl_generator_c.dir/rosidl_generator_c/pars_msgs/msg/detail/target__functions.c.o[0m
+[34.523s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[34.601s] writing pars_msgs.egg-info/PKG-INFO
+[34.602s] writing dependency_links to pars_msgs.egg-info/dependency_links.txt
+[34.604s] writing top-level names to pars_msgs.egg-info/top_level.txt
+[34.604s] writing manifest file 'pars_msgs.egg-info/SOURCES.txt'
+[35.161s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35.288s] [ 17%] [32m[1mLinking C shared library libpars_msgs__rosidl_generator_c.so[0m
+[35.359s] reading manifest file 'pars_msgs.egg-info/SOURCES.txt'
+[35.363s] writing manifest file 'pars_msgs.egg-info/SOURCES.txt'
+[35.614s] [ 17%] Built target ament_cmake_python_build_pars_msgs_egg
+[35.724s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35.725s] [ 20%] Built target pars_msgs__rosidl_generator_c
+[35.815s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[37.688s] [ 25%] [32mBuilding CXX object CMakeFiles/pars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pars_msgs/msg/detail/dds_fastrtps/data__type_support.cpp.o[0m
+[38.120s] [ 28%] [32mBuilding CXX object CMakeFiles/pars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pars_msgs/msg/detail/data__type_support.cpp.o[0m
+[38.354s] [ 30%] [32mBuilding CXX object CMakeFiles/pars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pars_msgs/msg/data__type_support.cpp.o[0m
+[38.434s] [ 33%] [32mBuilding CXX object CMakeFiles/pars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pars_msgs/msg/detail/data__type_support_c.cpp.o[0m
+[42.433s] [ 35%] [32mBuilding CXX object CMakeFiles/pars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pars_msgs/msg/target__type_support.cpp.o[0m
+[43.785s] [ 38%] [32mBuilding CXX object CMakeFiles/pars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pars_msgs/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[43.887s] [ 41%] [32mBuilding CXX object CMakeFiles/pars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pars_msgs/msg/detail/target__type_support_c.cpp.o[0m
+[43.966s] [ 43%] [32mBuilding CXX object CMakeFiles/pars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pars_msgs/msg/detail/target__type_support.cpp.o[0m
+[47.157s] [ 46%] [32m[1mLinking CXX shared library libpars_msgs__rosidl_typesupport_cpp.so[0m
+[47.704s] [ 46%] Built target pars_msgs__rosidl_typesupport_cpp
+[47.802s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[49.916s] [ 51%] [32m[1mLinking CXX shared library libpars_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[50.718s] [ 53%] [32m[1mLinking CXX shared library libpars_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[50.876s] [ 53%] Built target pars_msgs__rosidl_typesupport_fastrtps_c
+[50.893s] [ 56%] [32m[1mLinking CXX shared library libpars_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[51.000s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[51.289s] [ 58%] Built target pars_msgs__rosidl_typesupport_introspection_cpp
+[51.640s] [ 61%] [32mBuilding C object CMakeFiles/pars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pars_msgs/msg/detail/data__type_support.c.o[0m
+[51.809s] [ 61%] Built target pars_msgs__rosidl_typesupport_fastrtps_cpp
+[52.312s] [ 64%] [32mBuilding C object CMakeFiles/pars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pars_msgs/msg/detail/target__type_support.c.o[0m
+[52.943s] [ 66%] [32m[1mLinking C shared library libpars_msgs__rosidl_typesupport_introspection_c.so[0m
+[53.225s] [ 66%] Built target pars_msgs__rosidl_typesupport_introspection_c
+[53.633s] [ 69%] [32mBuilding CXX object CMakeFiles/pars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pars_msgs/msg/data__type_support.cpp.o[0m
+[54.068s] [ 71%] [32mBuilding CXX object CMakeFiles/pars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pars_msgs/msg/target__type_support.cpp.o[0m
+[54.421s] [ 74%] [32m[1mLinking CXX shared library libpars_msgs__rosidl_typesupport_c.so[0m
+[54.797s] [ 74%] Built target pars_msgs__rosidl_typesupport_c
+[54.956s] [ 74%] Built target pars_msgs
+[55.120s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[58.076s] [ 76%] Built target pars_msgs__py
+[58.229s] [ 79%] [32mBuilding C object CMakeFiles/pars_msgs__rosidl_generator_py.dir/rosidl_generator_py/pars_msgs/msg/_data_s.c.o[0m
+[59.277s] [ 82%] [32mBuilding C object CMakeFiles/pars_msgs__rosidl_generator_py.dir/rosidl_generator_py/pars_msgs/msg/_target_s.c.o[0m
+[60.412s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/pars_msgs/libpars_msgs__rosidl_generator_py.so[0m
+[60.764s] [ 84%] Built target pars_msgs__rosidl_generator_py
+[60.873s] [ 87%] [32mBuilding C object CMakeFiles/pars_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pars_msgs/_pars_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[62.030s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/pars_msgs/pars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[62.438s] [ 89%] Built target pars_msgs__rosidl_typesupport_fastrtps_c__pyext
+[62.601s] [ 92%] [32mBuilding C object CMakeFiles/pars_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pars_msgs/_pars_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[63.724s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/pars_msgs/pars_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[64.041s] [ 94%] Built target pars_msgs__rosidl_typesupport_c__pyext
+[64.202s] [ 97%] [32mBuilding C object CMakeFiles/pars_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pars_msgs/_pars_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[65.409s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pars_msgs/pars_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[65.765s] [100%] Built target pars_msgs__rosidl_typesupport_introspection_c__pyext
+[65.870s] Invoked command in '/root/bridges/jetson_workspace/build/pars_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pars_msgs -- -j4 -l4
+[68.120s] Invoking command in '/root/bridges/jetson_workspace/build/pars_msgs': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pars_msgs
+[68.529s] -- Install configuration: ""
+[68.532s] -- Execute custom install script
+[68.551s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/ament_index/resource_index/rosidl_interfaces/pars_msgs
+[68.601s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/data.h
+[68.644s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__functions.h
+[68.685s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__struct.h
+[68.724s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__type_support.h
+[68.766s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/target__functions.h
+[68.807s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/target__struct.h
+[68.844s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/target__type_support.h
+[68.898s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/rosidl_generator_c__visibility_control.h
+[68.940s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/target.h
+[69.009s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/environment/library_path.sh
+[69.049s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/environment/library_path.dsv
+[69.092s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__rosidl_typesupport_fastrtps_c.h
+[69.132s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[69.188s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[69.236s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/data.hpp
+[69.280s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__builder.hpp
+[69.320s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__struct.hpp
+[69.360s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__traits.hpp
+[69.403s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/target__builder.hpp
+[69.447s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/target__struct.hpp
+[69.499s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/target__traits.hpp
+[69.550s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/target.hpp
+[69.593s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp
+[69.642s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[69.696s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[69.754s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__rosidl_typesupport_introspection_c.h
+[69.811s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/target__rosidl_typesupport_introspection_c.h
+[69.868s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[69.910s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp
+[70.108s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[70.168s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/environment/pythonpath.sh
+[70.218s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/environment/pythonpath.dsv
+[70.268s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs-0.0.0-py3.8.egg-info/PKG-INFO
+[70.311s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs-0.0.0-py3.8.egg-info/SOURCES.txt
+[70.350s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs-0.0.0-py3.8.egg-info/dependency_links.txt
+[70.390s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs-0.0.0-py3.8.egg-info/top_level.txt
+[70.437s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/__init__.py
+[70.492s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/_pars_msgs_s.ep.rosidl_typesupport_c.c
+[70.535s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/_pars_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[70.571s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/_pars_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[70.613s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/libpars_msgs__rosidl_generator_py.so
+[70.667s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/msg/__init__.py
+[70.717s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/msg/_data.py
+[70.758s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/msg/_data_s.c
+[70.802s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/msg/_target.py
+[70.863s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/msg/_target_s.c
+[71.085s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/pars_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[71.146s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/pars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[71.530s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/pars_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[71.634s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/pars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[71.637s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/pars_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[71.647s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/pars_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[71.653s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/msg/Data.idl
+[71.733s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/msg/Target.idl
+[71.969s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/msg/Data.msg
+[72.005s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/msg/Target.msg
+[72.068s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/ament_index/resource_index/package_run_dependencies/pars_msgs
+[72.306s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/ament_index/resource_index/parent_prefix_path/pars_msgs
+[72.359s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/environment/ament_prefix_path.sh
+[72.408s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/environment/ament_prefix_path.dsv
+[72.447s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/environment/path.sh
+[72.492s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/environment/path.dsv
+[72.531s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/local_setup.bash
+[72.580s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/local_setup.sh
+[72.621s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/local_setup.zsh
+[72.673s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/local_setup.dsv
+[72.705s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.dsv
+[72.744s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/ament_index/resource_index/packages/pars_msgs
+[72.799s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/rosidl_cmake-extras.cmake
+[72.841s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[72.881s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[72.926s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[73.181s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[73.240s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[73.286s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[73.332s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/pars_msgsConfig.cmake
+[73.356s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/pars_msgsConfig-version.cmake
+[73.378s] -- Symlinking: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/package.xml
+[73.401s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_generator_c.so
+[73.405s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_generator_c.so" to ""
+[73.406s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_fastrtps_c.so
+[73.411s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[73.413s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_fastrtps_cpp.so
+[73.416s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[73.420s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_introspection_c.so
+[73.426s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_introspection_c.so" to ""
+[73.428s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_c.so
+[73.436s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_c.so" to ""
+[73.438s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_introspection_cpp.so
+[73.444s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[73.446s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_cpp.so
+[73.451s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_typesupport_cpp.so" to ""
+[73.829s] Listing '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs'...
+[73.830s] Compiling '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/__init__.py'...
+[73.831s] Listing '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/msg'...
+[73.831s] Compiling '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/msg/__init__.py'...
+[73.832s] Compiling '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/msg/_data.py'...
+[73.832s] Compiling '/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages/pars_msgs/msg/_target.py'...
+[73.872s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_generator_py.so
+[73.875s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pars_msgs/lib/libpars_msgs__rosidl_generator_py.so" to ""
+[73.877s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/export_pars_msgs__rosidl_generator_cExport.cmake
+[73.881s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/export_pars_msgs__rosidl_generator_cExport-noconfig.cmake
+[73.882s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/export_pars_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[73.883s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/export_pars_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[73.883s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/export_pars_msgs__rosidl_generator_cppExport.cmake
+[73.884s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/export_pars_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[73.885s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/export_pars_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[73.886s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/pars_msgs__rosidl_typesupport_introspection_cExport.cmake
+[73.887s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/pars_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[73.888s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/pars_msgs__rosidl_typesupport_cExport.cmake
+[73.890s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/pars_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[73.891s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/pars_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[73.895s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/pars_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[73.897s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/pars_msgs__rosidl_typesupport_cppExport.cmake
+[73.898s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/pars_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[73.899s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/export_pars_msgs__rosidl_generator_pyExport.cmake
+[73.899s] -- Installing: /root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake/export_pars_msgs__rosidl_generator_pyExport-noconfig.cmake
+[74.136s] Invoked command in '/root/bridges/jetson_workspace/build/pars_msgs' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pars_msgs

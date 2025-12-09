@@ -44,14 +44,6 @@ cdr_serialize(
   {
     cdr << ros_message.vel_ne;
   }
-  // Member: vel_body_filtered
-  {
-    cdr << ros_message.vel_body_filtered;
-  }
-  // Member: vel_ne_filtered
-  {
-    cdr << ros_message.vel_ne_filtered;
-  }
   // Member: flow_rate_uncompensated
   {
     cdr << ros_message.flow_rate_uncompensated;
@@ -95,16 +87,6 @@ cdr_deserialize(
   // Member: vel_ne
   {
     cdr >> ros_message.vel_ne;
-  }
-
-  // Member: vel_body_filtered
-  {
-    cdr >> ros_message.vel_body_filtered;
-  }
-
-  // Member: vel_ne_filtered
-  {
-    cdr >> ros_message.vel_ne_filtered;
   }
 
   // Member: flow_rate_uncompensated
@@ -171,20 +153,6 @@ get_serialized_size(
   {
     size_t array_size = 2;
     size_t item_size = sizeof(ros_message.vel_ne[0]);
-    current_alignment += array_size * item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: vel_body_filtered
-  {
-    size_t array_size = 2;
-    size_t item_size = sizeof(ros_message.vel_body_filtered[0]);
-    current_alignment += array_size * item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: vel_ne_filtered
-  {
-    size_t array_size = 2;
-    size_t item_size = sizeof(ros_message.vel_ne_filtered[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -270,22 +238,6 @@ max_serialized_size_VehicleOpticalFlowVel(
   }
 
   // Member: vel_ne
-  {
-    size_t array_size = 2;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
-  // Member: vel_body_filtered
-  {
-    size_t array_size = 2;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
-  // Member: vel_ne_filtered
   {
     size_t array_size = 2;
 

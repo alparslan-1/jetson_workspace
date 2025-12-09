@@ -61,14 +61,14 @@ static bool _AdcReport__cdr_serialize(
 
   // Field name: channel_id
   {
-    size_t size = 16;
+    size_t size = 12;
     auto array_ptr = ros_message->channel_id;
     cdr.serializeArray(array_ptr, size);
   }
 
   // Field name: raw_data
   {
-    size_t size = 16;
+    size_t size = 12;
     auto array_ptr = ros_message->raw_data;
     cdr.serializeArray(array_ptr, size);
   }
@@ -107,14 +107,14 @@ static bool _AdcReport__cdr_deserialize(
 
   // Field name: channel_id
   {
-    size_t size = 16;
+    size_t size = 12;
     auto array_ptr = ros_message->channel_id;
     cdr.deserializeArray(array_ptr, size);
   }
 
   // Field name: raw_data
   {
-    size_t size = 16;
+    size_t size = 12;
     auto array_ptr = ros_message->raw_data;
     cdr.deserializeArray(array_ptr, size);
   }
@@ -160,7 +160,7 @@ size_t get_serialized_size_px4_msgs__msg__AdcReport(
   }
   // field.name channel_id
   {
-    size_t array_size = 16;
+    size_t array_size = 12;
     auto array_ptr = ros_message->channel_id;
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
@@ -169,7 +169,7 @@ size_t get_serialized_size_px4_msgs__msg__AdcReport(
   }
   // field.name raw_data
   {
-    size_t array_size = 16;
+    size_t array_size = 12;
     auto array_ptr = ros_message->raw_data;
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
@@ -231,14 +231,14 @@ size_t max_serialized_size_px4_msgs__msg__AdcReport(
   }
   // member: channel_id
   {
-    size_t array_size = 16;
+    size_t array_size = 12;
 
     current_alignment += array_size * sizeof(uint16_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
   }
   // member: raw_data
   {
-    size_t array_size = 16;
+    size_t array_size = 12;
 
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));

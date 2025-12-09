@@ -24,8 +24,6 @@ px4_msgs__msg__HomePosition__init(px4_msgs__msg__HomePosition * msg)
   // x
   // y
   // z
-  // roll
-  // pitch
   // yaw
   // valid_alt
   // valid_hpos
@@ -48,8 +46,6 @@ px4_msgs__msg__HomePosition__fini(px4_msgs__msg__HomePosition * msg)
   // x
   // y
   // z
-  // roll
-  // pitch
   // yaw
   // valid_alt
   // valid_hpos
@@ -90,14 +86,6 @@ px4_msgs__msg__HomePosition__are_equal(const px4_msgs__msg__HomePosition * lhs, 
   }
   // z
   if (lhs->z != rhs->z) {
-    return false;
-  }
-  // roll
-  if (lhs->roll != rhs->roll) {
-    return false;
-  }
-  // pitch
-  if (lhs->pitch != rhs->pitch) {
     return false;
   }
   // yaw
@@ -149,10 +137,6 @@ px4_msgs__msg__HomePosition__copy(
   output->y = input->y;
   // z
   output->z = input->z;
-  // roll
-  output->roll = input->roll;
-  // pitch
-  output->pitch = input->pitch;
   // yaw
   output->yaw = input->yaw;
   // valid_alt

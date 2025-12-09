@@ -42,6 +42,8 @@ cdr_serialize(
   cdr << ros_message.image_width;
   // Member: image_height
   cdr << ros_message.image_height;
+  // Member: hedef_boyut
+  cdr << ros_message.hedef_boyut;
   return true;
 }
 
@@ -69,6 +71,9 @@ cdr_deserialize(
 
   // Member: image_height
   cdr >> ros_message.image_height;
+
+  // Member: hedef_boyut
+  cdr >> ros_message.hedef_boyut;
 
   return true;
 }
@@ -113,6 +118,12 @@ get_serialized_size(
   // Member: image_height
   {
     size_t item_size = sizeof(ros_message.image_height);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: hedef_boyut
+  {
+    size_t item_size = sizeof(ros_message.hedef_boyut);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -170,6 +181,14 @@ max_serialized_size_Target(
   }
 
   // Member: image_height
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: hedef_boyut
   {
     size_t array_size = 1;
 

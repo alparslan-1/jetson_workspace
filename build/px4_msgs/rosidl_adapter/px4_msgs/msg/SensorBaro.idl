@@ -8,40 +8,25 @@ module px4_msgs {
     module SensorBaro_Constants {
       const uint8 ORB_QUEUE_LENGTH = 4;
     };
-    @verbatim (language="comment", text=
-      "Barometer sensor" "\n"
-      "" "\n"
-      "This is populated by barometer drivers and used by the EKF2 estimator." "\n"
-      "The information is published in the `SCALED_PRESSURE_n` MAVLink messages (along with information from a corresponding `DifferentialPressure` instance).")
     struct SensorBaro {
       @verbatim (language="comment", text=
-        "Time of publication (since system start)")
-      @unit (value="us")
+        "time since system start (microseconds)")
       uint64 timestamp;
 
-      @verbatim (language="comment", text=
-        "Time of raw data capture")
-      @unit (value="us")
       uint64 timestamp_sample;
 
       @verbatim (language="comment", text=
-        "Unique device ID for the sensor that does not change between power cycles")
-      @unit (value="-")
+        "unique device ID for the sensor that does not change between power cycles")
       uint32 device_id;
 
       @verbatim (language="comment", text=
-        "Static pressure measurement")
-      @unit (value="Pa")
+        "static pressure measurement in Pascals")
       float pressure;
 
       @verbatim (language="comment", text=
-        "Temperature.")
-      @unit (value="degC")
+        "temperature in degrees Celsius")
       float temperature;
 
-      @verbatim (language="comment", text=
-        "Number of errors detected by driver.")
-      @unit (value="-")
       uint32 error_count;
     };
   };

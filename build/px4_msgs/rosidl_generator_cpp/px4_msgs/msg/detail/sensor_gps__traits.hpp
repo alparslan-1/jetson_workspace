@@ -158,13 +158,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: authentication_state
-  {
-    out << "authentication_state: ";
-    rosidl_generator_traits::value_to_yaml(msg.authentication_state, out);
-    out << ", ";
-  }
-
   // member: vel_m_s
   {
     out << "vel_m_s: ";
@@ -225,13 +218,6 @@ inline void to_flow_style_yaml(
   {
     out << "satellites_used: ";
     rosidl_generator_traits::value_to_yaml(msg.satellites_used, out);
-    out << ", ";
-  }
-
-  // member: system_error
-  {
-    out << "system_error: ";
-    rosidl_generator_traits::value_to_yaml(msg.system_error, out);
     out << ", ";
   }
 
@@ -479,16 +465,6 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: authentication_state
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "authentication_state: ";
-    rosidl_generator_traits::value_to_yaml(msg.authentication_state, out);
-    out << "\n";
-  }
-
   // member: vel_m_s
   {
     if (indentation > 0) {
@@ -576,16 +552,6 @@ inline void to_block_style_yaml(
     }
     out << "satellites_used: ";
     rosidl_generator_traits::value_to_yaml(msg.satellites_used, out);
-    out << "\n";
-  }
-
-  // member: system_error
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "system_error: ";
-    rosidl_generator_traits::value_to_yaml(msg.system_error, out);
     out << "\n";
   }
 

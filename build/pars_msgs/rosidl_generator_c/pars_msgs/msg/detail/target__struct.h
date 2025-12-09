@@ -25,6 +25,7 @@ typedef struct pars_msgs__msg__Target
   float y_center;
   float image_width;
   float image_height;
+  float hedef_boyut;
 } pars_msgs__msg__Target;
 
 // Struct for a sequence of pars_msgs__msg__Target.

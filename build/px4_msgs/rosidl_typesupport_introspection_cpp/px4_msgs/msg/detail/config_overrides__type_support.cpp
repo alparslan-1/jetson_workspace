@@ -37,7 +37,7 @@ void ConfigOverrides_fini_function(void * message_memory)
   typed_message->~ConfigOverrides();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember ConfigOverrides_message_member_array[7] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember ConfigOverrides_message_member_array[6] = {
   {
     "timestamp",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT64,  // type
@@ -107,23 +107,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember ConfigOverrid
     nullptr  // resize(index) function pointer
   },
   {
-    "disable_auto_set_home",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs::msg::ConfigOverrides, disable_auto_set_home),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
     "source_type",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT8,  // type
     0,  // upper bound of string
@@ -162,7 +145,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember ConfigOverrid
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers ConfigOverrides_message_members = {
   "px4_msgs::msg",  // message namespace
   "ConfigOverrides",  // message name
-  7,  // number of fields
+  6,  // number of fields
   sizeof(px4_msgs::msg::ConfigOverrides),
   ConfigOverrides_message_member_array,  // message members
   ConfigOverrides_init_function,  // function to initialize message memory (memory has to be allocated)

@@ -22,18 +22,6 @@ class Metaclass_EscReport(type):
     _TYPE_SUPPORT = None
 
     __constants = {
-        'ACTUATOR_FUNCTION_MOTOR1': 101,
-        'ACTUATOR_FUNCTION_MOTOR2': 102,
-        'ACTUATOR_FUNCTION_MOTOR3': 103,
-        'ACTUATOR_FUNCTION_MOTOR4': 104,
-        'ACTUATOR_FUNCTION_MOTOR5': 105,
-        'ACTUATOR_FUNCTION_MOTOR6': 106,
-        'ACTUATOR_FUNCTION_MOTOR7': 107,
-        'ACTUATOR_FUNCTION_MOTOR8': 108,
-        'ACTUATOR_FUNCTION_MOTOR9': 109,
-        'ACTUATOR_FUNCTION_MOTOR10': 110,
-        'ACTUATOR_FUNCTION_MOTOR11': 111,
-        'ACTUATOR_FUNCTION_MOTOR12': 112,
         'FAILURE_OVER_CURRENT': 0,
         'FAILURE_OVER_VOLTAGE': 1,
         'FAILURE_MOTOR_OVER_TEMPERATURE': 2,
@@ -73,18 +61,6 @@ class Metaclass_EscReport(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
-            'ACTUATOR_FUNCTION_MOTOR1': cls.__constants['ACTUATOR_FUNCTION_MOTOR1'],
-            'ACTUATOR_FUNCTION_MOTOR2': cls.__constants['ACTUATOR_FUNCTION_MOTOR2'],
-            'ACTUATOR_FUNCTION_MOTOR3': cls.__constants['ACTUATOR_FUNCTION_MOTOR3'],
-            'ACTUATOR_FUNCTION_MOTOR4': cls.__constants['ACTUATOR_FUNCTION_MOTOR4'],
-            'ACTUATOR_FUNCTION_MOTOR5': cls.__constants['ACTUATOR_FUNCTION_MOTOR5'],
-            'ACTUATOR_FUNCTION_MOTOR6': cls.__constants['ACTUATOR_FUNCTION_MOTOR6'],
-            'ACTUATOR_FUNCTION_MOTOR7': cls.__constants['ACTUATOR_FUNCTION_MOTOR7'],
-            'ACTUATOR_FUNCTION_MOTOR8': cls.__constants['ACTUATOR_FUNCTION_MOTOR8'],
-            'ACTUATOR_FUNCTION_MOTOR9': cls.__constants['ACTUATOR_FUNCTION_MOTOR9'],
-            'ACTUATOR_FUNCTION_MOTOR10': cls.__constants['ACTUATOR_FUNCTION_MOTOR10'],
-            'ACTUATOR_FUNCTION_MOTOR11': cls.__constants['ACTUATOR_FUNCTION_MOTOR11'],
-            'ACTUATOR_FUNCTION_MOTOR12': cls.__constants['ACTUATOR_FUNCTION_MOTOR12'],
             'FAILURE_OVER_CURRENT': cls.__constants['FAILURE_OVER_CURRENT'],
             'FAILURE_OVER_VOLTAGE': cls.__constants['FAILURE_OVER_VOLTAGE'],
             'FAILURE_MOTOR_OVER_TEMPERATURE': cls.__constants['FAILURE_MOTOR_OVER_TEMPERATURE'],
@@ -97,66 +73,6 @@ class Metaclass_EscReport(type):
             'FAILURE_OVER_ESC_TEMPERATURE': cls.__constants['FAILURE_OVER_ESC_TEMPERATURE'],
             'ESC_FAILURE_COUNT': cls.__constants['ESC_FAILURE_COUNT'],
         }
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR1(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR1'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR1']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR2(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR2'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR2']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR3(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR3'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR3']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR4(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR4'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR4']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR5(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR5'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR5']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR6(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR6'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR6']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR7(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR7'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR7']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR8(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR8'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR8']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR9(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR9'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR9']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR10(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR10'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR10']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR11(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR11'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR11']
-
-    @property
-    def ACTUATOR_FUNCTION_MOTOR12(self):
-        """Message constant 'ACTUATOR_FUNCTION_MOTOR12'."""
-        return Metaclass_EscReport.__constants['ACTUATOR_FUNCTION_MOTOR12']
 
     @property
     def FAILURE_OVER_CURRENT(self):
@@ -219,18 +135,6 @@ class EscReport(metaclass=Metaclass_EscReport):
     Message class 'EscReport'.
 
     Constants:
-      ACTUATOR_FUNCTION_MOTOR1
-      ACTUATOR_FUNCTION_MOTOR2
-      ACTUATOR_FUNCTION_MOTOR3
-      ACTUATOR_FUNCTION_MOTOR4
-      ACTUATOR_FUNCTION_MOTOR5
-      ACTUATOR_FUNCTION_MOTOR6
-      ACTUATOR_FUNCTION_MOTOR7
-      ACTUATOR_FUNCTION_MOTOR8
-      ACTUATOR_FUNCTION_MOTOR9
-      ACTUATOR_FUNCTION_MOTOR10
-      ACTUATOR_FUNCTION_MOTOR11
-      ACTUATOR_FUNCTION_MOTOR12
       FAILURE_OVER_CURRENT
       FAILURE_OVER_VOLTAGE
       FAILURE_MOTOR_OVER_TEMPERATURE

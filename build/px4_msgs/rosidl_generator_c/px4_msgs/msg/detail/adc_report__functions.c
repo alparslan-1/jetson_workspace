@@ -55,13 +55,13 @@ px4_msgs__msg__AdcReport__are_equal(const px4_msgs__msg__AdcReport * lhs, const 
     return false;
   }
   // channel_id
-  for (size_t i = 0; i < 16; ++i) {
+  for (size_t i = 0; i < 12; ++i) {
     if (lhs->channel_id[i] != rhs->channel_id[i]) {
       return false;
     }
   }
   // raw_data
-  for (size_t i = 0; i < 16; ++i) {
+  for (size_t i = 0; i < 12; ++i) {
     if (lhs->raw_data[i] != rhs->raw_data[i]) {
       return false;
     }
@@ -90,11 +90,11 @@ px4_msgs__msg__AdcReport__copy(
   // device_id
   output->device_id = input->device_id;
   // channel_id
-  for (size_t i = 0; i < 16; ++i) {
+  for (size_t i = 0; i < 12; ++i) {
     output->channel_id[i] = input->channel_id[i];
   }
   // raw_data
-  for (size_t i = 0; i < 16; ++i) {
+  for (size_t i = 0; i < 12; ++i) {
     output->raw_data[i] = input->raw_data[i];
   }
   // resolution

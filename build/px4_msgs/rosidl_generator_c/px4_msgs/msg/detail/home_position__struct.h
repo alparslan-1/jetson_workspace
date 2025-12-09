@@ -17,12 +17,6 @@ extern "C"
 
 // Constants defined in the message
 
-/// Constant 'MESSAGE_VERSION'.
-enum
-{
-  px4_msgs__msg__HomePosition__MESSAGE_VERSION = 1ul
-};
-
 /// Struct defined in msg/HomePosition in the package px4_msgs.
 /**
   * GPS home position in WGS84 coordinates.
@@ -43,10 +37,6 @@ typedef struct px4_msgs__msg__HomePosition
   float y;
   /// Z coordinate in meters
   float z;
-  /// Pitch angle in radians
-  float roll;
-  /// Roll angle in radians
-  float pitch;
   /// Yaw angle in radians
   float yaw;
   /// true when the altitude has been set

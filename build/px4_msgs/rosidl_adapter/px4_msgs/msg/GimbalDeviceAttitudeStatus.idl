@@ -12,8 +12,6 @@ module px4_msgs {
       const uint16 DEVICE_FLAGS_ROLL_LOCK = 4;
       const uint16 DEVICE_FLAGS_PITCH_LOCK = 8;
       const uint16 DEVICE_FLAGS_YAW_LOCK = 16;
-      const uint16 DEVICE_FLAGS_YAW_IN_VEHICLE_FRAME = 32;
-      const uint16 DEVICE_FLAGS_YAW_IN_EARTH_FRAME = 64;
     };
     struct GimbalDeviceAttitudeStatus {
       @verbatim (language="comment", text=
@@ -35,12 +33,6 @@ module px4_msgs {
       float angular_velocity_z;
 
       uint32 failure_flags;
-
-      float delta_yaw;
-
-      float delta_yaw_velocity;
-
-      uint8 gimbal_device_id;
 
       boolean received_from_mavlink;
     };

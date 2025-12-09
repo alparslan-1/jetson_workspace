@@ -31,7 +31,7 @@ void px4_msgs__msg__ConfigOverrides__rosidl_typesupport_introspection_c__ConfigO
   px4_msgs__msg__ConfigOverrides__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__ConfigOverrides__rosidl_typesupport_introspection_c__ConfigOverrides_message_member_array[7] = {
+static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__ConfigOverrides__rosidl_typesupport_introspection_c__ConfigOverrides_message_member_array[6] = {
   {
     "timestamp",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_UINT64,  // type
@@ -101,23 +101,6 @@ static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__ConfigOv
     NULL  // resize(index) function pointer
   },
   {
-    "disable_auto_set_home",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs__msg__ConfigOverrides, disable_auto_set_home),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
     "source_type",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT8,  // type
     0,  // upper bound of string
@@ -156,7 +139,7 @@ static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__ConfigOv
 static const rosidl_typesupport_introspection_c__MessageMembers px4_msgs__msg__ConfigOverrides__rosidl_typesupport_introspection_c__ConfigOverrides_message_members = {
   "px4_msgs__msg",  // message namespace
   "ConfigOverrides",  // message name
-  7,  // number of fields
+  6,  // number of fields
   sizeof(px4_msgs__msg__ConfigOverrides),
   px4_msgs__msg__ConfigOverrides__rosidl_typesupport_introspection_c__ConfigOverrides_message_member_array,  // message members
   px4_msgs__msg__ConfigOverrides__rosidl_typesupport_introspection_c__ConfigOverrides_init_function,  // function to initialize message memory (memory has to be allocated)

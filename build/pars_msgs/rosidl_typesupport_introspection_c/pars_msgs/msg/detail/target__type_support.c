@@ -31,7 +31,7 @@ void pars_msgs__msg__Target__rosidl_typesupport_introspection_c__Target_fini_fun
   pars_msgs__msg__Target__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember pars_msgs__msg__Target__rosidl_typesupport_introspection_c__Target_message_member_array[5] = {
+static rosidl_typesupport_introspection_c__MessageMember pars_msgs__msg__Target__rosidl_typesupport_introspection_c__Target_message_member_array[6] = {
   {
     "target_detected",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
@@ -116,13 +116,30 @@ static rosidl_typesupport_introspection_c__MessageMember pars_msgs__msg__Target_
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "hedef_boyut",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(pars_msgs__msg__Target, hedef_boyut),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers pars_msgs__msg__Target__rosidl_typesupport_introspection_c__Target_message_members = {
   "pars_msgs__msg",  // message namespace
   "Target",  // message name
-  5,  // number of fields
+  6,  // number of fields
   sizeof(pars_msgs__msg__Target),
   pars_msgs__msg__Target__rosidl_typesupport_introspection_c__Target_message_member_array,  // message members
   pars_msgs__msg__Target__rosidl_typesupport_introspection_c__Target_init_function,  // function to initialize message memory (memory has to be allocated)

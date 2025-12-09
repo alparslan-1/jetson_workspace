@@ -103,13 +103,6 @@ inline void to_flow_style_yaml(
   {
     out << "activate_mode_immediately: ";
     rosidl_generator_traits::value_to_yaml(msg.activate_mode_immediately, out);
-    out << ", ";
-  }
-
-  // member: not_user_selectable
-  {
-    out << "not_user_selectable: ";
-    rosidl_generator_traits::value_to_yaml(msg.not_user_selectable, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -225,16 +218,6 @@ inline void to_block_style_yaml(
     }
     out << "activate_mode_immediately: ";
     rosidl_generator_traits::value_to_yaml(msg.activate_mode_immediately, out);
-    out << "\n";
-  }
-
-  // member: not_user_selectable
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "not_user_selectable: ";
-    rosidl_generator_traits::value_to_yaml(msg.not_user_selectable, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

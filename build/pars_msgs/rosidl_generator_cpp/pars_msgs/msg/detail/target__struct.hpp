@@ -43,6 +43,7 @@ struct Target_
       this->y_center = 0.0f;
       this->image_width = 0.0f;
       this->image_height = 0.0f;
+      this->hedef_boyut = 0.0f;
     }
   }
 
@@ -57,6 +58,7 @@ struct Target_
       this->y_center = 0.0f;
       this->image_width = 0.0f;
       this->image_height = 0.0f;
+      this->hedef_boyut = 0.0f;
     }
   }
 
@@ -76,6 +78,9 @@ struct Target_
   using _image_height_type =
     float;
   _image_height_type image_height;
+  using _hedef_boyut_type =
+    float;
+  _hedef_boyut_type hedef_boyut;
 
   // setters for named parameter idiom
   Type & set__target_detected(
@@ -106,6 +111,12 @@ struct Target_
     const float & _arg)
   {
     this->image_height = _arg;
+    return *this;
+  }
+  Type & set__hedef_boyut(
+    const float & _arg)
+  {
+    this->hedef_boyut = _arg;
     return *this;
   }
 
@@ -164,6 +175,9 @@ struct Target_
       return false;
     }
     if (this->image_height != other.image_height) {
+      return false;
+    }
+    if (this->hedef_boyut != other.hedef_boyut) {
       return false;
     }
     return true;

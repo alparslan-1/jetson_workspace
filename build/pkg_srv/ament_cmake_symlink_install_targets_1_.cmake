@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/bridges/jetson_workspace/build/pkg_srv/rosidl_generator_py/pkg_srv/pkg_srv_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" "TARGETS" "pkg_srv__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/pkg_srv")

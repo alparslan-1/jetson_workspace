@@ -46,7 +46,6 @@ struct RegisterExtComponentReply_
       this->arming_check_id = 0;
       this->mode_id = 0;
       this->mode_executor_id = 0;
-      this->not_user_selectable = false;
     }
   }
 
@@ -64,7 +63,6 @@ struct RegisterExtComponentReply_
       this->arming_check_id = 0;
       this->mode_id = 0;
       this->mode_executor_id = 0;
-      this->not_user_selectable = false;
     }
   }
 
@@ -93,9 +91,6 @@ struct RegisterExtComponentReply_
   using _mode_executor_id_type =
     int8_t;
   _mode_executor_id_type mode_executor_id;
-  using _not_user_selectable_type =
-    bool;
-  _not_user_selectable_type not_user_selectable;
 
   // setters for named parameter idiom
   Type & set__timestamp(
@@ -146,16 +141,8 @@ struct RegisterExtComponentReply_
     this->mode_executor_id = _arg;
     return *this;
   }
-  Type & set__not_user_selectable(
-    const bool & _arg)
-  {
-    this->not_user_selectable = _arg;
-    return *this;
-  }
 
   // constant declarations
-  static constexpr uint32_t MESSAGE_VERSION =
-    1u;
   static constexpr uint8_t ORB_QUEUE_LENGTH =
     2u;
 
@@ -223,9 +210,6 @@ struct RegisterExtComponentReply_
     if (this->mode_executor_id != other.mode_executor_id) {
       return false;
     }
-    if (this->not_user_selectable != other.not_user_selectable) {
-      return false;
-    }
     return true;
   }
   bool operator!=(const RegisterExtComponentReply_ & other) const
@@ -239,11 +223,6 @@ using RegisterExtComponentReply =
   px4_msgs::msg::RegisterExtComponentReply_<std::allocator<void>>;
 
 // constant definitions
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
-template<typename ContainerAllocator>
-constexpr uint32_t RegisterExtComponentReply_<ContainerAllocator>::MESSAGE_VERSION;
-#endif  // __cplusplus < 201703L
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>

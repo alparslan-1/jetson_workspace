@@ -25,7 +25,6 @@ class Metaclass_GotoSetpoint(type):
     _TYPE_SUPPORT = None
 
     __constants = {
-        'MESSAGE_VERSION': 0,
     }
 
     @classmethod
@@ -54,22 +53,11 @@ class Metaclass_GotoSetpoint(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
-            'MESSAGE_VERSION': cls.__constants['MESSAGE_VERSION'],
         }
-
-    @property
-    def MESSAGE_VERSION(self):
-        """Message constant 'MESSAGE_VERSION'."""
-        return Metaclass_GotoSetpoint.__constants['MESSAGE_VERSION']
 
 
 class GotoSetpoint(metaclass=Metaclass_GotoSetpoint):
-    """
-    Message class 'GotoSetpoint'.
-
-    Constants:
-      MESSAGE_VERSION
-    """
+    """Message class 'GotoSetpoint'."""
 
     __slots__ = [
         '_timestamp',

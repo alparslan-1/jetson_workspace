@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/bridges/jetson_workspace/build/atmaca_vision/camera_publisher_node" "/root/bridges/jetson_workspace/build/atmaca_vision/qr_detector_node" "/root/bridges/jetson_workspace/build/atmaca_vision/target_detection_node" "TARGETS" "camera_publisher_node" "qr_detector_node" "target_detection_node" "DESTINATION" "lib/atmaca_vision")

@@ -40,8 +40,8 @@ struct AdcReport_
     {
       this->timestamp = 0ull;
       this->device_id = 0ul;
-      std::fill<typename std::array<int16_t, 16>::iterator, int16_t>(this->channel_id.begin(), this->channel_id.end(), 0);
-      std::fill<typename std::array<int32_t, 16>::iterator, int32_t>(this->raw_data.begin(), this->raw_data.end(), 0l);
+      std::fill<typename std::array<int16_t, 12>::iterator, int16_t>(this->channel_id.begin(), this->channel_id.end(), 0);
+      std::fill<typename std::array<int32_t, 12>::iterator, int32_t>(this->raw_data.begin(), this->raw_data.end(), 0l);
       this->resolution = 0ul;
       this->v_ref = 0.0f;
     }
@@ -56,8 +56,8 @@ struct AdcReport_
     {
       this->timestamp = 0ull;
       this->device_id = 0ul;
-      std::fill<typename std::array<int16_t, 16>::iterator, int16_t>(this->channel_id.begin(), this->channel_id.end(), 0);
-      std::fill<typename std::array<int32_t, 16>::iterator, int32_t>(this->raw_data.begin(), this->raw_data.end(), 0l);
+      std::fill<typename std::array<int16_t, 12>::iterator, int16_t>(this->channel_id.begin(), this->channel_id.end(), 0);
+      std::fill<typename std::array<int32_t, 12>::iterator, int32_t>(this->raw_data.begin(), this->raw_data.end(), 0l);
       this->resolution = 0ul;
       this->v_ref = 0.0f;
     }
@@ -71,10 +71,10 @@ struct AdcReport_
     uint32_t;
   _device_id_type device_id;
   using _channel_id_type =
-    std::array<int16_t, 16>;
+    std::array<int16_t, 12>;
   _channel_id_type channel_id;
   using _raw_data_type =
-    std::array<int32_t, 16>;
+    std::array<int32_t, 12>;
   _raw_data_type raw_data;
   using _resolution_type =
     uint32_t;
@@ -97,13 +97,13 @@ struct AdcReport_
     return *this;
   }
   Type & set__channel_id(
-    const std::array<int16_t, 16> & _arg)
+    const std::array<int16_t, 12> & _arg)
   {
     this->channel_id = _arg;
     return *this;
   }
   Type & set__raw_data(
-    const std::array<int32_t, 16> & _arg)
+    const std::array<int32_t, 12> & _arg)
   {
     this->raw_data = _arg;
     return *this;

@@ -42,7 +42,6 @@ struct ConfigOverrides_
       this->disable_auto_disarm = false;
       this->defer_failsafes = false;
       this->defer_failsafes_timeout_s = 0;
-      this->disable_auto_set_home = false;
       this->source_type = 0;
       this->source_id = 0;
     }
@@ -58,7 +57,6 @@ struct ConfigOverrides_
       this->disable_auto_disarm = false;
       this->defer_failsafes = false;
       this->defer_failsafes_timeout_s = 0;
-      this->disable_auto_set_home = false;
       this->source_type = 0;
       this->source_id = 0;
     }
@@ -77,9 +75,6 @@ struct ConfigOverrides_
   using _defer_failsafes_timeout_s_type =
     int16_t;
   _defer_failsafes_timeout_s_type defer_failsafes_timeout_s;
-  using _disable_auto_set_home_type =
-    bool;
-  _disable_auto_set_home_type disable_auto_set_home;
   using _source_type_type =
     int8_t;
   _source_type_type source_type;
@@ -112,12 +107,6 @@ struct ConfigOverrides_
     this->defer_failsafes_timeout_s = _arg;
     return *this;
   }
-  Type & set__disable_auto_set_home(
-    const bool & _arg)
-  {
-    this->disable_auto_set_home = _arg;
-    return *this;
-  }
   Type & set__source_type(
     const int8_t & _arg)
   {
@@ -132,8 +121,6 @@ struct ConfigOverrides_
   }
 
   // constant declarations
-  static constexpr uint32_t MESSAGE_VERSION =
-    1u;
   static constexpr int8_t SOURCE_TYPE_MODE =
     0;
   static constexpr int8_t SOURCE_TYPE_MODE_EXECUTOR =
@@ -193,9 +180,6 @@ struct ConfigOverrides_
     if (this->defer_failsafes_timeout_s != other.defer_failsafes_timeout_s) {
       return false;
     }
-    if (this->disable_auto_set_home != other.disable_auto_set_home) {
-      return false;
-    }
     if (this->source_type != other.source_type) {
       return false;
     }
@@ -215,11 +199,6 @@ using ConfigOverrides =
   px4_msgs::msg::ConfigOverrides_<std::allocator<void>>;
 
 // constant definitions
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
-template<typename ContainerAllocator>
-constexpr uint32_t ConfigOverrides_<ContainerAllocator>::MESSAGE_VERSION;
-#endif  // __cplusplus < 201703L
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>

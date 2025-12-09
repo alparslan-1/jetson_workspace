@@ -6,18 +6,6 @@
 module px4_msgs {
   module msg {
     module EscReport_Constants {
-      const uint8 ACTUATOR_FUNCTION_MOTOR1 = 101;
-      const uint8 ACTUATOR_FUNCTION_MOTOR2 = 102;
-      const uint8 ACTUATOR_FUNCTION_MOTOR3 = 103;
-      const uint8 ACTUATOR_FUNCTION_MOTOR4 = 104;
-      const uint8 ACTUATOR_FUNCTION_MOTOR5 = 105;
-      const uint8 ACTUATOR_FUNCTION_MOTOR6 = 106;
-      const uint8 ACTUATOR_FUNCTION_MOTOR7 = 107;
-      const uint8 ACTUATOR_FUNCTION_MOTOR8 = 108;
-      const uint8 ACTUATOR_FUNCTION_MOTOR9 = 109;
-      const uint8 ACTUATOR_FUNCTION_MOTOR10 = 110;
-      const uint8 ACTUATOR_FUNCTION_MOTOR11 = 111;
-      const uint8 ACTUATOR_FUNCTION_MOTOR12 = 112;
       @verbatim (language="comment", text=
         "(1 << 0)")
       const uint8 FAILURE_OVER_CURRENT = 0;

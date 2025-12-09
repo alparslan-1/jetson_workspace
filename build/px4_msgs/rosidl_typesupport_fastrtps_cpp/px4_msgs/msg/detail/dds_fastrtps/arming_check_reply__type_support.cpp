@@ -94,8 +94,6 @@ cdr_serialize(
   cdr << (ros_message.mode_req_local_position_relaxed ? true : false);
   // Member: mode_req_global_position
   cdr << (ros_message.mode_req_global_position ? true : false);
-  // Member: mode_req_global_position_relaxed
-  cdr << (ros_message.mode_req_global_position_relaxed ? true : false);
   // Member: mode_req_mission
   cdr << (ros_message.mode_req_mission ? true : false);
   // Member: mode_req_home_position
@@ -205,13 +203,6 @@ cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message.mode_req_global_position = tmp ? true : false;
-  }
-
-  // Member: mode_req_global_position_relaxed
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.mode_req_global_position_relaxed = tmp ? true : false;
   }
 
   // Member: mode_req_mission
@@ -355,12 +346,6 @@ get_serialized_size(
   // Member: mode_req_global_position
   {
     size_t item_size = sizeof(ros_message.mode_req_global_position);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: mode_req_global_position_relaxed
-  {
-    size_t item_size = sizeof(ros_message.mode_req_global_position_relaxed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -526,13 +511,6 @@ max_serialized_size_ArmingCheckReply(
   }
 
   // Member: mode_req_global_position
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: mode_req_global_position_relaxed
   {
     size_t array_size = 1;
 

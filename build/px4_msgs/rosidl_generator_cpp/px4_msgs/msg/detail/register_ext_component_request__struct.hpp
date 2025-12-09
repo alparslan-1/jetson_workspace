@@ -48,7 +48,6 @@ struct RegisterExtComponentRequest_
       this->enable_replace_internal_mode = false;
       this->replace_internal_mode = 0;
       this->activate_mode_immediately = false;
-      this->not_user_selectable = false;
     }
   }
 
@@ -68,7 +67,6 @@ struct RegisterExtComponentRequest_
       this->enable_replace_internal_mode = false;
       this->replace_internal_mode = 0;
       this->activate_mode_immediately = false;
-      this->not_user_selectable = false;
     }
   }
 
@@ -103,9 +101,6 @@ struct RegisterExtComponentRequest_
   using _activate_mode_immediately_type =
     bool;
   _activate_mode_immediately_type activate_mode_immediately;
-  using _not_user_selectable_type =
-    bool;
-  _not_user_selectable_type not_user_selectable;
 
   // setters for named parameter idiom
   Type & set__timestamp(
@@ -168,16 +163,8 @@ struct RegisterExtComponentRequest_
     this->activate_mode_immediately = _arg;
     return *this;
   }
-  Type & set__not_user_selectable(
-    const bool & _arg)
-  {
-    this->not_user_selectable = _arg;
-    return *this;
-  }
 
   // constant declarations
-  static constexpr uint32_t MESSAGE_VERSION =
-    1u;
   static constexpr uint16_t LATEST_PX4_ROS2_API_VERSION =
     1u;
   static constexpr uint8_t ORB_QUEUE_LENGTH =
@@ -253,9 +240,6 @@ struct RegisterExtComponentRequest_
     if (this->activate_mode_immediately != other.activate_mode_immediately) {
       return false;
     }
-    if (this->not_user_selectable != other.not_user_selectable) {
-      return false;
-    }
     return true;
   }
   bool operator!=(const RegisterExtComponentRequest_ & other) const
@@ -269,11 +253,6 @@ using RegisterExtComponentRequest =
   px4_msgs::msg::RegisterExtComponentRequest_<std::allocator<void>>;
 
 // constant definitions
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
-template<typename ContainerAllocator>
-constexpr uint32_t RegisterExtComponentRequest_<ContainerAllocator>::MESSAGE_VERSION;
-#endif  // __cplusplus < 201703L
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>

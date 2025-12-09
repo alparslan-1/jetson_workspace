@@ -18,12 +18,6 @@ extern "C"
 
 // Constants defined in the message
 
-/// Constant 'MESSAGE_VERSION'.
-enum
-{
-  px4_msgs__msg__VehicleStatus__MESSAGE_VERSION = 1ul
-};
-
 /// Constant 'ARMING_STATE_DISARMED'.
 enum
 {
@@ -36,10 +30,16 @@ enum
   px4_msgs__msg__VehicleStatus__ARMING_STATE_ARMED = 2
 };
 
-/// Constant 'ARM_DISARM_REASON_STICK_GESTURE'.
+/// Constant 'ARM_DISARM_REASON_TRANSITION_TO_STANDBY'.
 enum
 {
-  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_STICK_GESTURE = 1
+  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_TRANSITION_TO_STANDBY = 0
+};
+
+/// Constant 'ARM_DISARM_REASON_RC_STICK'.
+enum
+{
+  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_RC_STICK = 1
 };
 
 /// Constant 'ARM_DISARM_REASON_RC_SWITCH'.
@@ -66,34 +66,52 @@ enum
   px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_MISSION_START = 5
 };
 
-/// Constant 'ARM_DISARM_REASON_LANDING'.
+/// Constant 'ARM_DISARM_REASON_SAFETY_BUTTON'.
 enum
 {
-  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_LANDING = 6
+  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_SAFETY_BUTTON = 6
 };
 
-/// Constant 'ARM_DISARM_REASON_PREFLIGHT_INACTION'.
+/// Constant 'ARM_DISARM_REASON_AUTO_DISARM_LAND'.
 enum
 {
-  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_PREFLIGHT_INACTION = 7
+  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_AUTO_DISARM_LAND = 7
+};
+
+/// Constant 'ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT'.
+enum
+{
+  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT = 8
 };
 
 /// Constant 'ARM_DISARM_REASON_KILL_SWITCH'.
 enum
 {
-  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_KILL_SWITCH = 8
+  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_KILL_SWITCH = 9
 };
 
-/// Constant 'ARM_DISARM_REASON_RC_BUTTON'.
+/// Constant 'ARM_DISARM_REASON_LOCKDOWN'.
 enum
 {
-  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_RC_BUTTON = 13
+  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_LOCKDOWN = 10
 };
 
-/// Constant 'ARM_DISARM_REASON_FAILSAFE'.
+/// Constant 'ARM_DISARM_REASON_FAILURE_DETECTOR'.
 enum
 {
-  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_FAILSAFE = 14
+  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_FAILURE_DETECTOR = 11
+};
+
+/// Constant 'ARM_DISARM_REASON_SHUTDOWN'.
+enum
+{
+  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_SHUTDOWN = 12
+};
+
+/// Constant 'ARM_DISARM_REASON_UNIT_TEST'.
+enum
+{
+  px4_msgs__msg__VehicleStatus__ARM_DISARM_REASON_UNIT_TEST = 13
 };
 
 /// Constant 'NAVIGATION_STATE_MANUAL'.
@@ -162,13 +180,10 @@ enum
   px4_msgs__msg__VehicleStatus__NAVIGATION_STATE_FREE5 = 7
 };
 
-/// Constant 'NAVIGATION_STATE_ALTITUDE_CRUISE'.
-/**
-  * Altitude with Cruise mode
- */
+/// Constant 'NAVIGATION_STATE_FREE4'.
 enum
 {
-  px4_msgs__msg__VehicleStatus__NAVIGATION_STATE_ALTITUDE_CRUISE = 8
+  px4_msgs__msg__VehicleStatus__NAVIGATION_STATE_FREE4 = 8
 };
 
 /// Constant 'NAVIGATION_STATE_FREE3'.
@@ -429,10 +444,10 @@ enum
   px4_msgs__msg__VehicleStatus__HIL_STATE_ON = 1
 };
 
-/// Constant 'VEHICLE_TYPE_UNSPECIFIED'.
+/// Constant 'VEHICLE_TYPE_UNKNOWN'.
 enum
 {
-  px4_msgs__msg__VehicleStatus__VEHICLE_TYPE_UNSPECIFIED = 0
+  px4_msgs__msg__VehicleStatus__VEHICLE_TYPE_UNKNOWN = 0
 };
 
 /// Constant 'VEHICLE_TYPE_ROTARY_WING'.
@@ -451,6 +466,12 @@ enum
 enum
 {
   px4_msgs__msg__VehicleStatus__VEHICLE_TYPE_ROVER = 3
+};
+
+/// Constant 'VEHICLE_TYPE_AIRSHIP'.
+enum
+{
+  px4_msgs__msg__VehicleStatus__VEHICLE_TYPE_AIRSHIP = 4
 };
 
 /// Constant 'FAILSAFE_DEFER_STATE_DISABLED'.
@@ -504,7 +525,7 @@ typedef struct px4_msgs__msg__VehicleStatus
   /// Bitmask of detected failures
   uint16_t failure_detector_status;
   uint8_t hil_state;
-  /// Current vehicle locomotion method. A vehicle can have different methods (e.g. VTOL transitions from RW to FW method)
+  /// If it's a VTOL, then the value will be VEHICLE_TYPE_ROTARY_WING while flying as a multicopter, and VEHICLE_TYPE_FIXED_WING when flying as a fixed-wing
   uint8_t vehicle_type;
   /// true if system is in failsafe state (e.g.:RTL, Hover, Terminate, ...)
   bool failsafe;
@@ -547,6 +568,10 @@ typedef struct px4_msgs__msg__VehicleStatus
   bool open_drone_id_system_healthy;
   bool parachute_system_present;
   bool parachute_system_healthy;
+  /// Set to true if avoidance system is enabled via COM_OBS_AVOID parameter
+  bool avoidance_system_required;
+  /// Status of the obstacle avoidance system
+  bool avoidance_system_valid;
   bool rc_calibration_in_progress;
   bool calibration_enabled;
   /// true if all checks necessary to arm pass

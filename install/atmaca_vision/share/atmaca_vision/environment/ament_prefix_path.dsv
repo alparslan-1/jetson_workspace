@@ -1,1 +1,1 @@
-prepend-non-duplicate;AMENT_PREFIX_PATH;
+/root/bridges/jetson_workspace/build/atmaca_vision/ament_cmake_environment_hooks/ament_prefix_path.dsv

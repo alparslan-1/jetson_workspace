@@ -22,7 +22,6 @@ class Metaclass_ManualControlSetpoint(type):
     _TYPE_SUPPORT = None
 
     __constants = {
-        'MESSAGE_VERSION': 0,
         'SOURCE_UNKNOWN': 0,
         'SOURCE_RC': 1,
         'SOURCE_MAVLINK_0': 2,
@@ -59,7 +58,6 @@ class Metaclass_ManualControlSetpoint(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
-            'MESSAGE_VERSION': cls.__constants['MESSAGE_VERSION'],
             'SOURCE_UNKNOWN': cls.__constants['SOURCE_UNKNOWN'],
             'SOURCE_RC': cls.__constants['SOURCE_RC'],
             'SOURCE_MAVLINK_0': cls.__constants['SOURCE_MAVLINK_0'],
@@ -69,11 +67,6 @@ class Metaclass_ManualControlSetpoint(type):
             'SOURCE_MAVLINK_4': cls.__constants['SOURCE_MAVLINK_4'],
             'SOURCE_MAVLINK_5': cls.__constants['SOURCE_MAVLINK_5'],
         }
-
-    @property
-    def MESSAGE_VERSION(self):
-        """Message constant 'MESSAGE_VERSION'."""
-        return Metaclass_ManualControlSetpoint.__constants['MESSAGE_VERSION']
 
     @property
     def SOURCE_UNKNOWN(self):
@@ -121,7 +114,6 @@ class ManualControlSetpoint(metaclass=Metaclass_ManualControlSetpoint):
     Message class 'ManualControlSetpoint'.
 
     Constants:
-      MESSAGE_VERSION
       SOURCE_UNKNOWN
       SOURCE_RC
       SOURCE_MAVLINK_0

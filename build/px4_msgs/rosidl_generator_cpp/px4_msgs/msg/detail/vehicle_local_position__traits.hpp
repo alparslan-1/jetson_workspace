@@ -306,13 +306,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: dist_bottom_valid
-  {
-    out << "dist_bottom_valid: ";
-    rosidl_generator_traits::value_to_yaml(msg.dist_bottom_valid, out);
-    out << ", ";
-  }
-
   // member: dist_bottom
   {
     out << "dist_bottom: ";
@@ -320,24 +313,10 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: dist_bottom_var
+  // member: dist_bottom_valid
   {
-    out << "dist_bottom_var: ";
-    rosidl_generator_traits::value_to_yaml(msg.dist_bottom_var, out);
-    out << ", ";
-  }
-
-  // member: delta_dist_bottom
-  {
-    out << "delta_dist_bottom: ";
-    rosidl_generator_traits::value_to_yaml(msg.delta_dist_bottom, out);
-    out << ", ";
-  }
-
-  // member: dist_bottom_reset_counter
-  {
-    out << "dist_bottom_reset_counter: ";
-    rosidl_generator_traits::value_to_yaml(msg.dist_bottom_reset_counter, out);
+    out << "dist_bottom_valid: ";
+    rosidl_generator_traits::value_to_yaml(msg.dist_bottom_valid, out);
     out << ", ";
   }
 
@@ -404,17 +383,10 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: hagl_max_z
+  // member: hagl_max
   {
-    out << "hagl_max_z: ";
-    rosidl_generator_traits::value_to_yaml(msg.hagl_max_z, out);
-    out << ", ";
-  }
-
-  // member: hagl_max_xy
-  {
-    out << "hagl_max_xy: ";
-    rosidl_generator_traits::value_to_yaml(msg.hagl_max_xy, out);
+    out << "hagl_max: ";
+    rosidl_generator_traits::value_to_yaml(msg.hagl_max, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -813,16 +785,6 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: dist_bottom_valid
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "dist_bottom_valid: ";
-    rosidl_generator_traits::value_to_yaml(msg.dist_bottom_valid, out);
-    out << "\n";
-  }
-
   // member: dist_bottom
   {
     if (indentation > 0) {
@@ -833,33 +795,13 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: dist_bottom_var
+  // member: dist_bottom_valid
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "dist_bottom_var: ";
-    rosidl_generator_traits::value_to_yaml(msg.dist_bottom_var, out);
-    out << "\n";
-  }
-
-  // member: delta_dist_bottom
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "delta_dist_bottom: ";
-    rosidl_generator_traits::value_to_yaml(msg.delta_dist_bottom, out);
-    out << "\n";
-  }
-
-  // member: dist_bottom_reset_counter
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "dist_bottom_reset_counter: ";
-    rosidl_generator_traits::value_to_yaml(msg.dist_bottom_reset_counter, out);
+    out << "dist_bottom_valid: ";
+    rosidl_generator_traits::value_to_yaml(msg.dist_bottom_valid, out);
     out << "\n";
   }
 
@@ -953,23 +895,13 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: hagl_max_z
+  // member: hagl_max
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "hagl_max_z: ";
-    rosidl_generator_traits::value_to_yaml(msg.hagl_max_z, out);
-    out << "\n";
-  }
-
-  // member: hagl_max_xy
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "hagl_max_xy: ";
-    rosidl_generator_traits::value_to_yaml(msg.hagl_max_xy, out);
+    out << "hagl_max: ";
+    rosidl_generator_traits::value_to_yaml(msg.hagl_max, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

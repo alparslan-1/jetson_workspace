@@ -1,3 +1,1 @@
-VehicleCommand request
----
-VehicleCommandAck reply
+/root/bridges/jetson_workspace/src/px4_msgs/srv/VehicleCommand.srv

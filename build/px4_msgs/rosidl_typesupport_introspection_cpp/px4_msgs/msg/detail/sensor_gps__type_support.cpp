@@ -37,7 +37,7 @@ void SensorGps_fini_function(void * message_memory)
   typed_message->~SensorGps();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember SensorGps_message_member_array[37] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember SensorGps_message_member_array[35] = {
   {
     "timestamp",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT64,  // type
@@ -362,23 +362,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SensorGps_mes
     nullptr  // resize(index) function pointer
   },
   {
-    "authentication_state",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs::msg::SensorGps, authentication_state),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
     "vel_m_s",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
@@ -532,23 +515,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SensorGps_mes
     nullptr  // resize(index) function pointer
   },
   {
-    "system_error",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT32,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs::msg::SensorGps, system_error),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
     "heading",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
@@ -672,7 +638,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SensorGps_mes
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers SensorGps_message_members = {
   "px4_msgs::msg",  // message namespace
   "SensorGps",  // message name
-  37,  // number of fields
+  35,  // number of fields
   sizeof(px4_msgs::msg::SensorGps),
   SensorGps_message_member_array,  // message members
   SensorGps_init_function,  // function to initialize message memory (memory has to be allocated)

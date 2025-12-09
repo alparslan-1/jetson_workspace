@@ -84,11 +84,6 @@ static bool _FailsafeFlags__cdr_serialize(
     cdr << ros_message->mode_req_global_position;
   }
 
-  // Field name: mode_req_global_position_relaxed
-  {
-    cdr << ros_message->mode_req_global_position_relaxed;
-  }
-
   // Field name: mode_req_mission
   {
     cdr << ros_message->mode_req_mission;
@@ -159,11 +154,6 @@ static bool _FailsafeFlags__cdr_serialize(
     cdr << (ros_message->global_position_invalid ? true : false);
   }
 
-  // Field name: global_position_invalid_relaxed
-  {
-    cdr << (ros_message->global_position_invalid_relaxed ? true : false);
-  }
-
   // Field name: auto_mission_missing
   {
     cdr << (ros_message->auto_mission_missing ? true : false);
@@ -229,14 +219,9 @@ static bool _FailsafeFlags__cdr_serialize(
     cdr << (ros_message->flight_time_limit_exceeded ? true : false);
   }
 
-  // Field name: position_accuracy_low
+  // Field name: local_position_accuracy_low
   {
-    cdr << (ros_message->position_accuracy_low ? true : false);
-  }
-
-  // Field name: navigator_failure
-  {
-    cdr << (ros_message->navigator_failure ? true : false);
+    cdr << (ros_message->local_position_accuracy_low ? true : false);
   }
 
   // Field name: fd_critical_failure
@@ -304,11 +289,6 @@ static bool _FailsafeFlags__cdr_deserialize(
   // Field name: mode_req_global_position
   {
     cdr >> ros_message->mode_req_global_position;
-  }
-
-  // Field name: mode_req_global_position_relaxed
-  {
-    cdr >> ros_message->mode_req_global_position_relaxed;
   }
 
   // Field name: mode_req_mission
@@ -393,13 +373,6 @@ static bool _FailsafeFlags__cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message->global_position_invalid = tmp ? true : false;
-  }
-
-  // Field name: global_position_invalid_relaxed
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->global_position_invalid_relaxed = tmp ? true : false;
   }
 
   // Field name: auto_mission_missing
@@ -491,18 +464,11 @@ static bool _FailsafeFlags__cdr_deserialize(
     ros_message->flight_time_limit_exceeded = tmp ? true : false;
   }
 
-  // Field name: position_accuracy_low
+  // Field name: local_position_accuracy_low
   {
     uint8_t tmp;
     cdr >> tmp;
-    ros_message->position_accuracy_low = tmp ? true : false;
-  }
-
-  // Field name: navigator_failure
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->navigator_failure = tmp ? true : false;
+    ros_message->local_position_accuracy_low = tmp ? true : false;
   }
 
   // Field name: fd_critical_failure
@@ -592,12 +558,6 @@ size_t get_serialized_size_px4_msgs__msg__FailsafeFlags(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name mode_req_global_position_relaxed
-  {
-    size_t item_size = sizeof(ros_message->mode_req_global_position_relaxed);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // field.name mode_req_mission
   {
     size_t item_size = sizeof(ros_message->mode_req_mission);
@@ -682,12 +642,6 @@ size_t get_serialized_size_px4_msgs__msg__FailsafeFlags(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name global_position_invalid_relaxed
-  {
-    size_t item_size = sizeof(ros_message->global_position_invalid_relaxed);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // field.name auto_mission_missing
   {
     size_t item_size = sizeof(ros_message->auto_mission_missing);
@@ -766,15 +720,9 @@ size_t get_serialized_size_px4_msgs__msg__FailsafeFlags(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name position_accuracy_low
+  // field.name local_position_accuracy_low
   {
-    size_t item_size = sizeof(ros_message->position_accuracy_low);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name navigator_failure
-  {
-    size_t item_size = sizeof(ros_message->navigator_failure);
+    size_t item_size = sizeof(ros_message->local_position_accuracy_low);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -878,13 +826,6 @@ size_t max_serialized_size_px4_msgs__msg__FailsafeFlags(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: mode_req_global_position_relaxed
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
   // member: mode_req_mission
   {
     size_t array_size = 1;
@@ -976,12 +917,6 @@ size_t max_serialized_size_px4_msgs__msg__FailsafeFlags(
 
     current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: global_position_invalid_relaxed
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
-  }
   // member: auto_mission_missing
   {
     size_t array_size = 1;
@@ -1060,13 +995,7 @@ size_t max_serialized_size_px4_msgs__msg__FailsafeFlags(
 
     current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: position_accuracy_low
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: navigator_failure
+  // member: local_position_accuracy_low
   {
     size_t array_size = 1;
 

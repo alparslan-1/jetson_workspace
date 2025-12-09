@@ -62,6 +62,7 @@ class Target(metaclass=Metaclass_Target):
         '_y_center',
         '_image_width',
         '_image_height',
+        '_hedef_boyut',
     ]
 
     _fields_and_field_types = {
@@ -70,10 +71,12 @@ class Target(metaclass=Metaclass_Target):
         'y_center': 'float',
         'image_width': 'float',
         'image_height': 'float',
+        'hedef_boyut': 'float',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
@@ -89,6 +92,7 @@ class Target(metaclass=Metaclass_Target):
         self.y_center = kwargs.get('y_center', float())
         self.image_width = kwargs.get('image_width', float())
         self.image_height = kwargs.get('image_height', float())
+        self.hedef_boyut = kwargs.get('hedef_boyut', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -128,6 +132,8 @@ class Target(metaclass=Metaclass_Target):
         if self.image_width != other.image_width:
             return False
         if self.image_height != other.image_height:
+            return False
+        if self.hedef_boyut != other.hedef_boyut:
             return False
         return True
 
@@ -208,3 +214,18 @@ class Target(metaclass=Metaclass_Target):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'image_height' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._image_height = value
+
+    @builtins.property
+    def hedef_boyut(self):
+        """Message field 'hedef_boyut'."""
+        return self._hedef_boyut
+
+    @hedef_boyut.setter
+    def hedef_boyut(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'hedef_boyut' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'hedef_boyut' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._hedef_boyut = value

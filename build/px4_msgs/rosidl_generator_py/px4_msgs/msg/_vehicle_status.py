@@ -20,19 +20,22 @@ class Metaclass_VehicleStatus(type):
     _TYPE_SUPPORT = None
 
     __constants = {
-        'MESSAGE_VERSION': 1,
         'ARMING_STATE_DISARMED': 1,
         'ARMING_STATE_ARMED': 2,
-        'ARM_DISARM_REASON_STICK_GESTURE': 1,
+        'ARM_DISARM_REASON_TRANSITION_TO_STANDBY': 0,
+        'ARM_DISARM_REASON_RC_STICK': 1,
         'ARM_DISARM_REASON_RC_SWITCH': 2,
         'ARM_DISARM_REASON_COMMAND_INTERNAL': 3,
         'ARM_DISARM_REASON_COMMAND_EXTERNAL': 4,
         'ARM_DISARM_REASON_MISSION_START': 5,
-        'ARM_DISARM_REASON_LANDING': 6,
-        'ARM_DISARM_REASON_PREFLIGHT_INACTION': 7,
-        'ARM_DISARM_REASON_KILL_SWITCH': 8,
-        'ARM_DISARM_REASON_RC_BUTTON': 13,
-        'ARM_DISARM_REASON_FAILSAFE': 14,
+        'ARM_DISARM_REASON_SAFETY_BUTTON': 6,
+        'ARM_DISARM_REASON_AUTO_DISARM_LAND': 7,
+        'ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT': 8,
+        'ARM_DISARM_REASON_KILL_SWITCH': 9,
+        'ARM_DISARM_REASON_LOCKDOWN': 10,
+        'ARM_DISARM_REASON_FAILURE_DETECTOR': 11,
+        'ARM_DISARM_REASON_SHUTDOWN': 12,
+        'ARM_DISARM_REASON_UNIT_TEST': 13,
         'NAVIGATION_STATE_MANUAL': 0,
         'NAVIGATION_STATE_ALTCTL': 1,
         'NAVIGATION_STATE_POSCTL': 2,
@@ -41,7 +44,7 @@ class Metaclass_VehicleStatus(type):
         'NAVIGATION_STATE_AUTO_RTL': 5,
         'NAVIGATION_STATE_POSITION_SLOW': 6,
         'NAVIGATION_STATE_FREE5': 7,
-        'NAVIGATION_STATE_ALTITUDE_CRUISE': 8,
+        'NAVIGATION_STATE_FREE4': 8,
         'NAVIGATION_STATE_FREE3': 9,
         'NAVIGATION_STATE_ACRO': 10,
         'NAVIGATION_STATE_FREE2': 11,
@@ -76,10 +79,11 @@ class Metaclass_VehicleStatus(type):
         'FAILURE_MOTOR': 128,
         'HIL_STATE_OFF': 0,
         'HIL_STATE_ON': 1,
-        'VEHICLE_TYPE_UNSPECIFIED': 0,
+        'VEHICLE_TYPE_UNKNOWN': 0,
         'VEHICLE_TYPE_ROTARY_WING': 1,
         'VEHICLE_TYPE_FIXED_WING': 2,
         'VEHICLE_TYPE_ROVER': 3,
+        'VEHICLE_TYPE_AIRSHIP': 4,
         'FAILSAFE_DEFER_STATE_DISABLED': 0,
         'FAILSAFE_DEFER_STATE_ENABLED': 1,
         'FAILSAFE_DEFER_STATE_WOULD_FAILSAFE': 2,
@@ -111,19 +115,22 @@ class Metaclass_VehicleStatus(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
-            'MESSAGE_VERSION': cls.__constants['MESSAGE_VERSION'],
             'ARMING_STATE_DISARMED': cls.__constants['ARMING_STATE_DISARMED'],
             'ARMING_STATE_ARMED': cls.__constants['ARMING_STATE_ARMED'],
-            'ARM_DISARM_REASON_STICK_GESTURE': cls.__constants['ARM_DISARM_REASON_STICK_GESTURE'],
+            'ARM_DISARM_REASON_TRANSITION_TO_STANDBY': cls.__constants['ARM_DISARM_REASON_TRANSITION_TO_STANDBY'],
+            'ARM_DISARM_REASON_RC_STICK': cls.__constants['ARM_DISARM_REASON_RC_STICK'],
             'ARM_DISARM_REASON_RC_SWITCH': cls.__constants['ARM_DISARM_REASON_RC_SWITCH'],
             'ARM_DISARM_REASON_COMMAND_INTERNAL': cls.__constants['ARM_DISARM_REASON_COMMAND_INTERNAL'],
             'ARM_DISARM_REASON_COMMAND_EXTERNAL': cls.__constants['ARM_DISARM_REASON_COMMAND_EXTERNAL'],
             'ARM_DISARM_REASON_MISSION_START': cls.__constants['ARM_DISARM_REASON_MISSION_START'],
-            'ARM_DISARM_REASON_LANDING': cls.__constants['ARM_DISARM_REASON_LANDING'],
-            'ARM_DISARM_REASON_PREFLIGHT_INACTION': cls.__constants['ARM_DISARM_REASON_PREFLIGHT_INACTION'],
+            'ARM_DISARM_REASON_SAFETY_BUTTON': cls.__constants['ARM_DISARM_REASON_SAFETY_BUTTON'],
+            'ARM_DISARM_REASON_AUTO_DISARM_LAND': cls.__constants['ARM_DISARM_REASON_AUTO_DISARM_LAND'],
+            'ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT': cls.__constants['ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT'],
             'ARM_DISARM_REASON_KILL_SWITCH': cls.__constants['ARM_DISARM_REASON_KILL_SWITCH'],
-            'ARM_DISARM_REASON_RC_BUTTON': cls.__constants['ARM_DISARM_REASON_RC_BUTTON'],
-            'ARM_DISARM_REASON_FAILSAFE': cls.__constants['ARM_DISARM_REASON_FAILSAFE'],
+            'ARM_DISARM_REASON_LOCKDOWN': cls.__constants['ARM_DISARM_REASON_LOCKDOWN'],
+            'ARM_DISARM_REASON_FAILURE_DETECTOR': cls.__constants['ARM_DISARM_REASON_FAILURE_DETECTOR'],
+            'ARM_DISARM_REASON_SHUTDOWN': cls.__constants['ARM_DISARM_REASON_SHUTDOWN'],
+            'ARM_DISARM_REASON_UNIT_TEST': cls.__constants['ARM_DISARM_REASON_UNIT_TEST'],
             'NAVIGATION_STATE_MANUAL': cls.__constants['NAVIGATION_STATE_MANUAL'],
             'NAVIGATION_STATE_ALTCTL': cls.__constants['NAVIGATION_STATE_ALTCTL'],
             'NAVIGATION_STATE_POSCTL': cls.__constants['NAVIGATION_STATE_POSCTL'],
@@ -132,7 +139,7 @@ class Metaclass_VehicleStatus(type):
             'NAVIGATION_STATE_AUTO_RTL': cls.__constants['NAVIGATION_STATE_AUTO_RTL'],
             'NAVIGATION_STATE_POSITION_SLOW': cls.__constants['NAVIGATION_STATE_POSITION_SLOW'],
             'NAVIGATION_STATE_FREE5': cls.__constants['NAVIGATION_STATE_FREE5'],
-            'NAVIGATION_STATE_ALTITUDE_CRUISE': cls.__constants['NAVIGATION_STATE_ALTITUDE_CRUISE'],
+            'NAVIGATION_STATE_FREE4': cls.__constants['NAVIGATION_STATE_FREE4'],
             'NAVIGATION_STATE_FREE3': cls.__constants['NAVIGATION_STATE_FREE3'],
             'NAVIGATION_STATE_ACRO': cls.__constants['NAVIGATION_STATE_ACRO'],
             'NAVIGATION_STATE_FREE2': cls.__constants['NAVIGATION_STATE_FREE2'],
@@ -167,19 +174,15 @@ class Metaclass_VehicleStatus(type):
             'FAILURE_MOTOR': cls.__constants['FAILURE_MOTOR'],
             'HIL_STATE_OFF': cls.__constants['HIL_STATE_OFF'],
             'HIL_STATE_ON': cls.__constants['HIL_STATE_ON'],
-            'VEHICLE_TYPE_UNSPECIFIED': cls.__constants['VEHICLE_TYPE_UNSPECIFIED'],
+            'VEHICLE_TYPE_UNKNOWN': cls.__constants['VEHICLE_TYPE_UNKNOWN'],
             'VEHICLE_TYPE_ROTARY_WING': cls.__constants['VEHICLE_TYPE_ROTARY_WING'],
             'VEHICLE_TYPE_FIXED_WING': cls.__constants['VEHICLE_TYPE_FIXED_WING'],
             'VEHICLE_TYPE_ROVER': cls.__constants['VEHICLE_TYPE_ROVER'],
+            'VEHICLE_TYPE_AIRSHIP': cls.__constants['VEHICLE_TYPE_AIRSHIP'],
             'FAILSAFE_DEFER_STATE_DISABLED': cls.__constants['FAILSAFE_DEFER_STATE_DISABLED'],
             'FAILSAFE_DEFER_STATE_ENABLED': cls.__constants['FAILSAFE_DEFER_STATE_ENABLED'],
             'FAILSAFE_DEFER_STATE_WOULD_FAILSAFE': cls.__constants['FAILSAFE_DEFER_STATE_WOULD_FAILSAFE'],
         }
-
-    @property
-    def MESSAGE_VERSION(self):
-        """Message constant 'MESSAGE_VERSION'."""
-        return Metaclass_VehicleStatus.__constants['MESSAGE_VERSION']
 
     @property
     def ARMING_STATE_DISARMED(self):
@@ -192,9 +195,14 @@ class Metaclass_VehicleStatus(type):
         return Metaclass_VehicleStatus.__constants['ARMING_STATE_ARMED']
 
     @property
-    def ARM_DISARM_REASON_STICK_GESTURE(self):
-        """Message constant 'ARM_DISARM_REASON_STICK_GESTURE'."""
-        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_STICK_GESTURE']
+    def ARM_DISARM_REASON_TRANSITION_TO_STANDBY(self):
+        """Message constant 'ARM_DISARM_REASON_TRANSITION_TO_STANDBY'."""
+        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_TRANSITION_TO_STANDBY']
+
+    @property
+    def ARM_DISARM_REASON_RC_STICK(self):
+        """Message constant 'ARM_DISARM_REASON_RC_STICK'."""
+        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_RC_STICK']
 
     @property
     def ARM_DISARM_REASON_RC_SWITCH(self):
@@ -217,14 +225,19 @@ class Metaclass_VehicleStatus(type):
         return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_MISSION_START']
 
     @property
-    def ARM_DISARM_REASON_LANDING(self):
-        """Message constant 'ARM_DISARM_REASON_LANDING'."""
-        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_LANDING']
+    def ARM_DISARM_REASON_SAFETY_BUTTON(self):
+        """Message constant 'ARM_DISARM_REASON_SAFETY_BUTTON'."""
+        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_SAFETY_BUTTON']
 
     @property
-    def ARM_DISARM_REASON_PREFLIGHT_INACTION(self):
-        """Message constant 'ARM_DISARM_REASON_PREFLIGHT_INACTION'."""
-        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_PREFLIGHT_INACTION']
+    def ARM_DISARM_REASON_AUTO_DISARM_LAND(self):
+        """Message constant 'ARM_DISARM_REASON_AUTO_DISARM_LAND'."""
+        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_AUTO_DISARM_LAND']
+
+    @property
+    def ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT(self):
+        """Message constant 'ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT'."""
+        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT']
 
     @property
     def ARM_DISARM_REASON_KILL_SWITCH(self):
@@ -232,14 +245,24 @@ class Metaclass_VehicleStatus(type):
         return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_KILL_SWITCH']
 
     @property
-    def ARM_DISARM_REASON_RC_BUTTON(self):
-        """Message constant 'ARM_DISARM_REASON_RC_BUTTON'."""
-        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_RC_BUTTON']
+    def ARM_DISARM_REASON_LOCKDOWN(self):
+        """Message constant 'ARM_DISARM_REASON_LOCKDOWN'."""
+        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_LOCKDOWN']
 
     @property
-    def ARM_DISARM_REASON_FAILSAFE(self):
-        """Message constant 'ARM_DISARM_REASON_FAILSAFE'."""
-        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_FAILSAFE']
+    def ARM_DISARM_REASON_FAILURE_DETECTOR(self):
+        """Message constant 'ARM_DISARM_REASON_FAILURE_DETECTOR'."""
+        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_FAILURE_DETECTOR']
+
+    @property
+    def ARM_DISARM_REASON_SHUTDOWN(self):
+        """Message constant 'ARM_DISARM_REASON_SHUTDOWN'."""
+        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_SHUTDOWN']
+
+    @property
+    def ARM_DISARM_REASON_UNIT_TEST(self):
+        """Message constant 'ARM_DISARM_REASON_UNIT_TEST'."""
+        return Metaclass_VehicleStatus.__constants['ARM_DISARM_REASON_UNIT_TEST']
 
     @property
     def NAVIGATION_STATE_MANUAL(self):
@@ -282,9 +305,9 @@ class Metaclass_VehicleStatus(type):
         return Metaclass_VehicleStatus.__constants['NAVIGATION_STATE_FREE5']
 
     @property
-    def NAVIGATION_STATE_ALTITUDE_CRUISE(self):
-        """Message constant 'NAVIGATION_STATE_ALTITUDE_CRUISE'."""
-        return Metaclass_VehicleStatus.__constants['NAVIGATION_STATE_ALTITUDE_CRUISE']
+    def NAVIGATION_STATE_FREE4(self):
+        """Message constant 'NAVIGATION_STATE_FREE4'."""
+        return Metaclass_VehicleStatus.__constants['NAVIGATION_STATE_FREE4']
 
     @property
     def NAVIGATION_STATE_FREE3(self):
@@ -457,9 +480,9 @@ class Metaclass_VehicleStatus(type):
         return Metaclass_VehicleStatus.__constants['HIL_STATE_ON']
 
     @property
-    def VEHICLE_TYPE_UNSPECIFIED(self):
-        """Message constant 'VEHICLE_TYPE_UNSPECIFIED'."""
-        return Metaclass_VehicleStatus.__constants['VEHICLE_TYPE_UNSPECIFIED']
+    def VEHICLE_TYPE_UNKNOWN(self):
+        """Message constant 'VEHICLE_TYPE_UNKNOWN'."""
+        return Metaclass_VehicleStatus.__constants['VEHICLE_TYPE_UNKNOWN']
 
     @property
     def VEHICLE_TYPE_ROTARY_WING(self):
@@ -475,6 +498,11 @@ class Metaclass_VehicleStatus(type):
     def VEHICLE_TYPE_ROVER(self):
         """Message constant 'VEHICLE_TYPE_ROVER'."""
         return Metaclass_VehicleStatus.__constants['VEHICLE_TYPE_ROVER']
+
+    @property
+    def VEHICLE_TYPE_AIRSHIP(self):
+        """Message constant 'VEHICLE_TYPE_AIRSHIP'."""
+        return Metaclass_VehicleStatus.__constants['VEHICLE_TYPE_AIRSHIP']
 
     @property
     def FAILSAFE_DEFER_STATE_DISABLED(self):
@@ -497,19 +525,22 @@ class VehicleStatus(metaclass=Metaclass_VehicleStatus):
     Message class 'VehicleStatus'.
 
     Constants:
-      MESSAGE_VERSION
       ARMING_STATE_DISARMED
       ARMING_STATE_ARMED
-      ARM_DISARM_REASON_STICK_GESTURE
+      ARM_DISARM_REASON_TRANSITION_TO_STANDBY
+      ARM_DISARM_REASON_RC_STICK
       ARM_DISARM_REASON_RC_SWITCH
       ARM_DISARM_REASON_COMMAND_INTERNAL
       ARM_DISARM_REASON_COMMAND_EXTERNAL
       ARM_DISARM_REASON_MISSION_START
-      ARM_DISARM_REASON_LANDING
-      ARM_DISARM_REASON_PREFLIGHT_INACTION
+      ARM_DISARM_REASON_SAFETY_BUTTON
+      ARM_DISARM_REASON_AUTO_DISARM_LAND
+      ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT
       ARM_DISARM_REASON_KILL_SWITCH
-      ARM_DISARM_REASON_RC_BUTTON
-      ARM_DISARM_REASON_FAILSAFE
+      ARM_DISARM_REASON_LOCKDOWN
+      ARM_DISARM_REASON_FAILURE_DETECTOR
+      ARM_DISARM_REASON_SHUTDOWN
+      ARM_DISARM_REASON_UNIT_TEST
       NAVIGATION_STATE_MANUAL
       NAVIGATION_STATE_ALTCTL
       NAVIGATION_STATE_POSCTL
@@ -518,7 +549,7 @@ class VehicleStatus(metaclass=Metaclass_VehicleStatus):
       NAVIGATION_STATE_AUTO_RTL
       NAVIGATION_STATE_POSITION_SLOW
       NAVIGATION_STATE_FREE5
-      NAVIGATION_STATE_ALTITUDE_CRUISE
+      NAVIGATION_STATE_FREE4
       NAVIGATION_STATE_FREE3
       NAVIGATION_STATE_ACRO
       NAVIGATION_STATE_FREE2
@@ -553,10 +584,11 @@ class VehicleStatus(metaclass=Metaclass_VehicleStatus):
       FAILURE_MOTOR
       HIL_STATE_OFF
       HIL_STATE_ON
-      VEHICLE_TYPE_UNSPECIFIED
+      VEHICLE_TYPE_UNKNOWN
       VEHICLE_TYPE_ROTARY_WING
       VEHICLE_TYPE_FIXED_WING
       VEHICLE_TYPE_ROVER
+      VEHICLE_TYPE_AIRSHIP
       FAILSAFE_DEFER_STATE_DISABLED
       FAILSAFE_DEFER_STATE_ENABLED
       FAILSAFE_DEFER_STATE_WOULD_FAILSAFE
@@ -599,6 +631,8 @@ class VehicleStatus(metaclass=Metaclass_VehicleStatus):
         '_open_drone_id_system_healthy',
         '_parachute_system_present',
         '_parachute_system_healthy',
+        '_avoidance_system_required',
+        '_avoidance_system_valid',
         '_rc_calibration_in_progress',
         '_calibration_enabled',
         '_pre_flight_checks_pass',
@@ -641,6 +675,8 @@ class VehicleStatus(metaclass=Metaclass_VehicleStatus):
         'open_drone_id_system_healthy': 'boolean',
         'parachute_system_present': 'boolean',
         'parachute_system_healthy': 'boolean',
+        'avoidance_system_required': 'boolean',
+        'avoidance_system_valid': 'boolean',
         'rc_calibration_in_progress': 'boolean',
         'calibration_enabled': 'boolean',
         'pre_flight_checks_pass': 'boolean',
@@ -675,6 +711,8 @@ class VehicleStatus(metaclass=Metaclass_VehicleStatus):
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
@@ -728,6 +766,8 @@ class VehicleStatus(metaclass=Metaclass_VehicleStatus):
         self.open_drone_id_system_healthy = kwargs.get('open_drone_id_system_healthy', bool())
         self.parachute_system_present = kwargs.get('parachute_system_present', bool())
         self.parachute_system_healthy = kwargs.get('parachute_system_healthy', bool())
+        self.avoidance_system_required = kwargs.get('avoidance_system_required', bool())
+        self.avoidance_system_valid = kwargs.get('avoidance_system_valid', bool())
         self.rc_calibration_in_progress = kwargs.get('rc_calibration_in_progress', bool())
         self.calibration_enabled = kwargs.get('calibration_enabled', bool())
         self.pre_flight_checks_pass = kwargs.get('pre_flight_checks_pass', bool())
@@ -832,6 +872,10 @@ class VehicleStatus(metaclass=Metaclass_VehicleStatus):
         if self.parachute_system_present != other.parachute_system_present:
             return False
         if self.parachute_system_healthy != other.parachute_system_healthy:
+            return False
+        if self.avoidance_system_required != other.avoidance_system_required:
+            return False
+        if self.avoidance_system_valid != other.avoidance_system_valid:
             return False
         if self.rc_calibration_in_progress != other.rc_calibration_in_progress:
             return False
@@ -1353,6 +1397,32 @@ class VehicleStatus(metaclass=Metaclass_VehicleStatus):
                 isinstance(value, bool), \
                 "The 'parachute_system_healthy' field must be of type 'bool'"
         self._parachute_system_healthy = value
+
+    @builtins.property
+    def avoidance_system_required(self):
+        """Message field 'avoidance_system_required'."""
+        return self._avoidance_system_required
+
+    @avoidance_system_required.setter
+    def avoidance_system_required(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'avoidance_system_required' field must be of type 'bool'"
+        self._avoidance_system_required = value
+
+    @builtins.property
+    def avoidance_system_valid(self):
+        """Message field 'avoidance_system_valid'."""
+        return self._avoidance_system_valid
+
+    @avoidance_system_valid.setter
+    def avoidance_system_valid(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'avoidance_system_valid' field must be of type 'bool'"
+        self._avoidance_system_valid = value
 
     @builtins.property
     def rc_calibration_in_progress(self):

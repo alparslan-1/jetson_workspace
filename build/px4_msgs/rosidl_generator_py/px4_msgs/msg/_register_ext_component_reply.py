@@ -23,7 +23,6 @@ class Metaclass_RegisterExtComponentReply(type):
     _TYPE_SUPPORT = None
 
     __constants = {
-        'MESSAGE_VERSION': 1,
         'ORB_QUEUE_LENGTH': 2,
     }
 
@@ -53,14 +52,8 @@ class Metaclass_RegisterExtComponentReply(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
-            'MESSAGE_VERSION': cls.__constants['MESSAGE_VERSION'],
             'ORB_QUEUE_LENGTH': cls.__constants['ORB_QUEUE_LENGTH'],
         }
-
-    @property
-    def MESSAGE_VERSION(self):
-        """Message constant 'MESSAGE_VERSION'."""
-        return Metaclass_RegisterExtComponentReply.__constants['MESSAGE_VERSION']
 
     @property
     def ORB_QUEUE_LENGTH(self):
@@ -73,7 +66,6 @@ class RegisterExtComponentReply(metaclass=Metaclass_RegisterExtComponentReply):
     Message class 'RegisterExtComponentReply'.
 
     Constants:
-      MESSAGE_VERSION
       ORB_QUEUE_LENGTH
     """
 
@@ -86,7 +78,6 @@ class RegisterExtComponentReply(metaclass=Metaclass_RegisterExtComponentReply):
         '_arming_check_id',
         '_mode_id',
         '_mode_executor_id',
-        '_not_user_selectable',
     ]
 
     _fields_and_field_types = {
@@ -98,7 +89,6 @@ class RegisterExtComponentReply(metaclass=Metaclass_RegisterExtComponentReply):
         'arming_check_id': 'int8',
         'mode_id': 'int8',
         'mode_executor_id': 'int8',
-        'not_user_selectable': 'boolean',
     }
 
     SLOT_TYPES = (
@@ -110,7 +100,6 @@ class RegisterExtComponentReply(metaclass=Metaclass_RegisterExtComponentReply):
         rosidl_parser.definition.BasicType('int8'),  # noqa: E501
         rosidl_parser.definition.BasicType('int8'),  # noqa: E501
         rosidl_parser.definition.BasicType('int8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -129,7 +118,6 @@ class RegisterExtComponentReply(metaclass=Metaclass_RegisterExtComponentReply):
         self.arming_check_id = kwargs.get('arming_check_id', int())
         self.mode_id = kwargs.get('mode_id', int())
         self.mode_executor_id = kwargs.get('mode_executor_id', int())
-        self.not_user_selectable = kwargs.get('not_user_selectable', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -175,8 +163,6 @@ class RegisterExtComponentReply(metaclass=Metaclass_RegisterExtComponentReply):
         if self.mode_id != other.mode_id:
             return False
         if self.mode_executor_id != other.mode_executor_id:
-            return False
-        if self.not_user_selectable != other.not_user_selectable:
             return False
         return True
 
@@ -318,16 +304,3 @@ class RegisterExtComponentReply(metaclass=Metaclass_RegisterExtComponentReply):
             assert value >= -128 and value < 128, \
                 "The 'mode_executor_id' field must be an integer in [-128, 127]"
         self._mode_executor_id = value
-
-    @builtins.property
-    def not_user_selectable(self):
-        """Message field 'not_user_selectable'."""
-        return self._not_user_selectable
-
-    @not_user_selectable.setter
-    def not_user_selectable(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'not_user_selectable' field must be of type 'bool'"
-        self._not_user_selectable = value

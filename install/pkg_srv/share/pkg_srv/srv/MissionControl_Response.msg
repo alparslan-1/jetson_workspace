@@ -1,2 +1,1 @@
-
-string mission_state
+/root/bridges/jetson_workspace/build/pkg_srv/rosidl_cmake/srv/MissionControl_Response.msg

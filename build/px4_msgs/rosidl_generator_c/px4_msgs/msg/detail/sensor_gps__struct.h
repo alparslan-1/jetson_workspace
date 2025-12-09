@@ -63,9 +63,6 @@ enum
 };
 
 /// Constant 'JAMMING_STATE_UNKNOWN'.
-/**
-  * default
- */
 enum
 {
   px4_msgs__msg__SensorGps__JAMMING_STATE_UNKNOWN = 0
@@ -77,128 +74,40 @@ enum
   px4_msgs__msg__SensorGps__JAMMING_STATE_OK = 1
 };
 
-/// Constant 'JAMMING_STATE_MITIGATED'.
+/// Constant 'JAMMING_STATE_WARNING'.
 enum
 {
-  px4_msgs__msg__SensorGps__JAMMING_STATE_MITIGATED = 2
+  px4_msgs__msg__SensorGps__JAMMING_STATE_WARNING = 2
 };
 
-/// Constant 'JAMMING_STATE_DETECTED'.
+/// Constant 'JAMMING_STATE_CRITICAL'.
 enum
 {
-  px4_msgs__msg__SensorGps__JAMMING_STATE_DETECTED = 3
+  px4_msgs__msg__SensorGps__JAMMING_STATE_CRITICAL = 3
 };
 
 /// Constant 'SPOOFING_STATE_UNKNOWN'.
-/**
-  * default
- */
 enum
 {
   px4_msgs__msg__SensorGps__SPOOFING_STATE_UNKNOWN = 0
 };
 
-/// Constant 'SPOOFING_STATE_OK'.
+/// Constant 'SPOOFING_STATE_NONE'.
 enum
 {
-  px4_msgs__msg__SensorGps__SPOOFING_STATE_OK = 1
+  px4_msgs__msg__SensorGps__SPOOFING_STATE_NONE = 1
 };
 
-/// Constant 'SPOOFING_STATE_MITIGATED'.
+/// Constant 'SPOOFING_STATE_INDICATED'.
 enum
 {
-  px4_msgs__msg__SensorGps__SPOOFING_STATE_MITIGATED = 2
+  px4_msgs__msg__SensorGps__SPOOFING_STATE_INDICATED = 2
 };
 
-/// Constant 'SPOOFING_STATE_DETECTED'.
+/// Constant 'SPOOFING_STATE_MULTIPLE'.
 enum
 {
-  px4_msgs__msg__SensorGps__SPOOFING_STATE_DETECTED = 3
-};
-
-/// Constant 'AUTHENTICATION_STATE_UNKNOWN'.
-/**
-  *  Combined authentication state (e.g. Galileo OSNMA)
-  * default
- */
-enum
-{
-  px4_msgs__msg__SensorGps__AUTHENTICATION_STATE_UNKNOWN = 0
-};
-
-/// Constant 'AUTHENTICATION_STATE_INITIALIZING'.
-enum
-{
-  px4_msgs__msg__SensorGps__AUTHENTICATION_STATE_INITIALIZING = 1
-};
-
-/// Constant 'AUTHENTICATION_STATE_ERROR'.
-enum
-{
-  px4_msgs__msg__SensorGps__AUTHENTICATION_STATE_ERROR = 2
-};
-
-/// Constant 'AUTHENTICATION_STATE_OK'.
-enum
-{
-  px4_msgs__msg__SensorGps__AUTHENTICATION_STATE_OK = 3
-};
-
-/// Constant 'AUTHENTICATION_STATE_DISABLED'.
-enum
-{
-  px4_msgs__msg__SensorGps__AUTHENTICATION_STATE_DISABLED = 4
-};
-
-/// Constant 'SYSTEM_ERROR_OK'.
-/**
-  * default
- */
-enum
-{
-  px4_msgs__msg__SensorGps__SYSTEM_ERROR_OK = 0ul
-};
-
-/// Constant 'SYSTEM_ERROR_INCOMING_CORRECTIONS'.
-enum
-{
-  px4_msgs__msg__SensorGps__SYSTEM_ERROR_INCOMING_CORRECTIONS = 1ul
-};
-
-/// Constant 'SYSTEM_ERROR_CONFIGURATION'.
-enum
-{
-  px4_msgs__msg__SensorGps__SYSTEM_ERROR_CONFIGURATION = 2ul
-};
-
-/// Constant 'SYSTEM_ERROR_SOFTWARE'.
-enum
-{
-  px4_msgs__msg__SensorGps__SYSTEM_ERROR_SOFTWARE = 4ul
-};
-
-/// Constant 'SYSTEM_ERROR_ANTENNA'.
-enum
-{
-  px4_msgs__msg__SensorGps__SYSTEM_ERROR_ANTENNA = 8ul
-};
-
-/// Constant 'SYSTEM_ERROR_EVENT_CONGESTION'.
-enum
-{
-  px4_msgs__msg__SensorGps__SYSTEM_ERROR_EVENT_CONGESTION = 16ul
-};
-
-/// Constant 'SYSTEM_ERROR_CPU_OVERLOAD'.
-enum
-{
-  px4_msgs__msg__SensorGps__SYSTEM_ERROR_CPU_OVERLOAD = 32ul
-};
-
-/// Constant 'SYSTEM_ERROR_OUTPUT_CONGESTION'.
-enum
-{
-  px4_msgs__msg__SensorGps__SYSTEM_ERROR_OUTPUT_CONGESTION = 64ul
+  px4_msgs__msg__SensorGps__SPOOFING_STATE_MULTIPLE = 3
 };
 
 /// Constant 'RTCM_MSG_USED_UNKNOWN'.
@@ -257,14 +166,12 @@ typedef struct px4_msgs__msg__SensorGps
   int32_t noise_per_ms;
   /// Automatic gain control monitor
   uint16_t automatic_gain_control;
-  /// indicates whether jamming has been detected or suspected by the receivers. O: Unknown, 1: OK, 2: Mitigated, 3: Detected
+  /// indicates whether jamming has been detected or suspected by the receivers. O: Unknown, 1: OK, 2: Warning, 3: Critical
   uint8_t jamming_state;
   /// indicates jamming is occurring
   int32_t jamming_indicator;
-  /// indicates whether spoofing has been detected or suspected by the receivers. O: Unknown, 1: OK, 2: Mitigated, 3: Detected
+  /// indicates whether spoofing has been detected or suspected by the receivers. O: Unknown, 1: OK, 2: Warning, 3: Critical
   uint8_t spoofing_state;
-  /// GPS signal authentication state
-  uint8_t authentication_state;
   /// GPS ground speed, (metres/sec)
   float vel_m_s;
   /// GPS North velocity, (metres/sec)
@@ -283,8 +190,6 @@ typedef struct px4_msgs__msg__SensorGps
   uint64_t time_utc_usec;
   /// Number of satellites used
   uint8_t satellites_used;
-  /// General errors with the connected GPS receiver
-  uint32_t system_error;
   /// heading angle of XYZ body frame rel to NED. Set to NaN if not available and updated (used for dual antenna GPS), (rad, [-PI, PI])
   float heading;
   /// heading offset of dual antenna array in body frame. Set to NaN if not applicable. (rad, [-PI, PI])

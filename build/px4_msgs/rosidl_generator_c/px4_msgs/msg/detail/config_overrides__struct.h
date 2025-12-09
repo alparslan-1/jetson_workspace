@@ -17,12 +17,6 @@ extern "C"
 
 // Constants defined in the message
 
-/// Constant 'MESSAGE_VERSION'.
-enum
-{
-  px4_msgs__msg__ConfigOverrides__MESSAGE_VERSION = 1ul
-};
-
 /// Constant 'SOURCE_TYPE_MODE'.
 enum
 {
@@ -55,8 +49,6 @@ typedef struct px4_msgs__msg__ConfigOverrides
   bool defer_failsafes;
   /// Maximum time a failsafe can be deferred. 0 = system default, -1 = no timeout
   int16_t defer_failsafes_timeout_s;
-  /// Prevent the drone from automatically setting the home position on arm or takeoff
-  bool disable_auto_set_home;
   int8_t source_type;
   /// ID depending on source_type
   uint8_t source_id;

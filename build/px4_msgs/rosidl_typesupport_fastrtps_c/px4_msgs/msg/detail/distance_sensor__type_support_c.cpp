@@ -111,11 +111,6 @@ static bool _DistanceSensor__cdr_serialize(
     cdr << ros_message->orientation;
   }
 
-  // Field name: mode
-  {
-    cdr << ros_message->mode;
-  }
-
   return true;
 }
 
@@ -188,11 +183,6 @@ static bool _DistanceSensor__cdr_deserialize(
   // Field name: orientation
   {
     cdr >> ros_message->orientation;
-  }
-
-  // Field name: mode
-  {
-    cdr >> ros_message->mode;
   }
 
   return true;
@@ -284,12 +274,6 @@ size_t get_serialized_size_px4_msgs__msg__DistanceSensor(
   // field.name orientation
   {
     size_t item_size = sizeof(ros_message->orientation);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name mode
-  {
-    size_t item_size = sizeof(ros_message->mode);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -396,12 +380,6 @@ size_t max_serialized_size_px4_msgs__msg__DistanceSensor(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
   // member: orientation
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: mode
   {
     size_t array_size = 1;
 

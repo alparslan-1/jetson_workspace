@@ -53,13 +53,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: disable_auto_set_home
-  {
-    out << "disable_auto_set_home: ";
-    rosidl_generator_traits::value_to_yaml(msg.disable_auto_set_home, out);
-    out << ", ";
-  }
-
   // member: source_type
   {
     out << "source_type: ";
@@ -116,16 +109,6 @@ inline void to_block_style_yaml(
     }
     out << "defer_failsafes_timeout_s: ";
     rosidl_generator_traits::value_to_yaml(msg.defer_failsafes_timeout_s, out);
-    out << "\n";
-  }
-
-  // member: disable_auto_set_home
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "disable_auto_set_home: ";
-    rosidl_generator_traits::value_to_yaml(msg.disable_auto_set_home, out);
     out << "\n";
   }
 

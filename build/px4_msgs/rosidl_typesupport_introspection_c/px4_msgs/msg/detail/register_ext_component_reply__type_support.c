@@ -76,7 +76,7 @@ void px4_msgs__msg__RegisterExtComponentReply__rosidl_typesupport_introspection_
   *item = *value;
 }
 
-static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__RegisterExtComponentReply__rosidl_typesupport_introspection_c__RegisterExtComponentReply_message_member_array[9] = {
+static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__RegisterExtComponentReply__rosidl_typesupport_introspection_c__RegisterExtComponentReply_message_member_array[8] = {
   {
     "timestamp",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_UINT64,  // type
@@ -212,30 +212,13 @@ static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__Register
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
-  },
-  {
-    "not_user_selectable",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs__msg__RegisterExtComponentReply, not_user_selectable),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers px4_msgs__msg__RegisterExtComponentReply__rosidl_typesupport_introspection_c__RegisterExtComponentReply_message_members = {
   "px4_msgs__msg",  // message namespace
   "RegisterExtComponentReply",  // message name
-  9,  // number of fields
+  8,  // number of fields
   sizeof(px4_msgs__msg__RegisterExtComponentReply),
   px4_msgs__msg__RegisterExtComponentReply__rosidl_typesupport_introspection_c__RegisterExtComponentReply_message_member_array,  // message members
   px4_msgs__msg__RegisterExtComponentReply__rosidl_typesupport_introspection_c__RegisterExtComponentReply_init_function,  // function to initialize message memory (memory has to be allocated)

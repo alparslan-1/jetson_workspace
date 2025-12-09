@@ -38,8 +38,6 @@ cdr_serialize(
   cdr << ros_message.altitude_sp;
   // Member: altitude_reference
   cdr << ros_message.altitude_reference;
-  // Member: altitude_time_constant
-  cdr << ros_message.altitude_time_constant;
   // Member: height_rate_reference
   cdr << ros_message.height_rate_reference;
   // Member: height_rate_direct
@@ -80,8 +78,6 @@ cdr_serialize(
   cdr << ros_message.throttle_trim;
   // Member: underspeed_ratio
   cdr << ros_message.underspeed_ratio;
-  // Member: fast_descend_ratio
-  cdr << ros_message.fast_descend_ratio;
   return true;
 }
 
@@ -99,9 +95,6 @@ cdr_deserialize(
 
   // Member: altitude_reference
   cdr >> ros_message.altitude_reference;
-
-  // Member: altitude_time_constant
-  cdr >> ros_message.altitude_time_constant;
 
   // Member: height_rate_reference
   cdr >> ros_message.height_rate_reference;
@@ -163,9 +156,6 @@ cdr_deserialize(
   // Member: underspeed_ratio
   cdr >> ros_message.underspeed_ratio;
 
-  // Member: fast_descend_ratio
-  cdr >> ros_message.fast_descend_ratio;
-
   return true;
 }
 
@@ -197,12 +187,6 @@ get_serialized_size(
   // Member: altitude_reference
   {
     size_t item_size = sizeof(ros_message.altitude_reference);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: altitude_time_constant
-  {
-    size_t item_size = sizeof(ros_message.altitude_time_constant);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -326,12 +310,6 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: fast_descend_ratio
-  {
-    size_t item_size = sizeof(ros_message.fast_descend_ratio);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
 
   return current_alignment - initial_alignment;
 }
@@ -371,14 +349,6 @@ max_serialized_size_TecsStatus(
   }
 
   // Member: altitude_reference
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
-  // Member: altitude_time_constant
   {
     size_t array_size = 1;
 
@@ -539,14 +509,6 @@ max_serialized_size_TecsStatus(
   }
 
   // Member: underspeed_ratio
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
-  // Member: fast_descend_ratio
   {
     size_t array_size = 1;
 

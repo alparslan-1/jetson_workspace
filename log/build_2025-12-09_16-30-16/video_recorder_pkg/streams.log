@@ -1,0 +1,99 @@
+[0.489s] Invoking command in '/root/bridges/jetson_workspace/build/video_recorder_pkg': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/video_recorder_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/video_recorder_pkg
+[1.020s] -- The C compiler identification is GNU 9.4.0
+[1.396s] -- The CXX compiler identification is GNU 9.4.0
+[1.639s] -- Detecting C compiler ABI info
+[2.205s] -- Detecting C compiler ABI info - done
+[2.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.278s] -- Detecting C compile features
+[2.281s] -- Detecting C compile features - done
+[2.496s] -- Detecting CXX compiler ABI info
+[3.109s] -- Detecting CXX compiler ABI info - done
+[3.179s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.182s] -- Detecting CXX compile features
+[3.186s] -- Detecting CXX compile features - done
+[3.209s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[10.758s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[11.067s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.238s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/install/share/rclcpp/cmake)
+[11.522s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[11.555s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[11.610s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[11.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.307s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[12.324s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[12.563s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[12.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.088s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[13.089s] -- Looking for pthread_create in pthreads
+[13.443s] -- Looking for pthread_create in pthreads - not found
+[13.445s] -- Looking for pthread_create in pthread
+[13.869s] -- Looking for pthread_create in pthread - found
+[13.877s] -- Found Threads: TRUE  
+[14.902s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[15.700s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/install/share/cv_bridge/cmake)
+[15.729s] [33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+[15.730s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[15.731s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[15.731s]   set the policy and suppress this warning.
+[15.731s] 
+[15.732s] Call Stack (most recent call first):
+[15.733s]   /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+[15.733s]   /opt/ros/humble/install/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[15.734s]   /opt/ros/humble/install/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)
+[15.734s]   CMakeLists.txt:14 (find_package)
+[15.734s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.736s] [0m
+[15.954s] -- Found CUDA: /usr/local/cuda (found suitable exact version "11.4") 
+[16.135s] -- Found OpenCV: /usr (found version "4.5.0") 
+[16.544s] -- Configuring done (15.9s)
+[16.732s] -- Generating done (0.1s)
+[16.747s] -- Build files have been written to: /root/bridges/jetson_workspace/build/video_recorder_pkg
+[16.850s] Invoked command in '/root/bridges/jetson_workspace/build/video_recorder_pkg' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/video_recorder_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/video_recorder_pkg
+[16.857s] Invoking command in '/root/bridges/jetson_workspace/build/video_recorder_pkg': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/video_recorder_pkg -- -j4 -l4
+[17.195s] [ 25%] [32mBuilding CXX object CMakeFiles/video_writer_node.dir/src/video_writer_node.cpp.o[0m
+[17.263s] [ 50%] [32mBuilding CXX object CMakeFiles/video_recorder_control_node.dir/src/video_recorder_control_node.cpp.o[0m
+[51.570s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:[m[K In constructor ‘[01m[KVideoWriterNode::VideoWriterNode()[m[K’:
+[51.571s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.571s]    23 |         struct stat st = {0[01;35m[K}[m[K;
+[51.572s]       |                            [01;35m[K^[m[K
+[51.573s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.574s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.575s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.577s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.578s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.579s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad1[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.580s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.581s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.582s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.583s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.584s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.585s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.586s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[51.596s] [01m[K/root/bridges/jetson_workspace/src/video_recorder_pkg/src/video_writer_node.cpp:23:28:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[93.130s] [ 75%] [32m[1mLinking CXX executable video_recorder_control_node[0m
+[96.370s] [ 75%] Built target video_recorder_control_node
+[121.134s] [100%] [32m[1mLinking CXX executable video_writer_node[0m
+[126.789s] [100%] Built target video_writer_node
+[126.851s] Invoked command in '/root/bridges/jetson_workspace/build/video_recorder_pkg' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/video_recorder_pkg -- -j4 -l4
+[127.417s] Invoking command in '/root/bridges/jetson_workspace/build/video_recorder_pkg': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/video_recorder_pkg
+[127.646s] -- Install configuration: ""
+[127.652s] -- Execute custom install script
+[127.659s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/lib/video_recorder_pkg/video_writer_node
+[127.685s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/lib/video_recorder_pkg/video_recorder_control_node
+[127.709s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/ament_index/resource_index/package_run_dependencies/video_recorder_pkg
+[127.732s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/ament_index/resource_index/parent_prefix_path/video_recorder_pkg
+[127.754s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/ament_prefix_path.sh
+[127.777s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/ament_prefix_path.dsv
+[127.799s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/path.sh
+[127.822s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/environment/path.dsv
+[127.843s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.bash
+[127.863s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.sh
+[127.886s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.zsh
+[127.910s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/local_setup.dsv
+[127.930s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.dsv
+[127.951s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/ament_index/resource_index/packages/video_recorder_pkg
+[127.974s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/cmake/video_recorder_pkgConfig.cmake
+[127.998s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/cmake/video_recorder_pkgConfig-version.cmake
+[128.020s] -- Symlinking: /root/bridges/jetson_workspace/install/video_recorder_pkg/share/video_recorder_pkg/package.xml
+[128.077s] Invoked command in '/root/bridges/jetson_workspace/build/video_recorder_pkg' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/video_recorder_pkg

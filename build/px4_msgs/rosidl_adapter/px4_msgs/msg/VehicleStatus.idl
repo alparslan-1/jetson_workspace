@@ -6,19 +6,22 @@
 module px4_msgs {
   module msg {
     module VehicleStatus_Constants {
-      const uint32 MESSAGE_VERSION = 1;
       const uint8 ARMING_STATE_DISARMED = 1;
       const uint8 ARMING_STATE_ARMED = 2;
-      const uint8 ARM_DISARM_REASON_STICK_GESTURE = 1;
+      const uint8 ARM_DISARM_REASON_TRANSITION_TO_STANDBY = 0;
+      const uint8 ARM_DISARM_REASON_RC_STICK = 1;
       const uint8 ARM_DISARM_REASON_RC_SWITCH = 2;
       const uint8 ARM_DISARM_REASON_COMMAND_INTERNAL = 3;
       const uint8 ARM_DISARM_REASON_COMMAND_EXTERNAL = 4;
       const uint8 ARM_DISARM_REASON_MISSION_START = 5;
-      const uint8 ARM_DISARM_REASON_LANDING = 6;
-      const uint8 ARM_DISARM_REASON_PREFLIGHT_INACTION = 7;
-      const uint8 ARM_DISARM_REASON_KILL_SWITCH = 8;
-      const uint8 ARM_DISARM_REASON_RC_BUTTON = 13;
-      const uint8 ARM_DISARM_REASON_FAILSAFE = 14;
+      const uint8 ARM_DISARM_REASON_SAFETY_BUTTON = 6;
+      const uint8 ARM_DISARM_REASON_AUTO_DISARM_LAND = 7;
+      const uint8 ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT = 8;
+      const uint8 ARM_DISARM_REASON_KILL_SWITCH = 9;
+      const uint8 ARM_DISARM_REASON_LOCKDOWN = 10;
+      const uint8 ARM_DISARM_REASON_FAILURE_DETECTOR = 11;
+      const uint8 ARM_DISARM_REASON_SHUTDOWN = 12;
+      const uint8 ARM_DISARM_REASON_UNIT_TEST = 13;
       @verbatim (language="comment", text=
         "Manual mode")
       const uint8 NAVIGATION_STATE_MANUAL = 0;
@@ -39,9 +42,7 @@ module px4_msgs {
       const uint8 NAVIGATION_STATE_AUTO_RTL = 5;
       const uint8 NAVIGATION_STATE_POSITION_SLOW = 6;
       const uint8 NAVIGATION_STATE_FREE5 = 7;
-      @verbatim (language="comment", text=
-        "Altitude with Cruise mode")
-      const uint8 NAVIGATION_STATE_ALTITUDE_CRUISE = 8;
+      const uint8 NAVIGATION_STATE_FREE4 = 8;
       const uint8 NAVIGATION_STATE_FREE3 = 9;
       @verbatim (language="comment", text=
         "Acro mode")
@@ -112,10 +113,11 @@ module px4_msgs {
       const uint16 FAILURE_MOTOR = 128;
       const uint8 HIL_STATE_OFF = 0;
       const uint8 HIL_STATE_ON = 1;
-      const uint8 VEHICLE_TYPE_UNSPECIFIED = 0;
+      const uint8 VEHICLE_TYPE_UNKNOWN = 0;
       const uint8 VEHICLE_TYPE_ROTARY_WING = 1;
       const uint8 VEHICLE_TYPE_FIXED_WING = 2;
       const uint8 VEHICLE_TYPE_ROVER = 3;
+      const uint8 VEHICLE_TYPE_AIRSHIP = 4;
       const uint8 FAILSAFE_DEFER_STATE_DISABLED = 0;
       const uint8 FAILSAFE_DEFER_STATE_ENABLED = 1;
       @verbatim (language="comment", text=
@@ -174,7 +176,7 @@ module px4_msgs {
       uint8 hil_state;
 
       @verbatim (language="comment", text=
-        "Current vehicle locomotion method. A vehicle can have different methods (e.g. VTOL transitions from RW to FW method)")
+        "If it's a VTOL, then the value will be VEHICLE_TYPE_ROTARY_WING while flying as a multicopter, and VEHICLE_TYPE_FIXED_WING when flying as a fixed-wing")
       uint8 vehicle_type;
 
       @verbatim (language="comment", text=
@@ -255,6 +257,14 @@ module px4_msgs {
       boolean parachute_system_present;
 
       boolean parachute_system_healthy;
+
+      @verbatim (language="comment", text=
+        "Set to true if avoidance system is enabled via COM_OBS_AVOID parameter")
+      boolean avoidance_system_required;
+
+      @verbatim (language="comment", text=
+        "Status of the obstacle avoidance system")
+      boolean avoidance_system_valid;
 
       boolean rc_calibration_in_progress;
 

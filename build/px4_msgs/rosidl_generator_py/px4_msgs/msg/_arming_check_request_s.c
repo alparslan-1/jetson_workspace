@@ -68,15 +68,6 @@ bool px4_msgs__msg__arming_check_request__convert_from_py(PyObject * _pymsg, voi
     ros_message->request_id = (uint8_t)PyLong_AsUnsignedLong(field);
     Py_DECREF(field);
   }
-  {  // valid_registrations_mask
-    PyObject * field = PyObject_GetAttrString(_pymsg, "valid_registrations_mask");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->valid_registrations_mask = PyLong_AsUnsignedLong(field);
-    Py_DECREF(field);
-  }
 
   return true;
 }
@@ -115,17 +106,6 @@ PyObject * px4_msgs__msg__arming_check_request__convert_to_py(void * raw_ros_mes
     field = PyLong_FromUnsignedLong(ros_message->request_id);
     {
       int rc = PyObject_SetAttrString(_pymessage, "request_id", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // valid_registrations_mask
-    PyObject * field = NULL;
-    field = PyLong_FromUnsignedLong(ros_message->valid_registrations_mask);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "valid_registrations_mask", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

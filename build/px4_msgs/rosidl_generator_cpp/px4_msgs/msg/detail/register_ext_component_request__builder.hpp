@@ -21,32 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_RegisterExtComponentRequest_not_user_selectable
-{
-public:
-  explicit Init_RegisterExtComponentRequest_not_user_selectable(::px4_msgs::msg::RegisterExtComponentRequest & msg)
-  : msg_(msg)
-  {}
-  ::px4_msgs::msg::RegisterExtComponentRequest not_user_selectable(::px4_msgs::msg::RegisterExtComponentRequest::_not_user_selectable_type arg)
-  {
-    msg_.not_user_selectable = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::RegisterExtComponentRequest msg_;
-};
-
 class Init_RegisterExtComponentRequest_activate_mode_immediately
 {
 public:
   explicit Init_RegisterExtComponentRequest_activate_mode_immediately(::px4_msgs::msg::RegisterExtComponentRequest & msg)
   : msg_(msg)
   {}
-  Init_RegisterExtComponentRequest_not_user_selectable activate_mode_immediately(::px4_msgs::msg::RegisterExtComponentRequest::_activate_mode_immediately_type arg)
+  ::px4_msgs::msg::RegisterExtComponentRequest activate_mode_immediately(::px4_msgs::msg::RegisterExtComponentRequest::_activate_mode_immediately_type arg)
   {
     msg_.activate_mode_immediately = std::move(arg);
-    return Init_RegisterExtComponentRequest_not_user_selectable(msg_);
+    return std::move(msg_);
   }
 
 private:

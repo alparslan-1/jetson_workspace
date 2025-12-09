@@ -26,12 +26,10 @@ px4_msgs__msg__InputRc__init(px4_msgs__msg__InputRc * msg)
   // rc_lost_frame_count
   // rc_total_frame_count
   // rc_ppm_frame_length
-  // rc_frame_rate
   // input_source
   // values
   // link_quality
   // rssi_dbm
-  // link_snr
   return true;
 }
 
@@ -50,12 +48,10 @@ px4_msgs__msg__InputRc__fini(px4_msgs__msg__InputRc * msg)
   // rc_lost_frame_count
   // rc_total_frame_count
   // rc_ppm_frame_length
-  // rc_frame_rate
   // input_source
   // values
   // link_quality
   // rssi_dbm
-  // link_snr
 }
 
 bool
@@ -100,10 +96,6 @@ px4_msgs__msg__InputRc__are_equal(const px4_msgs__msg__InputRc * lhs, const px4_
   if (lhs->rc_ppm_frame_length != rhs->rc_ppm_frame_length) {
     return false;
   }
-  // rc_frame_rate
-  if (lhs->rc_frame_rate != rhs->rc_frame_rate) {
-    return false;
-  }
   // input_source
   if (lhs->input_source != rhs->input_source) {
     return false;
@@ -120,10 +112,6 @@ px4_msgs__msg__InputRc__are_equal(const px4_msgs__msg__InputRc * lhs, const px4_
   }
   // rssi_dbm
   if (lhs->rssi_dbm != rhs->rssi_dbm) {
-    return false;
-  }
-  // link_snr
-  if (lhs->link_snr != rhs->link_snr) {
     return false;
   }
   return true;
@@ -155,8 +143,6 @@ px4_msgs__msg__InputRc__copy(
   output->rc_total_frame_count = input->rc_total_frame_count;
   // rc_ppm_frame_length
   output->rc_ppm_frame_length = input->rc_ppm_frame_length;
-  // rc_frame_rate
-  output->rc_frame_rate = input->rc_frame_rate;
   // input_source
   output->input_source = input->input_source;
   // values
@@ -167,8 +153,6 @@ px4_msgs__msg__InputRc__copy(
   output->link_quality = input->link_quality;
   // rssi_dbm
   output->rssi_dbm = input->rssi_dbm;
-  // link_snr
-  output->link_snr = input->link_snr;
   return true;
 }
 

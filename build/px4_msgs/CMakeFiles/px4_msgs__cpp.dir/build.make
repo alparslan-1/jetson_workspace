@@ -126,14 +126,14 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/autotune_attitude_co
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/autotune_attitude_control_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/autotune_attitude_control_status__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/autotune_attitude_control_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/battery_info.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__traits.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/buffer128.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__builder.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__struct.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/button_event.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/button_event__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/button_event__struct.hpp
@@ -162,6 +162,10 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/collision_constraint
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_constraints__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_constraints__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_constraints__traits.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/collision_report.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__builder.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__struct.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/config_overrides.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/config_overrides__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/config_overrides__struct.hpp
@@ -198,6 +202,10 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/debug_vect.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/debug_vect__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/debug_vect__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/debug_vect__traits.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/differential_drive_setpoint.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__builder.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__struct.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/differential_pressure.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_pressure__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_pressure__struct.hpp
@@ -206,14 +214,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/distance_sensor.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/distance_sensor_mode_change_request.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/dronecan_node_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/ekf2_timestamps.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/ekf2_timestamps__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/ekf2_timestamps__struct.hpp
@@ -294,26 +294,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/figure_eight_status.
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/figure_eight_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/figure_eight_status__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/figure_eight_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_guidance_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_setpoint.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fixed_wing_longitudinal_setpoint.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fixed_wing_runway_control.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/flight_phase_estimation.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/flight_phase_estimation__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/flight_phase_estimation__struct.hpp
@@ -330,14 +310,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/follow_target_status
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/follow_target_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/follow_target_status__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/follow_target_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fuel_tank_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/gain_compression.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/generator_status.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/generator_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/generator_status__struct.hpp
@@ -434,10 +406,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/input_rc.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/input_rc__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/input_rc__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/input_rc__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/internal_combustion_engine_control.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/internal_combustion_engine_status.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_status__struct.hpp
@@ -466,10 +434,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/landing_target_pose.
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/landing_target_pose__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/landing_target_pose__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/landing_target_pose__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/lateral_control_configuration.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/launch_detection_status.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/launch_detection_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/launch_detection_status__struct.hpp
@@ -486,10 +450,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/logger_status.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/logger_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/logger_status__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/logger_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/longitudinal_control_configuration.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/mag_worker_data.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/mag_worker_data__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/mag_worker_data__struct.hpp
@@ -542,18 +502,14 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/navigator_mission_it
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_mission_item__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_mission_item__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_mission_item__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/navigator_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/neural_control.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/normalized_unsigned_setpoint.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/normalized_unsigned_setpoint__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/normalized_unsigned_setpoint__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/normalized_unsigned_setpoint__traits.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/npfg_status.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__builder.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__struct.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/obstacle_distance.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/obstacle_distance__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/obstacle_distance__struct.hpp
@@ -566,22 +522,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/onboard_computer_sta
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/onboard_computer_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/onboard_computer_status__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/onboard_computer_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/open_drone_id_arm_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/open_drone_id_operator_id.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/open_drone_id_self_id.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/open_drone_id_system.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/orb_test.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/orb_test__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/orb_test__struct.hpp
@@ -650,10 +590,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/pps_capture.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pps_capture__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pps_capture__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pps_capture__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/pure_pursuit_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/pwm_input.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pwm_input__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pwm_input__struct.hpp
@@ -694,42 +630,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/register_ext_compone
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/register_ext_component_request__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/register_ext_component_request__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/register_ext_component_request__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_attitude_setpoint.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_attitude_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_position_setpoint.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_rate_setpoint.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_rate_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_speed_setpoint.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_speed_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_steering_setpoint.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_throttle_setpoint.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rpm.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rpm__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rpm__struct.hpp
@@ -774,10 +674,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_gnss_relative
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_relative__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_relative__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_relative__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_gnss_status.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_gps.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__struct.hpp
@@ -814,10 +710,6 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_selection.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_selection__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_selection__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_selection__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_temp.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_uwb.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_uwb__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_uwb__struct.hpp
@@ -858,14 +750,18 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/timesync_status.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__traits.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/trajectory_bezier.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__builder.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__struct.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint6dof.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__builder.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__struct.hpp
-CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__traits.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/trajectory_waypoint.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__builder.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__struct.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/transponder_report.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/transponder_report__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/transponder_report__struct.hpp
@@ -994,6 +890,14 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/vehicle_torque_setpo
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__struct.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__traits.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/vehicle_trajectory_bezier.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__builder.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__struct.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__traits.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/vehicle_trajectory_waypoint.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__builder.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__struct.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/velocity_limits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/velocity_limits__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/velocity_limits__struct.hpp
@@ -1049,8 +953,8 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/ArmingCheckReply.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/ArmingCheckRequest.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/AutotuneAttitudeControlStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/BatteryInfo.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/BatteryStatus.idl
+rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/Buffer128.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/ButtonEvent.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/CameraCapture.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/CameraStatus.idl
@@ -1058,6 +962,7 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/CanInterfaceStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/CellularStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/CollisionConstraints.idl
+rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/CollisionReport.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/ConfigOverrides.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/ControlAllocatorStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/Cpuload.idl
@@ -1067,10 +972,9 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/DebugKeyValue.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/DebugValue.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/DebugVect.idl
+rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/DifferentialDriveSetpoint.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/DifferentialPressure.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/DistanceSensor.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/DistanceSensorModeChangeRequest.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/DronecanNodeStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/Ekf2Timestamps.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/EscReport.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/EscStatus.idl
@@ -1091,17 +995,10 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FailsafeFlags.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FailureDetectorStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FigureEightStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FixedWingLateralGuidanceStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FixedWingLateralSetpoint.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FixedWingLateralStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FixedWingLongitudinalSetpoint.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FixedWingRunwayControl.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FlightPhaseEstimation.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FollowTarget.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FollowTargetEstimator.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FollowTargetStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/FuelTankStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/GainCompression.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/GeneratorStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/GeofenceResult.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/GeofenceStatus.idl
@@ -1126,7 +1023,6 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/HomePosition.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/HoverThrustEstimate.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/InputRc.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/InternalCombustionEngineControl.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/InternalCombustionEngineStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/IridiumsbdStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/IrlockReport.idl
@@ -1134,12 +1030,10 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/LandingGearWheel.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/LandingTargetInnovations.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/LandingTargetPose.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/LateralControlConfiguration.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/LaunchDetectionStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/LedControl.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/LogMessage.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/LoggerStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/LongitudinalControlConfiguration.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/MagWorkerData.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/MagnetometerBiasEstimate.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/ManualControlSetpoint.idl
@@ -1153,16 +1047,11 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/ModeCompleted.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/MountOrientation.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/NavigatorMissionItem.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/NavigatorStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/NeuralControl.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/NormalizedUnsignedSetpoint.idl
+rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/NpfgStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/ObstacleDistance.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/OffboardControlMode.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/OnboardComputerStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/OpenDroneIdArmStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/OpenDroneIdOperatorId.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/OpenDroneIdSelfId.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/OpenDroneIdSystem.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/OrbTest.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/OrbTestLarge.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/OrbTestMedium.idl
@@ -1180,7 +1069,6 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/PowerButtonState.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/PowerMonitor.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/PpsCapture.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/PurePursuitStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/PwmInput.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/Px4ioStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/QshellReq.idl
@@ -1191,15 +1079,6 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RcParameterMap.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RegisterExtComponentReply.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RegisterExtComponentRequest.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RoverAttitudeSetpoint.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RoverAttitudeStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RoverPositionSetpoint.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RoverRateSetpoint.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RoverRateStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RoverSpeedSetpoint.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RoverSpeedStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RoverSteeringSetpoint.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RoverThrottleSetpoint.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/Rpm.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RtlStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/RtlTimeEstimate.idl
@@ -1211,7 +1090,6 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorCombined.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorCorrection.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorGnssRelative.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorGnssStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorGps.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorGyro.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorGyroFft.idl
@@ -1221,7 +1099,6 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorOpticalFlow.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorPreflightMag.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorSelection.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorTemp.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorUwb.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorsStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/SensorsStatusImu.idl
@@ -1232,8 +1109,9 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/TelemetryStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/TiltrotorExtraControls.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/TimesyncStatus.idl
+rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/TrajectoryBezier.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/TrajectorySetpoint.idl
-rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/TrajectorySetpoint6dof.idl
+rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/TrajectoryWaypoint.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/TransponderReport.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/TuneControl.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/UavcanParameterRequest.idl
@@ -1266,6 +1144,8 @@ rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/ms
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/VehicleStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/VehicleThrustSetpoint.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/VehicleTorqueSetpoint.idl
+rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/VehicleTrajectoryBezier.idl
+rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/VehicleTrajectoryWaypoint.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/VelocityLimits.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/VtolVehicleStatus.idl
 rosidl_generator_cpp/px4_msgs/msg/action_request.hpp: rosidl_adapter/px4_msgs/msg/WheelEncoders.idl
@@ -1454,18 +1334,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/autotune_attitude_control_status__struc
 rosidl_generator_cpp/px4_msgs/msg/detail/autotune_attitude_control_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/autotune_attitude_control_status__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/battery_info.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/battery_info.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__traits.hpp
-
 rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 
@@ -1477,6 +1345,18 @@ rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__struct.hpp: rosidl_gene
 
 rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__traits.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/buffer128.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/buffer128.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__builder.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__struct.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__traits.hpp
 
 rosidl_generator_cpp/px4_msgs/msg/button_event.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/button_event.hpp
@@ -1561,6 +1441,18 @@ rosidl_generator_cpp/px4_msgs/msg/detail/collision_constraints__struct.hpp: rosi
 
 rosidl_generator_cpp/px4_msgs/msg/detail/collision_constraints__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/collision_constraints__traits.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/collision_report.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/collision_report.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__builder.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__struct.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__traits.hpp
 
 rosidl_generator_cpp/px4_msgs/msg/config_overrides.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/config_overrides.hpp
@@ -1670,6 +1562,18 @@ rosidl_generator_cpp/px4_msgs/msg/detail/debug_vect__struct.hpp: rosidl_generato
 rosidl_generator_cpp/px4_msgs/msg/detail/debug_vect__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/debug_vect__traits.hpp
 
+rosidl_generator_cpp/px4_msgs/msg/differential_drive_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/differential_drive_setpoint.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__builder.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__struct.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__traits.hpp
+
 rosidl_generator_cpp/px4_msgs/msg/differential_pressure.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/differential_pressure.hpp
 
@@ -1693,30 +1597,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor__struct.hpp: rosidl_gen
 
 rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/distance_sensor_mode_change_request.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/distance_sensor_mode_change_request.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/dronecan_node_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/dronecan_node_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__traits.hpp
 
 rosidl_generator_cpp/px4_msgs/msg/ekf2_timestamps.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/ekf2_timestamps.hpp
@@ -1958,66 +1838,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/figure_eight_status__struct.hpp: rosidl
 rosidl_generator_cpp/px4_msgs/msg/detail/figure_eight_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/figure_eight_status__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_guidance_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_guidance_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_setpoint.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/fixed_wing_longitudinal_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/fixed_wing_longitudinal_setpoint.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/fixed_wing_runway_control.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/fixed_wing_runway_control.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__traits.hpp
-
 rosidl_generator_cpp/px4_msgs/msg/flight_phase_estimation.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/flight_phase_estimation.hpp
 
@@ -2065,30 +1885,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/follow_target_status__struct.hpp: rosid
 
 rosidl_generator_cpp/px4_msgs/msg/detail/follow_target_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/follow_target_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/fuel_tank_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/fuel_tank_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/gain_compression.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/gain_compression.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__traits.hpp
 
 rosidl_generator_cpp/px4_msgs/msg/generator_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/generator_status.hpp
@@ -2378,18 +2174,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/input_rc__struct.hpp: rosidl_generator_
 rosidl_generator_cpp/px4_msgs/msg/detail/input_rc__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/input_rc__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/internal_combustion_engine_control.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/internal_combustion_engine_control.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__traits.hpp
-
 rosidl_generator_cpp/px4_msgs/msg/internal_combustion_engine_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/internal_combustion_engine_status.hpp
 
@@ -2474,18 +2258,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/landing_target_pose__struct.hpp: rosidl
 rosidl_generator_cpp/px4_msgs/msg/detail/landing_target_pose__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/landing_target_pose__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/lateral_control_configuration.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/lateral_control_configuration.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__traits.hpp
-
 rosidl_generator_cpp/px4_msgs/msg/launch_detection_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/launch_detection_status.hpp
 
@@ -2533,18 +2305,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/logger_status__struct.hpp: rosidl_gener
 
 rosidl_generator_cpp/px4_msgs/msg/detail/logger_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/logger_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/longitudinal_control_configuration.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/longitudinal_control_configuration.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__traits.hpp
 
 rosidl_generator_cpp/px4_msgs/msg/mag_worker_data.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/mag_worker_data.hpp
@@ -2702,30 +2462,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/navigator_mission_item__struct.hpp: ros
 rosidl_generator_cpp/px4_msgs/msg/detail/navigator_mission_item__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/navigator_mission_item__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/navigator_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/navigator_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/neural_control.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/neural_control.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__traits.hpp
-
 rosidl_generator_cpp/px4_msgs/msg/normalized_unsigned_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/normalized_unsigned_setpoint.hpp
 
@@ -2737,6 +2473,18 @@ rosidl_generator_cpp/px4_msgs/msg/detail/normalized_unsigned_setpoint__struct.hp
 
 rosidl_generator_cpp/px4_msgs/msg/detail/normalized_unsigned_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/normalized_unsigned_setpoint__traits.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/npfg_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/npfg_status.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__builder.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__struct.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__traits.hpp
 
 rosidl_generator_cpp/px4_msgs/msg/obstacle_distance.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/obstacle_distance.hpp
@@ -2773,54 +2521,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/onboard_computer_status__struct.hpp: ro
 
 rosidl_generator_cpp/px4_msgs/msg/detail/onboard_computer_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/onboard_computer_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/open_drone_id_arm_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/open_drone_id_arm_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/open_drone_id_operator_id.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/open_drone_id_operator_id.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/open_drone_id_self_id.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/open_drone_id_self_id.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/open_drone_id_system.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/open_drone_id_system.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__traits.hpp
 
 rosidl_generator_cpp/px4_msgs/msg/orb_test.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/orb_test.hpp
@@ -3026,18 +2726,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/pps_capture__struct.hpp: rosidl_generat
 rosidl_generator_cpp/px4_msgs/msg/detail/pps_capture__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/pps_capture__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/pure_pursuit_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/pure_pursuit_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__traits.hpp
-
 rosidl_generator_cpp/px4_msgs/msg/pwm_input.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/pwm_input.hpp
 
@@ -3157,114 +2845,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/register_ext_component_request__struct.
 
 rosidl_generator_cpp/px4_msgs/msg/detail/register_ext_component_request__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/register_ext_component_request__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/rover_attitude_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/rover_attitude_setpoint.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/rover_attitude_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/rover_attitude_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/rover_position_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/rover_position_setpoint.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/rover_rate_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/rover_rate_setpoint.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/rover_rate_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/rover_rate_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/rover_speed_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/rover_speed_setpoint.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/rover_speed_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/rover_speed_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/rover_steering_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/rover_steering_setpoint.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/rover_throttle_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/rover_throttle_setpoint.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__traits.hpp
 
 rosidl_generator_cpp/px4_msgs/msg/rpm.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/rpm.hpp
@@ -3398,18 +2978,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_relative__struct.hpp: rosid
 rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_relative__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_relative__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/sensor_gnss_status.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/sensor_gnss_status.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__traits.hpp
-
 rosidl_generator_cpp/px4_msgs/msg/sensor_gps.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/sensor_gps.hpp
 
@@ -3517,18 +3085,6 @@ rosidl_generator_cpp/px4_msgs/msg/detail/sensor_selection__struct.hpp: rosidl_ge
 
 rosidl_generator_cpp/px4_msgs/msg/detail/sensor_selection__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_selection__traits.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/sensor_temp.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/sensor_temp.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__builder.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__struct.hpp
-
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__traits.hpp
 
 rosidl_generator_cpp/px4_msgs/msg/sensor_uwb.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/sensor_uwb.hpp
@@ -3650,6 +3206,18 @@ rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__struct.hpp: rosidl_gen
 rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__traits.hpp
 
+rosidl_generator_cpp/px4_msgs/msg/trajectory_bezier.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/trajectory_bezier.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__builder.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__struct.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__traits.hpp
+
 rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint.hpp
 
@@ -3662,17 +3230,17 @@ rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp: rosidl
 rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint6dof.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint6dof.hpp
+rosidl_generator_cpp/px4_msgs/msg/trajectory_waypoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/trajectory_waypoint.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__builder.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__struct.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__traits.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__traits.hpp
 
 rosidl_generator_cpp/px4_msgs/msg/transponder_report.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/transponder_report.hpp
@@ -4058,6 +3626,30 @@ rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__struct.hpp: ro
 rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__traits.hpp
 
+rosidl_generator_cpp/px4_msgs/msg/vehicle_trajectory_bezier.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/vehicle_trajectory_bezier.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__builder.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__struct.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__traits.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/vehicle_trajectory_waypoint.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/vehicle_trajectory_waypoint.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__builder.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__struct.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__traits.hpp
+
 rosidl_generator_cpp/px4_msgs/msg/velocity_limits.hpp: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/velocity_limits.hpp
 
@@ -4146,8 +3738,8 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/airspeed_wind.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/arming_check_reply.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/arming_check_request.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/autotune_attitude_control_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/battery_info.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/buffer128.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/button_event.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/camera_capture.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/camera_status.hpp
@@ -4155,6 +3747,7 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/camera_trigger.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/can_interface_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/cellular_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/collision_constraints.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/collision_report.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/config_overrides.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/control_allocator_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/cpuload.hpp
@@ -4209,12 +3802,12 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/arming_check_request__tr
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/autotune_attitude_control_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/autotune_attitude_control_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/autotune_attitude_control_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_info__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__traits.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__builder.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__struct.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/buffer128__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/button_event__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/button_event__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/button_event__traits.hpp
@@ -4236,6 +3829,9 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/cellular_status__traits.
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_constraints__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_constraints__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_constraints__traits.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__builder.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__struct.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/collision_report__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/config_overrides__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/config_overrides__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/config_overrides__traits.hpp
@@ -4263,18 +3859,15 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/debug_value__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/debug_vect__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/debug_vect__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/debug_vect__traits.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__builder.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__struct.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_drive_setpoint__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_pressure__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_pressure__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/differential_pressure__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/distance_sensor_mode_change_request__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/dronecan_node_status__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/ekf2_timestamps__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/ekf2_timestamps__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/ekf2_timestamps__traits.hpp
@@ -4335,21 +3928,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/failure_detector_status_
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/figure_eight_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/figure_eight_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/figure_eight_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_runway_control__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/flight_phase_estimation__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/flight_phase_estimation__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/flight_phase_estimation__traits.hpp
@@ -4362,12 +3940,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/follow_target_estimator_
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/follow_target_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/follow_target_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/follow_target_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/fuel_tank_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/gain_compression__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/generator_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/generator_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/generator_status__traits.hpp
@@ -4440,9 +4012,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/hover_thrust_estimate__t
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/input_rc__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/input_rc__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/input_rc__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_control__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/internal_combustion_engine_status__traits.hpp
@@ -4464,9 +4033,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/landing_target_innovatio
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/landing_target_pose__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/landing_target_pose__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/landing_target_pose__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/lateral_control_configuration__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/launch_detection_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/launch_detection_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/launch_detection_status__traits.hpp
@@ -4479,9 +4045,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/log_message__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/logger_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/logger_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/logger_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/longitudinal_control_configuration__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/mag_worker_data__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/mag_worker_data__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/mag_worker_data__traits.hpp
@@ -4521,15 +4084,12 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/mount_orientation__trait
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_mission_item__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_mission_item__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_mission_item__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/navigator_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/neural_control__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/normalized_unsigned_setpoint__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/normalized_unsigned_setpoint__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/normalized_unsigned_setpoint__traits.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__builder.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__struct.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/npfg_status__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/obstacle_distance__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/obstacle_distance__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/obstacle_distance__traits.hpp
@@ -4539,18 +4099,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/offboard_control_mode__t
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/onboard_computer_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/onboard_computer_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/onboard_computer_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_arm_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_operator_id__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_self_id__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/open_drone_id_system__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/orb_test__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/orb_test__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/orb_test__traits.hpp
@@ -4602,9 +4150,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/power_monitor__traits.hp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pps_capture__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pps_capture__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pps_capture__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pure_pursuit_status__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pwm_input__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pwm_input__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/pwm_input__traits.hpp
@@ -4635,33 +4180,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/register_ext_component_r
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/register_ext_component_request__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/register_ext_component_request__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/register_ext_component_request__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_setpoint__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_attitude_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_position_setpoint__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_setpoint__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_rate_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_setpoint__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_speed_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_steering_setpoint__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rover_throttle_setpoint__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rpm__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rpm__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/rpm__traits.hpp
@@ -4695,9 +4213,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_correction__trait
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_relative__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_relative__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_relative__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gnss_status__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__traits.hpp
@@ -4725,9 +4240,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_preflight_mag__tr
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_selection__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_selection__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_selection__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_temp__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_uwb__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_uwb__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/sensor_uwb__traits.hpp
@@ -4758,12 +4270,15 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/tiltrotor_extra_controls
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__traits.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__builder.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__struct.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint6dof__traits.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__builder.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__struct.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_bezier__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__builder.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__struct.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_waypoint__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/transponder_report__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/transponder_report__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/transponder_report__traits.hpp
@@ -4860,6 +4375,12 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_thrust_setpoint_
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_torque_setpoint__traits.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__builder.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__struct.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_bezier__traits.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__builder.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__struct.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_trajectory_waypoint__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/velocity_limits__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/velocity_limits__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/velocity_limits__traits.hpp
@@ -4875,10 +4396,9 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/wind__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/yaw_estimator_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/yaw_estimator_status__struct.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/yaw_estimator_status__traits.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/differential_drive_setpoint.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/differential_pressure.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/distance_sensor.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/distance_sensor_mode_change_request.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/dronecan_node_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/ekf2_timestamps.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/esc_report.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/esc_status.hpp
@@ -4899,17 +4419,10 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/event.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/failsafe_flags.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/failure_detector_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/figure_eight_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_guidance_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_setpoint.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fixed_wing_lateral_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fixed_wing_longitudinal_setpoint.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fixed_wing_runway_control.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/flight_phase_estimation.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/follow_target.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/follow_target_estimator.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/follow_target_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/fuel_tank_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/gain_compression.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/generator_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/geofence_result.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/geofence_status.hpp
@@ -4934,7 +4447,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/heater_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/home_position.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/hover_thrust_estimate.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/input_rc.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/internal_combustion_engine_control.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/internal_combustion_engine_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/iridiumsbd_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/irlock_report.hpp
@@ -4942,12 +4454,10 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/landing_gear.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/landing_gear_wheel.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/landing_target_innovations.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/landing_target_pose.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/lateral_control_configuration.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/launch_detection_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/led_control.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/log_message.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/logger_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/longitudinal_control_configuration.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/mag_worker_data.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/magnetometer_bias_estimate.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/manual_control_setpoint.hpp
@@ -4961,16 +4471,11 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/mission_result.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/mode_completed.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/mount_orientation.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/navigator_mission_item.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/navigator_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/neural_control.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/normalized_unsigned_setpoint.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/npfg_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/obstacle_distance.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/offboard_control_mode.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/onboard_computer_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/open_drone_id_arm_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/open_drone_id_operator_id.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/open_drone_id_self_id.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/open_drone_id_system.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/orb_test.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/orb_test_large.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/orb_test_medium.hpp
@@ -4988,7 +4493,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/position_setpoint_triplet.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/power_button_state.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/power_monitor.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/pps_capture.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/pure_pursuit_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/pwm_input.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/px4io_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/qshell_req.hpp
@@ -4999,15 +4503,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rc_channels.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rc_parameter_map.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/register_ext_component_reply.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/register_ext_component_request.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_attitude_setpoint.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_attitude_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_position_setpoint.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_rate_setpoint.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_rate_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_speed_setpoint.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_speed_status.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_steering_setpoint.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rover_throttle_setpoint.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rpm.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rtl_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/rtl_time_estimate.hpp
@@ -5019,7 +4514,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_baro.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_combined.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_correction.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_gnss_relative.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_gnss_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_gps.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_gyro.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_gyro_fft.hpp
@@ -5029,7 +4523,6 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_mag.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_optical_flow.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_preflight_mag.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_selection.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_temp.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensor_uwb.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensors_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/sensors_status_imu.hpp
@@ -5040,8 +4533,9 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/tecs_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/telemetry_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/tiltrotor_extra_controls.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/timesync_status.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/trajectory_bezier.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint.hpp
-px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint6dof.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/trajectory_waypoint.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/transponder_report.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/tune_control.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/uavcan_parameter_request.hpp
@@ -5074,6 +4568,8 @@ px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/vehicle_roi.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/vehicle_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/vehicle_thrust_setpoint.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/vehicle_torque_setpoint.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/vehicle_trajectory_bezier.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/vehicle_trajectory_waypoint.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/velocity_limits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/vtol_vehicle_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/wheel_encoders.hpp

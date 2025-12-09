@@ -9,7 +9,7 @@
 /root/bridges/jetson_workspace/build/pkg_srv/CMakeFiles/pkg_srv__rosidl_typesupport_c.dir
 /root/bridges/jetson_workspace/build/pkg_srv/CMakeFiles/pkg_srv__rosidl_typesupport_introspection_cpp.dir
 /root/bridges/jetson_workspace/build/pkg_srv/CMakeFiles/pkg_srv__rosidl_typesupport_cpp.dir
-/root/bridges/jetson_workspace/build/pkg_srv/CMakeFiles/ament_cmake_python_copy_pkg_srv.dir
+/root/bridges/jetson_workspace/build/pkg_srv/CMakeFiles/ament_cmake_python_symlink_pkg_srv.dir
 /root/bridges/jetson_workspace/build/pkg_srv/CMakeFiles/ament_cmake_python_build_pkg_srv_egg.dir
 /root/bridges/jetson_workspace/build/pkg_srv/CMakeFiles/pkg_srv__rosidl_generator_py.dir
 /root/bridges/jetson_workspace/build/pkg_srv/CMakeFiles/pkg_srv__rosidl_typesupport_fastrtps_c__pyext.dir

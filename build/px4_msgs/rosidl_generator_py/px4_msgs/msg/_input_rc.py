@@ -217,12 +217,10 @@ class InputRc(metaclass=Metaclass_InputRc):
         '_rc_lost_frame_count',
         '_rc_total_frame_count',
         '_rc_ppm_frame_length',
-        '_rc_frame_rate',
         '_input_source',
         '_values',
         '_link_quality',
         '_rssi_dbm',
-        '_link_snr',
     ]
 
     _fields_and_field_types = {
@@ -235,12 +233,10 @@ class InputRc(metaclass=Metaclass_InputRc):
         'rc_lost_frame_count': 'uint16',
         'rc_total_frame_count': 'uint16',
         'rc_ppm_frame_length': 'uint16',
-        'rc_frame_rate': 'uint16',
         'input_source': 'uint8',
         'values': 'uint16[18]',
         'link_quality': 'int8',
         'rssi_dbm': 'float',
-        'link_snr': 'int8',
     }
 
     SLOT_TYPES = (
@@ -253,12 +249,10 @@ class InputRc(metaclass=Metaclass_InputRc):
         rosidl_parser.definition.BasicType('uint16'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint16'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint16'),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint16'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
         rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('uint16'), 18),  # noqa: E501
         rosidl_parser.definition.BasicType('int8'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('int8'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -274,7 +268,6 @@ class InputRc(metaclass=Metaclass_InputRc):
         self.rc_lost_frame_count = kwargs.get('rc_lost_frame_count', int())
         self.rc_total_frame_count = kwargs.get('rc_total_frame_count', int())
         self.rc_ppm_frame_length = kwargs.get('rc_ppm_frame_length', int())
-        self.rc_frame_rate = kwargs.get('rc_frame_rate', int())
         self.input_source = kwargs.get('input_source', int())
         if 'values' not in kwargs:
             self.values = numpy.zeros(18, dtype=numpy.uint16)
@@ -283,7 +276,6 @@ class InputRc(metaclass=Metaclass_InputRc):
             assert self.values.shape == (18, )
         self.link_quality = kwargs.get('link_quality', int())
         self.rssi_dbm = kwargs.get('rssi_dbm', float())
-        self.link_snr = kwargs.get('link_snr', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -332,8 +324,6 @@ class InputRc(metaclass=Metaclass_InputRc):
             return False
         if self.rc_ppm_frame_length != other.rc_ppm_frame_length:
             return False
-        if self.rc_frame_rate != other.rc_frame_rate:
-            return False
         if self.input_source != other.input_source:
             return False
         if all(self.values != other.values):
@@ -341,8 +331,6 @@ class InputRc(metaclass=Metaclass_InputRc):
         if self.link_quality != other.link_quality:
             return False
         if self.rssi_dbm != other.rssi_dbm:
-            return False
-        if self.link_snr != other.link_snr:
             return False
         return True
 
@@ -483,21 +471,6 @@ class InputRc(metaclass=Metaclass_InputRc):
         self._rc_ppm_frame_length = value
 
     @builtins.property
-    def rc_frame_rate(self):
-        """Message field 'rc_frame_rate'."""
-        return self._rc_frame_rate
-
-    @rc_frame_rate.setter
-    def rc_frame_rate(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'rc_frame_rate' field must be of type 'int'"
-            assert value >= 0 and value < 65536, \
-                "The 'rc_frame_rate' field must be an unsigned integer in [0, 65535]"
-        self._rc_frame_rate = value
-
-    @builtins.property
     def input_source(self):
         """Message field 'input_source'."""
         return self._input_source
@@ -572,18 +545,3 @@ class InputRc(metaclass=Metaclass_InputRc):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'rssi_dbm' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._rssi_dbm = value
-
-    @builtins.property
-    def link_snr(self):
-        """Message field 'link_snr'."""
-        return self._link_snr
-
-    @link_snr.setter
-    def link_snr(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'link_snr' field must be of type 'int'"
-            assert value >= -128 and value < 128, \
-                "The 'link_snr' field must be an integer in [-128, 127]"
-        self._link_snr = value

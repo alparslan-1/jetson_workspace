@@ -50,8 +50,6 @@ cdr_serialize(
   cdr << ros_message.mode_id;
   // Member: mode_executor_id
   cdr << ros_message.mode_executor_id;
-  // Member: not_user_selectable
-  cdr << (ros_message.not_user_selectable ? true : false);
   return true;
 }
 
@@ -90,13 +88,6 @@ cdr_deserialize(
 
   // Member: mode_executor_id
   cdr >> ros_message.mode_executor_id;
-
-  // Member: not_user_selectable
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.not_user_selectable = tmp ? true : false;
-  }
 
   return true;
 }
@@ -160,12 +151,6 @@ get_serialized_size(
   // Member: mode_executor_id
   {
     size_t item_size = sizeof(ros_message.mode_executor_id);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: not_user_selectable
-  {
-    size_t item_size = sizeof(ros_message.not_user_selectable);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -244,13 +229,6 @@ max_serialized_size_RegisterExtComponentReply(
   }
 
   // Member: mode_executor_id
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: not_user_selectable
   {
     size_t array_size = 1;
 

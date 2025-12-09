@@ -69,6 +69,11 @@ static bool _RateCtrlStatus__cdr_serialize(
     cdr << ros_message->yawspeed_integ;
   }
 
+  // Field name: wheel_rate_integ
+  {
+    cdr << ros_message->wheel_rate_integ;
+  }
+
   return true;
 }
 
@@ -99,6 +104,11 @@ static bool _RateCtrlStatus__cdr_deserialize(
   // Field name: yawspeed_integ
   {
     cdr >> ros_message->yawspeed_integ;
+  }
+
+  // Field name: wheel_rate_integ
+  {
+    cdr >> ros_message->wheel_rate_integ;
   }
 
   return true;
@@ -139,6 +149,12 @@ size_t get_serialized_size_px4_msgs__msg__RateCtrlStatus(
   // field.name yawspeed_integ
   {
     size_t item_size = sizeof(ros_message->yawspeed_integ);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name wheel_rate_integ
+  {
+    size_t item_size = sizeof(ros_message->wheel_rate_integ);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -191,6 +207,13 @@ size_t max_serialized_size_px4_msgs__msg__RateCtrlStatus(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
   // member: yawspeed_integ
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: wheel_rate_integ
   {
     size_t array_size = 1;
 

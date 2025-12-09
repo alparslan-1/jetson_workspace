@@ -17,12 +17,6 @@ extern "C"
 
 // Constants defined in the message
 
-/// Constant 'MESSAGE_VERSION'.
-enum
-{
-  px4_msgs__msg__RegisterExtComponentReply__MESSAGE_VERSION = 1ul
-};
-
 /// Constant 'ORB_QUEUE_LENGTH'.
 enum
 {
@@ -46,8 +40,6 @@ typedef struct px4_msgs__msg__RegisterExtComponentReply
   int8_t mode_id;
   /// assigned mode executor ID (-1 if invalid)
   int8_t mode_executor_id;
-  /// mode cannot be selected by the user
-  bool not_user_selectable;
 } px4_msgs__msg__RegisterExtComponentReply;
 
 // Struct for a sequence of px4_msgs__msg__RegisterExtComponentReply.

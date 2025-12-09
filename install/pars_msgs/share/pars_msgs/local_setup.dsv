@@ -1,4 +1,1 @@
-source;share/pars_msgs/environment/ament_prefix_path.sh
-source;share/pars_msgs/environment/library_path.sh
-source;share/pars_msgs/environment/path.sh
-source;share/pars_msgs/environment/pythonpath.sh
+/root/bridges/jetson_workspace/build/pars_msgs/ament_cmake_environment_hooks/local_setup.dsv

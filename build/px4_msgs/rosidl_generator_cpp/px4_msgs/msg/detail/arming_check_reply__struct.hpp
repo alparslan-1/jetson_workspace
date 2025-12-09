@@ -58,7 +58,6 @@ struct ArmingCheckReply_
       this->mode_req_local_position = false;
       this->mode_req_local_position_relaxed = false;
       this->mode_req_global_position = false;
-      this->mode_req_global_position_relaxed = false;
       this->mode_req_mission = false;
       this->mode_req_home_position = false;
       this->mode_req_prevent_arming = false;
@@ -88,7 +87,6 @@ struct ArmingCheckReply_
       this->mode_req_local_position = false;
       this->mode_req_local_position_relaxed = false;
       this->mode_req_global_position = false;
-      this->mode_req_global_position_relaxed = false;
       this->mode_req_mission = false;
       this->mode_req_home_position = false;
       this->mode_req_prevent_arming = false;
@@ -145,9 +143,6 @@ struct ArmingCheckReply_
   using _mode_req_global_position_type =
     bool;
   _mode_req_global_position_type mode_req_global_position;
-  using _mode_req_global_position_relaxed_type =
-    bool;
-  _mode_req_global_position_relaxed_type mode_req_global_position_relaxed;
   using _mode_req_mission_type =
     bool;
   _mode_req_mission_type mode_req_mission;
@@ -258,12 +253,6 @@ struct ArmingCheckReply_
     this->mode_req_global_position = _arg;
     return *this;
   }
-  Type & set__mode_req_global_position_relaxed(
-    const bool & _arg)
-  {
-    this->mode_req_global_position_relaxed = _arg;
-    return *this;
-  }
   Type & set__mode_req_mission(
     const bool & _arg)
   {
@@ -290,10 +279,10 @@ struct ArmingCheckReply_
   }
 
   // constant declarations
-  static constexpr uint32_t MESSAGE_VERSION =
-    1u;
   static constexpr uint8_t HEALTH_COMPONENT_INDEX_NONE =
     0u;
+  static constexpr uint8_t HEALTH_COMPONENT_INDEX_AVOIDANCE =
+    19u;
   static constexpr uint8_t ORB_QUEUE_LENGTH =
     4u;
 
@@ -385,9 +374,6 @@ struct ArmingCheckReply_
     if (this->mode_req_global_position != other.mode_req_global_position) {
       return false;
     }
-    if (this->mode_req_global_position_relaxed != other.mode_req_global_position_relaxed) {
-      return false;
-    }
     if (this->mode_req_mission != other.mode_req_mission) {
       return false;
     }
@@ -416,12 +402,12 @@ using ArmingCheckReply =
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
-constexpr uint32_t ArmingCheckReply_<ContainerAllocator>::MESSAGE_VERSION;
+constexpr uint8_t ArmingCheckReply_<ContainerAllocator>::HEALTH_COMPONENT_INDEX_NONE;
 #endif  // __cplusplus < 201703L
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
-constexpr uint8_t ArmingCheckReply_<ContainerAllocator>::HEALTH_COMPONENT_INDEX_NONE;
+constexpr uint8_t ArmingCheckReply_<ContainerAllocator>::HEALTH_COMPONENT_INDEX_AVOIDANCE;
 #endif  // __cplusplus < 201703L
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17

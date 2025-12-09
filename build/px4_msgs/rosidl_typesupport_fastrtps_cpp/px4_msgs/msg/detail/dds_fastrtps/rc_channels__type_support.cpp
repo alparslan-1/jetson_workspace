@@ -136,7 +136,7 @@ get_serialized_size(
   }
   // Member: function
   {
-    size_t array_size = 30;
+    size_t array_size = 29;
     size_t item_size = sizeof(ros_message.function[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
@@ -214,7 +214,7 @@ max_serialized_size_RcChannels(
 
   // Member: function
   {
-    size_t array_size = 30;
+    size_t array_size = 29;
 
     current_alignment += array_size * sizeof(uint8_t);
   }

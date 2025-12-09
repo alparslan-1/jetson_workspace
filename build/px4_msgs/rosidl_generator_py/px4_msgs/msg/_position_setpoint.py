@@ -141,7 +141,6 @@ class PositionSetpoint(metaclass=Metaclass_PositionSetpoint):
         '_loiter_orientation',
         '_loiter_pattern',
         '_acceptance_radius',
-        '_alt_acceptance_radius',
         '_cruising_speed',
         '_gliding_enabled',
         '_cruising_throttle',
@@ -164,7 +163,6 @@ class PositionSetpoint(metaclass=Metaclass_PositionSetpoint):
         'loiter_orientation': 'float',
         'loiter_pattern': 'uint8',
         'acceptance_radius': 'float',
-        'alt_acceptance_radius': 'float',
         'cruising_speed': 'float',
         'gliding_enabled': 'boolean',
         'cruising_throttle': 'float',
@@ -186,7 +184,6 @@ class PositionSetpoint(metaclass=Metaclass_PositionSetpoint):
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
@@ -213,7 +210,6 @@ class PositionSetpoint(metaclass=Metaclass_PositionSetpoint):
         self.loiter_orientation = kwargs.get('loiter_orientation', float())
         self.loiter_pattern = kwargs.get('loiter_pattern', int())
         self.acceptance_radius = kwargs.get('acceptance_radius', float())
-        self.alt_acceptance_radius = kwargs.get('alt_acceptance_radius', float())
         self.cruising_speed = kwargs.get('cruising_speed', float())
         self.gliding_enabled = kwargs.get('gliding_enabled', bool())
         self.cruising_throttle = kwargs.get('cruising_throttle', float())
@@ -278,8 +274,6 @@ class PositionSetpoint(metaclass=Metaclass_PositionSetpoint):
         if self.loiter_pattern != other.loiter_pattern:
             return False
         if self.acceptance_radius != other.acceptance_radius:
-            return False
-        if self.alt_acceptance_radius != other.alt_acceptance_radius:
             return False
         if self.cruising_speed != other.cruising_speed:
             return False
@@ -529,21 +523,6 @@ class PositionSetpoint(metaclass=Metaclass_PositionSetpoint):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'acceptance_radius' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._acceptance_radius = value
-
-    @builtins.property
-    def alt_acceptance_radius(self):
-        """Message field 'alt_acceptance_radius'."""
-        return self._alt_acceptance_radius
-
-    @alt_acceptance_radius.setter
-    def alt_acceptance_radius(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'alt_acceptance_radius' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'alt_acceptance_radius' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._alt_acceptance_radius = value
 
     @builtins.property
     def cruising_speed(self):

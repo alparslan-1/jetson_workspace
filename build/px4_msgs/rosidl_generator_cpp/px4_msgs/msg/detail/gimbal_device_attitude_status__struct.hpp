@@ -47,9 +47,6 @@ struct GimbalDeviceAttitudeStatus_
       this->angular_velocity_y = 0.0f;
       this->angular_velocity_z = 0.0f;
       this->failure_flags = 0ul;
-      this->delta_yaw = 0.0f;
-      this->delta_yaw_velocity = 0.0f;
-      this->gimbal_device_id = 0;
       this->received_from_mavlink = false;
     }
   }
@@ -69,9 +66,6 @@ struct GimbalDeviceAttitudeStatus_
       this->angular_velocity_y = 0.0f;
       this->angular_velocity_z = 0.0f;
       this->failure_flags = 0ul;
-      this->delta_yaw = 0.0f;
-      this->delta_yaw_velocity = 0.0f;
-      this->gimbal_device_id = 0;
       this->received_from_mavlink = false;
     }
   }
@@ -104,15 +98,6 @@ struct GimbalDeviceAttitudeStatus_
   using _failure_flags_type =
     uint32_t;
   _failure_flags_type failure_flags;
-  using _delta_yaw_type =
-    float;
-  _delta_yaw_type delta_yaw;
-  using _delta_yaw_velocity_type =
-    float;
-  _delta_yaw_velocity_type delta_yaw_velocity;
-  using _gimbal_device_id_type =
-    uint8_t;
-  _gimbal_device_id_type gimbal_device_id;
   using _received_from_mavlink_type =
     bool;
   _received_from_mavlink_type received_from_mavlink;
@@ -172,24 +157,6 @@ struct GimbalDeviceAttitudeStatus_
     this->failure_flags = _arg;
     return *this;
   }
-  Type & set__delta_yaw(
-    const float & _arg)
-  {
-    this->delta_yaw = _arg;
-    return *this;
-  }
-  Type & set__delta_yaw_velocity(
-    const float & _arg)
-  {
-    this->delta_yaw_velocity = _arg;
-    return *this;
-  }
-  Type & set__gimbal_device_id(
-    const uint8_t & _arg)
-  {
-    this->gimbal_device_id = _arg;
-    return *this;
-  }
   Type & set__received_from_mavlink(
     const bool & _arg)
   {
@@ -208,10 +175,6 @@ struct GimbalDeviceAttitudeStatus_
     8u;
   static constexpr uint16_t DEVICE_FLAGS_YAW_LOCK =
     16u;
-  static constexpr uint16_t DEVICE_FLAGS_YAW_IN_VEHICLE_FRAME =
-    32u;
-  static constexpr uint16_t DEVICE_FLAGS_YAW_IN_EARTH_FRAME =
-    64u;
 
   // pointer types
   using RawPtr =
@@ -280,15 +243,6 @@ struct GimbalDeviceAttitudeStatus_
     if (this->failure_flags != other.failure_flags) {
       return false;
     }
-    if (this->delta_yaw != other.delta_yaw) {
-      return false;
-    }
-    if (this->delta_yaw_velocity != other.delta_yaw_velocity) {
-      return false;
-    }
-    if (this->gimbal_device_id != other.gimbal_device_id) {
-      return false;
-    }
     if (this->received_from_mavlink != other.received_from_mavlink) {
       return false;
     }
@@ -329,16 +283,6 @@ constexpr uint16_t GimbalDeviceAttitudeStatus_<ContainerAllocator>::DEVICE_FLAGS
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t GimbalDeviceAttitudeStatus_<ContainerAllocator>::DEVICE_FLAGS_YAW_LOCK;
-#endif  // __cplusplus < 201703L
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
-template<typename ContainerAllocator>
-constexpr uint16_t GimbalDeviceAttitudeStatus_<ContainerAllocator>::DEVICE_FLAGS_YAW_IN_VEHICLE_FRAME;
-#endif  // __cplusplus < 201703L
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
-template<typename ContainerAllocator>
-constexpr uint16_t GimbalDeviceAttitudeStatus_<ContainerAllocator>::DEVICE_FLAGS_YAW_IN_EARTH_FRAME;
 #endif  // __cplusplus < 201703L
 
 }  // namespace msg

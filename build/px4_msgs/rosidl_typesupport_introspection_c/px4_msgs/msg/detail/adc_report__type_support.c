@@ -35,7 +35,7 @@ size_t px4_msgs__msg__AdcReport__rosidl_typesupport_introspection_c__size_functi
   const void * untyped_member)
 {
   (void)untyped_member;
-  return 16;
+  return 12;
 }
 
 const void * px4_msgs__msg__AdcReport__rosidl_typesupport_introspection_c__get_const_function__AdcReport__channel_id(
@@ -80,7 +80,7 @@ size_t px4_msgs__msg__AdcReport__rosidl_typesupport_introspection_c__size_functi
   const void * untyped_member)
 {
   (void)untyped_member;
-  return 16;
+  return 12;
 }
 
 const void * px4_msgs__msg__AdcReport__rosidl_typesupport_introspection_c__get_const_function__AdcReport__raw_data(
@@ -162,7 +162,7 @@ static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__AdcRepor
     0,  // upper bound of string
     NULL,  // members of sub message
     true,  // is array
-    16,  // array size
+    12,  // array size
     false,  // is upper bound
     offsetof(px4_msgs__msg__AdcReport, channel_id),  // bytes offset in struct
     NULL,  // default value
@@ -179,7 +179,7 @@ static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__AdcRepor
     0,  // upper bound of string
     NULL,  // members of sub message
     true,  // is array
-    16,  // array size
+    12,  // array size
     false,  // is upper bound
     offsetof(px4_msgs__msg__AdcReport, raw_data),  // bytes offset in struct
     NULL,  // default value

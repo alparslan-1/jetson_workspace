@@ -134,15 +134,6 @@ bool px4_msgs__msg__input_rc__convert_from_py(PyObject * _pymsg, void * _ros_mes
     ros_message->rc_ppm_frame_length = (uint16_t)PyLong_AsUnsignedLong(field);
     Py_DECREF(field);
   }
-  {  // rc_frame_rate
-    PyObject * field = PyObject_GetAttrString(_pymsg, "rc_frame_rate");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->rc_frame_rate = (uint16_t)PyLong_AsUnsignedLong(field);
-    Py_DECREF(field);
-  }
   {  // input_source
     PyObject * field = PyObject_GetAttrString(_pymsg, "input_source");
     if (!field) {
@@ -192,15 +183,6 @@ bool px4_msgs__msg__input_rc__convert_from_py(PyObject * _pymsg, void * _ros_mes
     }
     assert(PyFloat_Check(field));
     ros_message->rssi_dbm = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
-  {  // link_snr
-    PyObject * field = PyObject_GetAttrString(_pymsg, "link_snr");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->link_snr = (int8_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -324,17 +306,6 @@ PyObject * px4_msgs__msg__input_rc__convert_to_py(void * raw_ros_message)
       }
     }
   }
-  {  // rc_frame_rate
-    PyObject * field = NULL;
-    field = PyLong_FromUnsignedLong(ros_message->rc_frame_rate);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "rc_frame_rate", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
   {  // input_source
     PyObject * field = NULL;
     field = PyLong_FromUnsignedLong(ros_message->input_source);
@@ -380,17 +351,6 @@ PyObject * px4_msgs__msg__input_rc__convert_to_py(void * raw_ros_message)
     field = PyFloat_FromDouble(ros_message->rssi_dbm);
     {
       int rc = PyObject_SetAttrString(_pymessage, "rssi_dbm", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // link_snr
-    PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->link_snr);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "link_snr", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

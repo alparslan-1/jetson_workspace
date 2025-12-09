@@ -5,39 +5,27 @@
 
 module px4_msgs {
   module msg {
-    @verbatim (language="comment", text=
-      "Differential-pressure (airspeed) sensor" "\n"
-      "" "\n"
-      "This is populated by airspeed sensor drivers and used by the sensor module to calculate airspeed." "\n"
-      "The information is published in the `SCALED_PRESSURE_n` MAVLink messages (along with information from a corresponding `SensorBaro` instance).")
     struct DifferentialPressure {
       @verbatim (language="comment", text=
-        "Time of publication (since system start)")
-      @unit (value="us")
+        "time since system start (microseconds)")
       uint64 timestamp;
 
-      @verbatim (language="comment", text=
-        "Time of raw data capture")
-      @unit (value="us")
       uint64 timestamp_sample;
 
       @verbatim (language="comment", text=
-        "Unique device ID for the sensor that does not change between power cycles")
-      @unit (value="-")
+        "unique device ID for the sensor that does not change between power cycles")
       uint32 device_id;
 
       @verbatim (language="comment", text=
-        "Differential pressure reading (may be negative)")
-      @unit (value="Pa")
+        "differential pressure reading in Pascals (may be negative)")
       float differential_pressure_pa;
 
       @verbatim (language="comment", text=
-        "[degC] [@invalid NaN if unknown] Temperature")
+        "Temperature provided by sensor in degrees Celsius, NAN if unknown")
       float temperature;
 
       @verbatim (language="comment", text=
         "Number of errors detected by driver")
-      @unit (value="-")
       uint32 error_count;
     };
   };

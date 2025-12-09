@@ -144,11 +144,6 @@ static bool _SensorGps__cdr_serialize(
     cdr << ros_message->spoofing_state;
   }
 
-  // Field name: authentication_state
-  {
-    cdr << ros_message->authentication_state;
-  }
-
   // Field name: vel_m_s
   {
     cdr << ros_message->vel_m_s;
@@ -192,11 +187,6 @@ static bool _SensorGps__cdr_serialize(
   // Field name: satellites_used
   {
     cdr << ros_message->satellites_used;
-  }
-
-  // Field name: system_error
-  {
-    cdr << ros_message->system_error;
   }
 
   // Field name: heading
@@ -341,11 +331,6 @@ static bool _SensorGps__cdr_deserialize(
     cdr >> ros_message->spoofing_state;
   }
 
-  // Field name: authentication_state
-  {
-    cdr >> ros_message->authentication_state;
-  }
-
   // Field name: vel_m_s
   {
     cdr >> ros_message->vel_m_s;
@@ -391,11 +376,6 @@ static bool _SensorGps__cdr_deserialize(
   // Field name: satellites_used
   {
     cdr >> ros_message->satellites_used;
-  }
-
-  // Field name: system_error
-  {
-    cdr >> ros_message->system_error;
   }
 
   // Field name: heading
@@ -566,12 +546,6 @@ size_t get_serialized_size_px4_msgs__msg__SensorGps(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name authentication_state
-  {
-    size_t item_size = sizeof(ros_message->authentication_state);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // field.name vel_m_s
   {
     size_t item_size = sizeof(ros_message->vel_m_s);
@@ -623,12 +597,6 @@ size_t get_serialized_size_px4_msgs__msg__SensorGps(
   // field.name satellites_used
   {
     size_t item_size = sizeof(ros_message->satellites_used);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name system_error
-  {
-    size_t item_size = sizeof(ros_message->system_error);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -831,12 +799,6 @@ size_t max_serialized_size_px4_msgs__msg__SensorGps(
 
     current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: authentication_state
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
-  }
   // member: vel_m_s
   {
     size_t array_size = 1;
@@ -897,13 +859,6 @@ size_t max_serialized_size_px4_msgs__msg__SensorGps(
     size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: system_error
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
   // member: heading
   {

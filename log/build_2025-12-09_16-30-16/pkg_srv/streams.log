@@ -1,0 +1,266 @@
+[0.841s] Invoking command in '/root/bridges/jetson_workspace/build/pkg_srv': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/pkg_srv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/pkg_srv
+[1.395s] -- The C compiler identification is GNU 9.4.0
+[1.771s] -- The CXX compiler identification is GNU 9.4.0
+[2.003s] -- Detecting C compiler ABI info
+[2.578s] -- Detecting C compiler ABI info - done
+[2.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.638s] -- Detecting C compile features
+[2.640s] -- Detecting C compile features - done
+[2.759s] -- Detecting CXX compiler ABI info
+[3.376s] -- Detecting CXX compiler ABI info - done
+[3.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.438s] -- Detecting CXX compile features
+[3.441s] -- Detecting CXX compile features - done
+[3.459s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[10.998s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[11.311s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.464s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/install/share/rclcpp/cmake)
+[11.742s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[11.772s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[11.824s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[11.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.057s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.519s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[12.535s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[12.772s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[12.835s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.288s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[13.289s] -- Looking for pthread_create in pthreads
+[13.644s] -- Looking for pthread_create in pthreads - not found
+[13.644s] -- Looking for pthread_create in pthread
+[14.067s] -- Looking for pthread_create in pthread - found
+[14.073s] -- Found Threads: TRUE  
+[15.085s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)
+[19.176s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[29.392s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[34.892s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[34.940s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[34.940s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[34.941s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[34.942s]   the cmake_policy command to set the policy and suppress this warning.
+[34.942s] 
+[34.943s] Call Stack (most recent call first):
+[34.944s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[34.944s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[34.945s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[34.945s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[34.947s] [0m
+[35.228s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[35.240s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[35.275s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[35.276s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[35.276s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[35.277s]   the cmake_policy command to set the policy and suppress this warning.
+[35.277s] 
+[35.277s] Call Stack (most recent call first):
+[35.278s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[35.278s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[35.279s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[35.279s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[35.280s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[35.281s] [0m
+[35.531s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[35.531s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[35.532s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[35.532s]   the cmake_policy command to set the policy and suppress this warning.
+[35.532s] 
+[35.533s] Call Stack (most recent call first):
+[35.533s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[35.534s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[35.534s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[35.535s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[35.535s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[35.536s] [0m
+[35.564s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[35.566s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[35.568s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[35.569s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[35.771s] -- Found PythonExtra: .so  
+[37.239s] -- Using numpy include directory: /usr/local/lib/python3.8/dist-packages/numpy/core/include
+[37.572s] [0mCMake Deprecation Warning at /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[37.573s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[37.573s]   rosidl_target_interfaces()
+[37.574s] Call Stack (most recent call first):
+[37.574s]   CMakeLists.txt:23 (rosidl_target_interfaces)
+[37.574s] 
+[37.575s] [0m
+[37.583s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[37.829s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[37.846s] -- Configured cppcheck include dirs: 
+[37.848s] -- Configured cppcheck exclude dirs and/or files: 
+[37.858s] -- Added test 'lint_cmake' to check CMake code style
+[37.873s] -- Added test 'uncrustify' to check C / C++ code style
+[37.874s] -- Configured uncrustify additional arguments: 
+[37.886s] -- Added test 'xmllint' to check XML markup files
+[37.942s] -- Configuring done (36.9s)
+[38.575s] -- Generating done (0.5s)
+[38.624s] -- Build files have been written to: /root/bridges/jetson_workspace/build/pkg_srv
+[38.795s] Invoked command in '/root/bridges/jetson_workspace/build/pkg_srv' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/pkg_srv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/pkg_srv
+[38.801s] Invoking command in '/root/bridges/jetson_workspace/build/pkg_srv': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pkg_srv -- -j4 -l4
+[39.393s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[39.501s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[39.555s] [  6%] Built target ament_cmake_python_symlink_pkg_srv
+[42.587s] [  6%] Built target pkg_srv__cpp
+[42.675s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[42.725s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[42.738s] [ 15%] [32mBuilding C object CMakeFiles/pkg_srv__rosidl_generator_c.dir/rosidl_generator_c/pkg_srv/srv/detail/mission_control__functions.c.o[0m
+[43.157s] running egg_info
+[43.163s] creating pkg_srv.egg-info
+[43.465s] writing pkg_srv.egg-info/PKG-INFO
+[43.466s] writing dependency_links to pkg_srv.egg-info/dependency_links.txt
+[43.467s] writing top-level names to pkg_srv.egg-info/top_level.txt
+[43.468s] writing manifest file 'pkg_srv.egg-info/SOURCES.txt'
+[44.082s] [ 18%] [32m[1mLinking C shared library libpkg_srv__rosidl_generator_c.so[0m
+[44.342s] reading manifest file 'pkg_srv.egg-info/SOURCES.txt'
+[44.346s] writing manifest file 'pkg_srv.egg-info/SOURCES.txt'
+[44.550s] [ 18%] Built target pkg_srv__rosidl_generator_c
+[44.668s] [ 18%] Built target ament_cmake_python_build_pkg_srv_egg
+[44.685s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[44.777s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[46.035s] [ 27%] [32mBuilding CXX object CMakeFiles/pkg_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pkg_srv/srv/detail/mission_control__type_support.cpp.o[0m
+[46.121s] [ 30%] [32mBuilding CXX object CMakeFiles/pkg_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pkg_srv/srv/detail/dds_fastrtps/mission_control__type_support.cpp.o[0m
+[47.821s] [ 33%] [32mBuilding CXX object CMakeFiles/pkg_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pkg_srv/srv/mission_control__type_support.cpp.o[0m
+[48.094s] [ 36%] [32mBuilding CXX object CMakeFiles/pkg_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pkg_srv/srv/detail/mission_control__type_support_c.cpp.o[0m
+[52.359s] [ 39%] [32m[1mLinking CXX shared library libpkg_srv__rosidl_typesupport_introspection_cpp.so[0m
+[52.550s] [ 42%] [32m[1mLinking CXX shared library libpkg_srv__rosidl_typesupport_cpp.so[0m
+[52.967s] [ 42%] Built target pkg_srv__rosidl_typesupport_cpp
+[53.149s] [ 42%] Built target pkg_srv__rosidl_typesupport_introspection_cpp
+[53.177s] [ 45%] [32m[1mLinking CXX shared library libpkg_srv__rosidl_typesupport_fastrtps_cpp.so[0m
+[53.441s] [ 48%] [32m[1mLinking CXX shared library libpkg_srv__rosidl_typesupport_fastrtps_c.so[0m
+[53.653s] [ 48%] Built target pkg_srv__rosidl_typesupport_fastrtps_cpp
+[53.888s] [ 48%] Built target pkg_srv__rosidl_typesupport_fastrtps_c
+[53.961s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[55.358s] [ 54%] [32mBuilding CXX object CMakeFiles/pkg_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/pkg_srv/srv/mission_control__type_support.cpp.o[0m
+[55.773s] [ 57%] [32m[1mLinking CXX shared library libpkg_srv__rosidl_typesupport_c.so[0m
+[55.982s] [ 57%] Built target pkg_srv__rosidl_typesupport_c
+[56.033s] [ 60%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[57.263s] [ 63%] [32mBuilding C object CMakeFiles/pkg_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pkg_srv/srv/detail/mission_control__type_support.c.o[0m
+[57.621s] [ 66%] [32m[1mLinking C shared library libpkg_srv__rosidl_typesupport_introspection_c.so[0m
+[57.782s] [ 66%] Built target pkg_srv__rosidl_typesupport_introspection_c
+[57.870s] [ 66%] Built target pkg_srv
+[58.017s] [ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[60.358s] [ 69%] Built target pkg_srv__py
+[60.451s] [ 72%] [32mBuilding CXX object CMakeFiles/mission_control_server.dir/src/mission_control_server.cpp.o[0m
+[132.424s] [ 75%] [32m[1mLinking CXX executable mission_control_server[0m
+[135.054s] [ 75%] Built target mission_control_server
+[135.125s] [ 78%] [32mBuilding C object CMakeFiles/pkg_srv__rosidl_generator_py.dir/rosidl_generator_py/pkg_srv/srv/_mission_control_s.c.o[0m
+[136.161s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/pkg_srv/libpkg_srv__rosidl_generator_py.so[0m
+[136.364s] [ 81%] Built target pkg_srv__rosidl_generator_py
+[136.433s] [ 84%] [32mBuilding C object CMakeFiles/pkg_srv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[137.509s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/pkg_srv/pkg_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[137.932s] [ 87%] Built target pkg_srv__rosidl_typesupport_fastrtps_c__pyext
+[138.005s] [ 90%] [32mBuilding C object CMakeFiles/pkg_srv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_c.c.o[0m
+[139.058s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/pkg_srv/pkg_srv_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[139.259s] [ 93%] Built target pkg_srv__rosidl_typesupport_c__pyext
+[139.328s] [ 96%] [32mBuilding C object CMakeFiles/pkg_srv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[140.332s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pkg_srv/pkg_srv_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[140.695s] [100%] Built target pkg_srv__rosidl_typesupport_introspection_c__pyext
+[140.791s] Invoked command in '/root/bridges/jetson_workspace/build/pkg_srv' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pkg_srv -- -j4 -l4
+[141.416s] Invoking command in '/root/bridges/jetson_workspace/build/pkg_srv': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pkg_srv
+[141.770s] -- Install configuration: ""
+[141.774s] -- Execute custom install script
+[141.776s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/rosidl_interfaces/pkg_srv
+[141.802s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_generator_c__visibility_control.h
+[141.826s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__functions.h
+[141.846s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__struct.h
+[141.867s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__type_support.h
+[141.888s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/mission_control.h
+[141.911s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/library_path.sh
+[141.935s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/library_path.dsv
+[141.960s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[141.981s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_fastrtps_c.h
+[142.005s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__builder.hpp
+[142.027s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__struct.hpp
+[142.048s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__traits.hpp
+[142.069s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/mission_control.hpp
+[142.096s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[142.119s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_fastrtps_cpp.hpp
+[142.143s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[142.166s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_introspection_c.h
+[142.190s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/include/pkg_srv/pkg_srv/srv/detail/mission_control__rosidl_typesupport_introspection_cpp.hpp
+[142.214s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/pythonpath.sh
+[142.234s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/pythonpath.dsv
+[142.259s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/PKG-INFO
+[142.282s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/SOURCES.txt
+[142.304s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/dependency_links.txt
+[142.328s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv-0.0.0-py3.8.egg-info/top_level.txt
+[142.352s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/__init__.py
+[142.378s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_c.c
+[142.399s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_fastrtps_c.c
+[142.421s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/_pkg_srv_s.ep.rosidl_typesupport_introspection_c.c
+[142.442s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/libpkg_srv__rosidl_generator_py.so
+[142.463s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[142.486s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[142.508s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[142.536s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/__init__.py
+[142.712s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/_mission_control.py
+[142.743s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/_mission_control_s.c
+[142.765s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[142.769s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[142.774s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/pkg_srv_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[142.778s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl.idl
+[142.803s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl.srv
+[142.825s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl_Request.msg
+[142.847s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/srv/MissionControl_Response.msg
+[142.870s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/lib/pkg_srv/mission_control_server
+[142.901s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/package_run_dependencies/pkg_srv
+[142.921s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/parent_prefix_path/pkg_srv
+[142.947s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/ament_prefix_path.sh
+[142.967s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/ament_prefix_path.dsv
+[142.992s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/path.sh
+[143.012s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/environment/path.dsv
+[143.043s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.bash
+[143.063s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.sh
+[143.083s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.zsh
+[143.104s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/local_setup.dsv
+[143.129s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.dsv
+[143.158s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/ament_index/resource_index/packages/pkg_srv
+[143.179s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/rosidl_cmake-extras.cmake
+[143.201s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_dependencies-extras.cmake
+[143.223s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_include_directories-extras.cmake
+[143.251s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_libraries-extras.cmake
+[143.275s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/ament_cmake_export_targets-extras.cmake
+[143.297s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[143.323s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[143.344s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srvConfig.cmake
+[143.374s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srvConfig-version.cmake
+[143.395s] -- Symlinking: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/package.xml
+[143.422s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_generator_c.so
+[143.429s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_generator_c.so" to ""
+[143.431s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_fastrtps_c.so
+[143.437s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_fastrtps_c.so" to ""
+[143.440s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_fastrtps_cpp.so
+[143.447s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_fastrtps_cpp.so" to ""
+[143.452s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_introspection_c.so
+[143.455s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_introspection_c.so" to ""
+[143.455s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_c.so
+[143.460s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_c.so" to ""
+[143.461s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_introspection_cpp.so
+[143.464s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_introspection_cpp.so" to ""
+[143.465s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_cpp.so
+[143.469s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_typesupport_cpp.so" to ""
+[143.907s] Listing '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv'...
+[143.907s] Compiling '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/__init__.py'...
+[143.908s] Listing '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv'...
+[143.908s] Compiling '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/__init__.py'...
+[143.908s] Compiling '/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages/pkg_srv/srv/_mission_control.py'...
+[143.942s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_generator_py.so
+[143.948s] -- Set runtime path of "/root/bridges/jetson_workspace/install/pkg_srv/lib/libpkg_srv__rosidl_generator_py.so" to ""
+[143.950s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_cExport.cmake
+[143.953s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_cExport-noconfig.cmake
+[143.956s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cExport.cmake
+[143.958s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[143.961s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_cppExport.cmake
+[143.964s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cppExport.cmake
+[143.966s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[143.969s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cExport.cmake
+[143.972s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[143.975s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cExport.cmake
+[143.977s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cExport-noconfig.cmake
+[143.979s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cppExport.cmake
+[143.982s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[143.984s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cppExport.cmake
+[143.987s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/pkg_srv__rosidl_typesupport_cppExport-noconfig.cmake
+[143.989s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_pyExport.cmake
+[143.991s] -- Installing: /root/bridges/jetson_workspace/install/pkg_srv/share/pkg_srv/cmake/export_pkg_srv__rosidl_generator_pyExport-noconfig.cmake
+[144.019s] Invoked command in '/root/bridges/jetson_workspace/build/pkg_srv' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pkg_srv

@@ -94,11 +94,6 @@ static bool _InputRc__cdr_serialize(
     cdr << ros_message->rc_ppm_frame_length;
   }
 
-  // Field name: rc_frame_rate
-  {
-    cdr << ros_message->rc_frame_rate;
-  }
-
   // Field name: input_source
   {
     cdr << ros_message->input_source;
@@ -119,11 +114,6 @@ static bool _InputRc__cdr_serialize(
   // Field name: rssi_dbm
   {
     cdr << ros_message->rssi_dbm;
-  }
-
-  // Field name: link_snr
-  {
-    cdr << ros_message->link_snr;
   }
 
   return true;
@@ -187,11 +177,6 @@ static bool _InputRc__cdr_deserialize(
     cdr >> ros_message->rc_ppm_frame_length;
   }
 
-  // Field name: rc_frame_rate
-  {
-    cdr >> ros_message->rc_frame_rate;
-  }
-
   // Field name: input_source
   {
     cdr >> ros_message->input_source;
@@ -212,11 +197,6 @@ static bool _InputRc__cdr_deserialize(
   // Field name: rssi_dbm
   {
     cdr >> ros_message->rssi_dbm;
-  }
-
-  // Field name: link_snr
-  {
-    cdr >> ros_message->link_snr;
   }
 
   return true;
@@ -290,12 +270,6 @@ size_t get_serialized_size_px4_msgs__msg__InputRc(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name rc_frame_rate
-  {
-    size_t item_size = sizeof(ros_message->rc_frame_rate);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // field.name input_source
   {
     size_t item_size = sizeof(ros_message->input_source);
@@ -320,12 +294,6 @@ size_t get_serialized_size_px4_msgs__msg__InputRc(
   // field.name rssi_dbm
   {
     size_t item_size = sizeof(ros_message->rssi_dbm);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name link_snr
-  {
-    size_t item_size = sizeof(ros_message->link_snr);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -416,13 +384,6 @@ size_t max_serialized_size_px4_msgs__msg__InputRc(
     current_alignment += array_size * sizeof(uint16_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
   }
-  // member: rc_frame_rate
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint16_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
-  }
   // member: input_source
   {
     size_t array_size = 1;
@@ -448,12 +409,6 @@ size_t max_serialized_size_px4_msgs__msg__InputRc(
 
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: link_snr
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
   }
 
   return current_alignment - initial_alignment;

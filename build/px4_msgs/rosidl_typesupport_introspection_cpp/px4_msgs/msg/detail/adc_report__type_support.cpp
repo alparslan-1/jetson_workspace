@@ -40,20 +40,20 @@ void AdcReport_fini_function(void * message_memory)
 size_t size_function__AdcReport__channel_id(const void * untyped_member)
 {
   (void)untyped_member;
-  return 16;
+  return 12;
 }
 
 const void * get_const_function__AdcReport__channel_id(const void * untyped_member, size_t index)
 {
   const auto & member =
-    *reinterpret_cast<const std::array<int16_t, 16> *>(untyped_member);
+    *reinterpret_cast<const std::array<int16_t, 12> *>(untyped_member);
   return &member[index];
 }
 
 void * get_function__AdcReport__channel_id(void * untyped_member, size_t index)
 {
   auto & member =
-    *reinterpret_cast<std::array<int16_t, 16> *>(untyped_member);
+    *reinterpret_cast<std::array<int16_t, 12> *>(untyped_member);
   return &member[index];
 }
 
@@ -78,20 +78,20 @@ void assign_function__AdcReport__channel_id(
 size_t size_function__AdcReport__raw_data(const void * untyped_member)
 {
   (void)untyped_member;
-  return 16;
+  return 12;
 }
 
 const void * get_const_function__AdcReport__raw_data(const void * untyped_member, size_t index)
 {
   const auto & member =
-    *reinterpret_cast<const std::array<int32_t, 16> *>(untyped_member);
+    *reinterpret_cast<const std::array<int32_t, 12> *>(untyped_member);
   return &member[index];
 }
 
 void * get_function__AdcReport__raw_data(void * untyped_member, size_t index)
 {
   auto & member =
-    *reinterpret_cast<std::array<int32_t, 16> *>(untyped_member);
+    *reinterpret_cast<std::array<int32_t, 12> *>(untyped_member);
   return &member[index];
 }
 
@@ -154,7 +154,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember AdcReport_mes
     0,  // upper bound of string
     nullptr,  // members of sub message
     true,  // is array
-    16,  // array size
+    12,  // array size
     false,  // is upper bound
     offsetof(px4_msgs::msg::AdcReport, channel_id),  // bytes offset in struct
     nullptr,  // default value
@@ -171,7 +171,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember AdcReport_mes
     0,  // upper bound of string
     nullptr,  // members of sub message
     true,  // is array
-    16,  // array size
+    12,  // array size
     false,  // is upper bound
     offsetof(px4_msgs::msg::AdcReport, raw_data),  // bytes offset in struct
     nullptr,  // default value

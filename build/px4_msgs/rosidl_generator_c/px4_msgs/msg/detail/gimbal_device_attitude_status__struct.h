@@ -47,18 +47,6 @@ enum
   px4_msgs__msg__GimbalDeviceAttitudeStatus__DEVICE_FLAGS_YAW_LOCK = 16
 };
 
-/// Constant 'DEVICE_FLAGS_YAW_IN_VEHICLE_FRAME'.
-enum
-{
-  px4_msgs__msg__GimbalDeviceAttitudeStatus__DEVICE_FLAGS_YAW_IN_VEHICLE_FRAME = 32
-};
-
-/// Constant 'DEVICE_FLAGS_YAW_IN_EARTH_FRAME'.
-enum
-{
-  px4_msgs__msg__GimbalDeviceAttitudeStatus__DEVICE_FLAGS_YAW_IN_EARTH_FRAME = 64
-};
-
 /// Struct defined in msg/GimbalDeviceAttitudeStatus in the package px4_msgs.
 typedef struct px4_msgs__msg__GimbalDeviceAttitudeStatus
 {
@@ -72,9 +60,6 @@ typedef struct px4_msgs__msg__GimbalDeviceAttitudeStatus
   float angular_velocity_y;
   float angular_velocity_z;
   uint32_t failure_flags;
-  float delta_yaw;
-  float delta_yaw_velocity;
-  uint8_t gimbal_device_id;
   bool received_from_mavlink;
 } px4_msgs__msg__GimbalDeviceAttitudeStatus;
 

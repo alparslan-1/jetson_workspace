@@ -66,10 +66,6 @@ module px4_msgs {
       uint16 rc_ppm_frame_length;
 
       @verbatim (language="comment", text=
-        "RC frame rate in msg/second. 0 = invalid")
-      uint16 rc_frame_rate;
-
-      @verbatim (language="comment", text=
         "Input source")
       uint8 input_source;
 
@@ -84,10 +80,6 @@ module px4_msgs {
       @verbatim (language="comment", text=
         "Actual rssi in units of dBm. NaN = invalid")
       float rssi_dbm;
-
-      @verbatim (language="comment", text=
-        "link signal to noise ratio in units of dB. -1 = invalid")
-      int8 link_snr;
     };
   };
 };

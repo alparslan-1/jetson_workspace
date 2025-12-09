@@ -5,9 +5,6 @@
 
 module px4_msgs {
   module msg {
-    module HomePosition_Constants {
-      const uint32 MESSAGE_VERSION = 1;
-    };
     @verbatim (language="comment", text=
       "GPS home position in WGS84 coordinates.")
     struct HomePosition {
@@ -38,14 +35,6 @@ module px4_msgs {
       @verbatim (language="comment", text=
         "Z coordinate in meters")
       float z;
-
-      @verbatim (language="comment", text=
-        "Pitch angle in radians")
-      float roll;
-
-      @verbatim (language="comment", text=
-        "Roll angle in radians")
-      float pitch;
 
       @verbatim (language="comment", text=
         "Yaw angle in radians")

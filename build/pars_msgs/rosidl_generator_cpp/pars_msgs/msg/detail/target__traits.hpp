@@ -57,6 +57,13 @@ inline void to_flow_style_yaml(
   {
     out << "image_height: ";
     rosidl_generator_traits::value_to_yaml(msg.image_height, out);
+    out << ", ";
+  }
+
+  // member: hedef_boyut
+  {
+    out << "hedef_boyut: ";
+    rosidl_generator_traits::value_to_yaml(msg.hedef_boyut, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -112,6 +119,16 @@ inline void to_block_style_yaml(
     }
     out << "image_height: ";
     rosidl_generator_traits::value_to_yaml(msg.image_height, out);
+    out << "\n";
+  }
+
+  // member: hedef_boyut
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "hedef_boyut: ";
+    rosidl_generator_traits::value_to_yaml(msg.hedef_boyut, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

@@ -37,7 +37,7 @@ void ArmingCheckRequest_fini_function(void * message_memory)
   typed_message->~ArmingCheckRequest();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember ArmingCheckRequest_message_member_array[3] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember ArmingCheckRequest_message_member_array[2] = {
   {
     "timestamp",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT64,  // type
@@ -71,30 +71,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember ArmingCheckRe
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
-  },
-  {
-    "valid_registrations_mask",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT32,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs::msg::ArmingCheckRequest, valid_registrations_mask),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers ArmingCheckRequest_message_members = {
   "px4_msgs::msg",  // message namespace
   "ArmingCheckRequest",  // message name
-  3,  // number of fields
+  2,  // number of fields
   sizeof(px4_msgs::msg::ArmingCheckRequest),
   ArmingCheckRequest_message_member_array,  // message members
   ArmingCheckRequest_init_function,  // function to initialize message memory (memory has to be allocated)

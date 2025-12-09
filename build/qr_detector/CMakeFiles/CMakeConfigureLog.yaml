@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-eN5yBB"
-      binary: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-eN5yBB"
+      source: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-KptKSZ"
+      binary: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-KptKSZ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,21 +71,21 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-eN5yBB'
+        Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-KptKSZ'
         
-        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5d7e9/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_5d7e9.dir/build.make CMakeFiles/cmTC_5d7e9.dir/build
-        make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-eN5yBB'
-        Building C object CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8a04c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8a04c.dir/build.make CMakeFiles/cmTC_8a04c.dir/build
+        make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-KptKSZ'
+        Building C object CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: aarch64-linux-gnu
         Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
         Thread model: posix
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
-         /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccgfe6lI.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccM8mnQz.s
         GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
         	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
         
@@ -105,15 +105,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: bae83efe2e4e7b8eac1a6149e340cc5c
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
-         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o /tmp/ccgfe6lI.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o /tmp/ccM8mnQz.s
         GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
         COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
-        Linking C executable cmTC_5d7e9
-        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d7e9.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o -o cmTC_5d7e9 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+        Linking C executable cmTC_8a04c
+        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a04c.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o -o cmTC_8a04c 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper
@@ -123,10 +123,10 @@ events:
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
         COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d7e9' '-mlittle-endian' '-mabi=lp64'
-         /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAJ3sma.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_5d7e9 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d7e9' '-mlittle-endian' '-mabi=lp64'
-        make[1]: Leaving directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-eN5yBB'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8a04c' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvH9DiR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_8a04c /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8a04c' '-mlittle-endian' '-mabi=lp64'
+        make[1]: Leaving directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-KptKSZ'
         
       exitCode: 0
   -
@@ -160,21 +160,21 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-eN5yBB']
+        ignore line: [Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-KptKSZ']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5d7e9/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_5d7e9.dir/build.make CMakeFiles/cmTC_5d7e9.dir/build]
-        ignore line: [make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-eN5yBB']
-        ignore line: [Building C object CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8a04c/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_8a04c.dir/build.make CMakeFiles/cmTC_8a04c.dir/build]
+        ignore line: [make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-KptKSZ']
+        ignore line: [Building C object CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: aarch64-linux-gnu]
         ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccgfe6lI.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccM8mnQz.s]
         ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)]
         ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
         ignore line: []
@@ -194,15 +194,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: bae83efe2e4e7b8eac1a6149e340cc5c]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o /tmp/ccgfe6lI.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o /tmp/ccM8mnQz.s]
         ignore line: [GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [Linking C executable cmTC_5d7e9]
-        ignore line: [/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d7e9.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o -o cmTC_5d7e9 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [Linking C executable cmTC_8a04c]
+        ignore line: [/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a04c.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o -o cmTC_8a04c ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper]
@@ -212,13 +212,13 @@ events:
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d7e9' '-mlittle-endian' '-mabi=lp64']
-        link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAJ3sma.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_5d7e9 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8a04c' '-mlittle-endian' '-mabi=lp64']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvH9DiR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_8a04c /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/9/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccAJ3sma.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccvH9DiR.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -238,7 +238,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5d7e9] ==> ignore
+          arg [cmTC_8a04c] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o]
@@ -250,7 +250,7 @@ events:
           arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..]
-          arg [CMakeFiles/cmTC_5d7e9.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_8a04c.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -290,8 +290,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-iafA0A"
-      binary: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-iafA0A"
+      source: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-mx5YPZ"
+      binary: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-mx5YPZ"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -300,21 +300,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-iafA0A'
+        Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-mx5YPZ'
         
-        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_240f8/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_240f8.dir/build.make CMakeFiles/cmTC_240f8.dir/build
-        make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-iafA0A'
-        Building CXX object CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_12704/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_12704.dir/build.make CMakeFiles/cmTC_12704.dir/build
+        make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-mx5YPZ'
+        Building CXX object CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: aarch64-linux-gnu
         Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
         Thread model: posix
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-         /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccnjiKEj.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccNdSQqU.s
         GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
         	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
         
@@ -338,15 +338,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 76f300a9566415b293c4e87b0a05621d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnjiKEj.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNdSQqU.s
         GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
         COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-        Linking CXX executable cmTC_240f8
-        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_240f8.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_240f8 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+        Linking CXX executable cmTC_12704
+        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12704.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_12704 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper
@@ -356,10 +356,10 @@ events:
         gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
         COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_240f8' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-         /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH5801O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_240f8 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_240f8' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-        make[1]: Leaving directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-iafA0A'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12704' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cchFo0Cf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_12704 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12704' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+        make[1]: Leaving directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-mx5YPZ'
         
       exitCode: 0
   -
@@ -399,21 +399,21 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-iafA0A']
+        ignore line: [Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-mx5YPZ']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_240f8/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_240f8.dir/build.make CMakeFiles/cmTC_240f8.dir/build]
-        ignore line: [make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-iafA0A']
-        ignore line: [Building CXX object CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_12704/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_12704.dir/build.make CMakeFiles/cmTC_12704.dir/build]
+        ignore line: [make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-mx5YPZ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: aarch64-linux-gnu]
         ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccnjiKEj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccNdSQqU.s]
         ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)]
         ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
         ignore line: []
@@ -437,15 +437,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 76f300a9566415b293c4e87b0a05621d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnjiKEj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNdSQqU.s]
         ignore line: [GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [Linking CXX executable cmTC_240f8]
-        ignore line: [/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_240f8.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_240f8 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [Linking CXX executable cmTC_12704]
+        ignore line: [/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12704.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_12704 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper]
@@ -455,13 +455,13 @@ events:
         ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_240f8' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH5801O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_240f8 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12704' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cchFo0Cf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_12704 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/9/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccH5801O.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cchFo0Cf.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -481,7 +481,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_240f8] ==> ignore
+          arg [cmTC_12704] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o]
@@ -493,7 +493,7 @@ events:
           arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..]
-          arg [CMakeFiles/cmTC_240f8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_12704.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -540,8 +540,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-1kItPE"
-      binary: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-1kItPE"
+      source: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-ZgGYyZ"
+      binary: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-ZgGYyZ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -551,25 +551,25 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-1kItPE'
+        Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-ZgGYyZ'
         
-        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1b348/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_1b348.dir/build.make CMakeFiles/cmTC_1b348.dir/build
-        make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-1kItPE'
-        Building C object CMakeFiles/cmTC_1b348.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1b348.dir/src.c.o -c /root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-1kItPE/src.c
-        Linking C executable cmTC_1b348
-        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b348.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_1b348.dir/src.c.o -o cmTC_1b348 
-        /usr/bin/ld: CMakeFiles/cmTC_1b348.dir/src.c.o: in function `main':
+        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_98d88/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_98d88.dir/build.make CMakeFiles/cmTC_98d88.dir/build
+        make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-ZgGYyZ'
+        Building C object CMakeFiles/cmTC_98d88.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_98d88.dir/src.c.o -c /root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-ZgGYyZ/src.c
+        Linking C executable cmTC_98d88
+        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98d88.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_98d88.dir/src.c.o -o cmTC_98d88 
+        /usr/bin/ld: CMakeFiles/cmTC_98d88.dir/src.c.o: in function `main':
         src.c:(.text+0x48): undefined reference to `pthread_create'
         /usr/bin/ld: src.c:(.text+0x50): undefined reference to `pthread_detach'
         /usr/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_cancel'
         /usr/bin/ld: src.c:(.text+0x64): undefined reference to `pthread_join'
         collect2: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_1b348.dir/build.make:99: cmTC_1b348] Error 1
-        make[1]: Leaving directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-1kItPE'
-        make: *** [Makefile:127: cmTC_1b348/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_98d88.dir/build.make:99: cmTC_98d88] Error 1
+        make[1]: Leaving directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-ZgGYyZ'
+        make: *** [Makefile:127: cmTC_98d88/fast] Error 2
         
       exitCode: 2
   -
@@ -591,8 +591,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-FXOTEC"
-      binary: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-FXOTEC"
+      source: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-s8HpA0"
+      binary: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-s8HpA0"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -602,21 +602,21 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-FXOTEC'
+        Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-s8HpA0'
         
-        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_18650/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_18650.dir/build.make CMakeFiles/cmTC_18650.dir/build
-        make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-FXOTEC'
-        Building C object CMakeFiles/cmTC_18650.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_18650.dir/CheckFunctionExists.c.o -c /root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-FXOTEC/CheckFunctionExists.c
-        Linking C executable cmTC_18650
-        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18650.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_18650.dir/CheckFunctionExists.c.o -o cmTC_18650  -lpthreads 
+        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed265/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ed265.dir/build.make CMakeFiles/cmTC_ed265.dir/build
+        make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-s8HpA0'
+        Building C object CMakeFiles/cmTC_ed265.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ed265.dir/CheckFunctionExists.c.o -c /root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-s8HpA0/CheckFunctionExists.c
+        Linking C executable cmTC_ed265
+        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed265.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_ed265.dir/CheckFunctionExists.c.o -o cmTC_ed265  -lpthreads 
         /usr/bin/ld: cannot find -lpthreads
         collect2: error: ld returned 1 exit status
-        make[1]: *** [CMakeFiles/cmTC_18650.dir/build.make:99: cmTC_18650] Error 1
-        make[1]: Leaving directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-FXOTEC'
-        make: *** [Makefile:127: cmTC_18650/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_ed265.dir/build.make:99: cmTC_ed265] Error 1
+        make[1]: Leaving directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-s8HpA0'
+        make: *** [Makefile:127: cmTC_ed265/fast] Error 2
         
       exitCode: 2
   -
@@ -638,8 +638,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-kcvi1D"
-      binary: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-kcvi1D"
+      source: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-7FS4q1"
+      binary: "/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-7FS4q1"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -649,17 +649,17 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-kcvi1D'
+        Change Dir: '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-7FS4q1'
         
-        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b7d09/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_b7d09.dir/build.make CMakeFiles/cmTC_b7d09.dir/build
-        make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-kcvi1D'
-        Building C object CMakeFiles/cmTC_b7d09.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_b7d09.dir/CheckFunctionExists.c.o -c /root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-kcvi1D/CheckFunctionExists.c
-        Linking C executable cmTC_b7d09
-        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7d09.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_b7d09.dir/CheckFunctionExists.c.o -o cmTC_b7d09  -lpthread 
-        make[1]: Leaving directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-kcvi1D'
+        Run Build Command(s): /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c47a6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c47a6.dir/build.make CMakeFiles/cmTC_c47a6.dir/build
+        make[1]: Entering directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-7FS4q1'
+        Building C object CMakeFiles/cmTC_c47a6.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_c47a6.dir/CheckFunctionExists.c.o -c /root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-7FS4q1/CheckFunctionExists.c
+        Linking C executable cmTC_c47a6
+        /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c47a6.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_c47a6.dir/CheckFunctionExists.c.o -o cmTC_c47a6  -lpthread 
+        make[1]: Leaving directory '/root/bridges/jetson_workspace/build/qr_detector/CMakeFiles/CMakeScratch/TryCompile-7FS4q1'
         
       exitCode: 0
 ...

@@ -1,15 +1,1 @@
-// generated from rosidl_adapter/resource/srv.idl.em
-// with input from pkg_srv/srv/MissionControl.srv
-// generated code does not contain a copyright notice
-
-
-module pkg_srv {
-  module srv {
-    struct MissionControl_Request {
-      string state;
-    };
-    struct MissionControl_Response {
-      string mission_state;
-    };
-  };
-};
+/root/bridges/jetson_workspace/build/pkg_srv/rosidl_adapter/pkg_srv/srv/MissionControl.idl

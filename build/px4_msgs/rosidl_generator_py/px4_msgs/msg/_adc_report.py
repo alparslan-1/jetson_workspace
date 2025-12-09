@@ -72,8 +72,8 @@ class AdcReport(metaclass=Metaclass_AdcReport):
     _fields_and_field_types = {
         'timestamp': 'uint64',
         'device_id': 'uint32',
-        'channel_id': 'int16[16]',
-        'raw_data': 'int32[16]',
+        'channel_id': 'int16[12]',
+        'raw_data': 'int32[12]',
         'resolution': 'uint32',
         'v_ref': 'float',
     }
@@ -81,8 +81,8 @@ class AdcReport(metaclass=Metaclass_AdcReport):
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('uint64'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint32'),  # noqa: E501
-        rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('int16'), 16),  # noqa: E501
-        rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('int32'), 16),  # noqa: E501
+        rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('int16'), 12),  # noqa: E501
+        rosidl_parser.definition.Array(rosidl_parser.definition.BasicType('int32'), 12),  # noqa: E501
         rosidl_parser.definition.BasicType('uint32'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
     )
@@ -94,15 +94,15 @@ class AdcReport(metaclass=Metaclass_AdcReport):
         self.timestamp = kwargs.get('timestamp', int())
         self.device_id = kwargs.get('device_id', int())
         if 'channel_id' not in kwargs:
-            self.channel_id = numpy.zeros(16, dtype=numpy.int16)
+            self.channel_id = numpy.zeros(12, dtype=numpy.int16)
         else:
             self.channel_id = numpy.array(kwargs.get('channel_id'), dtype=numpy.int16)
-            assert self.channel_id.shape == (16, )
+            assert self.channel_id.shape == (12, )
         if 'raw_data' not in kwargs:
-            self.raw_data = numpy.zeros(16, dtype=numpy.int32)
+            self.raw_data = numpy.zeros(12, dtype=numpy.int32)
         else:
             self.raw_data = numpy.array(kwargs.get('raw_data'), dtype=numpy.int32)
-            assert self.raw_data.shape == (16, )
+            assert self.raw_data.shape == (12, )
         self.resolution = kwargs.get('resolution', int())
         self.v_ref = kwargs.get('v_ref', float())
 
@@ -194,8 +194,8 @@ class AdcReport(metaclass=Metaclass_AdcReport):
         if isinstance(value, numpy.ndarray):
             assert value.dtype == numpy.int16, \
                 "The 'channel_id' numpy.ndarray() must have the dtype of 'numpy.int16'"
-            assert value.size == 16, \
-                "The 'channel_id' numpy.ndarray() must have a size of 16"
+            assert value.size == 12, \
+                "The 'channel_id' numpy.ndarray() must have a size of 12"
             self._channel_id = value
             return
         if __debug__:
@@ -209,10 +209,10 @@ class AdcReport(metaclass=Metaclass_AdcReport):
                   isinstance(value, UserList)) and
                  not isinstance(value, str) and
                  not isinstance(value, UserString) and
-                 len(value) == 16 and
+                 len(value) == 12 and
                  all(isinstance(v, int) for v in value) and
                  all(val >= -32768 and val < 32768 for val in value)), \
-                "The 'channel_id' field must be a set or sequence with length 16 and each value of type 'int' and each integer in [-32768, 32767]"
+                "The 'channel_id' field must be a set or sequence with length 12 and each value of type 'int' and each integer in [-32768, 32767]"
         self._channel_id = numpy.array(value, dtype=numpy.int16)
 
     @builtins.property
@@ -225,8 +225,8 @@ class AdcReport(metaclass=Metaclass_AdcReport):
         if isinstance(value, numpy.ndarray):
             assert value.dtype == numpy.int32, \
                 "The 'raw_data' numpy.ndarray() must have the dtype of 'numpy.int32'"
-            assert value.size == 16, \
-                "The 'raw_data' numpy.ndarray() must have a size of 16"
+            assert value.size == 12, \
+                "The 'raw_data' numpy.ndarray() must have a size of 12"
             self._raw_data = value
             return
         if __debug__:
@@ -240,10 +240,10 @@ class AdcReport(metaclass=Metaclass_AdcReport):
                   isinstance(value, UserList)) and
                  not isinstance(value, str) and
                  not isinstance(value, UserString) and
-                 len(value) == 16 and
+                 len(value) == 12 and
                  all(isinstance(v, int) for v in value) and
                  all(val >= -2147483648 and val < 2147483648 for val in value)), \
-                "The 'raw_data' field must be a set or sequence with length 16 and each value of type 'int' and each integer in [-2147483648, 2147483647]"
+                "The 'raw_data' field must be a set or sequence with length 12 and each value of type 'int' and each integer in [-2147483648, 2147483647]"
         self._raw_data = numpy.array(value, dtype=numpy.int32)
 
     @builtins.property

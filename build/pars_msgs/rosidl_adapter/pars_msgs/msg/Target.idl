@@ -15,6 +15,8 @@ module pars_msgs {
       float image_width;
 
       float image_height;
+
+      float hedef_boyut;
     };
   };
 };

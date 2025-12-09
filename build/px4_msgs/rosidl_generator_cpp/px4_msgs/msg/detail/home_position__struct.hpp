@@ -45,8 +45,6 @@ struct HomePosition_
       this->x = 0.0f;
       this->y = 0.0f;
       this->z = 0.0f;
-      this->roll = 0.0f;
-      this->pitch = 0.0f;
       this->yaw = 0.0f;
       this->valid_alt = false;
       this->valid_hpos = false;
@@ -69,8 +67,6 @@ struct HomePosition_
       this->x = 0.0f;
       this->y = 0.0f;
       this->z = 0.0f;
-      this->roll = 0.0f;
-      this->pitch = 0.0f;
       this->yaw = 0.0f;
       this->valid_alt = false;
       this->valid_hpos = false;
@@ -102,12 +98,6 @@ struct HomePosition_
   using _z_type =
     float;
   _z_type z;
-  using _roll_type =
-    float;
-  _roll_type roll;
-  using _pitch_type =
-    float;
-  _pitch_type pitch;
   using _yaw_type =
     float;
   _yaw_type yaw;
@@ -170,18 +160,6 @@ struct HomePosition_
     this->z = _arg;
     return *this;
   }
-  Type & set__roll(
-    const float & _arg)
-  {
-    this->roll = _arg;
-    return *this;
-  }
-  Type & set__pitch(
-    const float & _arg)
-  {
-    this->pitch = _arg;
-    return *this;
-  }
   Type & set__yaw(
     const float & _arg)
   {
@@ -220,8 +198,6 @@ struct HomePosition_
   }
 
   // constant declarations
-  static constexpr uint32_t MESSAGE_VERSION =
-    1u;
 
   // pointer types
   using RawPtr =
@@ -284,12 +260,6 @@ struct HomePosition_
     if (this->z != other.z) {
       return false;
     }
-    if (this->roll != other.roll) {
-      return false;
-    }
-    if (this->pitch != other.pitch) {
-      return false;
-    }
     if (this->yaw != other.yaw) {
       return false;
     }
@@ -321,11 +291,6 @@ using HomePosition =
   px4_msgs::msg::HomePosition_<std::allocator<void>>;
 
 // constant definitions
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
-template<typename ContainerAllocator>
-constexpr uint32_t HomePosition_<ContainerAllocator>::MESSAGE_VERSION;
-#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

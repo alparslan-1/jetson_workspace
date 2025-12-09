@@ -75,7 +75,7 @@ void assign_function__InputRc__values(
   item = value;
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember InputRc_message_member_array[15] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember InputRc_message_member_array[13] = {
   {
     "timestamp",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT64,  // type
@@ -230,23 +230,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember InputRc_messa
     nullptr  // resize(index) function pointer
   },
   {
-    "rc_frame_rate",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT16,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs::msg::InputRc, rc_frame_rate),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
     "input_source",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
     0,  // upper bound of string
@@ -313,30 +296,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember InputRc_messa
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
-  },
-  {
-    "link_snr",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT8,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs::msg::InputRc, link_snr),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers InputRc_message_members = {
   "px4_msgs::msg",  // message namespace
   "InputRc",  // message name
-  15,  // number of fields
+  13,  // number of fields
   sizeof(px4_msgs::msg::InputRc),
   InputRc_message_member_array,  // message members
   InputRc_init_function,  // function to initialize message memory (memory has to be allocated)

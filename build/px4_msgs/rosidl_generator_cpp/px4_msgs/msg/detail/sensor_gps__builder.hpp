@@ -133,32 +133,16 @@ private:
   ::px4_msgs::msg::SensorGps msg_;
 };
 
-class Init_SensorGps_system_error
-{
-public:
-  explicit Init_SensorGps_system_error(::px4_msgs::msg::SensorGps & msg)
-  : msg_(msg)
-  {}
-  Init_SensorGps_heading system_error(::px4_msgs::msg::SensorGps::_system_error_type arg)
-  {
-    msg_.system_error = std::move(arg);
-    return Init_SensorGps_heading(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::SensorGps msg_;
-};
-
 class Init_SensorGps_satellites_used
 {
 public:
   explicit Init_SensorGps_satellites_used(::px4_msgs::msg::SensorGps & msg)
   : msg_(msg)
   {}
-  Init_SensorGps_system_error satellites_used(::px4_msgs::msg::SensorGps::_satellites_used_type arg)
+  Init_SensorGps_heading satellites_used(::px4_msgs::msg::SensorGps::_satellites_used_type arg)
   {
     msg_.satellites_used = std::move(arg);
-    return Init_SensorGps_system_error(msg_);
+    return Init_SensorGps_heading(msg_);
   }
 
 private:
@@ -293,32 +277,16 @@ private:
   ::px4_msgs::msg::SensorGps msg_;
 };
 
-class Init_SensorGps_authentication_state
-{
-public:
-  explicit Init_SensorGps_authentication_state(::px4_msgs::msg::SensorGps & msg)
-  : msg_(msg)
-  {}
-  Init_SensorGps_vel_m_s authentication_state(::px4_msgs::msg::SensorGps::_authentication_state_type arg)
-  {
-    msg_.authentication_state = std::move(arg);
-    return Init_SensorGps_vel_m_s(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::SensorGps msg_;
-};
-
 class Init_SensorGps_spoofing_state
 {
 public:
   explicit Init_SensorGps_spoofing_state(::px4_msgs::msg::SensorGps & msg)
   : msg_(msg)
   {}
-  Init_SensorGps_authentication_state spoofing_state(::px4_msgs::msg::SensorGps::_spoofing_state_type arg)
+  Init_SensorGps_vel_m_s spoofing_state(::px4_msgs::msg::SensorGps::_spoofing_state_type arg)
   {
     msg_.spoofing_state = std::move(arg);
-    return Init_SensorGps_authentication_state(msg_);
+    return Init_SensorGps_vel_m_s(msg_);
   }
 
 private:

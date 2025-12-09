@@ -22,7 +22,6 @@ class Metaclass_HomePosition(type):
     _TYPE_SUPPORT = None
 
     __constants = {
-        'MESSAGE_VERSION': 1,
     }
 
     @classmethod
@@ -51,22 +50,11 @@ class Metaclass_HomePosition(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
-            'MESSAGE_VERSION': cls.__constants['MESSAGE_VERSION'],
         }
-
-    @property
-    def MESSAGE_VERSION(self):
-        """Message constant 'MESSAGE_VERSION'."""
-        return Metaclass_HomePosition.__constants['MESSAGE_VERSION']
 
 
 class HomePosition(metaclass=Metaclass_HomePosition):
-    """
-    Message class 'HomePosition'.
-
-    Constants:
-      MESSAGE_VERSION
-    """
+    """Message class 'HomePosition'."""
 
     __slots__ = [
         '_timestamp',
@@ -76,8 +64,6 @@ class HomePosition(metaclass=Metaclass_HomePosition):
         '_x',
         '_y',
         '_z',
-        '_roll',
-        '_pitch',
         '_yaw',
         '_valid_alt',
         '_valid_hpos',
@@ -94,8 +80,6 @@ class HomePosition(metaclass=Metaclass_HomePosition):
         'x': 'float',
         'y': 'float',
         'z': 'float',
-        'roll': 'float',
-        'pitch': 'float',
         'yaw': 'float',
         'valid_alt': 'boolean',
         'valid_hpos': 'boolean',
@@ -108,8 +92,6 @@ class HomePosition(metaclass=Metaclass_HomePosition):
         rosidl_parser.definition.BasicType('uint64'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
@@ -133,8 +115,6 @@ class HomePosition(metaclass=Metaclass_HomePosition):
         self.x = kwargs.get('x', float())
         self.y = kwargs.get('y', float())
         self.z = kwargs.get('z', float())
-        self.roll = kwargs.get('roll', float())
-        self.pitch = kwargs.get('pitch', float())
         self.yaw = kwargs.get('yaw', float())
         self.valid_alt = kwargs.get('valid_alt', bool())
         self.valid_hpos = kwargs.get('valid_hpos', bool())
@@ -184,10 +164,6 @@ class HomePosition(metaclass=Metaclass_HomePosition):
         if self.y != other.y:
             return False
         if self.z != other.z:
-            return False
-        if self.roll != other.roll:
-            return False
-        if self.pitch != other.pitch:
             return False
         if self.yaw != other.yaw:
             return False
@@ -312,36 +288,6 @@ class HomePosition(metaclass=Metaclass_HomePosition):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'z' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._z = value
-
-    @builtins.property
-    def roll(self):
-        """Message field 'roll'."""
-        return self._roll
-
-    @roll.setter
-    def roll(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'roll' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'roll' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._roll = value
-
-    @builtins.property
-    def pitch(self):
-        """Message field 'pitch'."""
-        return self._pitch
-
-    @pitch.setter
-    def pitch(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'pitch' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'pitch' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._pitch = value
 
     @builtins.property
     def yaw(self):

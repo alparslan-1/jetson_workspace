@@ -117,48 +117,16 @@ private:
   ::px4_msgs::msg::HomePosition msg_;
 };
 
-class Init_HomePosition_pitch
-{
-public:
-  explicit Init_HomePosition_pitch(::px4_msgs::msg::HomePosition & msg)
-  : msg_(msg)
-  {}
-  Init_HomePosition_yaw pitch(::px4_msgs::msg::HomePosition::_pitch_type arg)
-  {
-    msg_.pitch = std::move(arg);
-    return Init_HomePosition_yaw(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::HomePosition msg_;
-};
-
-class Init_HomePosition_roll
-{
-public:
-  explicit Init_HomePosition_roll(::px4_msgs::msg::HomePosition & msg)
-  : msg_(msg)
-  {}
-  Init_HomePosition_pitch roll(::px4_msgs::msg::HomePosition::_roll_type arg)
-  {
-    msg_.roll = std::move(arg);
-    return Init_HomePosition_pitch(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::HomePosition msg_;
-};
-
 class Init_HomePosition_z
 {
 public:
   explicit Init_HomePosition_z(::px4_msgs::msg::HomePosition & msg)
   : msg_(msg)
   {}
-  Init_HomePosition_roll z(::px4_msgs::msg::HomePosition::_z_type arg)
+  Init_HomePosition_yaw z(::px4_msgs::msg::HomePosition::_z_type arg)
   {
     msg_.z = std::move(arg);
-    return Init_HomePosition_roll(msg_);
+    return Init_HomePosition_yaw(msg_);
   }
 
 private:

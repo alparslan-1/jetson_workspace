@@ -20,7 +20,6 @@ class Metaclass_ArmingCheckRequest(type):
     _TYPE_SUPPORT = None
 
     __constants = {
-        'MESSAGE_VERSION': 1,
     }
 
     @classmethod
@@ -49,39 +48,25 @@ class Metaclass_ArmingCheckRequest(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
-            'MESSAGE_VERSION': cls.__constants['MESSAGE_VERSION'],
         }
-
-    @property
-    def MESSAGE_VERSION(self):
-        """Message constant 'MESSAGE_VERSION'."""
-        return Metaclass_ArmingCheckRequest.__constants['MESSAGE_VERSION']
 
 
 class ArmingCheckRequest(metaclass=Metaclass_ArmingCheckRequest):
-    """
-    Message class 'ArmingCheckRequest'.
-
-    Constants:
-      MESSAGE_VERSION
-    """
+    """Message class 'ArmingCheckRequest'."""
 
     __slots__ = [
         '_timestamp',
         '_request_id',
-        '_valid_registrations_mask',
     ]
 
     _fields_and_field_types = {
         'timestamp': 'uint64',
         'request_id': 'uint8',
-        'valid_registrations_mask': 'uint32',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('uint64'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
-        rosidl_parser.definition.BasicType('uint32'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -90,7 +75,6 @@ class ArmingCheckRequest(metaclass=Metaclass_ArmingCheckRequest):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.timestamp = kwargs.get('timestamp', int())
         self.request_id = kwargs.get('request_id', int())
-        self.valid_registrations_mask = kwargs.get('valid_registrations_mask', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -124,8 +108,6 @@ class ArmingCheckRequest(metaclass=Metaclass_ArmingCheckRequest):
         if self.timestamp != other.timestamp:
             return False
         if self.request_id != other.request_id:
-            return False
-        if self.valid_registrations_mask != other.valid_registrations_mask:
             return False
         return True
 
@@ -163,18 +145,3 @@ class ArmingCheckRequest(metaclass=Metaclass_ArmingCheckRequest):
             assert value >= 0 and value < 256, \
                 "The 'request_id' field must be an unsigned integer in [0, 255]"
         self._request_id = value
-
-    @builtins.property
-    def valid_registrations_mask(self):
-        """Message field 'valid_registrations_mask'."""
-        return self._valid_registrations_mask
-
-    @valid_registrations_mask.setter
-    def valid_registrations_mask(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'valid_registrations_mask' field must be of type 'int'"
-            assert value >= 0 and value < 4294967296, \
-                "The 'valid_registrations_mask' field must be an unsigned integer in [0, 4294967295]"
-        self._valid_registrations_mask = value

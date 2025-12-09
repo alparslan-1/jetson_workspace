@@ -36,13 +36,6 @@ inline void to_flow_style_yaml(
   {
     out << "request_id: ";
     rosidl_generator_traits::value_to_yaml(msg.request_id, out);
-    out << ", ";
-  }
-
-  // member: valid_registrations_mask
-  {
-    out << "valid_registrations_mask: ";
-    rosidl_generator_traits::value_to_yaml(msg.valid_registrations_mask, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -68,16 +61,6 @@ inline void to_block_style_yaml(
     }
     out << "request_id: ";
     rosidl_generator_traits::value_to_yaml(msg.request_id, out);
-    out << "\n";
-  }
-
-  // member: valid_registrations_mask
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "valid_registrations_mask: ";
-    rosidl_generator_traits::value_to_yaml(msg.valid_registrations_mask, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

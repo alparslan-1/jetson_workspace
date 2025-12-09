@@ -75,7 +75,7 @@ void assign_function__RegisterExtComponentReply__name(
   item = value;
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember RegisterExtComponentReply_message_member_array[9] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember RegisterExtComponentReply_message_member_array[8] = {
   {
     "timestamp",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT64,  // type
@@ -211,30 +211,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember RegisterExtCo
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
-  },
-  {
-    "not_user_selectable",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs::msg::RegisterExtComponentReply, not_user_selectable),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers RegisterExtComponentReply_message_members = {
   "px4_msgs::msg",  // message namespace
   "RegisterExtComponentReply",  // message name
-  9,  // number of fields
+  8,  // number of fields
   sizeof(px4_msgs::msg::RegisterExtComponentReply),
   RegisterExtComponentReply_message_member_array,  // message members
   RegisterExtComponentReply_init_function,  // function to initialize message memory (memory has to be allocated)

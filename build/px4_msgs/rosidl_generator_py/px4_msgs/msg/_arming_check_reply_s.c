@@ -215,15 +215,6 @@ bool px4_msgs__msg__arming_check_reply__convert_from_py(PyObject * _pymsg, void 
     ros_message->mode_req_global_position = (Py_True == field);
     Py_DECREF(field);
   }
-  {  // mode_req_global_position_relaxed
-    PyObject * field = PyObject_GetAttrString(_pymsg, "mode_req_global_position_relaxed");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->mode_req_global_position_relaxed = (Py_True == field);
-    Py_DECREF(field);
-  }
   {  // mode_req_mission
     PyObject * field = PyObject_GetAttrString(_pymsg, "mode_req_mission");
     if (!field) {
@@ -469,17 +460,6 @@ PyObject * px4_msgs__msg__arming_check_reply__convert_to_py(void * raw_ros_messa
     field = PyBool_FromLong(ros_message->mode_req_global_position ? 1 : 0);
     {
       int rc = PyObject_SetAttrString(_pymessage, "mode_req_global_position", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // mode_req_global_position_relaxed
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->mode_req_global_position_relaxed ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "mode_req_global_position_relaxed", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

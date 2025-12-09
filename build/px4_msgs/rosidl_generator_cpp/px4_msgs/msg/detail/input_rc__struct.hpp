@@ -47,12 +47,10 @@ struct InputRc_
       this->rc_lost_frame_count = 0;
       this->rc_total_frame_count = 0;
       this->rc_ppm_frame_length = 0;
-      this->rc_frame_rate = 0;
       this->input_source = 0;
       std::fill<typename std::array<uint16_t, 18>::iterator, uint16_t>(this->values.begin(), this->values.end(), 0);
       this->link_quality = 0;
       this->rssi_dbm = 0.0f;
-      this->link_snr = 0;
     }
   }
 
@@ -71,12 +69,10 @@ struct InputRc_
       this->rc_lost_frame_count = 0;
       this->rc_total_frame_count = 0;
       this->rc_ppm_frame_length = 0;
-      this->rc_frame_rate = 0;
       this->input_source = 0;
       std::fill<typename std::array<uint16_t, 18>::iterator, uint16_t>(this->values.begin(), this->values.end(), 0);
       this->link_quality = 0;
       this->rssi_dbm = 0.0f;
-      this->link_snr = 0;
     }
   }
 
@@ -108,9 +104,6 @@ struct InputRc_
   using _rc_ppm_frame_length_type =
     uint16_t;
   _rc_ppm_frame_length_type rc_ppm_frame_length;
-  using _rc_frame_rate_type =
-    uint16_t;
-  _rc_frame_rate_type rc_frame_rate;
   using _input_source_type =
     uint8_t;
   _input_source_type input_source;
@@ -123,9 +116,6 @@ struct InputRc_
   using _rssi_dbm_type =
     float;
   _rssi_dbm_type rssi_dbm;
-  using _link_snr_type =
-    int8_t;
-  _link_snr_type link_snr;
 
   // setters for named parameter idiom
   Type & set__timestamp(
@@ -182,12 +172,6 @@ struct InputRc_
     this->rc_ppm_frame_length = _arg;
     return *this;
   }
-  Type & set__rc_frame_rate(
-    const uint16_t & _arg)
-  {
-    this->rc_frame_rate = _arg;
-    return *this;
-  }
   Type & set__input_source(
     const uint8_t & _arg)
   {
@@ -210,12 +194,6 @@ struct InputRc_
     const float & _arg)
   {
     this->rssi_dbm = _arg;
-    return *this;
-  }
-  Type & set__link_snr(
-    const int8_t & _arg)
-  {
-    this->link_snr = _arg;
     return *this;
   }
 
@@ -324,9 +302,6 @@ struct InputRc_
     if (this->rc_ppm_frame_length != other.rc_ppm_frame_length) {
       return false;
     }
-    if (this->rc_frame_rate != other.rc_frame_rate) {
-      return false;
-    }
     if (this->input_source != other.input_source) {
       return false;
     }
@@ -337,9 +312,6 @@ struct InputRc_
       return false;
     }
     if (this->rssi_dbm != other.rssi_dbm) {
-      return false;
-    }
-    if (this->link_snr != other.link_snr) {
       return false;
     }
     return true;

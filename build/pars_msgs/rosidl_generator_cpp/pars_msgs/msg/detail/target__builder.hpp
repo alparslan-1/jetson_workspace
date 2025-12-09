@@ -21,16 +21,32 @@ namespace msg
 namespace builder
 {
 
+class Init_Target_hedef_boyut
+{
+public:
+  explicit Init_Target_hedef_boyut(::pars_msgs::msg::Target & msg)
+  : msg_(msg)
+  {}
+  ::pars_msgs::msg::Target hedef_boyut(::pars_msgs::msg::Target::_hedef_boyut_type arg)
+  {
+    msg_.hedef_boyut = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::pars_msgs::msg::Target msg_;
+};
+
 class Init_Target_image_height
 {
 public:
   explicit Init_Target_image_height(::pars_msgs::msg::Target & msg)
   : msg_(msg)
   {}
-  ::pars_msgs::msg::Target image_height(::pars_msgs::msg::Target::_image_height_type arg)
+  Init_Target_hedef_boyut image_height(::pars_msgs::msg::Target::_image_height_type arg)
   {
     msg_.image_height = std::move(arg);
-    return std::move(msg_);
+    return Init_Target_hedef_boyut(msg_);
   }
 
 private:

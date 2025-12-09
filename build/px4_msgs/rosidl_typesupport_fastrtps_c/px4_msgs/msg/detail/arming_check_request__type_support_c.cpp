@@ -59,11 +59,6 @@ static bool _ArmingCheckRequest__cdr_serialize(
     cdr << ros_message->request_id;
   }
 
-  // Field name: valid_registrations_mask
-  {
-    cdr << ros_message->valid_registrations_mask;
-  }
-
   return true;
 }
 
@@ -84,11 +79,6 @@ static bool _ArmingCheckRequest__cdr_deserialize(
   // Field name: request_id
   {
     cdr >> ros_message->request_id;
-  }
-
-  // Field name: valid_registrations_mask
-  {
-    cdr >> ros_message->valid_registrations_mask;
   }
 
   return true;
@@ -117,12 +107,6 @@ size_t get_serialized_size_px4_msgs__msg__ArmingCheckRequest(
   // field.name request_id
   {
     size_t item_size = sizeof(ros_message->request_id);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name valid_registrations_mask
-  {
-    size_t item_size = sizeof(ros_message->valid_registrations_mask);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -165,13 +149,6 @@ size_t max_serialized_size_px4_msgs__msg__ArmingCheckRequest(
     size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: valid_registrations_mask
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
   return current_alignment - initial_alignment;

@@ -21,32 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_ArmingCheckRequest_valid_registrations_mask
-{
-public:
-  explicit Init_ArmingCheckRequest_valid_registrations_mask(::px4_msgs::msg::ArmingCheckRequest & msg)
-  : msg_(msg)
-  {}
-  ::px4_msgs::msg::ArmingCheckRequest valid_registrations_mask(::px4_msgs::msg::ArmingCheckRequest::_valid_registrations_mask_type arg)
-  {
-    msg_.valid_registrations_mask = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::ArmingCheckRequest msg_;
-};
-
 class Init_ArmingCheckRequest_request_id
 {
 public:
   explicit Init_ArmingCheckRequest_request_id(::px4_msgs::msg::ArmingCheckRequest & msg)
   : msg_(msg)
   {}
-  Init_ArmingCheckRequest_valid_registrations_mask request_id(::px4_msgs::msg::ArmingCheckRequest::_request_id_type arg)
+  ::px4_msgs::msg::ArmingCheckRequest request_id(::px4_msgs::msg::ArmingCheckRequest::_request_id_type arg)
   {
     msg_.request_id = std::move(arg);
-    return Init_ArmingCheckRequest_valid_registrations_mask(msg_);
+    return std::move(msg_);
   }
 
 private:

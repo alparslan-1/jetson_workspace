@@ -75,7 +75,7 @@ void assign_function__ArmingCheckReply__events(
   item = value;
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember ArmingCheckReply_message_member_array[21] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember ArmingCheckReply_message_member_array[20] = {
   {
     "timestamp",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT64,  // type
@@ -349,23 +349,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember ArmingCheckRe
     nullptr  // resize(index) function pointer
   },
   {
-    "mode_req_global_position_relaxed",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs::msg::ArmingCheckReply, mode_req_global_position_relaxed),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
     "mode_req_mission",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
     0,  // upper bound of string
@@ -438,7 +421,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember ArmingCheckRe
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers ArmingCheckReply_message_members = {
   "px4_msgs::msg",  // message namespace
   "ArmingCheckReply",  // message name
-  21,  // number of fields
+  20,  // number of fields
   sizeof(px4_msgs::msg::ArmingCheckReply),
   ArmingCheckReply_message_member_array,  // message members
   ArmingCheckReply_init_function,  // function to initialize message memory (memory has to be allocated)

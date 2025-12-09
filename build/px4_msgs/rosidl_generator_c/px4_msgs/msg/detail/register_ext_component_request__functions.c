@@ -27,7 +27,6 @@ px4_msgs__msg__RegisterExtComponentRequest__init(px4_msgs__msg__RegisterExtCompo
   // enable_replace_internal_mode
   // replace_internal_mode
   // activate_mode_immediately
-  // not_user_selectable
   return true;
 }
 
@@ -47,7 +46,6 @@ px4_msgs__msg__RegisterExtComponentRequest__fini(px4_msgs__msg__RegisterExtCompo
   // enable_replace_internal_mode
   // replace_internal_mode
   // activate_mode_immediately
-  // not_user_selectable
 }
 
 bool
@@ -98,10 +96,6 @@ px4_msgs__msg__RegisterExtComponentRequest__are_equal(const px4_msgs__msg__Regis
   if (lhs->activate_mode_immediately != rhs->activate_mode_immediately) {
     return false;
   }
-  // not_user_selectable
-  if (lhs->not_user_selectable != rhs->not_user_selectable) {
-    return false;
-  }
   return true;
 }
 
@@ -135,8 +129,6 @@ px4_msgs__msg__RegisterExtComponentRequest__copy(
   output->replace_internal_mode = input->replace_internal_mode;
   // activate_mode_immediately
   output->activate_mode_immediately = input->activate_mode_immediately;
-  // not_user_selectable
-  output->not_user_selectable = input->not_user_selectable;
   return true;
 }
 

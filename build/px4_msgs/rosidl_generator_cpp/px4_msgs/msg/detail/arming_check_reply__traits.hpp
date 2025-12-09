@@ -152,13 +152,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: mode_req_global_position_relaxed
-  {
-    out << "mode_req_global_position_relaxed: ";
-    rosidl_generator_traits::value_to_yaml(msg.mode_req_global_position_relaxed, out);
-    out << ", ";
-  }
-
   // member: mode_req_mission
   {
     out << "mode_req_mission: ";
@@ -358,16 +351,6 @@ inline void to_block_style_yaml(
     }
     out << "mode_req_global_position: ";
     rosidl_generator_traits::value_to_yaml(msg.mode_req_global_position, out);
-    out << "\n";
-  }
-
-  // member: mode_req_global_position_relaxed
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "mode_req_global_position_relaxed: ";
-    rosidl_generator_traits::value_to_yaml(msg.mode_req_global_position_relaxed, out);
     out << "\n";
   }
 

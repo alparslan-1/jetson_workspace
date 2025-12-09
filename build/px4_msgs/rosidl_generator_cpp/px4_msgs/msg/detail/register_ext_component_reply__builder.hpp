@@ -21,32 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_RegisterExtComponentReply_not_user_selectable
-{
-public:
-  explicit Init_RegisterExtComponentReply_not_user_selectable(::px4_msgs::msg::RegisterExtComponentReply & msg)
-  : msg_(msg)
-  {}
-  ::px4_msgs::msg::RegisterExtComponentReply not_user_selectable(::px4_msgs::msg::RegisterExtComponentReply::_not_user_selectable_type arg)
-  {
-    msg_.not_user_selectable = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::RegisterExtComponentReply msg_;
-};
-
 class Init_RegisterExtComponentReply_mode_executor_id
 {
 public:
   explicit Init_RegisterExtComponentReply_mode_executor_id(::px4_msgs::msg::RegisterExtComponentReply & msg)
   : msg_(msg)
   {}
-  Init_RegisterExtComponentReply_not_user_selectable mode_executor_id(::px4_msgs::msg::RegisterExtComponentReply::_mode_executor_id_type arg)
+  ::px4_msgs::msg::RegisterExtComponentReply mode_executor_id(::px4_msgs::msg::RegisterExtComponentReply::_mode_executor_id_type arg)
   {
     msg_.mode_executor_id = std::move(arg);
-    return Init_RegisterExtComponentReply_not_user_selectable(msg_);
+    return std::move(msg_);
   }
 
 private:

@@ -69,11 +69,6 @@ static bool _ConfigOverrides__cdr_serialize(
     cdr << ros_message->defer_failsafes_timeout_s;
   }
 
-  // Field name: disable_auto_set_home
-  {
-    cdr << (ros_message->disable_auto_set_home ? true : false);
-  }
-
   // Field name: source_type
   {
     cdr << ros_message->source_type;
@@ -118,13 +113,6 @@ static bool _ConfigOverrides__cdr_deserialize(
   // Field name: defer_failsafes_timeout_s
   {
     cdr >> ros_message->defer_failsafes_timeout_s;
-  }
-
-  // Field name: disable_auto_set_home
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->disable_auto_set_home = tmp ? true : false;
   }
 
   // Field name: source_type
@@ -175,12 +163,6 @@ size_t get_serialized_size_px4_msgs__msg__ConfigOverrides(
   // field.name defer_failsafes_timeout_s
   {
     size_t item_size = sizeof(ros_message->defer_failsafes_timeout_s);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name disable_auto_set_home
-  {
-    size_t item_size = sizeof(ros_message->disable_auto_set_home);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -248,12 +230,6 @@ size_t max_serialized_size_px4_msgs__msg__ConfigOverrides(
 
     current_alignment += array_size * sizeof(uint16_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
-  }
-  // member: disable_auto_set_home
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
   }
   // member: source_type
   {

@@ -1,0 +1,14 @@
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/uninstall.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/atmaca_flight_control_uninstall.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/telemetry_node.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/hedef_gps.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/offboard_node.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/target_navigation_node.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/sahte_hedef.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/test.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/edit_cache.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/rebuild_cache.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/list_install_components.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/install.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/install/local.dir
+/root/bridges/jetson_workspace/build/atmaca_flight_control/CMakeFiles/install/strip.dir

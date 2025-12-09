@@ -149,8 +149,6 @@ typedef struct px4_msgs__msg__InputRc
   uint16_t rc_total_frame_count;
   /// Length of a single PPM frame. Zero for non-PPM systems
   uint16_t rc_ppm_frame_length;
-  /// RC frame rate in msg/second. 0 = invalid
-  uint16_t rc_frame_rate;
   /// Input source
   uint8_t input_source;
   /// measured pulse widths for each of the supported channels
@@ -159,8 +157,6 @@ typedef struct px4_msgs__msg__InputRc
   int8_t link_quality;
   /// Actual rssi in units of dBm. NaN = invalid
   float rssi_dbm;
-  /// link signal to noise ratio in units of dB. -1 = invalid
-  int8_t link_snr;
 } px4_msgs__msg__InputRc;
 
 // Struct for a sequence of px4_msgs__msg__InputRc.

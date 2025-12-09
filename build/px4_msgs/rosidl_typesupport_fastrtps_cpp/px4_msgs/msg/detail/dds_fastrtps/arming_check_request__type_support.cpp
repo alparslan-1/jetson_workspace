@@ -36,8 +36,6 @@ cdr_serialize(
   cdr << ros_message.timestamp;
   // Member: request_id
   cdr << ros_message.request_id;
-  // Member: valid_registrations_mask
-  cdr << ros_message.valid_registrations_mask;
   return true;
 }
 
@@ -52,9 +50,6 @@ cdr_deserialize(
 
   // Member: request_id
   cdr >> ros_message.request_id;
-
-  // Member: valid_registrations_mask
-  cdr >> ros_message.valid_registrations_mask;
 
   return true;
 }
@@ -81,12 +76,6 @@ get_serialized_size(
   // Member: request_id
   {
     size_t item_size = sizeof(ros_message.request_id);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: valid_registrations_mask
-  {
-    size_t item_size = sizeof(ros_message.valid_registrations_mask);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -125,14 +114,6 @@ max_serialized_size_ArmingCheckRequest(
     size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: valid_registrations_mask
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
   return current_alignment - initial_alignment;

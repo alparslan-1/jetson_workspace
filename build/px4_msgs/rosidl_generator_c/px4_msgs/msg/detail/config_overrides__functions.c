@@ -21,7 +21,6 @@ px4_msgs__msg__ConfigOverrides__init(px4_msgs__msg__ConfigOverrides * msg)
   // disable_auto_disarm
   // defer_failsafes
   // defer_failsafes_timeout_s
-  // disable_auto_set_home
   // source_type
   // source_id
   return true;
@@ -37,7 +36,6 @@ px4_msgs__msg__ConfigOverrides__fini(px4_msgs__msg__ConfigOverrides * msg)
   // disable_auto_disarm
   // defer_failsafes
   // defer_failsafes_timeout_s
-  // disable_auto_set_home
   // source_type
   // source_id
 }
@@ -62,10 +60,6 @@ px4_msgs__msg__ConfigOverrides__are_equal(const px4_msgs__msg__ConfigOverrides *
   }
   // defer_failsafes_timeout_s
   if (lhs->defer_failsafes_timeout_s != rhs->defer_failsafes_timeout_s) {
-    return false;
-  }
-  // disable_auto_set_home
-  if (lhs->disable_auto_set_home != rhs->disable_auto_set_home) {
     return false;
   }
   // source_type
@@ -95,8 +89,6 @@ px4_msgs__msg__ConfigOverrides__copy(
   output->defer_failsafes = input->defer_failsafes;
   // defer_failsafes_timeout_s
   output->defer_failsafes_timeout_s = input->defer_failsafes_timeout_s;
-  // disable_auto_set_home
-  output->disable_auto_set_home = input->disable_auto_set_home;
   // source_type
   output->source_type = input->source_type;
   // source_id

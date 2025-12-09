@@ -81,13 +81,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: termination_switch
-  {
-    out << "termination_switch: ";
-    rosidl_generator_traits::value_to_yaml(msg.termination_switch, out);
-    out << ", ";
-  }
-
   // member: gear_switch
   {
     out << "gear_switch: ";
@@ -116,17 +109,17 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: engage_main_motor_switch
-  {
-    out << "engage_main_motor_switch: ";
-    rosidl_generator_traits::value_to_yaml(msg.engage_main_motor_switch, out);
-    out << ", ";
-  }
-
   // member: payload_power_switch
   {
     out << "payload_power_switch: ";
     rosidl_generator_traits::value_to_yaml(msg.payload_power_switch, out);
+    out << ", ";
+  }
+
+  // member: engage_main_motor_switch
+  {
+    out << "engage_main_motor_switch: ";
+    rosidl_generator_traits::value_to_yaml(msg.engage_main_motor_switch, out);
     out << ", ";
   }
 
@@ -222,16 +215,6 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: termination_switch
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "termination_switch: ";
-    rosidl_generator_traits::value_to_yaml(msg.termination_switch, out);
-    out << "\n";
-  }
-
   // member: gear_switch
   {
     if (indentation > 0) {
@@ -272,16 +255,6 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: engage_main_motor_switch
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "engage_main_motor_switch: ";
-    rosidl_generator_traits::value_to_yaml(msg.engage_main_motor_switch, out);
-    out << "\n";
-  }
-
   // member: payload_power_switch
   {
     if (indentation > 0) {
@@ -289,6 +262,16 @@ inline void to_block_style_yaml(
     }
     out << "payload_power_switch: ";
     rosidl_generator_traits::value_to_yaml(msg.payload_power_switch, out);
+    out << "\n";
+  }
+
+  // member: engage_main_motor_switch
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "engage_main_motor_switch: ";
+    rosidl_generator_traits::value_to_yaml(msg.engage_main_motor_switch, out);
     out << "\n";
   }
 

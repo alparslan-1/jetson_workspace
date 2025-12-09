@@ -90,8 +90,8 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/ArmingCheckReply.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/ArmingCheckRequest.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/AutotuneAttitudeControlStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/BatteryInfo.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/BatteryStatus.idl
+rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/Buffer128.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/ButtonEvent.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/CameraCapture.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/CameraStatus.idl
@@ -99,6 +99,7 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/CanInterfaceStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/CellularStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/CollisionConstraints.idl
+rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/CollisionReport.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/ConfigOverrides.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/ControlAllocatorStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/Cpuload.idl
@@ -108,10 +109,9 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/DebugKeyValue.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/DebugValue.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/DebugVect.idl
+rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/DifferentialDriveSetpoint.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/DifferentialPressure.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/DistanceSensor.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/DistanceSensorModeChangeRequest.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/DronecanNodeStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/Ekf2Timestamps.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/EscReport.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/EscStatus.idl
@@ -132,17 +132,10 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FailsafeFlags.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FailureDetectorStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FigureEightStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FixedWingLateralGuidanceStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FixedWingLateralSetpoint.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FixedWingLateralStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FixedWingLongitudinalSetpoint.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FixedWingRunwayControl.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FlightPhaseEstimation.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FollowTarget.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FollowTargetEstimator.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FollowTargetStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/FuelTankStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/GainCompression.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/GeneratorStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/GeofenceResult.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/GeofenceStatus.idl
@@ -167,7 +160,6 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/HomePosition.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/HoverThrustEstimate.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/InputRc.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/InternalCombustionEngineControl.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/InternalCombustionEngineStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/IridiumsbdStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/IrlockReport.idl
@@ -175,12 +167,10 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/LandingGearWheel.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/LandingTargetInnovations.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/LandingTargetPose.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/LateralControlConfiguration.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/LaunchDetectionStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/LedControl.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/LogMessage.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/LoggerStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/LongitudinalControlConfiguration.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/MagWorkerData.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/MagnetometerBiasEstimate.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/ManualControlSetpoint.idl
@@ -194,16 +184,11 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/ModeCompleted.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/MountOrientation.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/NavigatorMissionItem.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/NavigatorStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/NeuralControl.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/NormalizedUnsignedSetpoint.idl
+rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/NpfgStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/ObstacleDistance.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/OffboardControlMode.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/OnboardComputerStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/OpenDroneIdArmStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/OpenDroneIdOperatorId.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/OpenDroneIdSelfId.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/OpenDroneIdSystem.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/OrbTest.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/OrbTestLarge.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/OrbTestMedium.idl
@@ -221,7 +206,6 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/PowerButtonState.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/PowerMonitor.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/PpsCapture.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/PurePursuitStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/PwmInput.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/Px4ioStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/QshellReq.idl
@@ -232,15 +216,6 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RcParameterMap.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RegisterExtComponentReply.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RegisterExtComponentRequest.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RoverAttitudeSetpoint.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RoverAttitudeStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RoverPositionSetpoint.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RoverRateSetpoint.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RoverRateStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RoverSpeedSetpoint.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RoverSpeedStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RoverSteeringSetpoint.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RoverThrottleSetpoint.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/Rpm.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RtlStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/RtlTimeEstimate.idl
@@ -252,7 +227,6 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorCombined.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorCorrection.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorGnssRelative.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorGnssStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorGps.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorGyro.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorGyroFft.idl
@@ -262,7 +236,6 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorOpticalFlow.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorPreflightMag.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorSelection.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorTemp.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorUwb.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorsStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorsStatusImu.idl
@@ -273,8 +246,9 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/TelemetryStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/TiltrotorExtraControls.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/TimesyncStatus.idl
+rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/TrajectoryBezier.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/TrajectorySetpoint.idl
-rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/TrajectorySetpoint6dof.idl
+rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/TrajectoryWaypoint.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/TransponderReport.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/TuneControl.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/UavcanParameterRequest.idl
@@ -307,6 +281,8 @@ rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleThrustSetpoint.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleTorqueSetpoint.idl
+rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleTrajectoryBezier.idl
+rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleTrajectoryWaypoint.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/VelocityLimits.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/VtolVehicleStatus.idl
 rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp: rosidl_adapter/px4_msgs/msg/WheelEncoders.idl
@@ -360,11 +336,11 @@ rosidl_typesupport_c/px4_msgs/msg/arming_check_request__type_support.cpp: rosidl
 rosidl_typesupport_c/px4_msgs/msg/autotune_attitude_control_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/autotune_attitude_control_status__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp
-
 rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
+
+rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/button_event__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/button_event__type_support.cpp
@@ -386,6 +362,9 @@ rosidl_typesupport_c/px4_msgs/msg/cellular_status__type_support.cpp: rosidl_type
 
 rosidl_typesupport_c/px4_msgs/msg/collision_constraints__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/collision_constraints__type_support.cpp
+
+rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp
@@ -414,17 +393,14 @@ rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp: rosidl_typesupp
 rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp
 
+rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp
+
 rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/ekf2_timestamps__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/ekf2_timestamps__type_support.cpp
@@ -486,21 +462,6 @@ rosidl_typesupport_c/px4_msgs/msg/failure_detector_status__type_support.cpp: ros
 rosidl_typesupport_c/px4_msgs/msg/figure_eight_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/figure_eight_status__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp
-
 rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp
 
@@ -512,12 +473,6 @@ rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp: ros
 
 rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp
@@ -591,9 +546,6 @@ rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp: rosid
 rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp
-
 rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp
 
@@ -615,9 +567,6 @@ rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp: 
 rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp
-
 rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp
 
@@ -629,9 +578,6 @@ rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp: rosidl_typesupp
 
 rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp
@@ -672,14 +618,11 @@ rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp: rosidl_ty
 rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp
-
 rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp
+
+rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp
@@ -689,18 +632,6 @@ rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp: rosid
 
 rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp
@@ -753,9 +684,6 @@ rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp: rosidl_typesu
 rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp
-
 rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp
 
@@ -785,33 +713,6 @@ rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp
@@ -846,9 +747,6 @@ rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp: rosidl_ty
 rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp
-
 rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp
 
@@ -875,9 +773,6 @@ rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp: rosidl
 
 rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp
-
-rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp
@@ -909,11 +804,14 @@ rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp: ro
 rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp
 
+rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp
+
 rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp
@@ -1010,6 +908,12 @@ rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp: ros
 
 rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp
+
+rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp
+
+rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp
 
 rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/action_request__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp
@@ -1239,24 +1143,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/autotune_attitude_control_status__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/autotune_attitude_control_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/autotune_attitude_control_status__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.i: cmake_force
@@ -1266,6 +1156,20 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.s
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.i
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.s
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/button_event__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/button_event__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/button_event__type_support.cpp
@@ -1365,10 +1269,24 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_constraints__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/collision_constraints__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_constraints__type_support.cpp.s
 
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.i
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.s
+
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.i: cmake_force
@@ -1382,7 +1300,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.i: cmake_force
@@ -1396,7 +1314,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.i: cmake_force
@@ -1410,7 +1328,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_request__type_support.cpp.i: cmake_force
@@ -1424,7 +1342,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dataman_response__type_support.cpp.i: cmake_force
@@ -1438,7 +1356,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_array__type_support.cpp.i: cmake_force
@@ -1452,7 +1370,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.i: cmake_force
@@ -1466,7 +1384,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.i: cmake_force
@@ -1480,7 +1398,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.i: cmake_force
@@ -1491,10 +1409,24 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.s
 
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.i
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.s
+
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.i: cmake_force
@@ -1508,7 +1440,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.i: cmake_force
@@ -1518,34 +1450,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.s
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ekf2_timestamps__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ekf2_timestamps__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/ekf2_timestamps__type_support.cpp
@@ -1827,80 +1731,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/figure_eight_status__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/figure_eight_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/figure_eight_status__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.i: cmake_force
@@ -1914,7 +1748,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.i: cmake_force
@@ -1928,7 +1762,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.i: cmake_force
@@ -1942,7 +1776,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.i: cmake_force
@@ -1953,38 +1787,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.i: cmake_force
@@ -1998,7 +1804,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.i: cmake_force
@@ -2012,7 +1818,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.i: cmake_force
@@ -2026,7 +1832,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_controls__type_support.cpp.i: cmake_force
@@ -2040,7 +1846,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_attitude_status__type_support.cpp.i: cmake_force
@@ -2054,7 +1860,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_information__type_support.cpp.i: cmake_force
@@ -2068,7 +1874,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_device_set_attitude__type_support.cpp.i: cmake_force
@@ -2082,7 +1888,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_information__type_support.cpp.i: cmake_force
@@ -2096,7 +1902,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_attitude__type_support.cpp.i: cmake_force
@@ -2110,7 +1916,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_set_manual_control__type_support.cpp.i: cmake_force
@@ -2124,7 +1930,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gimbal_manager_status__type_support.cpp.i: cmake_force
@@ -2138,7 +1944,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/goto_setpoint__type_support.cpp.i: cmake_force
@@ -2152,7 +1958,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_config__type_support.cpp.i: cmake_force
@@ -2166,7 +1972,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_in__type_support.cpp.i: cmake_force
@@ -2180,7 +1986,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_out__type_support.cpp.i: cmake_force
@@ -2194,7 +2000,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gpio_request__type_support.cpp.i: cmake_force
@@ -2208,7 +2014,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_dump__type_support.cpp.i: cmake_force
@@ -2222,7 +2028,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gps_inject_data__type_support.cpp.i: cmake_force
@@ -2236,7 +2042,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gripper__type_support.cpp.i: cmake_force
@@ -2250,7 +2056,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/health_report__type_support.cpp.i: cmake_force
@@ -2264,7 +2070,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/heater_status__type_support.cpp.i: cmake_force
@@ -2278,7 +2084,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.i: cmake_force
@@ -2292,7 +2098,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.i: cmake_force
@@ -2306,7 +2112,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.i: cmake_force
@@ -2317,24 +2123,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.i: cmake_force
@@ -2348,7 +2140,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.i: cmake_force
@@ -2362,7 +2154,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.i: cmake_force
@@ -2376,7 +2168,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear__type_support.cpp.i: cmake_force
@@ -2390,7 +2182,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.i: cmake_force
@@ -2404,7 +2196,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.i: cmake_force
@@ -2418,7 +2210,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.i: cmake_force
@@ -2429,24 +2221,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.i: cmake_force
@@ -2460,7 +2238,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.i: cmake_force
@@ -2474,7 +2252,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.i: cmake_force
@@ -2488,7 +2266,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.i: cmake_force
@@ -2499,24 +2277,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.i: cmake_force
@@ -2530,7 +2294,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.i: cmake_force
@@ -2544,7 +2308,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.i: cmake_force
@@ -2558,7 +2322,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_switches__type_support.cpp.i: cmake_force
@@ -2572,7 +2336,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_log__type_support.cpp.i: cmake_force
@@ -2586,7 +2350,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mavlink_tunnel__type_support.cpp.i: cmake_force
@@ -2600,7 +2364,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_request__type_support.cpp.i: cmake_force
@@ -2614,7 +2378,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/message_format_response__type_support.cpp.i: cmake_force
@@ -2628,7 +2392,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission__type_support.cpp.i: cmake_force
@@ -2642,7 +2406,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mission_result__type_support.cpp.i: cmake_force
@@ -2656,7 +2420,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.i: cmake_force
@@ -2670,7 +2434,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.i: cmake_force
@@ -2684,7 +2448,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.i: cmake_force
@@ -2695,38 +2459,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.i: cmake_force
@@ -2737,10 +2473,24 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.s
 
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.i
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.s
+
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.i: cmake_force
@@ -2754,7 +2504,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.i: cmake_force
@@ -2768,7 +2518,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.i: cmake_force
@@ -2779,66 +2529,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.i: cmake_force
@@ -2852,7 +2546,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.i: cmake_force
@@ -2866,7 +2560,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.i: cmake_force
@@ -2880,7 +2574,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orbit_status__type_support.cpp.i: cmake_force
@@ -2894,7 +2588,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_reset_request__type_support.cpp.i: cmake_force
@@ -2908,7 +2602,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_used_request__type_support.cpp.i: cmake_force
@@ -2922,7 +2616,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_request__type_support.cpp.i: cmake_force
@@ -2936,7 +2630,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_set_value_response__type_support.cpp.i: cmake_force
@@ -2950,7 +2644,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_update__type_support.cpp.i: cmake_force
@@ -2964,7 +2658,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ping__type_support.cpp.i: cmake_force
@@ -2978,7 +2672,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_landing_status__type_support.cpp.i: cmake_force
@@ -2992,7 +2686,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_controller_status__type_support.cpp.i: cmake_force
@@ -3006,7 +2700,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint__type_support.cpp.i: cmake_force
@@ -3020,7 +2714,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/position_setpoint_triplet__type_support.cpp.i: cmake_force
@@ -3034,7 +2728,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.i: cmake_force
@@ -3048,7 +2742,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.i: cmake_force
@@ -3062,7 +2756,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.i: cmake_force
@@ -3073,24 +2767,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.i: cmake_force
@@ -3104,7 +2784,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.i: cmake_force
@@ -3118,7 +2798,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.i: cmake_force
@@ -3132,7 +2812,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_retval__type_support.cpp.i: cmake_force
@@ -3146,7 +2826,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/radio_status__type_support.cpp.i: cmake_force
@@ -3160,7 +2840,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rate_ctrl_status__type_support.cpp.i: cmake_force
@@ -3174,7 +2854,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_channels__type_support.cpp.i: cmake_force
@@ -3188,7 +2868,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.i: cmake_force
@@ -3202,7 +2882,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.i: cmake_force
@@ -3216,7 +2896,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.i: cmake_force
@@ -3227,136 +2907,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.s
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.i: cmake_force
@@ -3370,7 +2924,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.i: cmake_force
@@ -3384,7 +2938,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.i: cmake_force
@@ -3398,7 +2952,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/satellite_info__type_support.cpp.i: cmake_force
@@ -3412,7 +2966,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel__type_support.cpp.i: cmake_force
@@ -3426,7 +2980,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_accel_fifo__type_support.cpp.i: cmake_force
@@ -3440,7 +2994,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_airflow__type_support.cpp.i: cmake_force
@@ -3454,7 +3008,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_baro__type_support.cpp.i: cmake_force
@@ -3468,7 +3022,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.i: cmake_force
@@ -3482,7 +3036,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.i: cmake_force
@@ -3496,7 +3050,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.i: cmake_force
@@ -3507,24 +3061,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.i: cmake_force
@@ -3538,7 +3078,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.i: cmake_force
@@ -3552,7 +3092,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.i: cmake_force
@@ -3566,7 +3106,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fifo__type_support.cpp.i: cmake_force
@@ -3580,7 +3120,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_hygrometer__type_support.cpp.i: cmake_force
@@ -3594,7 +3134,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_mag__type_support.cpp.i: cmake_force
@@ -3608,7 +3148,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.i: cmake_force
@@ -3622,7 +3162,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.i: cmake_force
@@ -3636,7 +3176,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.i: cmake_force
@@ -3647,24 +3187,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.i
-
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.s
-
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.i: cmake_force
@@ -3678,7 +3204,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.i: cmake_force
@@ -3692,7 +3218,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.i: cmake_force
@@ -3706,7 +3232,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/system_power__type_support.cpp.i: cmake_force
@@ -3720,7 +3246,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/takeoff_status__type_support.cpp.i: cmake_force
@@ -3734,7 +3260,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/task_stack_info__type_support.cpp.i: cmake_force
@@ -3748,7 +3274,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tecs_status__type_support.cpp.i: cmake_force
@@ -3762,7 +3288,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.i: cmake_force
@@ -3776,7 +3302,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.i: cmake_force
@@ -3790,7 +3316,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.i: cmake_force
@@ -3801,10 +3327,24 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.s
 
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.i
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.s
+
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.i: cmake_force
@@ -3815,24 +3355,24 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.s
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.i
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.i
 
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.s
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.s
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.i: cmake_force
@@ -3846,7 +3386,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.i: cmake_force
@@ -3860,7 +3400,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.i: cmake_force
@@ -3874,7 +3414,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_value__type_support.cpp.i: cmake_force
@@ -3888,7 +3428,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream__type_support.cpp.i: cmake_force
@@ -3902,7 +3442,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ulog_stream_ack__type_support.cpp.i: cmake_force
@@ -3916,7 +3456,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/unregister_ext_component__type_support.cpp.i: cmake_force
@@ -3930,7 +3470,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_acceleration__type_support.cpp.i: cmake_force
@@ -3944,7 +3484,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_air_data__type_support.cpp.i: cmake_force
@@ -3958,7 +3498,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_acceleration_setpoint__type_support.cpp.i: cmake_force
@@ -3972,7 +3512,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_angular_velocity__type_support.cpp.i: cmake_force
@@ -3986,7 +3526,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude__type_support.cpp.i: cmake_force
@@ -4000,7 +3540,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_attitude_setpoint__type_support.cpp.i: cmake_force
@@ -4014,7 +3554,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.i: cmake_force
@@ -4028,7 +3568,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command_ack__type_support.cpp.i: cmake_force
@@ -4042,7 +3582,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_constraints__type_support.cpp.i: cmake_force
@@ -4056,7 +3596,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.i: cmake_force
@@ -4070,7 +3610,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_global_position__type_support.cpp.i: cmake_force
@@ -4084,7 +3624,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu__type_support.cpp.i: cmake_force
@@ -4098,7 +3638,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_imu_status__type_support.cpp.i: cmake_force
@@ -4112,7 +3652,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_land_detected__type_support.cpp.i: cmake_force
@@ -4126,7 +3666,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.i: cmake_force
@@ -4140,7 +3680,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position_setpoint__type_support.cpp.i: cmake_force
@@ -4154,7 +3694,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_magnetometer__type_support.cpp.i: cmake_force
@@ -4168,7 +3708,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.i: cmake_force
@@ -4182,7 +3722,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow__type_support.cpp.i: cmake_force
@@ -4196,7 +3736,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_optical_flow_vel__type_support.cpp.i: cmake_force
@@ -4210,7 +3750,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_rates_setpoint__type_support.cpp.i: cmake_force
@@ -4224,7 +3764,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_roi__type_support.cpp.i: cmake_force
@@ -4238,7 +3778,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.i: cmake_force
@@ -4252,7 +3792,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.i: cmake_force
@@ -4266,7 +3806,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.i: cmake_force
@@ -4277,10 +3817,38 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.s
 
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.i
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.s
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.i
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.s
+
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.i: cmake_force
@@ -4294,7 +3862,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.i: cmake_force
@@ -4308,7 +3876,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.i: cmake_force
@@ -4322,7 +3890,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wind__type_support.cpp.i: cmake_force
@@ -4336,7 +3904,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/yaw_estimator_status__type_support.cpp.i: cmake_force
@@ -4350,7 +3918,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp.o -MF CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp.o.d -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp.o -c /root/bridges/jetson_workspace/build/px4_msgs/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/srv/vehicle_command__type_support.cpp.i: cmake_force
@@ -4378,8 +3946,8 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/arming_check_reply__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/arming_check_request__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/autotune_attitude_control_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o" \
+"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/button_event__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/camera_capture__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/camera_status__type_support.cpp.o" \
@@ -4387,6 +3955,7 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/can_interface_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cellular_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_constraints__type_support.cpp.o" \
+"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.o" \
@@ -4396,10 +3965,9 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.o" \
+"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ekf2_timestamps__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/esc_report__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/esc_status__type_support.cpp.o" \
@@ -4420,17 +3988,10 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/failsafe_flags__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/failure_detector_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/figure_eight_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.o" \
@@ -4455,7 +4016,6 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.o" \
@@ -4463,12 +4023,10 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.o" \
@@ -4482,16 +4040,11 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.o" \
+"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.o" \
@@ -4509,7 +4062,6 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.o" \
@@ -4520,15 +4072,6 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.o" \
@@ -4540,7 +4083,6 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.o" \
@@ -4550,7 +4092,6 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.o" \
@@ -4561,8 +4102,9 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o" \
+"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o" \
-"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.o" \
+"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.o" \
@@ -4595,6 +4137,8 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o" \
+"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.o" \
+"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.o" \
@@ -4620,8 +4164,8 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/arming_check_reply__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/arming_check_request__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/autotune_attitude_control_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o
+libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/button_event__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/camera_capture__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/camera_status__type_support.cpp.o
@@ -4629,6 +4173,7 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/can_interface_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cellular_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_constraints__type_support.cpp.o
+libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp.o
@@ -4638,10 +4183,9 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp.o
+libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/ekf2_timestamps__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/esc_report__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/esc_status__type_support.cpp.o
@@ -4662,17 +4206,10 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/failsafe_flags__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/failure_detector_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/figure_eight_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp.o
@@ -4697,7 +4234,6 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp.o
@@ -4705,12 +4241,10 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp.o
@@ -4724,16 +4258,11 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp.o
+libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp.o
@@ -4751,7 +4280,6 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp.o
@@ -4762,15 +4290,6 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp.o
@@ -4782,7 +4301,6 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp.o
@@ -4792,7 +4310,6 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp.o
@@ -4803,8 +4320,9 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o
+libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o
-libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp.o
+libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp.o
@@ -4837,6 +4355,8 @@ libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp.o
+libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp.o
+libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp.o
@@ -4851,7 +4371,7 @@ libpx4_msgs__rosidl_typesupport_c.so: /opt/ros/humble/install/lib/libbuiltin_int
 libpx4_msgs__rosidl_typesupport_c.so: /opt/ros/humble/install/lib/librosidl_runtime_c.so
 libpx4_msgs__rosidl_typesupport_c.so: /opt/ros/humble/install/lib/librcutils.so
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Linking CXX shared library libpx4_msgs__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/bridges/jetson_workspace/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Linking CXX shared library libpx4_msgs__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -4877,8 +4397,8 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/arming_check_reply__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/arming_check_request__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/autotune_attitude_control_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/battery_info__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/buffer128__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/button_event__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/camera_capture__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/camera_status__type_support.cpp
@@ -4886,6 +4406,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/can_interface_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/cellular_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/collision_constraints__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/collision_report__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/config_overrides__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/control_allocator_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/cpuload__type_support.cpp
@@ -4895,10 +4416,9 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/debug_key_value__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/debug_value__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/debug_vect__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/differential_drive_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/differential_pressure__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/distance_sensor__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/distance_sensor_mode_change_request__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/dronecan_node_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/ekf2_timestamps__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/esc_report__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/esc_status__type_support.cpp
@@ -4919,17 +4439,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/failsafe_flags__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/failure_detector_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/figure_eight_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_guidance_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/fixed_wing_lateral_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/fixed_wing_longitudinal_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/fixed_wing_runway_control__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/flight_phase_estimation__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/follow_target__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/follow_target_estimator__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/follow_target_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/fuel_tank_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/gain_compression__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/generator_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/geofence_result__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/geofence_status__type_support.cpp
@@ -4954,7 +4467,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/home_position__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/hover_thrust_estimate__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/input_rc__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_control__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/internal_combustion_engine_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/iridiumsbd_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/irlock_report__type_support.cpp
@@ -4962,12 +4474,10 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/landing_gear_wheel__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/landing_target_innovations__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/landing_target_pose__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/lateral_control_configuration__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/launch_detection_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/led_control__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/log_message__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/logger_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/longitudinal_control_configuration__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/mag_worker_data__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/magnetometer_bias_estimate__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/manual_control_setpoint__type_support.cpp
@@ -4981,16 +4491,11 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/mode_completed__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/mount_orientation__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/navigator_mission_item__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/navigator_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/neural_control__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/normalized_unsigned_setpoint__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/npfg_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/obstacle_distance__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/offboard_control_mode__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/onboard_computer_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/open_drone_id_arm_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/open_drone_id_operator_id__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/open_drone_id_self_id__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/open_drone_id_system__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/orb_test__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/orb_test_large__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/orb_test_medium__type_support.cpp
@@ -5008,7 +4513,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/power_button_state__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/power_monitor__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/pps_capture__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/pure_pursuit_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/pwm_input__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/px4io_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/qshell_req__type_support.cpp
@@ -5019,15 +4523,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rc_parameter_map__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/register_ext_component_reply__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/register_ext_component_request__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rover_attitude_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rover_attitude_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rover_position_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rover_rate_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rover_rate_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rover_speed_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rover_speed_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rover_steering_setpoint__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rover_throttle_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rpm__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rtl_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/rtl_time_estimate__type_support.cpp
@@ -5039,7 +4534,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_correction__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_relative__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_gnss_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_gyro__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_gyro_fft__type_support.cpp
@@ -5049,7 +4543,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_optical_flow__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_preflight_mag__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_selection__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_temp__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensor_uwb__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensors_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/sensors_status_imu__type_support.cpp
@@ -5060,8 +4553,9 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/telemetry_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/tiltrotor_extra_controls__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp
-CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint6dof__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/trajectory_bezier__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/trajectory_waypoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/transponder_report__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/tune_control__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/uavcan_parameter_request__type_support.cpp
@@ -5094,6 +4588,8 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_m
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/vehicle_thrust_setpoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/vehicle_torque_setpoint__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_bezier__type_support.cpp
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/vehicle_trajectory_waypoint__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/velocity_limits__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/vtol_vehicle_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/wheel_encoders__type_support.cpp

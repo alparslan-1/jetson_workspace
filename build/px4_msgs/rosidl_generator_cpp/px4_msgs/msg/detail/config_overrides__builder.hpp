@@ -53,32 +53,16 @@ private:
   ::px4_msgs::msg::ConfigOverrides msg_;
 };
 
-class Init_ConfigOverrides_disable_auto_set_home
-{
-public:
-  explicit Init_ConfigOverrides_disable_auto_set_home(::px4_msgs::msg::ConfigOverrides & msg)
-  : msg_(msg)
-  {}
-  Init_ConfigOverrides_source_type disable_auto_set_home(::px4_msgs::msg::ConfigOverrides::_disable_auto_set_home_type arg)
-  {
-    msg_.disable_auto_set_home = std::move(arg);
-    return Init_ConfigOverrides_source_type(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::ConfigOverrides msg_;
-};
-
 class Init_ConfigOverrides_defer_failsafes_timeout_s
 {
 public:
   explicit Init_ConfigOverrides_defer_failsafes_timeout_s(::px4_msgs::msg::ConfigOverrides & msg)
   : msg_(msg)
   {}
-  Init_ConfigOverrides_disable_auto_set_home defer_failsafes_timeout_s(::px4_msgs::msg::ConfigOverrides::_defer_failsafes_timeout_s_type arg)
+  Init_ConfigOverrides_source_type defer_failsafes_timeout_s(::px4_msgs::msg::ConfigOverrides::_defer_failsafes_timeout_s_type arg)
   {
     msg_.defer_failsafes_timeout_s = std::move(arg);
-    return Init_ConfigOverrides_disable_auto_set_home(msg_);
+    return Init_ConfigOverrides_source_type(msg_);
   }
 
 private:

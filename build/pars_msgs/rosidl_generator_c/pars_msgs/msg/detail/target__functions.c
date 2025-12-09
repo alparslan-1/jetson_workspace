@@ -22,6 +22,7 @@ pars_msgs__msg__Target__init(pars_msgs__msg__Target * msg)
   // y_center
   // image_width
   // image_height
+  // hedef_boyut
   return true;
 }
 
@@ -36,6 +37,7 @@ pars_msgs__msg__Target__fini(pars_msgs__msg__Target * msg)
   // y_center
   // image_width
   // image_height
+  // hedef_boyut
 }
 
 bool
@@ -64,6 +66,10 @@ pars_msgs__msg__Target__are_equal(const pars_msgs__msg__Target * lhs, const pars
   if (lhs->image_height != rhs->image_height) {
     return false;
   }
+  // hedef_boyut
+  if (lhs->hedef_boyut != rhs->hedef_boyut) {
+    return false;
+  }
   return true;
 }
 
@@ -85,6 +91,8 @@ pars_msgs__msg__Target__copy(
   output->image_width = input->image_width;
   // image_height
   output->image_height = input->image_height;
+  // hedef_boyut
+  output->hedef_boyut = input->hedef_boyut;
   return true;
 }
 

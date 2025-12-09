@@ -221,12 +221,12 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/autotune_attitude_control_status__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/autotune_attitude_control_status__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/autotune_attitude_control_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/battery_info__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/battery_info__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/battery_info__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/battery_status__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/battery_status__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/battery_status__functions.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/buffer128__type_support.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/buffer128__struct.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/buffer128__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/button_event__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/button_event__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/button_event__functions.h \
@@ -248,6 +248,9 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/collision_constraints__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/collision_constraints__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/collision_constraints__functions.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/collision_report__type_support.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/collision_report__struct.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/collision_report__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/config_overrides__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/config_overrides__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/config_overrides__functions.h \
@@ -275,18 +278,15 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/debug_vect__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/debug_vect__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/debug_vect__functions.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/differential_drive_setpoint__type_support.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/differential_drive_setpoint__struct.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/differential_drive_setpoint__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/differential_pressure__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/differential_pressure__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/differential_pressure__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/distance_sensor__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/distance_sensor__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/distance_sensor__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/distance_sensor_mode_change_request__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/distance_sensor_mode_change_request__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/distance_sensor_mode_change_request__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/dronecan_node_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/dronecan_node_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/dronecan_node_status__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/ekf2_timestamps__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/ekf2_timestamps__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/ekf2_timestamps__functions.h \
@@ -346,21 +346,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/figure_eight_status__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/figure_eight_status__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/figure_eight_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_lateral_setpoint__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_lateral_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_lateral_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_lateral_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_longitudinal_setpoint__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_runway_control__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_runway_control__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fixed_wing_runway_control__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/flight_phase_estimation__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/flight_phase_estimation__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/flight_phase_estimation__functions.h \
@@ -373,12 +358,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/follow_target_status__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/follow_target_status__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/follow_target_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fuel_tank_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fuel_tank_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/fuel_tank_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/gain_compression__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/gain_compression__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/gain_compression__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/generator_status__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/generator_status__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/generator_status__functions.h \
@@ -451,9 +430,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/input_rc__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/input_rc__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/input_rc__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/internal_combustion_engine_control__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/internal_combustion_engine_control__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/internal_combustion_engine_control__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/internal_combustion_engine_status__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/internal_combustion_engine_status__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/internal_combustion_engine_status__functions.h \
@@ -475,9 +451,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/landing_target_pose__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/landing_target_pose__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/landing_target_pose__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/lateral_control_configuration__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/lateral_control_configuration__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/lateral_control_configuration__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/launch_detection_status__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/launch_detection_status__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/launch_detection_status__functions.h \
@@ -490,9 +463,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/logger_status__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/logger_status__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/logger_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/longitudinal_control_configuration__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/longitudinal_control_configuration__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/longitudinal_control_configuration__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/mag_worker_data__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/mag_worker_data__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/mag_worker_data__functions.h \
@@ -532,15 +502,12 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/navigator_mission_item__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/navigator_mission_item__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/navigator_mission_item__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/navigator_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/navigator_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/navigator_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/neural_control__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/neural_control__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/neural_control__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/normalized_unsigned_setpoint__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/normalized_unsigned_setpoint__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/normalized_unsigned_setpoint__functions.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/npfg_status__type_support.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/npfg_status__struct.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/npfg_status__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/obstacle_distance__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/obstacle_distance__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/obstacle_distance__functions.h \
@@ -550,18 +517,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/onboard_computer_status__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/onboard_computer_status__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/onboard_computer_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_arm_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_arm_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_arm_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_operator_id__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_operator_id__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_operator_id__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_self_id__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_self_id__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_self_id__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_system__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_system__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/open_drone_id_system__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/orb_test__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/orb_test__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/orb_test__functions.h \
@@ -613,9 +568,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/pps_capture__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/pps_capture__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/pps_capture__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/pure_pursuit_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/pure_pursuit_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/pure_pursuit_status__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/pwm_input__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/pwm_input__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/pwm_input__functions.h \
@@ -646,33 +598,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/register_ext_component_request__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/register_ext_component_request__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/register_ext_component_request__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_attitude_setpoint__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_attitude_setpoint__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_attitude_setpoint__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_attitude_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_attitude_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_attitude_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_position_setpoint__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_position_setpoint__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_position_setpoint__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_rate_setpoint__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_rate_setpoint__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_rate_setpoint__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_rate_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_rate_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_rate_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_speed_setpoint__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_speed_setpoint__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_speed_setpoint__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_speed_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_speed_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_speed_status__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_steering_setpoint__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_steering_setpoint__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_steering_setpoint__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_throttle_setpoint__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_throttle_setpoint__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rover_throttle_setpoint__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rpm__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rpm__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/rpm__functions.h \
@@ -706,9 +631,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_gnss_relative__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_gnss_relative__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_gnss_relative__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_gnss_status__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_gnss_status__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_gnss_status__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_gps__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_gps__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_gps__functions.h \
@@ -736,9 +658,6 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_selection__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_selection__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_selection__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_temp__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_temp__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_temp__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_uwb__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_uwb__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/sensor_uwb__functions.h \
@@ -769,12 +688,15 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/timesync_status__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/timesync_status__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/timesync_status__functions.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_bezier__type_support.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_bezier__struct.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_bezier__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_setpoint__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_setpoint__functions.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_setpoint6dof__type_support.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_setpoint6dof__struct.h \
- /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_setpoint6dof__functions.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_waypoint__type_support.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_waypoint__struct.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/trajectory_waypoint__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/transponder_report__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/transponder_report__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/transponder_report__functions.h \
@@ -871,6 +793,12 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/vehicle_torque_setpoint__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/vehicle_torque_setpoint__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/vehicle_torque_setpoint__functions.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/vehicle_trajectory_bezier__type_support.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/vehicle_trajectory_bezier__struct.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/vehicle_trajectory_bezier__functions.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/vehicle_trajectory_waypoint__type_support.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/vehicle_trajectory_waypoint__struct.h \
+ /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/vehicle_trajectory_waypoint__functions.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/velocity_limits__type_support.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/velocity_limits__struct.h \
  /root/bridges/jetson_workspace/build/px4_msgs/rosidl_generator_c/px4_msgs/msg/detail/velocity_limits__functions.h \

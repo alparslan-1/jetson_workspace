@@ -140,15 +140,6 @@ bool px4_msgs__msg__register_ext_component_reply__convert_from_py(PyObject * _py
     ros_message->mode_executor_id = (int8_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
-  {  // not_user_selectable
-    PyObject * field = PyObject_GetAttrString(_pymsg, "not_user_selectable");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->not_user_selectable = (Py_True == field);
-    Py_DECREF(field);
-  }
 
   return true;
 }
@@ -260,17 +251,6 @@ PyObject * px4_msgs__msg__register_ext_component_reply__convert_to_py(void * raw
     field = PyLong_FromLong(ros_message->mode_executor_id);
     {
       int rc = PyObject_SetAttrString(_pymessage, "mode_executor_id", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // not_user_selectable
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->not_user_selectable ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "not_user_selectable", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

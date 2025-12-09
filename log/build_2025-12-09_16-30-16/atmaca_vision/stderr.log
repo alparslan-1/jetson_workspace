@@ -1,0 +1,173 @@
+[33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+  --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+  /opt/ros/humble/install/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/install/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)
+  CMakeLists.txt:12 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:26[m[K,
+                 from [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:11[m[K,
+                 from [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:1[m[K:
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:276:23:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  276 | ORT_RUNTIME_CLASS(Env)[01;35m[K;[m[K
+      |                       [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:277:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  277 | ORT_RUNTIME_CLASS(Status)[01;35m[K;[m[K  // nullptr for Status* indicates success
+      |                          [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:278:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  278 | ORT_RUNTIME_CLASS(MemoryInfo)[01;35m[K;[m[K
+      |                              [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:279:29:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  279 | ORT_RUNTIME_CLASS(IoBinding)[01;35m[K;[m[K
+      |                             [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:280:27:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  280 | ORT_RUNTIME_CLASS(Session)[01;35m[K;[m[K  // Don't call ReleaseSession from Dllmain (because session owns a thread pool)
+      |                           [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:281:25:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  281 | ORT_RUNTIME_CLASS(Value)[01;35m[K;[m[K
+      |                         [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:282:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  282 | ORT_RUNTIME_CLASS(RunOptions)[01;35m[K;[m[K
+      |                              [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:283:28:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  283 | ORT_RUNTIME_CLASS(TypeInfo)[01;35m[K;[m[K
+      |                            [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:284:42:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  284 | ORT_RUNTIME_CLASS(TensorTypeAndShapeInfo)[01;35m[K;[m[K
+      |                                          [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:285:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  285 | ORT_RUNTIME_CLASS(MapTypeInfo)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:286:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  286 | ORT_RUNTIME_CLASS(SequenceTypeInfo)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:287:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  287 | ORT_RUNTIME_CLASS(OptionalTypeInfo)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:288:34:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  288 | ORT_RUNTIME_CLASS(SessionOptions)[01;35m[K;[m[K
+      |                                  [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:289:34:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  289 | ORT_RUNTIME_CLASS(CustomOpDomain)[01;35m[K;[m[K
+      |                                  [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:290:33:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  290 | ORT_RUNTIME_CLASS(ModelMetadata)[01;35m[K;[m[K
+      |                                 [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:291:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  291 | ORT_RUNTIME_CLASS(ThreadPoolParams)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:292:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  292 | ORT_RUNTIME_CLASS(ThreadingOptions)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:293:28:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  293 | ORT_RUNTIME_CLASS(ArenaCfg)[01;35m[K;[m[K
+      |                            [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:294:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  294 | ORT_RUNTIME_CLASS(PrepackedWeightsContainer)[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:295:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  295 | ORT_RUNTIME_CLASS(TensorRTProviderOptionsV2)[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:296:41:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  296 | ORT_RUNTIME_CLASS(CUDAProviderOptionsV2)[01;35m[K;[m[K
+      |                                         [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:297:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  297 | ORT_RUNTIME_CLASS(CANNProviderOptions)[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:298:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  298 | ORT_RUNTIME_CLASS(DnnlProviderOptions)[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:299:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  299 | ORT_RUNTIME_CLASS(Op)[01;35m[K;[m[K
+      |                      [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:300:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  300 | ORT_RUNTIME_CLASS(OpAttr)[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_c_api.h:301:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  301 | ORT_RUNTIME_CLASS(Logger)[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+In file included from [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:11[m[K,
+                 from [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:1[m[K:
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:505:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  505 | ORT_DEFINE_RELEASE(Allocator)[01;35m[K;[m[K
+      |                              [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:506:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  506 | ORT_DEFINE_RELEASE(MemoryInfo)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:507:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  507 | ORT_DEFINE_RELEASE(CustomOpDomain)[01;35m[K;[m[K
+      |                                   [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:508:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  508 | ORT_DEFINE_RELEASE(ThreadingOptions)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:509:24:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  509 | ORT_DEFINE_RELEASE(Env)[01;35m[K;[m[K
+      |                        [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:510:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  510 | ORT_DEFINE_RELEASE(RunOptions)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:511:28:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  511 | ORT_DEFINE_RELEASE(Session)[01;35m[K;[m[K
+      |                            [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:512:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  512 | ORT_DEFINE_RELEASE(SessionOptions)[01;35m[K;[m[K
+      |                                   [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:513:43:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  513 | ORT_DEFINE_RELEASE(TensorTypeAndShapeInfo)[01;35m[K;[m[K
+      |                                           [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:514:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  514 | ORT_DEFINE_RELEASE(SequenceTypeInfo)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:515:32:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  515 | ORT_DEFINE_RELEASE(MapTypeInfo)[01;35m[K;[m[K
+      |                                [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:516:29:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  516 | ORT_DEFINE_RELEASE(TypeInfo)[01;35m[K;[m[K
+      |                             [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:517:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  517 | ORT_DEFINE_RELEASE(Value)[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:518:34:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  518 | ORT_DEFINE_RELEASE(ModelMetadata)[01;35m[K;[m[K
+      |                                  [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:519:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  519 | ORT_DEFINE_RELEASE(IoBinding)[01;35m[K;[m[K
+      |                              [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:520:29:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  520 | ORT_DEFINE_RELEASE(ArenaCfg)[01;35m[K;[m[K
+      |                             [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:521:27:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  521 | ORT_DEFINE_RELEASE(Status)[01;35m[K;[m[K
+      |                           [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:522:27:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  522 | ORT_DEFINE_RELEASE(OpAttr)[01;35m[K;[m[K
+      |                           [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:523:23:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  523 | ORT_DEFINE_RELEASE(Op)[01;35m[K;[m[K
+      |                       [01;35m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/include/onnxruntime_cxx_api.h:524:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  524 | ORT_DEFINE_RELEASE(KernelInfo)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:1[m[K:
+[01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:[m[K In constructor ‘[01m[KYoloNode::YoloNode()[m[K’:
+[01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:65:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KYoloNode::is_active_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   65 |     bool [01;35m[Kis_active_[m[K; // Modun aktif olup olmad???n? tutar
+      |          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.hpp:41:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KOrt::Env YoloNode::ort_env_[m[K’ [[01;35m[K-Wreorder[m[K]
+   41 |     Ort::Env [01;35m[Kort_env_[m[K;
+      |              [01;35m[K^~~~~~~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    7 | [01;35m[KYoloNode[m[K::YoloNode()
+      | [01;35m[K^~~~~~~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:[m[K In member function ‘[01m[Kstd::vector<Detection> YoloNode::postprocess(const float*, const std::vector<long int, std::allocator<long int> >&, float, const Point2f&)[m[K’:
+[01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:210:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_channels[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  210 |     int [01;35m[Knum_channels[m[K = shape[1];
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_vision/src/target_detection_node.cpp:218:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmax_score_index[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  218 |     int [01;35m[Kmax_score_index[m[K = -1;
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K

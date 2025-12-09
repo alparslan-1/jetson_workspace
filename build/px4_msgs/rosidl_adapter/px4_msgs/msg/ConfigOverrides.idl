@@ -6,7 +6,6 @@
 module px4_msgs {
   module msg {
     module ConfigOverrides_Constants {
-      const uint32 MESSAGE_VERSION = 1;
       const int8 SOURCE_TYPE_MODE = 0;
       const int8 SOURCE_TYPE_MODE_EXECUTOR = 1;
       const uint8 ORB_QUEUE_LENGTH = 4;
@@ -29,10 +28,6 @@ module px4_msgs {
       @verbatim (language="comment", text=
         "Maximum time a failsafe can be deferred. 0 = system default, -1 = no timeout")
       int16 defer_failsafes_timeout_s;
-
-      @verbatim (language="comment", text=
-        "Prevent the drone from automatically setting the home position on arm or takeoff")
-      boolean disable_auto_set_home;
 
       int8 source_type;
 

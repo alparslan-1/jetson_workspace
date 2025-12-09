@@ -20,7 +20,6 @@ class Metaclass_ConfigOverrides(type):
     _TYPE_SUPPORT = None
 
     __constants = {
-        'MESSAGE_VERSION': 1,
         'SOURCE_TYPE_MODE': 0,
         'SOURCE_TYPE_MODE_EXECUTOR': 1,
         'ORB_QUEUE_LENGTH': 4,
@@ -52,16 +51,10 @@ class Metaclass_ConfigOverrides(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
-            'MESSAGE_VERSION': cls.__constants['MESSAGE_VERSION'],
             'SOURCE_TYPE_MODE': cls.__constants['SOURCE_TYPE_MODE'],
             'SOURCE_TYPE_MODE_EXECUTOR': cls.__constants['SOURCE_TYPE_MODE_EXECUTOR'],
             'ORB_QUEUE_LENGTH': cls.__constants['ORB_QUEUE_LENGTH'],
         }
-
-    @property
-    def MESSAGE_VERSION(self):
-        """Message constant 'MESSAGE_VERSION'."""
-        return Metaclass_ConfigOverrides.__constants['MESSAGE_VERSION']
 
     @property
     def SOURCE_TYPE_MODE(self):
@@ -84,7 +77,6 @@ class ConfigOverrides(metaclass=Metaclass_ConfigOverrides):
     Message class 'ConfigOverrides'.
 
     Constants:
-      MESSAGE_VERSION
       SOURCE_TYPE_MODE
       SOURCE_TYPE_MODE_EXECUTOR
       ORB_QUEUE_LENGTH
@@ -95,7 +87,6 @@ class ConfigOverrides(metaclass=Metaclass_ConfigOverrides):
         '_disable_auto_disarm',
         '_defer_failsafes',
         '_defer_failsafes_timeout_s',
-        '_disable_auto_set_home',
         '_source_type',
         '_source_id',
     ]
@@ -105,7 +96,6 @@ class ConfigOverrides(metaclass=Metaclass_ConfigOverrides):
         'disable_auto_disarm': 'boolean',
         'defer_failsafes': 'boolean',
         'defer_failsafes_timeout_s': 'int16',
-        'disable_auto_set_home': 'boolean',
         'source_type': 'int8',
         'source_id': 'uint8',
     }
@@ -115,7 +105,6 @@ class ConfigOverrides(metaclass=Metaclass_ConfigOverrides):
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('int16'),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('int8'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
     )
@@ -128,7 +117,6 @@ class ConfigOverrides(metaclass=Metaclass_ConfigOverrides):
         self.disable_auto_disarm = kwargs.get('disable_auto_disarm', bool())
         self.defer_failsafes = kwargs.get('defer_failsafes', bool())
         self.defer_failsafes_timeout_s = kwargs.get('defer_failsafes_timeout_s', int())
-        self.disable_auto_set_home = kwargs.get('disable_auto_set_home', bool())
         self.source_type = kwargs.get('source_type', int())
         self.source_id = kwargs.get('source_id', int())
 
@@ -168,8 +156,6 @@ class ConfigOverrides(metaclass=Metaclass_ConfigOverrides):
         if self.defer_failsafes != other.defer_failsafes:
             return False
         if self.defer_failsafes_timeout_s != other.defer_failsafes_timeout_s:
-            return False
-        if self.disable_auto_set_home != other.disable_auto_set_home:
             return False
         if self.source_type != other.source_type:
             return False
@@ -237,19 +223,6 @@ class ConfigOverrides(metaclass=Metaclass_ConfigOverrides):
             assert value >= -32768 and value < 32768, \
                 "The 'defer_failsafes_timeout_s' field must be an integer in [-32768, 32767]"
         self._defer_failsafes_timeout_s = value
-
-    @builtins.property
-    def disable_auto_set_home(self):
-        """Message field 'disable_auto_set_home'."""
-        return self._disable_auto_set_home
-
-    @disable_auto_set_home.setter
-    def disable_auto_set_home(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'disable_auto_set_home' field must be of type 'bool'"
-        self._disable_auto_set_home = value
 
     @builtins.property
     def source_type(self):

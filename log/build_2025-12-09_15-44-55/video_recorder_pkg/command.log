@@ -1,4 +1,0 @@
-Invoking command in '/root/bridges/jetson_workspace/build/video_recorder_pkg': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/video_recorder_pkg -- -j4 -l4
-Invoked command in '/root/bridges/jetson_workspace/build/video_recorder_pkg' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/video_recorder_pkg -- -j4 -l4
-Invoking command in '/root/bridges/jetson_workspace/build/video_recorder_pkg': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/video_recorder_pkg
-Invoked command in '/root/bridges/jetson_workspace/build/video_recorder_pkg' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/video_recorder_pkg

@@ -37,7 +37,7 @@ void Target_fini_function(void * message_memory)
   typed_message->~Target();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Target_message_member_array[5] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Target_message_member_array[6] = {
   {
     "target_detected",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
@@ -122,13 +122,30 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Target_messag
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "hedef_boyut",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(pars_msgs::msg::Target, hedef_boyut),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Target_message_members = {
   "pars_msgs::msg",  // message namespace
   "Target",  // message name
-  5,  // number of fields
+  6,  // number of fields
   sizeof(pars_msgs::msg::Target),
   Target_message_member_array,  // message members
   Target_init_function,  // function to initialize message memory (memory has to be allocated)

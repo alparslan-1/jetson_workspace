@@ -21,32 +21,16 @@ namespace msg
 namespace builder
 {
 
-class Init_InputRc_link_snr
-{
-public:
-  explicit Init_InputRc_link_snr(::px4_msgs::msg::InputRc & msg)
-  : msg_(msg)
-  {}
-  ::px4_msgs::msg::InputRc link_snr(::px4_msgs::msg::InputRc::_link_snr_type arg)
-  {
-    msg_.link_snr = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::InputRc msg_;
-};
-
 class Init_InputRc_rssi_dbm
 {
 public:
   explicit Init_InputRc_rssi_dbm(::px4_msgs::msg::InputRc & msg)
   : msg_(msg)
   {}
-  Init_InputRc_link_snr rssi_dbm(::px4_msgs::msg::InputRc::_rssi_dbm_type arg)
+  ::px4_msgs::msg::InputRc rssi_dbm(::px4_msgs::msg::InputRc::_rssi_dbm_type arg)
   {
     msg_.rssi_dbm = std::move(arg);
-    return Init_InputRc_link_snr(msg_);
+    return std::move(msg_);
   }
 
 private:
@@ -101,32 +85,16 @@ private:
   ::px4_msgs::msg::InputRc msg_;
 };
 
-class Init_InputRc_rc_frame_rate
-{
-public:
-  explicit Init_InputRc_rc_frame_rate(::px4_msgs::msg::InputRc & msg)
-  : msg_(msg)
-  {}
-  Init_InputRc_input_source rc_frame_rate(::px4_msgs::msg::InputRc::_rc_frame_rate_type arg)
-  {
-    msg_.rc_frame_rate = std::move(arg);
-    return Init_InputRc_input_source(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::InputRc msg_;
-};
-
 class Init_InputRc_rc_ppm_frame_length
 {
 public:
   explicit Init_InputRc_rc_ppm_frame_length(::px4_msgs::msg::InputRc & msg)
   : msg_(msg)
   {}
-  Init_InputRc_rc_frame_rate rc_ppm_frame_length(::px4_msgs::msg::InputRc::_rc_ppm_frame_length_type arg)
+  Init_InputRc_input_source rc_ppm_frame_length(::px4_msgs::msg::InputRc::_rc_ppm_frame_length_type arg)
   {
     msg_.rc_ppm_frame_length = std::move(arg);
-    return Init_InputRc_rc_frame_rate(msg_);
+    return Init_InputRc_input_source(msg_);
   }
 
 private:

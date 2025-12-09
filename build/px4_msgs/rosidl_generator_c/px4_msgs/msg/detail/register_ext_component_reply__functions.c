@@ -25,7 +25,6 @@ px4_msgs__msg__RegisterExtComponentReply__init(px4_msgs__msg__RegisterExtCompone
   // arming_check_id
   // mode_id
   // mode_executor_id
-  // not_user_selectable
   return true;
 }
 
@@ -43,7 +42,6 @@ px4_msgs__msg__RegisterExtComponentReply__fini(px4_msgs__msg__RegisterExtCompone
   // arming_check_id
   // mode_id
   // mode_executor_id
-  // not_user_selectable
 }
 
 bool
@@ -86,10 +84,6 @@ px4_msgs__msg__RegisterExtComponentReply__are_equal(const px4_msgs__msg__Registe
   if (lhs->mode_executor_id != rhs->mode_executor_id) {
     return false;
   }
-  // not_user_selectable
-  if (lhs->not_user_selectable != rhs->not_user_selectable) {
-    return false;
-  }
   return true;
 }
 
@@ -119,8 +113,6 @@ px4_msgs__msg__RegisterExtComponentReply__copy(
   output->mode_id = input->mode_id;
   // mode_executor_id
   output->mode_executor_id = input->mode_executor_id;
-  // not_user_selectable
-  output->not_user_selectable = input->not_user_selectable;
   return true;
 }
 

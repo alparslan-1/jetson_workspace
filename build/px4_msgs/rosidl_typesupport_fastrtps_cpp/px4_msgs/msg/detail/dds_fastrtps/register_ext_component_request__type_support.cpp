@@ -54,8 +54,6 @@ cdr_serialize(
   cdr << ros_message.replace_internal_mode;
   // Member: activate_mode_immediately
   cdr << (ros_message.activate_mode_immediately ? true : false);
-  // Member: not_user_selectable
-  cdr << (ros_message.not_user_selectable ? true : false);
   return true;
 }
 
@@ -115,13 +113,6 @@ cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message.activate_mode_immediately = tmp ? true : false;
-  }
-
-  // Member: not_user_selectable
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.not_user_selectable = tmp ? true : false;
   }
 
   return true;
@@ -198,12 +189,6 @@ get_serialized_size(
   // Member: activate_mode_immediately
   {
     size_t item_size = sizeof(ros_message.activate_mode_immediately);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: not_user_selectable
-  {
-    size_t item_size = sizeof(ros_message.not_user_selectable);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -296,13 +281,6 @@ max_serialized_size_RegisterExtComponentRequest(
   }
 
   // Member: activate_mode_immediately
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: not_user_selectable
   {
     size_t array_size = 1;
 

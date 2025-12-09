@@ -221,15 +221,6 @@ bool px4_msgs__msg__sensor_gps__convert_from_py(PyObject * _pymsg, void * _ros_m
     ros_message->spoofing_state = (uint8_t)PyLong_AsUnsignedLong(field);
     Py_DECREF(field);
   }
-  {  // authentication_state
-    PyObject * field = PyObject_GetAttrString(_pymsg, "authentication_state");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->authentication_state = (uint8_t)PyLong_AsUnsignedLong(field);
-    Py_DECREF(field);
-  }
   {  // vel_m_s
     PyObject * field = PyObject_GetAttrString(_pymsg, "vel_m_s");
     if (!field) {
@@ -309,15 +300,6 @@ bool px4_msgs__msg__sensor_gps__convert_from_py(PyObject * _pymsg, void * _ros_m
     }
     assert(PyLong_Check(field));
     ros_message->satellites_used = (uint8_t)PyLong_AsUnsignedLong(field);
-    Py_DECREF(field);
-  }
-  {  // system_error
-    PyObject * field = PyObject_GetAttrString(_pymsg, "system_error");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->system_error = PyLong_AsUnsignedLong(field);
     Py_DECREF(field);
   }
   {  // heading
@@ -614,17 +596,6 @@ PyObject * px4_msgs__msg__sensor_gps__convert_to_py(void * raw_ros_message)
       }
     }
   }
-  {  // authentication_state
-    PyObject * field = NULL;
-    field = PyLong_FromUnsignedLong(ros_message->authentication_state);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "authentication_state", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
   {  // vel_m_s
     PyObject * field = NULL;
     field = PyFloat_FromDouble(ros_message->vel_m_s);
@@ -718,17 +689,6 @@ PyObject * px4_msgs__msg__sensor_gps__convert_to_py(void * raw_ros_message)
     field = PyLong_FromUnsignedLong(ros_message->satellites_used);
     {
       int rc = PyObject_SetAttrString(_pymessage, "satellites_used", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // system_error
-    PyObject * field = NULL;
-    field = PyLong_FromUnsignedLong(ros_message->system_error);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "system_error", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

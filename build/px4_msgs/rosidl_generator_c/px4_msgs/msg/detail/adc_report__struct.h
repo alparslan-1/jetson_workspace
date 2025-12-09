@@ -18,21 +18,16 @@ extern "C"
 // Constants defined in the message
 
 /// Struct defined in msg/AdcReport in the package px4_msgs.
-/**
-  * ADC raw data.
-  *
-  * Communicates raw data from an analog-to-digital converter (ADC) to other modules, such as battery status.
- */
 typedef struct px4_msgs__msg__AdcReport
 {
-  /// Time since system start
+  /// time since system start (microseconds)
   uint64_t timestamp;
   /// unique device ID for the sensor that does not change between power cycles
   uint32_t device_id;
   /// ADC channel IDs, negative for non-existent, TODO: should be kept same as array index
-  int16_t channel_id[16];
+  int16_t channel_id[12];
   /// ADC channel raw value, accept negative value, valid if channel ID is positive
-  int32_t raw_data[16];
+  int32_t raw_data[12];
   /// ADC channel resolution
   uint32_t resolution;
   /// ADC channel voltage reference, use to calculate LSB voltage(lsb=scale/resolution)

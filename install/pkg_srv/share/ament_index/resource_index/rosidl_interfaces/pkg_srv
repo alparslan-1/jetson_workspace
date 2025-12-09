@@ -1,4 +1,1 @@
-srv/MissionControl.idl
-srv/MissionControl.srv
-srv/MissionControl_Request.msg
-srv/MissionControl_Response.msg
+/root/bridges/jetson_workspace/build/pkg_srv/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/pkg_srv

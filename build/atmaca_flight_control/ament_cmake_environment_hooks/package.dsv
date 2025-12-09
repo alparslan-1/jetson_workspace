@@ -1,0 +1,4 @@
+source;share/atmaca_flight_control/local_setup.bash
+source;share/atmaca_flight_control/local_setup.dsv
+source;share/atmaca_flight_control/local_setup.sh
+source;share/atmaca_flight_control/local_setup.zsh

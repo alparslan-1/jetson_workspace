@@ -109,14 +109,14 @@ get_serialized_size(
   }
   // Member: channel_id
   {
-    size_t array_size = 16;
+    size_t array_size = 12;
     size_t item_size = sizeof(ros_message.channel_id[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
   // Member: raw_data
   {
-    size_t array_size = 16;
+    size_t array_size = 12;
     size_t item_size = sizeof(ros_message.raw_data[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
@@ -173,7 +173,7 @@ max_serialized_size_AdcReport(
 
   // Member: channel_id
   {
-    size_t array_size = 16;
+    size_t array_size = 12;
 
     current_alignment += array_size * sizeof(uint16_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
@@ -181,7 +181,7 @@ max_serialized_size_AdcReport(
 
   // Member: raw_data
   {
-    size_t array_size = 16;
+    size_t array_size = 12;
 
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));

@@ -20,8 +20,8 @@ class Metaclass_ArmingCheckReply(type):
     _TYPE_SUPPORT = None
 
     __constants = {
-        'MESSAGE_VERSION': 1,
         'HEALTH_COMPONENT_INDEX_NONE': 0,
+        'HEALTH_COMPONENT_INDEX_AVOIDANCE': 19,
         'ORB_QUEUE_LENGTH': 4,
     }
 
@@ -55,20 +55,20 @@ class Metaclass_ArmingCheckReply(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
-            'MESSAGE_VERSION': cls.__constants['MESSAGE_VERSION'],
             'HEALTH_COMPONENT_INDEX_NONE': cls.__constants['HEALTH_COMPONENT_INDEX_NONE'],
+            'HEALTH_COMPONENT_INDEX_AVOIDANCE': cls.__constants['HEALTH_COMPONENT_INDEX_AVOIDANCE'],
             'ORB_QUEUE_LENGTH': cls.__constants['ORB_QUEUE_LENGTH'],
         }
-
-    @property
-    def MESSAGE_VERSION(self):
-        """Message constant 'MESSAGE_VERSION'."""
-        return Metaclass_ArmingCheckReply.__constants['MESSAGE_VERSION']
 
     @property
     def HEALTH_COMPONENT_INDEX_NONE(self):
         """Message constant 'HEALTH_COMPONENT_INDEX_NONE'."""
         return Metaclass_ArmingCheckReply.__constants['HEALTH_COMPONENT_INDEX_NONE']
+
+    @property
+    def HEALTH_COMPONENT_INDEX_AVOIDANCE(self):
+        """Message constant 'HEALTH_COMPONENT_INDEX_AVOIDANCE'."""
+        return Metaclass_ArmingCheckReply.__constants['HEALTH_COMPONENT_INDEX_AVOIDANCE']
 
     @property
     def ORB_QUEUE_LENGTH(self):
@@ -81,8 +81,8 @@ class ArmingCheckReply(metaclass=Metaclass_ArmingCheckReply):
     Message class 'ArmingCheckReply'.
 
     Constants:
-      MESSAGE_VERSION
       HEALTH_COMPONENT_INDEX_NONE
+      HEALTH_COMPONENT_INDEX_AVOIDANCE
       ORB_QUEUE_LENGTH
     """
 
@@ -103,7 +103,6 @@ class ArmingCheckReply(metaclass=Metaclass_ArmingCheckReply):
         '_mode_req_local_position',
         '_mode_req_local_position_relaxed',
         '_mode_req_global_position',
-        '_mode_req_global_position_relaxed',
         '_mode_req_mission',
         '_mode_req_home_position',
         '_mode_req_prevent_arming',
@@ -127,7 +126,6 @@ class ArmingCheckReply(metaclass=Metaclass_ArmingCheckReply):
         'mode_req_local_position': 'boolean',
         'mode_req_local_position_relaxed': 'boolean',
         'mode_req_global_position': 'boolean',
-        'mode_req_global_position_relaxed': 'boolean',
         'mode_req_mission': 'boolean',
         'mode_req_home_position': 'boolean',
         'mode_req_prevent_arming': 'boolean',
@@ -145,7 +143,6 @@ class ArmingCheckReply(metaclass=Metaclass_ArmingCheckReply):
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
         rosidl_parser.definition.Array(rosidl_parser.definition.NamespacedType(['px4_msgs', 'msg'], 'Event'), 5),  # noqa: E501
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
@@ -182,7 +179,6 @@ class ArmingCheckReply(metaclass=Metaclass_ArmingCheckReply):
         self.mode_req_local_position = kwargs.get('mode_req_local_position', bool())
         self.mode_req_local_position_relaxed = kwargs.get('mode_req_local_position_relaxed', bool())
         self.mode_req_global_position = kwargs.get('mode_req_global_position', bool())
-        self.mode_req_global_position_relaxed = kwargs.get('mode_req_global_position_relaxed', bool())
         self.mode_req_mission = kwargs.get('mode_req_mission', bool())
         self.mode_req_home_position = kwargs.get('mode_req_home_position', bool())
         self.mode_req_prevent_arming = kwargs.get('mode_req_prevent_arming', bool())
@@ -248,8 +244,6 @@ class ArmingCheckReply(metaclass=Metaclass_ArmingCheckReply):
         if self.mode_req_local_position_relaxed != other.mode_req_local_position_relaxed:
             return False
         if self.mode_req_global_position != other.mode_req_global_position:
-            return False
-        if self.mode_req_global_position_relaxed != other.mode_req_global_position_relaxed:
             return False
         if self.mode_req_mission != other.mode_req_mission:
             return False
@@ -495,19 +489,6 @@ class ArmingCheckReply(metaclass=Metaclass_ArmingCheckReply):
                 isinstance(value, bool), \
                 "The 'mode_req_global_position' field must be of type 'bool'"
         self._mode_req_global_position = value
-
-    @builtins.property
-    def mode_req_global_position_relaxed(self):
-        """Message field 'mode_req_global_position_relaxed'."""
-        return self._mode_req_global_position_relaxed
-
-    @mode_req_global_position_relaxed.setter
-    def mode_req_global_position_relaxed(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'mode_req_global_position_relaxed' field must be of type 'bool'"
-        self._mode_req_global_position_relaxed = value
 
     @builtins.property
     def mode_req_mission(self):

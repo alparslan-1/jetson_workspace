@@ -68,8 +68,8 @@ cdr_serialize(
   cdr << ros_message.yaw_min;
   // Member: yaw_max
   cdr << ros_message.yaw_max;
-  // Member: gimbal_device_id
-  cdr << ros_message.gimbal_device_id;
+  // Member: gimbal_device_compid
+  cdr << ros_message.gimbal_device_compid;
   return true;
 }
 
@@ -130,8 +130,8 @@ cdr_deserialize(
   // Member: yaw_max
   cdr >> ros_message.yaw_max;
 
-  // Member: gimbal_device_id
-  cdr >> ros_message.gimbal_device_id;
+  // Member: gimbal_device_compid
+  cdr >> ros_message.gimbal_device_compid;
 
   return true;
 }
@@ -242,9 +242,9 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: gimbal_device_id
+  // Member: gimbal_device_compid
   {
-    size_t item_size = sizeof(ros_message.gimbal_device_id);
+    size_t item_size = sizeof(ros_message.gimbal_device_compid);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -387,7 +387,7 @@ max_serialized_size_GimbalDeviceInformation(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: gimbal_device_id
+  // Member: gimbal_device_compid
   {
     size_t array_size = 1;
 

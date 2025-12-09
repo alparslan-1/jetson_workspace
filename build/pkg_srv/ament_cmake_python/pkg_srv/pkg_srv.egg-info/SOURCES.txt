@@ -4,5 +4,3 @@ pkg_srv.egg-info/PKG-INFO
 pkg_srv.egg-info/SOURCES.txt
 pkg_srv.egg-info/dependency_links.txt
 pkg_srv.egg-info/top_level.txt
-pkg_srv/srv/__init__.py
-pkg_srv/srv/_mission_control.py

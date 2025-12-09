@@ -86,15 +86,6 @@ bool px4_msgs__msg__config_overrides__convert_from_py(PyObject * _pymsg, void * 
     ros_message->defer_failsafes_timeout_s = (int16_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
-  {  // disable_auto_set_home
-    PyObject * field = PyObject_GetAttrString(_pymsg, "disable_auto_set_home");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->disable_auto_set_home = (Py_True == field);
-    Py_DECREF(field);
-  }
   {  // source_type
     PyObject * field = PyObject_GetAttrString(_pymsg, "source_type");
     if (!field) {
@@ -173,17 +164,6 @@ PyObject * px4_msgs__msg__config_overrides__convert_to_py(void * raw_ros_message
     field = PyLong_FromLong(ros_message->defer_failsafes_timeout_s);
     {
       int rc = PyObject_SetAttrString(_pymessage, "defer_failsafes_timeout_s", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // disable_auto_set_home
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->disable_auto_set_home ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "disable_auto_set_home", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -18,23 +18,16 @@ extern "C"
 // Constants defined in the message
 
 /// Struct defined in msg/DifferentialPressure in the package px4_msgs.
-/**
-  * Differential-pressure (airspeed) sensor
-  *
-  * This is populated by airspeed sensor drivers and used by the sensor module to calculate airspeed.
-  * The information is published in the `SCALED_PRESSURE_n` MAVLink messages (along with information from a corresponding `SensorBaro` instance).
- */
 typedef struct px4_msgs__msg__DifferentialPressure
 {
-  /// Time of publication (since system start)
+  /// time since system start (microseconds)
   uint64_t timestamp;
-  /// Time of raw data capture
   uint64_t timestamp_sample;
-  /// Unique device ID for the sensor that does not change between power cycles
+  /// unique device ID for the sensor that does not change between power cycles
   uint32_t device_id;
-  /// Differential pressure reading (may be negative)
+  /// differential pressure reading in Pascals (may be negative)
   float differential_pressure_pa;
-  /// [degC] [@invalid NaN if unknown] Temperature
+  /// Temperature provided by sensor in degrees Celsius, NAN if unknown
   float temperature;
   /// Number of errors detected by driver
   uint32_t error_count;

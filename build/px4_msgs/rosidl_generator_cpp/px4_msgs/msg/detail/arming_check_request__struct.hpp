@@ -40,7 +40,6 @@ struct ArmingCheckRequest_
     {
       this->timestamp = 0ull;
       this->request_id = 0;
-      this->valid_registrations_mask = 0ul;
     }
   }
 
@@ -52,7 +51,6 @@ struct ArmingCheckRequest_
     {
       this->timestamp = 0ull;
       this->request_id = 0;
-      this->valid_registrations_mask = 0ul;
     }
   }
 
@@ -63,9 +61,6 @@ struct ArmingCheckRequest_
   using _request_id_type =
     uint8_t;
   _request_id_type request_id;
-  using _valid_registrations_mask_type =
-    uint32_t;
-  _valid_registrations_mask_type valid_registrations_mask;
 
   // setters for named parameter idiom
   Type & set__timestamp(
@@ -80,16 +75,8 @@ struct ArmingCheckRequest_
     this->request_id = _arg;
     return *this;
   }
-  Type & set__valid_registrations_mask(
-    const uint32_t & _arg)
-  {
-    this->valid_registrations_mask = _arg;
-    return *this;
-  }
 
   // constant declarations
-  static constexpr uint32_t MESSAGE_VERSION =
-    1u;
 
   // pointer types
   using RawPtr =
@@ -137,9 +124,6 @@ struct ArmingCheckRequest_
     if (this->request_id != other.request_id) {
       return false;
     }
-    if (this->valid_registrations_mask != other.valid_registrations_mask) {
-      return false;
-    }
     return true;
   }
   bool operator!=(const ArmingCheckRequest_ & other) const
@@ -153,11 +137,6 @@ using ArmingCheckRequest =
   px4_msgs::msg::ArmingCheckRequest_<std::allocator<void>>;
 
 // constant definitions
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
-template<typename ContainerAllocator>
-constexpr uint32_t ArmingCheckRequest_<ContainerAllocator>::MESSAGE_VERSION;
-#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

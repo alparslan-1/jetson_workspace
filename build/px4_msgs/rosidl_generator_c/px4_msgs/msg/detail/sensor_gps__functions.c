@@ -36,7 +36,6 @@ px4_msgs__msg__SensorGps__init(px4_msgs__msg__SensorGps * msg)
   // jamming_state
   // jamming_indicator
   // spoofing_state
-  // authentication_state
   // vel_m_s
   // vel_n_m_s
   // vel_e_m_s
@@ -46,7 +45,6 @@ px4_msgs__msg__SensorGps__init(px4_msgs__msg__SensorGps * msg)
   // timestamp_time_relative
   // time_utc_usec
   // satellites_used
-  // system_error
   // heading
   // heading_offset
   // heading_accuracy
@@ -82,7 +80,6 @@ px4_msgs__msg__SensorGps__fini(px4_msgs__msg__SensorGps * msg)
   // jamming_state
   // jamming_indicator
   // spoofing_state
-  // authentication_state
   // vel_m_s
   // vel_n_m_s
   // vel_e_m_s
@@ -92,7 +89,6 @@ px4_msgs__msg__SensorGps__fini(px4_msgs__msg__SensorGps * msg)
   // timestamp_time_relative
   // time_utc_usec
   // satellites_used
-  // system_error
   // heading
   // heading_offset
   // heading_accuracy
@@ -184,10 +180,6 @@ px4_msgs__msg__SensorGps__are_equal(const px4_msgs__msg__SensorGps * lhs, const 
   if (lhs->spoofing_state != rhs->spoofing_state) {
     return false;
   }
-  // authentication_state
-  if (lhs->authentication_state != rhs->authentication_state) {
-    return false;
-  }
   // vel_m_s
   if (lhs->vel_m_s != rhs->vel_m_s) {
     return false;
@@ -222,10 +214,6 @@ px4_msgs__msg__SensorGps__are_equal(const px4_msgs__msg__SensorGps * lhs, const 
   }
   // satellites_used
   if (lhs->satellites_used != rhs->satellites_used) {
-    return false;
-  }
-  // system_error
-  if (lhs->system_error != rhs->system_error) {
     return false;
   }
   // heading
@@ -305,8 +293,6 @@ px4_msgs__msg__SensorGps__copy(
   output->jamming_indicator = input->jamming_indicator;
   // spoofing_state
   output->spoofing_state = input->spoofing_state;
-  // authentication_state
-  output->authentication_state = input->authentication_state;
   // vel_m_s
   output->vel_m_s = input->vel_m_s;
   // vel_n_m_s
@@ -325,8 +311,6 @@ px4_msgs__msg__SensorGps__copy(
   output->time_utc_usec = input->time_utc_usec;
   // satellites_used
   output->satellites_used = input->satellites_used;
-  // system_error
-  output->system_error = input->system_error;
   // heading
   output->heading = input->heading;
   // heading_offset

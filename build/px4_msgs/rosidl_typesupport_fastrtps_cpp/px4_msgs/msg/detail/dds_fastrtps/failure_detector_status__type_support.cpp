@@ -54,8 +54,6 @@ cdr_serialize(
   cdr << ros_message.imbalanced_prop_metric;
   // Member: motor_failure_mask
   cdr << ros_message.motor_failure_mask;
-  // Member: motor_stop_mask
-  cdr << ros_message.motor_stop_mask;
   return true;
 }
 
@@ -129,9 +127,6 @@ cdr_deserialize(
 
   // Member: motor_failure_mask
   cdr >> ros_message.motor_failure_mask;
-
-  // Member: motor_stop_mask
-  cdr >> ros_message.motor_stop_mask;
 
   return true;
 }
@@ -212,12 +207,6 @@ get_serialized_size(
   // Member: motor_failure_mask
   {
     size_t item_size = sizeof(ros_message.motor_failure_mask);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: motor_stop_mask
-  {
-    size_t item_size = sizeof(ros_message.motor_stop_mask);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -316,14 +305,6 @@ max_serialized_size_FailureDetectorStatus(
   }
 
   // Member: motor_failure_mask
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint16_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
-  }
-
-  // Member: motor_stop_mask
   {
     size_t array_size = 1;
 

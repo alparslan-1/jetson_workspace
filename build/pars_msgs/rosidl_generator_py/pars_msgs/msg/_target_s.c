@@ -95,6 +95,15 @@ bool pars_msgs__msg__target__convert_from_py(PyObject * _pymsg, void * _ros_mess
     ros_message->image_height = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // hedef_boyut
+    PyObject * field = PyObject_GetAttrString(_pymsg, "hedef_boyut");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->hedef_boyut = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -166,6 +175,17 @@ PyObject * pars_msgs__msg__target__convert_to_py(void * raw_ros_message)
     field = PyFloat_FromDouble(ros_message->image_height);
     {
       int rc = PyObject_SetAttrString(_pymessage, "image_height", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // hedef_boyut
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->hedef_boyut);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "hedef_boyut", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

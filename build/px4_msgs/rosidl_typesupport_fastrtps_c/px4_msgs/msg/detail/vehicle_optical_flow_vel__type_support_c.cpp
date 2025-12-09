@@ -73,20 +73,6 @@ static bool _VehicleOpticalFlowVel__cdr_serialize(
     cdr.serializeArray(array_ptr, size);
   }
 
-  // Field name: vel_body_filtered
-  {
-    size_t size = 2;
-    auto array_ptr = ros_message->vel_body_filtered;
-    cdr.serializeArray(array_ptr, size);
-  }
-
-  // Field name: vel_ne_filtered
-  {
-    size_t size = 2;
-    auto array_ptr = ros_message->vel_ne_filtered;
-    cdr.serializeArray(array_ptr, size);
-  }
-
   // Field name: flow_rate_uncompensated
   {
     size_t size = 2;
@@ -155,20 +141,6 @@ static bool _VehicleOpticalFlowVel__cdr_deserialize(
   {
     size_t size = 2;
     auto array_ptr = ros_message->vel_ne;
-    cdr.deserializeArray(array_ptr, size);
-  }
-
-  // Field name: vel_body_filtered
-  {
-    size_t size = 2;
-    auto array_ptr = ros_message->vel_body_filtered;
-    cdr.deserializeArray(array_ptr, size);
-  }
-
-  // Field name: vel_ne_filtered
-  {
-    size_t size = 2;
-    auto array_ptr = ros_message->vel_ne_filtered;
     cdr.deserializeArray(array_ptr, size);
   }
 
@@ -249,24 +221,6 @@ size_t get_serialized_size_px4_msgs__msg__VehicleOpticalFlowVel(
   {
     size_t array_size = 2;
     auto array_ptr = ros_message->vel_ne;
-    (void)array_ptr;
-    size_t item_size = sizeof(array_ptr[0]);
-    current_alignment += array_size * item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name vel_body_filtered
-  {
-    size_t array_size = 2;
-    auto array_ptr = ros_message->vel_body_filtered;
-    (void)array_ptr;
-    size_t item_size = sizeof(array_ptr[0]);
-    current_alignment += array_size * item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name vel_ne_filtered
-  {
-    size_t array_size = 2;
-    auto array_ptr = ros_message->vel_ne_filtered;
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
     current_alignment += array_size * item_size +
@@ -366,20 +320,6 @@ size_t max_serialized_size_px4_msgs__msg__VehicleOpticalFlowVel(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
   // member: vel_ne
-  {
-    size_t array_size = 2;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: vel_body_filtered
-  {
-    size_t array_size = 2;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: vel_ne_filtered
   {
     size_t array_size = 2;
 
