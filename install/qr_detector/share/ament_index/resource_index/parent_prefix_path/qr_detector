@@ -1,1 +1,1 @@
-/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/px4_ros_com:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install
+/root/bridges/jetson_workspace/build/qr_detector/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/qr_detector

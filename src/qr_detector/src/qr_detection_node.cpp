@@ -6,7 +6,6 @@ QRDetectionNode::QRDetectionNode()
     : Node("qr_detection_node"), is_active_(false)
 {
     // --- CONSTRUCTOR (YAPICI FONKS?YON) ---
-    // Burada sadece de?i?kenleri ve shared_ptr gerektirmeyen basit i?lemleri yap?yoruz.
     
     // Check CUDA availability
     cuda_available_ = (cv::cuda::getCudaEnabledDeviceCount() > 0);
@@ -18,7 +17,7 @@ QRDetectionNode::QRDetectionNode()
         RCLCPP_WARN(this->get_logger(), "CUDA is not available. Falling back to CPU processing.");
     }
     
-    // Normal Publisher'lar burada tan?mlanabilir (image_transport olmayanlar)
+    // Normal Publisher'lar
     qr_data_publisher_ = this->create_publisher<std_msgs::msg::String>(
         "/vision/qr_data",
         10
@@ -28,40 +27,44 @@ QRDetectionNode::QRDetectionNode()
 }
 
 // --- INITIALIZE (BA?LATMA FONKS?YONU) ---
-// shared_from_this() kullanan image_transport i?lemleri buraya ta??nd?.
 void QRDetectionNode::initialize()
 {
-    // Image transport'u ba?lat
+    // Image transport'u ba?lat (Debug yay?nc?s? i?in hala laz?m)
     image_transport_ = std::make_shared<image_transport::ImageTransport>(shared_from_this());
     
     // --- QoS AYARLARI (Kritik B?l?m) ---
-    // Mission Control node'u "transient_local" (kal?c?) yay?n yapt??? i?in
-    // biz de ayn? ayarlarla dinlemeliyiz. Aksi takdirde ge?mi? mesaj? alamay?z.
-    rclcpp::QoS qos_profile(1);
-    qos_profile.reliable();
-    qos_profile.transient_local(); 
-    qos_profile.keep_last(1);
+    
+    // 1. Mission Control i?in QoS (Reliable + Transient Local)
+    rclcpp::QoS state_qos_profile(1);
+    state_qos_profile.reliable();
+    state_qos_profile.transient_local(); 
+    state_qos_profile.keep_last(1);
+
+    // 2. KAMERA ABONEL??? ???N BEST EFFORT QoS (YEN? EKLEND?)
+    // Bu ayar "SensorDataQoS" olarak ge?er ve Best Effort yay?n yapan kameralar? dinleyebilir.
+    rclcpp::QoS camera_qos_profile = rclcpp::SensorDataQoS();
 
     // --- SUBSCRIPTION ---
-    // Topic ismini Mission Control ile e?ledik: "/success/lockon_success"
+    
+    // Mission Control Subscription
     state_subscription_ = this->create_subscription<std_msgs::msg::String>(
         "/success/lockon_success", 
-        qos_profile, // ?zel QoS ayar?m?z? buraya veriyoruz
+        state_qos_profile, 
         std::bind(&QRDetectionNode::state_callback, this, std::placeholders::_1)
     );
     
-    // Image Subscriber (Kamera verisi)
-    image_subscriber_ = image_transport_->subscribe(
+    // --- DE????KL?K BURADA: Image Subscriber (Kamera verisi) ---
+    // image_transport yerine create_subscription kullan?yoruz ki QoS ayar?n? (Best Effort) verebilelim.
+    image_subscriber_ = this->create_subscription<sensor_msgs::msg::Image>(
         "/image_raw",
-        1,
-        std::bind(&QRDetectionNode::image_callback, this, std::placeholders::_1),
-        nullptr
+        camera_qos_profile, // Best Effort ayar? burada veriliyor
+        std::bind(&QRDetectionNode::image_callback, this, std::placeholders::_1)
     );
     
-    // Image Publisher (Debug g?r?nt?s?)
+    // Image Publisher (Debug g?r?nt?s? - Bu Reliable kalabilir, sorun yok)
     debug_image_publisher_ = image_transport_->advertise("/vision/qr_debug_image", 1);
     
-    RCLCPP_INFO(this->get_logger(), "QR Detection Node initialized.");
+    RCLCPP_INFO(this->get_logger(), "QR Detection Node initialized (Camera Sub: BEST EFFORT).");
     RCLCPP_INFO(this->get_logger(), "Waiting for 'KAMIKAZE' mode on '/success/lockon_success' topic...");
 }
 
@@ -74,10 +77,8 @@ void QRDetectionNode::state_callback(const std_msgs::msg::String::SharedPtr msg)
 {
     std::string current_mode = msg->data;
 
-    // Gelen modu terminalde g?relim
     RCLCPP_INFO(this->get_logger(), "Mode data received: '%s'", current_mode.c_str());
 
-    // Hem B?Y?K hem k???k harf kontrol? (Garanti olmas? i?in)
     if (current_mode == "KAMIKAZE" || current_mode == "kamikaze") 
     {
         if (!is_active_) {
@@ -94,14 +95,13 @@ void QRDetectionNode::state_callback(const std_msgs::msg::String::SharedPtr msg)
     }
 }
 
-void QRDetectionNode::image_callback(const sensor_msgs::msg::Image::ConstSharedPtr &msg)
+void QRDetectionNode::image_callback(const sensor_msgs::msg::Image::ConstSharedPtr &msg) // ConstSharedPtr olarak kalabilir
 {
     if (!is_active_) {
-        return; // Don't process if not active
+        return; 
     }
     
     try {
-        // Convert ROS image to OpenCV Mat
         cv_bridge::CvImagePtr cv_ptr;
         cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);
         
@@ -141,42 +141,34 @@ bool QRDetectionNode::detect_qr_code(const cv::Mat &input_image, cv::Mat &output
     try {
         cv::Mat processed_image;
         
-        // Pre-process image on GPU if available
         if (cuda_available_) {
             process_image_gpu(input_image, processed_image);
         } else {
-            // CPU fallback
             cv::cvtColor(input_image, processed_image, cv::COLOR_BGR2GRAY);
         }
         
-        // Detect QR code
         std::vector<cv::Point2f> points;
         bool detected = qr_detector_.detect(processed_image, points);
         
         if (detected && points.size() >= 4) {
-            // Decode QR code
             decoded_text = qr_detector_.decode(processed_image, points);
             
             if (!decoded_text.empty()) {
-                // Draw bounding box around QR code
                 cv::Point2f pt1 = points[0];
                 cv::Point2f pt2 = points[1];
                 cv::Point2f pt3 = points[2];
                 cv::Point2f pt4 = points[3];
                 
-                // Draw lines connecting the points
                 cv::line(output_image, pt1, pt2, cv::Scalar(0, 255, 0), 3);
                 cv::line(output_image, pt2, pt3, cv::Scalar(0, 255, 0), 3);
                 cv::line(output_image, pt3, pt4, cv::Scalar(0, 255, 0), 3);
                 cv::line(output_image, pt4, pt1, cv::Scalar(0, 255, 0), 3);
                 
-                // Draw corner points
                 cv::circle(output_image, pt1, 5, cv::Scalar(0, 0, 255), -1);
                 cv::circle(output_image, pt2, 5, cv::Scalar(0, 0, 255), -1);
                 cv::circle(output_image, pt3, 5, cv::Scalar(0, 0, 255), -1);
                 cv::circle(output_image, pt4, 5, cv::Scalar(0, 0, 255), -1);
                 
-                // Add text label
                 cv::putText(output_image, 
                            "QR: " + decoded_text, 
                            cv::Point(static_cast<int>(pt1.x), static_cast<int>(pt1.y) - 10),
@@ -203,18 +195,12 @@ bool QRDetectionNode::detect_qr_code(const cv::Mat &input_image, cv::Mat &output
 void QRDetectionNode::process_image_gpu(const cv::Mat &cpu_image, cv::Mat &processed_image)
 {
     try {
-        // Upload to GPU
         gpu_input_.upload(cpu_image);
-        
-        // Convert to grayscale on GPU
         cv::cuda::cvtColor(gpu_input_, gpu_gray_, cv::COLOR_BGR2GRAY);
-        
-        // Download from GPU
         gpu_gray_.download(processed_image);
         
     } catch (const cv::Exception& e) {
         RCLCPP_WARN(this->get_logger(), "GPU processing failed, falling back to CPU: %s", e.what());
-        // Fallback to CPU
         cv::cvtColor(cpu_image, processed_image, cv::COLOR_BGR2GRAY);
     }
 }
@@ -222,13 +208,8 @@ void QRDetectionNode::process_image_gpu(const cv::Mat &cpu_image, cv::Mat &proce
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
-    
-    // 1. Node olu?turuluyor
     auto node = std::make_shared<QRDetectionNode>();
-    
-    // 2. Initialize ?a?r?l?yor (bad_weak_ptr hatas?n? ?nleyen k?s?m buras?)
     node->initialize();
-    
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;

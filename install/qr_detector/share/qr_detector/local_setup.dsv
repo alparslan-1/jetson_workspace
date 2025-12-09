@@ -1,2 +1,1 @@
-source;share/qr_detector/environment/ament_prefix_path.sh
-source;share/qr_detector/environment/path.sh
+/root/bridges/jetson_workspace/build/qr_detector/ament_cmake_environment_hooks/local_setup.dsv

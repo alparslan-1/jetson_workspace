@@ -1,1 +1,1 @@
-rclcpp;rclcpp_components;std_msgs;sensor_msgs;image_transport;cv_bridge;px4_msgs;ament_lint_auto;ament_lint_common
+/root/bridges/jetson_workspace/build/qr_detector/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/qr_detector

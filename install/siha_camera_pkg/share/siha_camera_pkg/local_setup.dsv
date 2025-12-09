@@ -1,2 +1,1 @@
-source;share/siha_camera_pkg/environment/ament_prefix_path.sh
-source;share/siha_camera_pkg/environment/path.sh
+/root/bridges/jetson_workspace/build/siha_camera_pkg/ament_cmake_environment_hooks/local_setup.dsv

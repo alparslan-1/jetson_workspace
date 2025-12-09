@@ -31,7 +31,12 @@ private:
     
     // ROS 2 members
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr state_subscription_;
-    image_transport::Subscriber image_subscriber_;
+    
+    // --- DE????KL?K BURADA YAPILDI ---
+    // Eski: image_transport::Subscriber image_subscriber_;
+    // Yeni: Standart abonelik (Best Effort QoS desteklemesi i?in)
+    rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr image_subscriber_;
+
     image_transport::Publisher debug_image_publisher_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr qr_data_publisher_;
     
@@ -52,4 +57,3 @@ private:
 };
 
 #endif // QR_DETECTION_NODE_HPP
-
