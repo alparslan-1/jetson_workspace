@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.001634] (-) JobUnselected: {'identifier': 'atmaca_vision'}
+[0.005110] (-) JobUnselected: {'identifier': 'microxrcedds_agent'}
+[0.006626] (-) JobUnselected: {'identifier': 'pars_msgs'}
+[0.007051] (-) JobUnselected: {'identifier': 'pkg_srv'}
+[0.007259] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.007531] (-) JobUnselected: {'identifier': 'qr_detector'}
+[0.008044] (-) JobUnselected: {'identifier': 'siha_camera_pkg'}
+[0.008166] (-) JobUnselected: {'identifier': 'video_recorder_pkg'}
+[0.008426] (atmaca_flight_control) JobQueued: {'identifier': 'atmaca_flight_control', 'dependencies': OrderedDict([('pars_msgs', '/root/bridges/jetson_workspace/install/pars_msgs'), ('px4_msgs', '/root/bridges/jetson_workspace/install/px4_msgs')])}
+[0.008749] (atmaca_flight_control) JobStarted: {'identifier': 'atmaca_flight_control'}
+[0.098704] (-) TimerEvent: {}
+[0.200241] (-) TimerEvent: {}
+[0.302075] (-) TimerEvent: {}
+[0.426096] (-) TimerEvent: {}
+[0.555479] (-) TimerEvent: {}
+[0.665480] (-) TimerEvent: {}
+[0.670893] (atmaca_flight_control) JobProgress: {'identifier': 'atmaca_flight_control', 'progress': 'cmake'}
+[0.677081] (atmaca_flight_control) JobProgress: {'identifier': 'atmaca_flight_control', 'progress': 'build'}
+[0.683770] (atmaca_flight_control) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/bridges/jetson_workspace/build/atmaca_flight_control', '--', '-j4', '-l4'], 'cwd': '/root/bridges/jetson_workspace/build/atmaca_flight_control', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'tanyeli'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/microxrcedds_agent/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\033[1;31m\\]\\u@\\h\\[\\033[0m\\]:\\[\\033[1;34m\\]\\w\\[\\033[0m\\]#'), ('COLCON_PREFIX_PATH', '/root/bridges/jetson_workspace/install:/opt/ros/humble/install'), ('TORCH_HOME', '/data/models/torch'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/bridges/jetson_workspace/install/microxrcedds_agent/bin:/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/atmaca_flight_control:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/root/bridges/jetson_workspace/build/atmaca_flight_control'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/atmaca_flight_control:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/microxrcedds_agent:/opt/ros/humble/install')]), 'shell': False}
+[0.766394] (-) TimerEvent: {}
+[0.867927] (-) TimerEvent: {}
+[0.968917] (-) TimerEvent: {}
+[1.070056] (-) TimerEvent: {}
+[1.071529] (atmaca_flight_control) StdoutLine: {'line': b'[ 20%] Built target telemetry_node\n'}
+[1.074145] (atmaca_flight_control) StdoutLine: {'line': b'[ 40%] Built target offboard_node\n'}
+[1.090006] (atmaca_flight_control) StdoutLine: {'line': b'[ 60%] Built target hedef_gps\n'}
+[1.150125] (atmaca_flight_control) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o\x1b[0m\n'}
+[1.170434] (-) TimerEvent: {}
+[1.171724] (atmaca_flight_control) StdoutLine: {'line': b'[ 90%] Built target sahte_hedef\n'}
+[1.270612] (-) TimerEvent: {}
+[1.376826] (-) TimerEvent: {}
+[1.512892] (-) TimerEvent: {}
+[1.623981] (-) TimerEvent: {}
+[1.726927] (-) TimerEvent: {}
+[1.829180] (-) TimerEvent: {}
+[1.930397] (-) TimerEvent: {}
+[2.031407] (-) TimerEvent: {}
+[2.132537] (-) TimerEvent: {}
+[2.233560] (-) TimerEvent: {}
+[2.337302] (-) TimerEvent: {}
+[2.452316] (-) TimerEvent: {}
+[2.555467] (-) TimerEvent: {}
+[2.657505] (-) TimerEvent: {}
+[2.760837] (-) TimerEvent: {}
+[2.865364] (-) TimerEvent: {}
+[2.966625] (-) TimerEvent: {}
+[3.068070] (-) TimerEvent: {}
+[3.169164] (-) TimerEvent: {}
+[3.270265] (-) TimerEvent: {}
+[3.377543] (-) TimerEvent: {}
+[3.502245] (-) TimerEvent: {}
+[3.606237] (-) TimerEvent: {}
+[3.708968] (-) TimerEvent: {}
+[3.788033] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp_lifecycle/lifecycle_node.hpp: No such file or directory\n'}
+[3.790727] (atmaca_flight_control) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K<rclcpp_lifecycle/lifecycle_node.hpp>\x1b[m\x1b[K\n'}
+[3.791487] (atmaca_flight_control) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.792008] (atmaca_flight_control) StderrLine: {'line': b'compilation terminated.\n'}
+[3.801860] (atmaca_flight_control) StderrLine: {'line': b'make[2]: *** [CMakeFiles/target_navigation_node.dir/build.make:76: CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o] Error 1\n'}
+[3.805299] (atmaca_flight_control) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/target_navigation_node.dir/all] Error 2\n'}
+[3.806102] (atmaca_flight_control) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[3.809137] (-) TimerEvent: {}
+[3.834855] (atmaca_flight_control) CommandEnded: {'returncode': 2}
+[3.910220] (-) TimerEvent: {}
+[4.013223] (-) TimerEvent: {}
+[4.115090] (-) TimerEvent: {}
+[4.217991] (-) TimerEvent: {}
+[4.319295] (-) TimerEvent: {}
+[4.426762] (-) TimerEvent: {}
+[4.529491] (-) TimerEvent: {}
+[4.616801] (atmaca_flight_control) JobEnded: {'identifier': 'atmaca_flight_control', 'rc': 2}
+[4.629226] (-) EventReactorShutdown: {}

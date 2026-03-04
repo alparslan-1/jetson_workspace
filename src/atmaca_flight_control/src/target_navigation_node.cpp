@@ -37,11 +37,11 @@ public:
     : rclcpp_lifecycle::LifecycleNode("target_navigation_node", options),
     visual_timeout_duration_(0s)
     {
-        this->declare_parameter<double>("thrust", 0.6);
+        this->declare_parameter<double>("thrust", 0.0);
         this->declare_parameter<double>("visual_timeout_sec", 1.0);
         this->declare_parameter<double>("airspeed_mps", 15.0);
-        this->declare_parameter<double>("kp_roll", 0.0015);
-        this->declare_parameter<double>("kp_pitch", -0.0015);
+        this->declare_parameter<double>("kp_roll", 0.0100);
+        this->declare_parameter<double>("kp_pitch", -0.0115);
         this->declare_parameter<double>("max_roll_rad", 0.785);
         this->declare_parameter<double>("max_pitch_rad", 0.785);
         this->declare_parameter<int>("instance_id", 1);
@@ -127,7 +127,7 @@ public:
 
     CallbackReturn on_deactivate(const rclcpp_lifecycle::State & state)
     {
-        RCLCPP_INFO(get_logger(), "Pasife alınıyor...");
+        RCLCPP_INFO(get_logger(), "Pasife al?n?yor...");
         
         timer_->cancel();
 
@@ -215,12 +215,12 @@ public:
             [this](const std_msgs::msg::String::SharedPtr msg) {
             if (msg->data == "TRACKING") {
                 if (!is_tracking_active_) {
-                    RCLCPP_INFO(this->get_logger(), "TAKİP MODU AKTİF EDİLDİ!");
+                    RCLCPP_INFO(this->get_logger(), "TAK?P MODU AKT?F ED?LD?!");
                 }
                 is_tracking_active_ = true;
             } else {
                 if (is_tracking_active_) {
-                    RCLCPP_WARN(this->get_logger(), "TAKİP MODU DURDURULDU (BEKLEMEDE).");
+                    RCLCPP_WARN(this->get_logger(), "TAK?P MODU DURDURULDU (BEKLEMEDE).");
                 }
                 is_tracking_active_ = false;
             }
@@ -240,7 +240,7 @@ public:
         
         timer_ = this->create_wall_timer(50ms, std::bind(&TargetNavigatingNode::ituatatampon, this));
 
-        RCLCPP_INFO(this->get_logger(), "KILITLENME GÖREVİ BAŞLADI! px4_%d", instance_id_);
+        RCLCPP_INFO(this->get_logger(), "KILITLENME G?REV? BA?LADI! px4_%d", instance_id_);
     }
     */
 private:
@@ -258,7 +258,7 @@ private:
                 if (param.get_type() == rclcpp::ParameterType::PARAMETER_DOUBLE)
                 {
                     airspeed_mps_ = param.as_double();
-                    RCLCPP_INFO(this->get_logger(), "⚡ Hız Güncellendi: %.1f m/s", airspeed_mps_);
+                    RCLCPP_INFO(this->get_logger(), "? H?z G?ncellendi: %.1f m/s", airspeed_mps_);
                 }
             }
         }
@@ -314,7 +314,7 @@ private:
     void publish_offboard_control_mode()
     {
         px4_msgs::msg::OffboardControlMode msg{};
-        msg.position = true;
+        msg.position = false;
         msg.velocity = false;
         msg.acceleration = false;
         msg.attitude = true;
@@ -337,15 +337,15 @@ private:
         publish_offboard_control_mode();
         //publish_airspeed_command();
 
-        if (!is_armed_) {
-            publish_vehicle_command(px4_msgs::msg::VehicleCommand::VEHICLE_CMD_COMPONENT_ARM_DISARM, 1.0f);
-            RCLCPP_INFO_THROTTLE(this->get_logger(), *this->get_clock(), 2000, "ARM komutu gönderildi.");
-            return;
-        }
+        //if (!is_armed_) {
+        //    publish_vehicle_command(px4_msgs::msg::VehicleCommand::VEHICLE_CMD_COMPONENT_ARM_DISARM, 1.0f);
+        //    RCLCPP_INFO_THROTTLE(this->get_logger(), *this->get_clock(), 2000, "ARM komutu g?nderildi.");
+        //    return;
+        //}
 
         if (current_nav_state_ != px4_msgs::msg::VehicleStatus::NAVIGATION_STATE_OFFBOARD) {
             offboard_setpoint_counter_++;
-            publish_attitude_command(0.0f, 0.0f, 0.0f, 0.5f);
+            publish_attitude_command(0.0f, 0.0f, 0.0f, 0.0f);
             px4_msgs::msg::TrajectorySetpoint msg{};
             msg.timestamp = this->get_clock()->now().nanoseconds() / 1000;
             
@@ -360,19 +360,25 @@ private:
 
             if (offboard_setpoint_counter_ == 10) {
                 publish_vehicle_command(px4_msgs::msg::VehicleCommand::VEHICLE_CMD_DO_SET_MODE, 1.0f, 6.0f);
-                RCLCPP_WARN(this->get_logger(), "OFFBOARD MOD KOMUTU GÖNDERİLDİ");
+                RCLCPP_WARN(this->get_logger(), "OFFBOARD MOD KOMUTU G?NDER?LD?");
             }
             RCLCPP_INFO_THROTTLE(this->get_logger(), *this->get_clock(), 1000,
-                                 "Setpoint #%d → Offboard bekleniyor...", offboard_setpoint_counter_);
+                                 "Setpoint #%d ? Offboard bekleniyor...", offboard_setpoint_counter_);
             return;
         }
 
-        RCLCPP_INFO_ONCE(this->get_logger(), "OFFBOARD MODUNA GEÇİLDİ!");
+        if (!is_armed_) {
+            publish_vehicle_command(px4_msgs::msg::VehicleCommand::VEHICLE_CMD_COMPONENT_ARM_DISARM, 1.0f);
+            RCLCPP_INFO_THROTTLE(this->get_logger(), *this->get_clock(), 2000, "ARM komutu g?nderildi.");
+        return;
+        }
+
+        RCLCPP_INFO_ONCE(this->get_logger(), "OFFBOARD MODUNA GE??LD?!");
 
         auto time_since_last_visual = this->get_clock()->now() - last_visual_detection_time_;
         current_state_ = (time_since_last_visual < visual_timeout_duration_) ? NavState::VISUAL_LOCK : NavState::GPS_FOLLOW;
 
-        if (current_state_ == NavState::VISUAL_LOCK) {
+        if (false) { //current_state_ == NavState::VISUAL_LOCK)
             run_visual_lock_control();
         } else {
             run_gps_follow_control();
@@ -383,9 +389,18 @@ private:
         {
         if (!is_gps_target_ready_ || !is_own_position_ready_ || !is_local_position_ready_) return;
 
-        double current_lat = last_own_position_.lat;
-        double current_lon = last_own_position_.lon;
-        float current_alt = last_own_position_.alt;
+        px4_msgs::msg::OffboardControlMode msg_offb{};
+        msg_offb.position = true;
+        msg_offb.velocity = false;
+        msg_offb.acceleration = false;
+        msg_offb.attitude = false;
+        msg_offb.body_rate = false;
+        msg_offb.timestamp = this->get_clock()->now().nanoseconds() / 1000;
+        offboard_control_mode_pub_->publish(msg_offb);
+
+        double current_lat = 41.362974;
+        double current_lon = 36.184616;
+        float current_alt = 100.0f;
 
         double target_lat = last_gps_target_.iha_enlem;
         double target_lon = last_gps_target_.iha_boylam;
@@ -411,6 +426,7 @@ private:
         msg.position[0] = target_local_x;
         msg.position[1] = target_local_y;
         msg.position[2] = target_local_z;
+        RCLCPP_WARN(this->get_logger(), "Hedef Local X: %.2f Y: %.2f Z: %.2f", target_local_x, target_local_y, target_local_z);
 
         msg.velocity[0] = NAN; msg.velocity[1] = NAN; msg.velocity[2] = NAN;
         msg.acceleration[0] = NAN; msg.acceleration[1] = NAN; msg.acceleration[2] = NAN;
@@ -421,7 +437,7 @@ private:
         trajectory_setpoint_pub_->publish(msg);
 
         RCLCPP_INFO_THROTTLE(this->get_logger(), *this->get_clock(), 2000,
-            "Hedef: %.0fm | Mod: Position | Hız Parametresi: %.1f", 
+            "Hedef: %.0fm | Mod: Position | H?z Parametresi: %.1f", 
             distance, airspeed_mps_);
     }
 
@@ -429,6 +445,15 @@ private:
     {
         if (!last_visual_target_.target_detected) return;
 
+        px4_msgs::msg::OffboardControlMode msg{};
+        msg.position = false;
+        msg.velocity = false;
+        msg.acceleration = false;
+        msg.attitude = true;
+        msg.body_rate = false;
+        msg.timestamp = this->get_clock()->now().nanoseconds() / 1000;
+        offboard_control_mode_pub_->publish(msg);
+	
         tf2::Quaternion q(current_attitude_.q[1], current_attitude_.q[2], current_attitude_.q[3], current_attitude_.q[0]);
         tf2::Matrix3x3 m(q);
         double roll, pitch, current_yaw;
@@ -441,11 +466,11 @@ private:
         float error_x = last_visual_target_.x_center - image_center_x;
         float error_y = last_visual_target_.y_center - image_center_y;
 
-        float hedef_boyut = last_visual_target_.hedef_boyut;
-        double min_thrust = 0.2; 
-        double max_thrust = 1.0;
-        float target_thrust = 0.0;
-
+       // float hedef_boyut = last_visual_target_.hedef_boyut;
+       // double min_thrust = 0.2; 
+       // double max_thrust = 1.0;
+       // float target_thrust = 0.0;
+	/*
         if (hedef_boyut >= image_center_x) 
         {
             target_thrust = min_thrust;
@@ -455,7 +480,7 @@ private:
             float ratio = hedef_boyut / image_center_x;
             
             target_thrust = min_thrust + ((1.0f - ratio) * (max_thrust - min_thrust));
-        }
+        }*/
         double Kp_roll = this->get_parameter("kp_roll").as_double();
         double Kp_pitch = this->get_parameter("kp_pitch").as_double();
         float max_roll = this->get_parameter("max_roll_rad").as_double();
@@ -463,9 +488,9 @@ private:
 
         float target_roll = std::clamp(static_cast<float>(roll + (Kp_roll * error_x)), -max_roll, max_roll);
         float target_pitch = std::clamp(static_cast<float>(pitch + (Kp_pitch * error_y)), -max_pitch, max_pitch);
-        //float target_thrust = this->get_parameter("thrust").as_double();
+        float target_thrust = this->get_parameter("thrust").as_double();
 
-        RCLCPP_INFO(this->get_logger(), "VISUAL → error_x:%.1f error_y:%.1f → Roll:%.3f Pitch:%.3f", error_x, error_y, target_roll, target_pitch);
+        RCLCPP_INFO(this->get_logger(), "VISUAL ? error_x:%.1f error_y:%.1f ? Roll:%.3f Pitch:%.3f", error_x, error_y, target_roll, target_pitch);
         publish_attitude_command(target_roll, target_pitch, 0.0f, target_thrust);
     }
 
@@ -481,7 +506,7 @@ private:
         msg.roll_body = roll;
         msg.pitch_body = pitch;
         msg.yaw_body = yaw;
-        RCLCPP_INFO(this->get_logger(), "GONDERILEN KOMUT → ROLL:%.1f PITCH:%.1f ", msg.roll_body, msg.pitch_body);
+        RCLCPP_INFO(this->get_logger(), "GONDERILEN KOMUT ? ROLL:%.1f PITCH:%.1f ", msg.roll_body, msg.pitch_body);
 
         msg.q_d[0] = q.w();
         msg.q_d[1] = q.x();
@@ -532,7 +557,7 @@ private:
         double y = sin(dLon) * cos(lat2_r);
         double x = cos(lat1_r) * sin(lat2_r) - sin(lat1_r) * cos(lat2_r) * cos(dLon);
         
-        return atan2(y, x); // Sonuç -PI ile +PI arasında
+        return atan2(y, x); // Sonu? -PI ile +PI aras?nda
     }
 
     double normalize_angle(double angle)
@@ -543,9 +568,9 @@ private:
     }
 
     // Member Variables
-    bool is_gps_target_ready_ = false;
-    bool is_own_position_ready_ = false;
-    bool is_local_position_ready_ = false;
+    bool is_gps_target_ready_ = true;
+    bool is_own_position_ready_ = true;
+    bool is_local_position_ready_ = true;
     bool is_armed_ = false;
     //bool is_tracking_active_ = false;
 

@@ -1,0 +1,69 @@
+[0.506s] Invoking command in '/root/bridges/jetson_workspace/build/atmaca_flight_control': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/atmaca_flight_control:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/microxrcedds_agent:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/microxrcedds_agent/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/atmaca_flight_control -- -j6 -l6
+[0.960s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[2.748s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.821s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/install/share/rclcpp/cmake)
+[3.097s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[3.123s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[3.182s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[3.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.885s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[3.897s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[4.111s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.015s] -- Found px4_msgs: 2.0.1 (/root/bridges/jetson_workspace/install/px4_msgs/share/px4_msgs/cmake)
+[5.208s] -- Found pars_msgs: 0.0.0 (/root/bridges/jetson_workspace/install/pars_msgs/share/pars_msgs/cmake)
+[5.397s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/install/share/tf2_ros/cmake)
+[7.229s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/install/share/tf2_geometry_msgs/cmake)
+[7.259s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)
+[7.267s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.362s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[7.752s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.754s] -- Configured cppcheck include dirs: 
+[7.754s] -- Configured cppcheck exclude dirs and/or files: 
+[7.758s] -- Added test 'lint_cmake' to check CMake code style
+[7.765s] -- Added test 'uncrustify' to check C / C++ code style
+[7.765s] -- Configured uncrustify additional arguments: 
+[7.767s] -- Added test 'xmllint' to check XML markup files
+[7.775s] -- Configuring done (6.9s)
+[8.030s] -- Generating done (0.2s)
+[8.047s] -- Build files have been written to: /root/bridges/jetson_workspace/build/atmaca_flight_control
+[8.327s] [ 20%] [32mBuilding CXX object CMakeFiles/sahte_hedef.dir/src/sahte_hedef.cpp.o[0m
+[8.328s] [ 20%] [32mBuilding CXX object CMakeFiles/telemetry_node.dir/src/telemetry_node.cpp.o[0m
+[8.328s] [ 30%] [32mBuilding CXX object CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o[0m
+[8.332s] [ 40%] [32mBuilding CXX object CMakeFiles/offboard_node.dir/src/offboard.cpp.o[0m
+[8.335s] [ 50%] [32mBuilding CXX object CMakeFiles/hedef_gps.dir/src/hedef_gps.cpp.o[0m
+[36.940s] [ 60%] [32m[1mLinking CXX executable sahte_hedef[0m
+[38.319s] [ 60%] Built target sahte_hedef
+[59.454s] [ 70%] [32m[1mLinking CXX executable telemetry_node[0m
+[61.778s] [ 70%] Built target telemetry_node
+[62.821s] [ 80%] [32m[1mLinking CXX executable hedef_gps[0m
+[65.105s] [ 80%] Built target hedef_gps
+[67.845s] [ 90%] [32m[1mLinking CXX executable offboard_node[0m
+[70.054s] [ 90%] Built target offboard_node
+[125.467s] [100%] [32m[1mLinking CXX executable target_navigation_node[0m
+[132.499s] [100%] Built target target_navigation_node
+[132.549s] Invoked command in '/root/bridges/jetson_workspace/build/atmaca_flight_control' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/atmaca_flight_control:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/microxrcedds_agent:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/microxrcedds_agent/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/atmaca_flight_control -- -j6 -l6
+[133.159s] Invoking command in '/root/bridges/jetson_workspace/build/atmaca_flight_control': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/atmaca_flight_control:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/microxrcedds_agent:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/microxrcedds_agent/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/atmaca_flight_control
+[133.430s] -- Install configuration: ""
+[133.435s] -- Execute custom install script
+[133.442s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/lib/atmaca_flight_control/target_navigation_node
+[133.447s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/lib/atmaca_flight_control/telemetry_node
+[133.448s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/lib/atmaca_flight_control/hedef_gps
+[133.451s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/lib/atmaca_flight_control/offboard_node
+[133.455s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/lib/atmaca_flight_control/sahte_hedef
+[133.458s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/ament_index/resource_index/package_run_dependencies/atmaca_flight_control
+[133.461s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/ament_index/resource_index/parent_prefix_path/atmaca_flight_control
+[133.463s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/environment/ament_prefix_path.sh
+[133.465s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/environment/ament_prefix_path.dsv
+[133.468s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/environment/path.sh
+[133.469s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/environment/path.dsv
+[133.473s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/local_setup.bash
+[133.474s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/local_setup.sh
+[133.475s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/local_setup.zsh
+[133.477s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/local_setup.dsv
+[133.479s] -- Symlinking: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.dsv
+[133.500s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/ament_index/resource_index/packages/atmaca_flight_control
+[133.502s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/cmake/atmaca_flight_controlConfig.cmake
+[133.504s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/cmake/atmaca_flight_controlConfig-version.cmake
+[133.506s] -- Up-to-date symlink: /root/bridges/jetson_workspace/install/atmaca_flight_control/share/atmaca_flight_control/package.xml
+[133.534s] Invoked command in '/root/bridges/jetson_workspace/build/atmaca_flight_control' returned '0': CMAKE_PREFIX_PATH=/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/atmaca_flight_control:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/microxrcedds_agent:/opt/ros/humble/install LD_LIBRARY_PATH=/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/microxrcedds_agent/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# PYTHONPATH=/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/atmaca_flight_control

@@ -1,0 +1,16 @@
+/root/bridges/jetson_workspace/install/pkg_kamikaze/lib/pkg_kamikaze/kamikaze
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/ament_index/resource_index/package_run_dependencies/pkg_kamikaze
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/ament_index/resource_index/parent_prefix_path/pkg_kamikaze
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/environment/ament_prefix_path.sh
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/environment/ament_prefix_path.dsv
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/environment/path.sh
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/environment/path.dsv
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/local_setup.bash
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/local_setup.sh
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/local_setup.zsh
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/local_setup.dsv
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/package.dsv
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/ament_index/resource_index/packages/pkg_kamikaze
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/cmake/pkg_kamikazeConfig.cmake
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/cmake/pkg_kamikazeConfig-version.cmake
+/root/bridges/jetson_workspace/install/pkg_kamikaze/share/pkg_kamikaze/package.xml

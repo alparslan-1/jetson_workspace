@@ -1,0 +1,13 @@
+# Target labels
+ microcdr
+# Source files and their labels
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microcdr-complete.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-build.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-configure.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-download.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-install.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-mkdir.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-patch.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-stamp/microcdr-update.rule

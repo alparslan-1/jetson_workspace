@@ -1,0 +1,5 @@
+[ 20%] Built target telemetry_node
+[ 40%] Built target offboard_node
+[ 60%] Built target hedef_gps
+[ 70%] [32mBuilding CXX object CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o[0m
+[ 90%] Built target sahte_hedef

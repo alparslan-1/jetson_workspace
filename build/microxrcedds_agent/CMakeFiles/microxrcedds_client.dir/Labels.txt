@@ -1,0 +1,13 @@
+# Target labels
+ microxrcedds_client
+# Source files and their labels
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/microxrcedds_client
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/microxrcedds_client.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/microxrcedds_client-complete.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-build.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-configure.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-download.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-install.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-mkdir.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-patch.rule
+/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-update.rule

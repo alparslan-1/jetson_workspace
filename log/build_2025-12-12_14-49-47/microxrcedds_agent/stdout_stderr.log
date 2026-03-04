@@ -1,0 +1,845 @@
+-- The C compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (2.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/bridges/jetson_workspace/build/microxrcedds_agent
+[  4%] [34m[1mCreating directories for 'microxrcedds_client'[0m
+[  8%] [34m[1mCreating directories for 'spdlog'[0m
+[ 12%] [34m[1mPerforming download step (git clone) for 'microxrcedds_client'[0m
+[ 16%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+Cloning into 'microxrcedds_client'...
+Cloning into 'spdlog'...
+HEAD is now at 0c6743f Release v2.4.2
+[ 20%] [34m[1mPerforming update step for 'microxrcedds_client'[0m
+[ 25%] [34m[1mNo patch step for 'microxrcedds_client'[0m
+[ 29%] [34m[1mPerforming configure step for 'microxrcedds_client'[0m
+loading initial cache file /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/tmp/microxrcedds_client-cache-.cmake
+-- The C compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (2.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build
+[ 33%] [34m[1mPerforming build step for 'microxrcedds_client'[0m
+[  6%] [34m[1mCreating directories for 'microcdr'[0m
+[ 12%] [34m[1mPerforming download step (git clone) for 'microcdr'[0m
+Cloning into 'microcdr'...
+HEAD is now at eb322062 Bump version to 1.9.2
+[ 37%] [34m[1mPerforming update step for 'spdlog'[0m
+[ 41%] [34m[1mNo patch step for 'spdlog'[0m
+[ 45%] [34m[1mPerforming configure step for 'spdlog'[0m
+loading initial cache file /root/bridges/jetson_workspace/build/microxrcedds_agent/spdlog/tmp/spdlog-cache-.cmake
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting CXX compiler ABI info
+HEAD is now at 3d1b177 Release v2.0.1
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Build spdlog: 1.9.2
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[ 18%] [34m[1mPerforming update step for 'microcdr'[0m
+[ 25%] [34m[1mNo patch step for 'microcdr'[0m
+[ 31%] [34m[1mPerforming configure step for 'microcdr'[0m
+loading initial cache file /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/tmp/microcdr-cache-.cmake
+-- Setting build type to 'Release' as none was specified.
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- The C compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Build type: Release
+-- Generating example(s)
+-- Generating install
+-- Configuring done (2.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/bridges/jetson_workspace/build/microxrcedds_agent/spdlog/src/spdlog-build
+[ 50%] [34m[1mPerforming build step for 'spdlog'[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o[0m
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (2.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build
+[ 37%] [34m[1mPerforming build step for 'microcdr'[0m
+[ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[ 25%] [34m[1mNo download step for 'ucdr'[0m
+[ 37%] [34m[1mNo update step for 'ucdr'[0m
+[ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+loading initial cache file /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build
+[ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[ 16%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o[0m
+[100%] [32m[1mLinking C shared library libmicrocdr.so[0m
+[100%] Built target microcdr
+[34m[1mNo install step for 'ucdr'[0m
+[34m[1mCompleted 'ucdr'[0m
+Built target ucdr
+[ 43%] [34m[1mPerforming install step for 'microcdr'[0m
+[100%] Built target microcdr
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.so.2.0.1
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.so.2.0
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.so
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/microcdr.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/visibility.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/config.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrTargets.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrTargets-release.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrConfig.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrConfigVersion.cmake
+[ 50%] [34m[1mCompleted 'microcdr'[0m
+[ 50%] Built target microcdr
+[ 56%] [34m[1mCreating directories for 'uclient'[0m
+[ 62%] [34m[1mNo download step for 'uclient'[0m
+[ 68%] [34m[1mNo update step for 'uclient'[0m
+[ 75%] [34m[1mNo patch step for 'uclient'[0m
+[ 81%] [34m[1mPerforming configure step for 'uclient'[0m
+loading initial cache file /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/tmp/uclient-cache-.cmake
+-- Setting build type to 'Release' as none was specified.
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done (1.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build
+[ 87%] [34m[1mPerforming build step for 'uclient'[0m
+[  2%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o[0m
+[100%] [32m[1mLinking C shared library libmicroxrcedds_client.so[0m
+[100%] Built target microxrcedds_client
+[34m[1mNo install step for 'uclient'[0m
+[34m[1mCompleted 'uclient'[0m
+Built target uclient
+[ 54%] [34m[1mPerforming install step for 'microxrcedds_client'[0m
+[100%] Built target microxrcedds_client
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so.2.4.2
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so.2.4
+-- Set runtime path of "/root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so.2.4.2" to ""
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/defines.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/ip.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/custom
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/custom/custom_transport.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can/can_transport.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can/can_transport_posix.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/stream_framing
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/multithread
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/multithread/multithread.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/discovery
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/discovery/discovery.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/transport.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/visibility.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/read_access.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/time_sync.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/session.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_xml.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/stream_storage.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/stream_id.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/input_reliable_stream.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/seq_num.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/output_reliable_stream.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/input_best_effort_stream.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/output_best_effort_stream.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/reliable_stream.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/object_id.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/write_access.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/common_create_entities.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/session_info.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_bin.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_ref.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/communication
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/communication/communication.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/type
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/type/xrce_types.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/client.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util/ping.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util/time.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/config.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr/config.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr/microcdr.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr/visibility.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrTargets-release.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrConfigVersion.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrConfig.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrTargets.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib/libmicrocdr.so.2.0.1
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib/libmicrocdr.so
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib/libmicrocdr.so.2.0
+[ 58%] [34m[1mCompleted 'microxrcedds_client'[0m
+[ 58%] Built target microxrcedds_client
+[ 80%] [32m[1mLinking CXX static library libspdlog.a[0m
+[ 80%] Built target spdlog
+[ 90%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[100%] [32m[1mLinking CXX executable example[0m
+[100%] Built target example
+[ 62%] [34m[1mPerforming install step for 'spdlog'[0m
+[ 80%] Built target spdlog
+[100%] Built target example
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/version.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/logger.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/common.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/formatter.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fwd.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/os.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/libspdlog.a
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake
+-- Installing: /root/bridges/jetson_workspace/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[ 66%] [34m[1mCompleted 'spdlog'[0m
+[ 66%] Built target spdlog
+[ 70%] [34m[1mCreating directories for 'uagent'[0m
+[ 75%] [34m[1mNo download step for 'uagent'[0m
+[ 79%] [34m[1mNo update step for 'uagent'[0m
+[ 83%] [34m[1mNo patch step for 'uagent'[0m
+[ 87%] [34m[1mPerforming configure step for 'uagent'[0m
+loading initial cache file /root/bridges/jetson_workspace/build/microxrcedds_agent/uagent-prefix/tmp/uagent-cache-.cmake
+-- Setting build type to 'Release' as none was specified.
+[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  /opt/ros/humble/install/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+  CMakeLists.txt:153 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found tinyxml2: /usr/lib/aarch64-linux-gnu/libtinyxml2.so  
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done (1.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /root/bridges/jetson_workspace/build/microxrcedds_agent
+[ 91%] [34m[1mPerforming build step for 'uagent'[0m
+[  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/p2p/AgentDiscovererLinux.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/p2p/AgentDiscoverer.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/ced/CedMiddleware.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/ced/CedEntities.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/p2p/InternalClientManager.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/p2p/InternalClient.cpp.o[0m
+[ 96%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[ 96%] Built target microxrcedds_agent
+[ 98%] [32mBuilding CXX object CMakeFiles/MicroXRCEAgent.dir/microxrce_agent.cpp.o[0m
+[100%] [32m[1mLinking CXX executable MicroXRCEAgent[0m
+[100%] Built target MicroXRCEAgent
+[34m[1mNo install step for 'uagent'[0m
+[34m[1mCompleted 'uagent'[0m
+Built target uagent
+-- Install configuration: "Release"
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4.2
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4
+-- Set runtime path of "/root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4.2" to ""
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/replier
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/replier/Replier.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/AgentInstance.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/Agent.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/datareader
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/datareader/DataReader.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/processor
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/processor/Processor.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/utils
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/utils/Color.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/utils/TokenBucket.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/utils/Functions.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutex.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/utils/Time.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/utils/ArgumentParser.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/utils/SeqNum.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/utils/Conversion.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/Root.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/topic
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/topic/Topic.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/visibility.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/requester
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/requester/Requester.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/client
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/client/ProxyClient.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/client/session
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/client/session/Session.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/client/session/stream
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/client/session/SessionInfo.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/utils
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/fast
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/Middleware.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/ced
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/subscriber
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/subscriber/Subscriber.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/object
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/object/XRCEObject.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/p2p
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClient.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/message
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/message/Packet.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/message/InputMessage.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/message/OutputMessage.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/publisher
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/publisher/Publisher.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/Server.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/TransportRc.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/udp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/tcp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/p2p
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/custom
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/endpoint
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/can
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/serial
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/util
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/SessionManager.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/discovery
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/reader
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/reader/Reader.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/datawriter
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/datawriter/DataWriter.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/participant
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/participant/Participant.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/scheduler
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/scheduler/Scheduler.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/types
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/types/Optional.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/types/SubMessageHeader.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/types/MessageHeader.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/types/XRCETypes.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/types/TopicPubSubType.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/logger
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/logger/Logger.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/bin/MicroXRCEAgent
+-- Set runtime path of "/root/bridges/jetson_workspace/install/microxrcedds_agent/bin/MicroXRCEAgent" to ""
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/agent/config.hpp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/LICENSE
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent/include
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/ucdr
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/ucdr/config.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/ucdr/microcdr.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/ucdr/visibility.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent/share
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microcdr
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microcdr/cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microcdr/cmake/microcdrTargets-release.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microcdr/cmake/microcdrConfigVersion.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microcdr/cmake/microcdrConfig.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microcdr/cmake/microcdrTargets.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libmicrocdr.so.2.0.1
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libmicrocdr.so
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libmicrocdr.so.2.0
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent/include
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/config.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/defines.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/ip.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/custom
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/custom/custom_transport.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/can
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/can/can_transport.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/can/can_transport_posix.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/serial
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/stream_framing
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/multithread
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/multithread/multithread.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/discovery
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/profile/discovery/discovery.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/transport.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/visibility.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/read_access.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/time_sync.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/session.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_xml.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/stream
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/stream/stream_storage.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/stream/stream_id.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/stream/input_reliable_stream.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/stream/seq_num.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/stream/output_reliable_stream.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/stream/input_best_effort_stream.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/stream/output_best_effort_stream.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/stream/reliable_stream.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/object_id.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/write_access.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/common_create_entities.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/session_info.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_bin.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_ref.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/communication
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/communication/communication.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/type
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/core/type/xrce_types.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/client.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/util
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/util/ping.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/uxr/client/util/time.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent/share
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_client
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_client/cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libmicroxrcedds_client.so.2.4
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libmicroxrcedds_client.so
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libmicroxrcedds_client.so.2.4.2
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent/include
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/stopwatch.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/spdlog.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/color.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/printf.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/format-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/chrono.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/compile.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/locale.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/format.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/core.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/args.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/xchar.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/ostream.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/ranges.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bundled/os.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/chrono.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/compile.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/bin_to_hex.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/fmt.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/ostr.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fmt/xchar.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/spdlog-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/async_logger.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/version.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/logger.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/common.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/cfg
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/cfg/env.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/cfg/argv.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/cfg/helpers-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/cfg/helpers.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/async.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/common-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/pattern_formatter.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/pattern_formatter-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/logger-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/android_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/dup_filter_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/stdout_sinks.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/base_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/syslog_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/stdout_color_sinks.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/ansicolor_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/wincolor_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/dist_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/stdout_sinks-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/mongo_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/win_eventlog_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/hourly_file_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/ringbuffer_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/wincolor_sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/basic_file_sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/ostream_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/null_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/daily_file_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/rotating_file_sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/stdout_color_sinks-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/ansicolor_sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/qt_sinks.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/base_sink-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/basic_file_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/msvc_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/systemd_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/rotating_file_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/sinks/tcp_sink.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/formatter.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/async_logger-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/tweakme.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/fwd.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/periodic_worker.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/circular_q.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/os-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/thread_pool-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/backtracer.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/file_helper.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/tcp_client.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/periodic_worker-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/registry.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/fmt_helper.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/log_msg-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/mpmc_blocking_q.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/console_globals.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/file_helper-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/synchronous_factory.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/backtracer-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/log_msg_buffer-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/registry-inl.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/tcp_client-windows.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/thread_pool.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/log_msg.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/windows_include.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/log_msg_buffer.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/null_mutex.h
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/include/spdlog/details/os.h
+-- Up-to-date: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/cmake/spdlog
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfig.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/libspdlog.a
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/pkgconfig
+-- Installing: /root/bridges/jetson_workspace/install/microxrcedds_agent/lib/pkgconfig/spdlog.pc

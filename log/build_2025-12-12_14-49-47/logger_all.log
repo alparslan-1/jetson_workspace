@@ -1,0 +1,277 @@
+[10.876s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'microxrcedds_agent']
+[10.876s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9c750310>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['microxrcedds_agent'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9c750310>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9c750df0>)
+[11.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.370s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/bridges/jetson_workspace'
+[11.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.448s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['ignore', 'ignore_ament_install']
+[11.448s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'ignore'
+[11.448s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'ignore_ament_install'
+[11.449s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['colcon_pkg']
+[11.449s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'colcon_pkg'
+[11.449s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['colcon_meta']
+[11.449s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'colcon_meta'
+[11.449s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['ros']
+[11.450s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'ros'
+[11.450s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['cmake', 'python']
+[11.450s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'cmake'
+[11.451s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'python'
+[11.451s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extensions ['python_setup_py']
+[11.451s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3) by extension 'python_setup_py'
+[11.453s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['ignore', 'ignore_ament_install']
+[11.453s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'ignore'
+[11.453s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'ignore_ament_install'
+[11.454s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['colcon_pkg']
+[11.454s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'colcon_pkg'
+[11.454s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['colcon_meta']
+[11.454s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'colcon_meta'
+[11.455s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['ros']
+[11.455s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'ros'
+[11.455s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['cmake', 'python']
+[11.455s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'cmake'
+[11.456s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'python'
+[11.456s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extensions ['python_setup_py']
+[11.456s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/include) by extension 'python_setup_py'
+[11.457s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['ignore', 'ignore_ament_install']
+[11.457s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'ignore'
+[11.457s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'ignore_ament_install'
+[11.458s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['colcon_pkg']
+[11.458s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'colcon_pkg'
+[11.458s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['colcon_meta']
+[11.458s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'colcon_meta'
+[11.458s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['ros']
+[11.459s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'ros'
+[11.459s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['cmake', 'python']
+[11.459s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'cmake'
+[11.459s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'python'
+[11.460s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extensions ['python_setup_py']
+[11.460s] Level 1:colcon.colcon_core.package_identification:_identify(onnxruntime-linux-aarch64-1.16.3/lib) by extension 'python_setup_py'
+[11.460s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[11.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'ignore'
+[11.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'ignore_ament_install'
+[11.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extensions ['colcon_pkg']
+[11.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'colcon_pkg'
+[11.469s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting type 'cmake' of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg
+[11.470s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'microxrcedds_agent' of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg
+[11.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Micro-XRCE-DDS-Agent' with type 'cmake' and name 'microxrcedds_agent'
+[11.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extensions ['ignore', 'ignore_ament_install']
+[11.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extension 'ignore'
+[11.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extension 'ignore_ament_install'
+[11.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extensions ['colcon_pkg']
+[11.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extension 'colcon_pkg'
+[11.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extensions ['colcon_meta']
+[11.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extension 'colcon_meta'
+[11.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extensions ['ros']
+[11.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_flight_control) by extension 'ros'
+[11.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atmaca_flight_control' with type 'ros.ament_cmake' and name 'atmaca_flight_control'
+[11.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['ignore', 'ignore_ament_install']
+[11.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'ignore'
+[11.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'ignore_ament_install'
+[11.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['colcon_pkg']
+[11.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'colcon_pkg'
+[11.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['colcon_meta']
+[11.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'colcon_meta'
+[11.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extensions ['ros']
+[11.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/atmaca_vision) by extension 'ros'
+[11.495s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atmaca_vision' with type 'ros.ament_cmake' and name 'atmaca_vision'
+[11.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['ignore', 'ignore_ament_install']
+[11.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'ignore'
+[11.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'ignore_ament_install'
+[11.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['colcon_pkg']
+[11.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'colcon_pkg'
+[11.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['colcon_meta']
+[11.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'colcon_meta'
+[11.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extensions ['ros']
+[11.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/pars_msgs) by extension 'ros'
+[11.501s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pars_msgs' with type 'ros.ament_cmake' and name 'pars_msgs'
+[11.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extensions ['ignore', 'ignore_ament_install']
+[11.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extension 'ignore'
+[11.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extension 'ignore_ament_install'
+[11.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extensions ['colcon_pkg']
+[11.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extension 'colcon_pkg'
+[11.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extensions ['colcon_meta']
+[11.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extension 'colcon_meta'
+[11.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extensions ['ros']
+[11.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_srv) by extension 'ros'
+[11.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_srv' with type 'ros.ament_cmake' and name 'pkg_srv'
+[11.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[11.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[11.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[11.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[11.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[11.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[11.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[11.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[11.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[11.515s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[11.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[11.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[11.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[11.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[11.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[11.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[11.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[11.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[11.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[11.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['cmake', 'python']
+[11.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'cmake'
+[11.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'python'
+[11.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['python_setup_py']
+[11.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'python_setup_py'
+[11.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['ignore', 'ignore_ament_install']
+[11.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'ignore'
+[11.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'ignore_ament_install'
+[11.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['colcon_pkg']
+[11.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'colcon_pkg'
+[11.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['colcon_meta']
+[11.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'colcon_meta'
+[11.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extensions ['ros']
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_detector) by extension 'ros'
+[11.528s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qr_detector' with type 'ros.ament_cmake' and name 'qr_detector'
+[11.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extensions ['ignore', 'ignore_ament_install']
+[11.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extension 'ignore'
+[11.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extension 'ignore_ament_install'
+[11.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extensions ['colcon_pkg']
+[11.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extension 'colcon_pkg'
+[11.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extensions ['colcon_meta']
+[11.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extension 'colcon_meta'
+[11.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extensions ['ros']
+[11.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/siha_camera_pkg) by extension 'ros'
+[11.536s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siha_camera_pkg' with type 'ros.ament_cmake' and name 'siha_camera_pkg'
+[11.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extensions ['ignore', 'ignore_ament_install']
+[11.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extension 'ignore'
+[11.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extension 'ignore_ament_install'
+[11.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extensions ['colcon_pkg']
+[11.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extension 'colcon_pkg'
+[11.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extensions ['colcon_meta']
+[11.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extension 'colcon_meta'
+[11.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extensions ['ros']
+[11.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_recorder_pkg) by extension 'ros'
+[11.544s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_recorder_pkg' with type 'ros.ament_cmake' and name 'video_recorder_pkg'
+[11.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[11.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[11.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[11.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[11.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[11.783s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg: {'name': 'microxrcedds_agent', 'type': 'cmake', 'dependencies': ['fastcdr', 'fastrtps'], 'cmake-args': ['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON']}
+[11.867s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pars_msgs' in 'src/pars_msgs'
+[11.867s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pkg_srv' in 'src/pkg_srv'
+[11.867s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'px4_msgs' in 'src/px4_msgs'
+[11.867s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'video_recorder_pkg' in 'src/video_recorder_pkg'
+[11.868s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'atmaca_flight_control' in 'src/atmaca_flight_control'
+[11.868s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'atmaca_vision' in 'src/atmaca_vision'
+[11.868s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'qr_detector' in 'src/qr_detector'
+[11.868s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'siha_camera_pkg' in 'src/siha_camera_pkg'
+[11.939s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_args' from command line to 'None'
+[11.939s] Level 5:colcon.colcon_core.verb:overwrite package 'microxrcedds_agent' build argument 'cmake_args' from package metadata with '['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON']' (before: 'None')
+[11.939s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_target' from command line to 'None'
+[11.939s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.940s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[11.940s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_clean_first' from command line to 'False'
+[11.940s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_force_configure' from command line to 'False'
+[11.940s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'ament_cmake_args' from command line to 'None'
+[11.940s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[11.940s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.941s] DEBUG:colcon.colcon_core.verb:Building package 'microxrcedds_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/bridges/jetson_workspace/build/microxrcedds_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/bridges/jetson_workspace/install/microxrcedds_agent', 'merge_install': False, 'path': '/root/bridges/jetson_workspace/src/Micro-XRCE-DDS-Agent', 'symlink_install': True, 'test_result_base': None}
+[12.009s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[12.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[12.084s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/bridges/jetson_workspace/src/Micro-XRCE-DDS-Agent'
+[12.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[12.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/microxrcedds_agent': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/microxrcedds_agent
+[15.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/microxrcedds_agent' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/microxrcedds_agent
+[15.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/microxrcedds_agent': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/microxrcedds_agent -- -j4 -l4
+[327.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/microxrcedds_agent' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/microxrcedds_agent -- -j4 -l4
+[328.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/bridges/jetson_workspace/build/microxrcedds_agent': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/microxrcedds_agent
+[329.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microxrcedds_agent)
+[329.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/bridges/jetson_workspace/build/microxrcedds_agent' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/microxrcedds_agent
+[329.249s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/microxrcedds_agent' for CMake module files
+[329.252s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/microxrcedds_agent' for CMake config files
+[329.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'cmake_prefix_path')
+[329.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/cmake_prefix_path.ps1'
+[329.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/cmake_prefix_path.dsv'
+[329.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/cmake_prefix_path.sh'
+[329.348s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/microxrcedds_agent/lib'
+[329.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'ld_library_path_lib')
+[329.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/ld_library_path_lib.ps1'
+[329.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/ld_library_path_lib.dsv'
+[329.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/ld_library_path_lib.sh'
+[329.428s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/microxrcedds_agent/bin'
+[329.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'path')
+[329.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/path.ps1'
+[329.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/path.dsv'
+[329.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/path.sh'
+[329.506s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/microxrcedds_agent/lib/pkgconfig/microxrcedds_agent.pc'
+[329.511s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/microxrcedds_agent/lib/python3.8/site-packages'
+[329.512s] Level 1:colcon.colcon_core.environment:checking '/root/bridges/jetson_workspace/install/microxrcedds_agent/bin'
+[329.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'pythonscriptspath')
+[329.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/pythonscriptspath.ps1'
+[329.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/pythonscriptspath.dsv'
+[329.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/hook/pythonscriptspath.sh'
+[329.664s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/package.ps1'
+[329.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/package.dsv'
+[329.672s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/package.sh'
+[329.676s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/package.bash'
+[329.679s] INFO:colcon.colcon_core.shell:Creating package script '/root/bridges/jetson_workspace/install/microxrcedds_agent/share/microxrcedds_agent/package.zsh'
+[329.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/bridges/jetson_workspace/install/microxrcedds_agent/share/colcon-core/packages/microxrcedds_agent)
+[329.684s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[329.686s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[329.686s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[329.687s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[329.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[329.799s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[329.799s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[329.799s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[329.800s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[329.800s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[329.884s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.ps1'
+[329.889s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/bridges/jetson_workspace/install/_local_setup_util_ps1.py'
+[329.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.ps1'
+[329.972s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.sh'
+[329.975s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/bridges/jetson_workspace/install/_local_setup_util_sh.py'
+[329.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.sh'
+[330.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.bash'
+[330.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.bash'
+[330.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/bridges/jetson_workspace/install/local_setup.zsh'
+[330.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/bridges/jetson_workspace/install/setup.zsh'

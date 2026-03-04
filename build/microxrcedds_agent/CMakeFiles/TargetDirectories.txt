@@ -1,0 +1,8 @@
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/microxrcedds_agent.dir
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/MicroXRCEAgent.dir
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/edit_cache.dir
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/rebuild_cache.dir
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/list_install_components.dir
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/install.dir
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/install/local.dir
+/root/bridges/jetson_workspace/build/microxrcedds_agent/CMakeFiles/install/strip.dir

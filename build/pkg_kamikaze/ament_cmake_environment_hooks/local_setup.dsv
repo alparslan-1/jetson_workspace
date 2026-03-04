@@ -1,0 +1,2 @@
+source;share/pkg_kamikaze/environment/ament_prefix_path.sh
+source;share/pkg_kamikaze/environment/path.sh

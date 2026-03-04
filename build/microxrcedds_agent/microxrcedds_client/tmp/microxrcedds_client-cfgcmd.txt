@@ -1,0 +1,1 @@
+cmd='/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake;-GUnix Makefiles;-C<TMP_DIR>/microxrcedds_client-cache-$<CONFIG>.cmake;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

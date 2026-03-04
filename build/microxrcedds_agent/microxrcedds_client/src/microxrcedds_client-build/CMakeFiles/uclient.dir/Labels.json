@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/uclient"
+		},
+		{
+			"file" : "/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/uclient.rule"
+		},
+		{
+			"file" : "/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/uclient-complete.rule"
+		},
+		{
+			"file" : "/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-build.rule"
+		},
+		{
+			"file" : "/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-configure.rule"
+		},
+		{
+			"file" : "/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-download.rule"
+		},
+		{
+			"file" : "/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-install.rule"
+		},
+		{
+			"file" : "/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-mkdir.rule"
+		},
+		{
+			"file" : "/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-patch.rule"
+		},
+		{
+			"file" : "/root/bridges/jetson_workspace/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/src/uclient-stamp/uclient-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"uclient"
+		],
+		"name" : "uclient"
+	}
+}
