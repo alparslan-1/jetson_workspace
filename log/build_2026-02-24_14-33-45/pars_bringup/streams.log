@@ -1,0 +1,46 @@
+[0.438s] Invoking command in '/root/bridges/jetson_workspace/build/pars_bringup': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/pars_bringup -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/pars_bringup
+[1.190s] -- The C compiler identification is GNU 9.4.0
+[1.706s] -- The CXX compiler identification is GNU 9.4.0
+[1.869s] -- Detecting C compiler ABI info
+[2.376s] -- Detecting C compiler ABI info - done
+[2.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.457s] -- Detecting C compile features
+[2.460s] -- Detecting C compile features - done
+[2.563s] -- Detecting CXX compiler ABI info
+[3.114s] -- Detecting CXX compiler ABI info - done
+[3.193s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.195s] -- Detecting CXX compile features
+[3.198s] -- Detecting CXX compile features - done
+[3.233s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[10.589s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[11.179s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[11.641s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.648s] -- Added test 'lint_cmake' to check CMake code style
+[11.655s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.667s] -- Added test 'xmllint' to check XML markup files
+[11.682s] -- Configuring done (11.0s)
+[11.707s] -- Generating done (0.0s)
+[11.715s] -- Build files have been written to: /root/bridges/jetson_workspace/build/pars_bringup
+[11.760s] Invoked command in '/root/bridges/jetson_workspace/build/pars_bringup' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake /root/bridges/jetson_workspace/src/pars_bringup -DCMAKE_INSTALL_PREFIX=/root/bridges/jetson_workspace/install/pars_bringup
+[11.778s] Invoking command in '/root/bridges/jetson_workspace/build/pars_bringup': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pars_bringup -- -j4 -l4
+[12.035s] Invoked command in '/root/bridges/jetson_workspace/build/pars_bringup' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --build /root/bridges/jetson_workspace/build/pars_bringup -- -j4 -l4
+[12.483s] Invoking command in '/root/bridges/jetson_workspace/build/pars_bringup': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pars_bringup
+[12.639s] -- Install configuration: ""
+[12.640s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/launch
+[12.641s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/launch/sistem_baslat.launch.py
+[12.642s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/ament_index/resource_index/package_run_dependencies/pars_bringup
+[12.644s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/ament_index/resource_index/parent_prefix_path/pars_bringup
+[12.645s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/environment/ament_prefix_path.sh
+[12.646s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/environment/ament_prefix_path.dsv
+[12.648s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/environment/path.sh
+[12.649s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/environment/path.dsv
+[12.650s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/local_setup.bash
+[12.651s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/local_setup.sh
+[12.652s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/local_setup.zsh
+[12.653s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/local_setup.dsv
+[12.657s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/package.dsv
+[12.659s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/ament_index/resource_index/packages/pars_bringup
+[12.660s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/cmake/pars_bringupConfig.cmake
+[12.660s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/cmake/pars_bringupConfig-version.cmake
+[12.661s] -- Installing: /root/bridges/jetson_workspace/install/pars_bringup/share/pars_bringup/package.xml
+[12.682s] Invoked command in '/root/bridges/jetson_workspace/build/pars_bringup' returned '0': PS1=\[\033[1;31m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]# /usr/local/bin/cmake --install /root/bridges/jetson_workspace/build/pars_bringup

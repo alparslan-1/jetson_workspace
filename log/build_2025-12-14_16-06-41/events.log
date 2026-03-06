@@ -1,0 +1,593 @@
+[0.000000] (-) TimerEvent: {}
+[0.002571] (-) JobUnselected: {'identifier': 'atmaca_vision'}
+[0.003452] (-) JobUnselected: {'identifier': 'microxrcedds_agent'}
+[0.004136] (-) JobUnselected: {'identifier': 'pars_msgs'}
+[0.004509] (-) JobUnselected: {'identifier': 'pkg_kamikaze'}
+[0.004821] (-) JobUnselected: {'identifier': 'pkg_srv'}
+[0.005099] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.005334] (-) JobUnselected: {'identifier': 'qr_detector'}
+[0.005665] (-) JobUnselected: {'identifier': 'siha_camera_pkg'}
+[0.005917] (-) JobUnselected: {'identifier': 'video_recorder_pkg'}
+[0.006215] (atmaca_flight_control) JobQueued: {'identifier': 'atmaca_flight_control', 'dependencies': OrderedDict([('pars_msgs', '/root/bridges/jetson_workspace/install/pars_msgs'), ('px4_msgs', '/root/bridges/jetson_workspace/install/px4_msgs')])}
+[0.006471] (atmaca_flight_control) JobStarted: {'identifier': 'atmaca_flight_control'}
+[0.098578] (-) TimerEvent: {}
+[0.199749] (-) TimerEvent: {}
+[0.301908] (-) TimerEvent: {}
+[0.403647] (-) TimerEvent: {}
+[0.448568] (atmaca_flight_control) JobProgress: {'identifier': 'atmaca_flight_control', 'progress': 'cmake'}
+[0.452888] (atmaca_flight_control) JobProgress: {'identifier': 'atmaca_flight_control', 'progress': 'build'}
+[0.457727] (atmaca_flight_control) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/bridges/jetson_workspace/build/atmaca_flight_control', '--', '-j6', '-l6'], 'cwd': '/root/bridges/jetson_workspace/build/atmaca_flight_control', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'tanyeli'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/microxrcedds_agent/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\033[1;31m\\]\\u@\\h\\[\\033[0m\\]:\\[\\033[1;34m\\]\\w\\[\\033[0m\\]#'), ('COLCON_PREFIX_PATH', '/root/bridges/jetson_workspace/install:/opt/ros/humble/install'), ('TORCH_HOME', '/data/models/torch'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/bridges/jetson_workspace/install/microxrcedds_agent/bin:/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/pkg_kamikaze:/root/bridges/jetson_workspace/install/atmaca_flight_control:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/root/bridges/jetson_workspace/build/atmaca_flight_control'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/pkg_kamikaze:/root/bridges/jetson_workspace/install/atmaca_flight_control:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/microxrcedds_agent:/opt/ros/humble/install')]), 'shell': False}
+[0.503974] (-) TimerEvent: {}
+[0.606166] (-) TimerEvent: {}
+[0.707210] (-) TimerEvent: {}
+[0.808906] (-) TimerEvent: {}
+[0.836244] (atmaca_flight_control) StdoutLine: {'line': b'[ 20%] Built target hedef_gps\n'}
+[0.840482] (atmaca_flight_control) StdoutLine: {'line': b'[ 60%] Built target telemetry_node\n'}
+[0.841286] (atmaca_flight_control) StdoutLine: {'line': b'[ 60%] Built target offboard_node\n'}
+[0.842001] (atmaca_flight_control) StdoutLine: {'line': b'[ 80%] Built target sahte_hedef\n'}
+[0.898050] (atmaca_flight_control) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o\x1b[0m\n'}
+[0.909064] (-) TimerEvent: {}
+[1.010122] (-) TimerEvent: {}
+[1.111375] (-) TimerEvent: {}
+[1.212403] (-) TimerEvent: {}
+[1.313442] (-) TimerEvent: {}
+[1.414557] (-) TimerEvent: {}
+[1.515628] (-) TimerEvent: {}
+[1.616864] (-) TimerEvent: {}
+[1.717992] (-) TimerEvent: {}
+[1.819079] (-) TimerEvent: {}
+[1.920139] (-) TimerEvent: {}
+[2.021162] (-) TimerEvent: {}
+[2.122880] (-) TimerEvent: {}
+[2.223994] (-) TimerEvent: {}
+[2.325287] (-) TimerEvent: {}
+[2.426444] (-) TimerEvent: {}
+[2.527798] (-) TimerEvent: {}
+[2.628814] (-) TimerEvent: {}
+[2.729818] (-) TimerEvent: {}
+[2.830881] (-) TimerEvent: {}
+[2.931880] (-) TimerEvent: {}
+[3.032961] (-) TimerEvent: {}
+[3.134125] (-) TimerEvent: {}
+[3.235359] (-) TimerEvent: {}
+[3.336440] (-) TimerEvent: {}
+[3.437702] (-) TimerEvent: {}
+[3.538755] (-) TimerEvent: {}
+[3.639865] (-) TimerEvent: {}
+[3.740992] (-) TimerEvent: {}
+[3.842154] (-) TimerEvent: {}
+[3.943300] (-) TimerEvent: {}
+[4.044442] (-) TimerEvent: {}
+[4.145693] (-) TimerEvent: {}
+[4.246887] (-) TimerEvent: {}
+[4.348040] (-) TimerEvent: {}
+[4.449233] (-) TimerEvent: {}
+[4.550828] (-) TimerEvent: {}
+[4.651968] (-) TimerEvent: {}
+[4.753045] (-) TimerEvent: {}
+[4.854298] (-) TimerEvent: {}
+[4.955470] (-) TimerEvent: {}
+[5.056595] (-) TimerEvent: {}
+[5.157813] (-) TimerEvent: {}
+[5.259173] (-) TimerEvent: {}
+[5.360290] (-) TimerEvent: {}
+[5.461511] (-) TimerEvent: {}
+[5.562810] (-) TimerEvent: {}
+[5.663955] (-) TimerEvent: {}
+[5.765120] (-) TimerEvent: {}
+[5.866398] (-) TimerEvent: {}
+[5.967685] (-) TimerEvent: {}
+[6.068881] (-) TimerEvent: {}
+[6.170070] (-) TimerEvent: {}
+[6.271235] (-) TimerEvent: {}
+[6.372349] (-) TimerEvent: {}
+[6.473503] (-) TimerEvent: {}
+[6.574717] (-) TimerEvent: {}
+[6.675841] (-) TimerEvent: {}
+[6.777183] (-) TimerEvent: {}
+[6.878461] (-) TimerEvent: {}
+[6.979580] (-) TimerEvent: {}
+[7.081011] (-) TimerEvent: {}
+[7.182227] (-) TimerEvent: {}
+[7.283344] (-) TimerEvent: {}
+[7.384460] (-) TimerEvent: {}
+[7.485698] (-) TimerEvent: {}
+[7.586798] (-) TimerEvent: {}
+[7.687988] (-) TimerEvent: {}
+[7.789136] (-) TimerEvent: {}
+[7.890387] (-) TimerEvent: {}
+[7.991549] (-) TimerEvent: {}
+[8.092668] (-) TimerEvent: {}
+[8.193813] (-) TimerEvent: {}
+[8.294949] (-) TimerEvent: {}
+[8.396062] (-) TimerEvent: {}
+[8.497196] (-) TimerEvent: {}
+[8.598457] (-) TimerEvent: {}
+[8.699551] (-) TimerEvent: {}
+[8.800663] (-) TimerEvent: {}
+[8.901831] (-) TimerEvent: {}
+[9.002994] (-) TimerEvent: {}
+[9.104112] (-) TimerEvent: {}
+[9.205247] (-) TimerEvent: {}
+[9.306455] (-) TimerEvent: {}
+[9.407554] (-) TimerEvent: {}
+[9.509148] (-) TimerEvent: {}
+[9.610555] (-) TimerEvent: {}
+[9.711866] (-) TimerEvent: {}
+[9.813780] (-) TimerEvent: {}
+[9.915793] (-) TimerEvent: {}
+[10.017307] (-) TimerEvent: {}
+[10.118908] (-) TimerEvent: {}
+[10.220813] (-) TimerEvent: {}
+[10.322018] (-) TimerEvent: {}
+[10.423074] (-) TimerEvent: {}
+[10.524148] (-) TimerEvent: {}
+[10.625224] (-) TimerEvent: {}
+[10.726387] (-) TimerEvent: {}
+[10.827468] (-) TimerEvent: {}
+[10.928537] (-) TimerEvent: {}
+[11.029758] (-) TimerEvent: {}
+[11.130888] (-) TimerEvent: {}
+[11.231875] (-) TimerEvent: {}
+[11.332945] (-) TimerEvent: {}
+[11.434070] (-) TimerEvent: {}
+[11.535112] (-) TimerEvent: {}
+[11.636145] (-) TimerEvent: {}
+[11.737215] (-) TimerEvent: {}
+[11.838383] (-) TimerEvent: {}
+[11.939381] (-) TimerEvent: {}
+[12.040424] (-) TimerEvent: {}
+[12.141520] (-) TimerEvent: {}
+[12.242641] (-) TimerEvent: {}
+[12.343742] (-) TimerEvent: {}
+[12.444835] (-) TimerEvent: {}
+[12.546044] (-) TimerEvent: {}
+[12.647163] (-) TimerEvent: {}
+[12.748744] (-) TimerEvent: {}
+[12.850630] (-) TimerEvent: {}
+[12.952345] (-) TimerEvent: {}
+[13.053797] (-) TimerEvent: {}
+[13.155812] (-) TimerEvent: {}
+[13.257032] (-) TimerEvent: {}
+[13.358200] (-) TimerEvent: {}
+[13.459312] (-) TimerEvent: {}
+[13.560359] (-) TimerEvent: {}
+[13.661434] (-) TimerEvent: {}
+[13.762475] (-) TimerEvent: {}
+[13.863583] (-) TimerEvent: {}
+[13.964643] (-) TimerEvent: {}
+[14.065738] (-) TimerEvent: {}
+[14.166915] (-) TimerEvent: {}
+[14.267998] (-) TimerEvent: {}
+[14.369043] (-) TimerEvent: {}
+[14.470164] (-) TimerEvent: {}
+[14.571199] (-) TimerEvent: {}
+[14.672205] (-) TimerEvent: {}
+[14.773273] (-) TimerEvent: {}
+[14.874399] (-) TimerEvent: {}
+[14.975473] (-) TimerEvent: {}
+[15.076562] (-) TimerEvent: {}
+[15.177731] (-) TimerEvent: {}
+[15.278961] (-) TimerEvent: {}
+[15.379983] (-) TimerEvent: {}
+[15.481056] (-) TimerEvent: {}
+[15.582166] (-) TimerEvent: {}
+[15.683198] (-) TimerEvent: {}
+[15.784236] (-) TimerEvent: {}
+[15.885259] (-) TimerEvent: {}
+[15.986339] (-) TimerEvent: {}
+[16.082946] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TargetNavigatingNode::run_gps_follow_control()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.085852] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:399:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.123190] (-) TimerEvent: {}
+[16.123774] (atmaca_flight_control) StderrLine: {'line': b'  399 |         offboard_control_mode_pub_->publish(\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K);\n'}
+[16.124728] (atmaca_flight_control) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.125264] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:399:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[16.125859] (atmaca_flight_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[16.126292] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[16.126750] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[16.127177] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[16.127556] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[16.127960] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[16.128415] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[16.128806] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[16.129180] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[16.129702] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[16.130097] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[16.130482] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[16.130910] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[16.131313] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[16.131758] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:3\x1b[m\x1b[K:\n'}
+[16.132153] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.132574] (atmaca_flight_control) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[16.132942] (atmaca_flight_control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.133319] (atmaca_flight_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[16.133825] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[16.134296] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[16.134677] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[16.135147] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[16.135582] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[16.136029] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[16.136405] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[16.136791] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[16.137185] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[16.137705] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[16.138127] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[16.138557] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:3\x1b[m\x1b[K:\n'}
+[16.138978] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.139400] (atmaca_flight_control) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[16.139787] (atmaca_flight_control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.140159] (atmaca_flight_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[16.140562] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[16.141010] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[16.141386] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[16.141826] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[16.142212] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[16.142643] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[16.143046] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[16.143408] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[16.143768] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[16.144181] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[16.144609] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[16.144988] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[16.145385] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:3\x1b[m\x1b[K:\n'}
+[16.145842] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.146243] (atmaca_flight_control) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[16.146630] (atmaca_flight_control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.147043] (atmaca_flight_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp:7\x1b[m\x1b[K,\n'}
+[16.147429] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:18\x1b[m\x1b[K,\n'}
+[16.147792] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:86\x1b[m\x1b[K,\n'}
+[16.148155] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:4\x1b[m\x1b[K:\n'}
+[16.148547] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klifecycle_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.148959] (atmaca_flight_control) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[16.149349] (atmaca_flight_control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.149765] (atmaca_flight_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/bridges/jetson_workspace/install/px4_msgs/include/px4_msgs/px4_msgs/msg/vehicle_local_position.hpp:7\x1b[m\x1b[K,\n'}
+[16.150145] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:7\x1b[m\x1b[K:\n'}
+[16.150649] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/install/px4_msgs/include/px4_msgs/px4_msgs/msg/detail/vehicle_local_position__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.151065] (atmaca_flight_control) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[16.151472] (atmaca_flight_control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.151869] (atmaca_flight_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/data.hpp:7\x1b[m\x1b[K,\n'}
+[16.152249] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:21\x1b[m\x1b[K:\n'}
+[16.152747] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/install/pars_msgs/include/pars_msgs/pars_msgs/msg/detail/data__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kpars_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.153203] (atmaca_flight_control) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[16.153651] (atmaca_flight_control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.223487] (-) TimerEvent: {}
+[16.324591] (-) TimerEvent: {}
+[16.425736] (-) TimerEvent: {}
+[16.526784] (-) TimerEvent: {}
+[16.627828] (-) TimerEvent: {}
+[16.728866] (-) TimerEvent: {}
+[16.829920] (-) TimerEvent: {}
+[16.930945] (-) TimerEvent: {}
+[17.031950] (-) TimerEvent: {}
+[17.132976] (-) TimerEvent: {}
+[17.234100] (-) TimerEvent: {}
+[17.335251] (-) TimerEvent: {}
+[17.436657] (-) TimerEvent: {}
+[17.537789] (-) TimerEvent: {}
+[17.639019] (-) TimerEvent: {}
+[17.740066] (-) TimerEvent: {}
+[17.841049] (-) TimerEvent: {}
+[17.942204] (-) TimerEvent: {}
+[18.043422] (-) TimerEvent: {}
+[18.144700] (-) TimerEvent: {}
+[18.246582] (-) TimerEvent: {}
+[18.347932] (-) TimerEvent: {}
+[18.449234] (-) TimerEvent: {}
+[18.550497] (-) TimerEvent: {}
+[18.651743] (-) TimerEvent: {}
+[18.752899] (-) TimerEvent: {}
+[18.854288] (-) TimerEvent: {}
+[18.955582] (-) TimerEvent: {}
+[19.057074] (-) TimerEvent: {}
+[19.158595] (-) TimerEvent: {}
+[19.259967] (-) TimerEvent: {}
+[19.361861] (-) TimerEvent: {}
+[19.463001] (-) TimerEvent: {}
+[19.564075] (-) TimerEvent: {}
+[19.665151] (-) TimerEvent: {}
+[19.766885] (-) TimerEvent: {}
+[19.868165] (-) TimerEvent: {}
+[19.969665] (-) TimerEvent: {}
+[20.071462] (-) TimerEvent: {}
+[20.172545] (-) TimerEvent: {}
+[20.273666] (-) TimerEvent: {}
+[20.374588] (-) TimerEvent: {}
+[20.475567] (-) TimerEvent: {}
+[20.576625] (-) TimerEvent: {}
+[20.677745] (-) TimerEvent: {}
+[20.778741] (-) TimerEvent: {}
+[20.879851] (-) TimerEvent: {}
+[20.980875] (-) TimerEvent: {}
+[21.082063] (-) TimerEvent: {}
+[21.183078] (-) TimerEvent: {}
+[21.284215] (-) TimerEvent: {}
+[21.385339] (-) TimerEvent: {}
+[21.486429] (-) TimerEvent: {}
+[21.587421] (-) TimerEvent: {}
+[21.688463] (-) TimerEvent: {}
+[21.789515] (-) TimerEvent: {}
+[21.890688] (-) TimerEvent: {}
+[21.991688] (-) TimerEvent: {}
+[22.092777] (-) TimerEvent: {}
+[22.193813] (-) TimerEvent: {}
+[22.294982] (-) TimerEvent: {}
+[22.395988] (-) TimerEvent: {}
+[22.497030] (-) TimerEvent: {}
+[22.598173] (-) TimerEvent: {}
+[22.699239] (-) TimerEvent: {}
+[22.800464] (-) TimerEvent: {}
+[22.901516] (-) TimerEvent: {}
+[23.002675] (-) TimerEvent: {}
+[23.103695] (-) TimerEvent: {}
+[23.204732] (-) TimerEvent: {}
+[23.305822] (-) TimerEvent: {}
+[23.406908] (-) TimerEvent: {}
+[23.507997] (-) TimerEvent: {}
+[23.609055] (-) TimerEvent: {}
+[23.710339] (-) TimerEvent: {}
+[23.811479] (-) TimerEvent: {}
+[23.912550] (-) TimerEvent: {}
+[24.013667] (-) TimerEvent: {}
+[24.114718] (-) TimerEvent: {}
+[24.215751] (-) TimerEvent: {}
+[24.316961] (-) TimerEvent: {}
+[24.418082] (-) TimerEvent: {}
+[24.519180] (-) TimerEvent: {}
+[24.620216] (-) TimerEvent: {}
+[24.721354] (-) TimerEvent: {}
+[24.822509] (-) TimerEvent: {}
+[24.924022] (-) TimerEvent: {}
+[25.025041] (-) TimerEvent: {}
+[25.126137] (-) TimerEvent: {}
+[25.227108] (-) TimerEvent: {}
+[25.328121] (-) TimerEvent: {}
+[25.429146] (-) TimerEvent: {}
+[25.530294] (-) TimerEvent: {}
+[25.631353] (-) TimerEvent: {}
+[25.732418] (-) TimerEvent: {}
+[25.833821] (-) TimerEvent: {}
+[25.934847] (-) TimerEvent: {}
+[26.035888] (-) TimerEvent: {}
+[26.136905] (-) TimerEvent: {}
+[26.238034] (-) TimerEvent: {}
+[26.339066] (-) TimerEvent: {}
+[26.440114] (-) TimerEvent: {}
+[26.541107] (-) TimerEvent: {}
+[26.642230] (-) TimerEvent: {}
+[26.743284] (-) TimerEvent: {}
+[26.844376] (-) TimerEvent: {}
+[26.945474] (-) TimerEvent: {}
+[27.046600] (-) TimerEvent: {}
+[27.147713] (-) TimerEvent: {}
+[27.248776] (-) TimerEvent: {}
+[27.349882] (-) TimerEvent: {}
+[27.451140] (-) TimerEvent: {}
+[27.552287] (-) TimerEvent: {}
+[27.653331] (-) TimerEvent: {}
+[27.754538] (-) TimerEvent: {}
+[27.855593] (-) TimerEvent: {}
+[27.956814] (-) TimerEvent: {}
+[28.058082] (-) TimerEvent: {}
+[28.159273] (-) TimerEvent: {}
+[28.260467] (-) TimerEvent: {}
+[28.361839] (-) TimerEvent: {}
+[28.463085] (-) TimerEvent: {}
+[28.564351] (-) TimerEvent: {}
+[28.665537] (-) TimerEvent: {}
+[28.766889] (-) TimerEvent: {}
+[28.867942] (-) TimerEvent: {}
+[28.969004] (-) TimerEvent: {}
+[29.070140] (-) TimerEvent: {}
+[29.171174] (-) TimerEvent: {}
+[29.272186] (-) TimerEvent: {}
+[29.373219] (-) TimerEvent: {}
+[29.474342] (-) TimerEvent: {}
+[29.575384] (-) TimerEvent: {}
+[29.676487] (-) TimerEvent: {}
+[29.777517] (-) TimerEvent: {}
+[29.878591] (-) TimerEvent: {}
+[29.979653] (-) TimerEvent: {}
+[30.080762] (-) TimerEvent: {}
+[30.181999] (-) TimerEvent: {}
+[30.283845] (-) TimerEvent: {}
+[30.384907] (-) TimerEvent: {}
+[30.486018] (-) TimerEvent: {}
+[30.587067] (-) TimerEvent: {}
+[30.688094] (-) TimerEvent: {}
+[30.789154] (-) TimerEvent: {}
+[30.890540] (-) TimerEvent: {}
+[30.991584] (-) TimerEvent: {}
+[31.092802] (-) TimerEvent: {}
+[31.193962] (-) TimerEvent: {}
+[31.294996] (-) TimerEvent: {}
+[31.396045] (-) TimerEvent: {}
+[31.497350] (-) TimerEvent: {}
+[31.598626] (-) TimerEvent: {}
+[31.699674] (-) TimerEvent: {}
+[31.800888] (-) TimerEvent: {}
+[31.902058] (-) TimerEvent: {}
+[32.003132] (-) TimerEvent: {}
+[32.104175] (-) TimerEvent: {}
+[32.205212] (-) TimerEvent: {}
+[32.306366] (-) TimerEvent: {}
+[32.407389] (-) TimerEvent: {}
+[32.508430] (-) TimerEvent: {}
+[32.609465] (-) TimerEvent: {}
+[32.710584] (-) TimerEvent: {}
+[32.811630] (-) TimerEvent: {}
+[32.912685] (-) TimerEvent: {}
+[33.013788] (-) TimerEvent: {}
+[33.114798] (-) TimerEvent: {}
+[33.215855] (-) TimerEvent: {}
+[33.316911] (-) TimerEvent: {}
+[33.418053] (-) TimerEvent: {}
+[33.519143] (-) TimerEvent: {}
+[33.620230] (-) TimerEvent: {}
+[33.721301] (-) TimerEvent: {}
+[33.822428] (-) TimerEvent: {}
+[33.923500] (-) TimerEvent: {}
+[34.024501] (-) TimerEvent: {}
+[34.125559] (-) TimerEvent: {}
+[34.226707] (-) TimerEvent: {}
+[34.327739] (-) TimerEvent: {}
+[34.428808] (-) TimerEvent: {}
+[34.529811] (-) TimerEvent: {}
+[34.630870] (-) TimerEvent: {}
+[34.731950] (-) TimerEvent: {}
+[34.832977] (-) TimerEvent: {}
+[34.934273] (-) TimerEvent: {}
+[35.035658] (-) TimerEvent: {}
+[35.136743] (-) TimerEvent: {}
+[35.237849] (-) TimerEvent: {}
+[35.338855] (-) TimerEvent: {}
+[35.439924] (-) TimerEvent: {}
+[35.541008] (-) TimerEvent: {}
+[35.642158] (-) TimerEvent: {}
+[35.743153] (-) TimerEvent: {}
+[35.844211] (-) TimerEvent: {}
+[35.945271] (-) TimerEvent: {}
+[36.046614] (-) TimerEvent: {}
+[36.147881] (-) TimerEvent: {}
+[36.248944] (-) TimerEvent: {}
+[36.350261] (-) TimerEvent: {}
+[36.451325] (-) TimerEvent: {}
+[36.552388] (-) TimerEvent: {}
+[36.653502] (-) TimerEvent: {}
+[36.754561] (-) TimerEvent: {}
+[36.855640] (-) TimerEvent: {}
+[36.956733] (-) TimerEvent: {}
+[37.057783] (-) TimerEvent: {}
+[37.158906] (-) TimerEvent: {}
+[37.260004] (-) TimerEvent: {}
+[37.361161] (-) TimerEvent: {}
+[37.462360] (-) TimerEvent: {}
+[37.563468] (-) TimerEvent: {}
+[37.664482] (-) TimerEvent: {}
+[37.765529] (-) TimerEvent: {}
+[37.866666] (-) TimerEvent: {}
+[37.967767] (-) TimerEvent: {}
+[38.068966] (-) TimerEvent: {}
+[38.170128] (-) TimerEvent: {}
+[38.271214] (-) TimerEvent: {}
+[38.372227] (-) TimerEvent: {}
+[38.473228] (-) TimerEvent: {}
+[38.574492] (-) TimerEvent: {}
+[38.676021] (-) TimerEvent: {}
+[38.777148] (-) TimerEvent: {}
+[38.878276] (-) TimerEvent: {}
+[38.979352] (-) TimerEvent: {}
+[39.080420] (-) TimerEvent: {}
+[39.181483] (-) TimerEvent: {}
+[39.282617] (-) TimerEvent: {}
+[39.383696] (-) TimerEvent: {}
+[39.484753] (-) TimerEvent: {}
+[39.585814] (-) TimerEvent: {}
+[39.686910] (-) TimerEvent: {}
+[39.787964] (-) TimerEvent: {}
+[39.889106] (-) TimerEvent: {}
+[39.990321] (-) TimerEvent: {}
+[40.091398] (-) TimerEvent: {}
+[40.192459] (-) TimerEvent: {}
+[40.293706] (-) TimerEvent: {}
+[40.394731] (-) TimerEvent: {}
+[40.495826] (-) TimerEvent: {}
+[40.596895] (-) TimerEvent: {}
+[40.698090] (-) TimerEvent: {}
+[40.799146] (-) TimerEvent: {}
+[40.900225] (-) TimerEvent: {}
+[41.001359] (-) TimerEvent: {}
+[41.102541] (-) TimerEvent: {}
+[41.203610] (-) TimerEvent: {}
+[41.304668] (-) TimerEvent: {}
+[41.405876] (-) TimerEvent: {}
+[41.506914] (-) TimerEvent: {}
+[41.607979] (-) TimerEvent: {}
+[41.709055] (-) TimerEvent: {}
+[41.810190] (-) TimerEvent: {}
+[41.911239] (-) TimerEvent: {}
+[42.012297] (-) TimerEvent: {}
+[42.113384] (-) TimerEvent: {}
+[42.214504] (-) TimerEvent: {}
+[42.315639] (-) TimerEvent: {}
+[42.416669] (-) TimerEvent: {}
+[42.517779] (-) TimerEvent: {}
+[42.618896] (-) TimerEvent: {}
+[42.720008] (-) TimerEvent: {}
+[42.821070] (-) TimerEvent: {}
+[42.922194] (-) TimerEvent: {}
+[43.023227] (-) TimerEvent: {}
+[43.124436] (-) TimerEvent: {}
+[43.225372] (-) TimerEvent: {}
+[43.326479] (-) TimerEvent: {}
+[43.427535] (-) TimerEvent: {}
+[43.528531] (-) TimerEvent: {}
+[43.629544] (-) TimerEvent: {}
+[43.730640] (-) TimerEvent: {}
+[43.831712] (-) TimerEvent: {}
+[43.932971] (-) TimerEvent: {}
+[44.034330] (-) TimerEvent: {}
+[44.136667] (-) TimerEvent: {}
+[44.238448] (-) TimerEvent: {}
+[44.340474] (-) TimerEvent: {}
+[44.441541] (-) TimerEvent: {}
+[44.542604] (-) TimerEvent: {}
+[44.643698] (-) TimerEvent: {}
+[44.744819] (-) TimerEvent: {}
+[44.846012] (-) TimerEvent: {}
+[44.947054] (-) TimerEvent: {}
+[45.048001] (-) TimerEvent: {}
+[45.149035] (-) TimerEvent: {}
+[45.250093] (-) TimerEvent: {}
+[45.351110] (-) TimerEvent: {}
+[45.452271] (-) TimerEvent: {}
+[45.553363] (-) TimerEvent: {}
+[45.655195] (-) TimerEvent: {}
+[45.756311] (-) TimerEvent: {}
+[45.857761] (-) TimerEvent: {}
+[45.959010] (-) TimerEvent: {}
+[46.060110] (-) TimerEvent: {}
+[46.161778] (-) TimerEvent: {}
+[46.262815] (-) TimerEvent: {}
+[46.363886] (-) TimerEvent: {}
+[46.465077] (-) TimerEvent: {}
+[46.566274] (-) TimerEvent: {}
+[46.667492] (-) TimerEvent: {}
+[46.768559] (-) TimerEvent: {}
+[46.869642] (-) TimerEvent: {}
+[46.970731] (-) TimerEvent: {}
+[47.071751] (-) TimerEvent: {}
+[47.172812] (-) TimerEvent: {}
+[47.273829] (-) TimerEvent: {}
+[47.374922] (-) TimerEvent: {}
+[47.475957] (-) TimerEvent: {}
+[47.577025] (-) TimerEvent: {}
+[47.678149] (-) TimerEvent: {}
+[47.779222] (-) TimerEvent: {}
+[47.880262] (-) TimerEvent: {}
+[47.981327] (-) TimerEvent: {}
+[48.082386] (-) TimerEvent: {}
+[48.183434] (-) TimerEvent: {}
+[48.284518] (-) TimerEvent: {}
+[48.385644] (-) TimerEvent: {}
+[48.486733] (-) TimerEvent: {}
+[48.587746] (-) TimerEvent: {}
+[48.688818] (-) TimerEvent: {}
+[48.789954] (-) TimerEvent: {}
+[48.891048] (-) TimerEvent: {}
+[48.992093] (-) TimerEvent: {}
+[49.093146] (-) TimerEvent: {}
+[49.194257] (-) TimerEvent: {}
+[49.208247] (atmaca_flight_control) StderrLine: {'line': b'make[2]: *** [CMakeFiles/target_navigation_node.dir/build.make:76: CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o] Error 1\n'}
+[49.209912] (atmaca_flight_control) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/target_navigation_node.dir/all] Error 2\n'}
+[49.211743] (atmaca_flight_control) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[49.236462] (atmaca_flight_control) CommandEnded: {'returncode': 2}
+[49.294945] (-) TimerEvent: {}
+[49.397066] (-) TimerEvent: {}
+[49.498162] (-) TimerEvent: {}
+[49.599212] (-) TimerEvent: {}
+[49.700172] (-) TimerEvent: {}
+[49.802224] (-) TimerEvent: {}
+[49.903423] (-) TimerEvent: {}
+[49.994044] (atmaca_flight_control) JobEnded: {'identifier': 'atmaca_flight_control', 'rc': 2}
+[50.003543] (-) TimerEvent: {}
+[50.007314] (-) EventReactorShutdown: {}

@@ -1,0 +1,69 @@
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:[m[K In member function ‘[01m[Kvoid TargetNavigatingNode::run_gps_follow_control()[m[K’:
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:422:43:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kpx4_msgs::msg::TrajectorySetpoint msg[m[K’
+  422 |         px4_msgs::msg::TrajectorySetpoint [01;31m[Kmsg[m[K{};
+      |                                           [01;31m[K^~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:392:44:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kpx4_msgs::msg::OffboardControlMode msg[m[K’
+  392 |         px4_msgs::msg::OffboardControlMode [01;36m[Kmsg[m[K{};
+      |                                            [01;36m[K^~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:426:23:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_position_type {aka bool}[int][m[K’ for array subscript
+  426 |         msg.position[0[01;31m[K][m[K = target_local_x;
+      |                       [01;31m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:427:23:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_position_type {aka bool}[int][m[K’ for array subscript
+  427 |         msg.position[1[01;31m[K][m[K = target_local_y;
+      |                       [01;31m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:428:23:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_position_type {aka bool}[int][m[K’ for array subscript
+  428 |         msg.position[2[01;31m[K][m[K = target_local_z;
+      |                       [01;31m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:430:23:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_velocity_type {aka bool}[int][m[K’ for array subscript
+  430 |         msg.velocity[0[01;31m[K][m[K = NAN; msg.velocity[1] = NAN; msg.velocity[2] = NAN;
+      |                       [01;31m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:430:46:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_velocity_type {aka bool}[int][m[K’ for array subscript
+  430 |         msg.velocity[0] = NAN; msg.velocity[1[01;31m[K][m[K = NAN; msg.velocity[2] = NAN;
+      |                                              [01;31m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:430:69:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_velocity_type {aka bool}[int][m[K’ for array subscript
+  430 |         msg.velocity[0] = NAN; msg.velocity[1] = NAN; msg.velocity[2[01;31m[K][m[K = NAN;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:431:27:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_acceleration_type {aka bool}[int][m[K’ for array subscript
+  431 |         msg.acceleration[0[01;31m[K][m[K = NAN; msg.acceleration[1] = NAN; msg.acceleration[2] = NAN;
+      |                           [01;31m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:431:54:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_acceleration_type {aka bool}[int][m[K’ for array subscript
+  431 |         msg.acceleration[0] = NAN; msg.acceleration[1[01;31m[K][m[K = NAN; msg.acceleration[2] = NAN;
+      |                                                      [01;31m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:431:81:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_acceleration_type {aka bool}[int][m[K’ for array subscript
+  431 |         msg.acceleration[0] = NAN; msg.acceleration[1] = NAN; msg.acceleration[2[01;31m[K][m[K = NAN;
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:432:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing OffboardControlMode = struct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kjerk[m[K’
+  432 |         msg.[01;31m[Kjerk[m[K[0] = NAN; msg.jerk[1] = NAN; msg.jerk[2] = NAN;
+      |             [01;31m[K^~~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:432:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing OffboardControlMode = struct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kjerk[m[K’
+  432 |         msg.jerk[0] = NAN; msg.[01;31m[Kjerk[m[K[1] = NAN; msg.jerk[2] = NAN;
+      |                                [01;31m[K^~~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:432:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing OffboardControlMode = struct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kjerk[m[K’
+  432 |         msg.jerk[0] = NAN; msg.jerk[1] = NAN; msg.[01;31m[Kjerk[m[K[2] = NAN;
+      |                                                   [01;31m[K^~~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:433:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing OffboardControlMode = struct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kyaw[m[K’
+  433 |         msg.[01;31m[Kyaw[m[K = NAN;
+      |             [01;31m[K^~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:434:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing OffboardControlMode = struct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kyawspeed[m[K’
+  434 |         msg.[01;31m[Kyawspeed[m[K = NAN;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:436:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp_lifecycle::LifecyclePublisher<px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> > >::publish(px4_msgs::msg::OffboardControlMode&)[m[K’
+  436 |         trajectory_setpoint_pub_->publish(msg[01;31m[K)[m[K;
+      |                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:87[m[K,
+                 from [01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:4[m[K:
+[01m[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:66:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc>::publish(std::unique_ptr<RosMessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, std::allocator<_Tp1> >::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >; Alloc = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, std::allocator<_Tp1> >::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> > >][m[K’
+   66 |   [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:66:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kpx4_msgs::msg::OffboardControlMode[m[K’ {aka ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::unique_ptr<px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >, std::default_delete<px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> > > >[m[K’
+   66 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:82:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc>::publish(const MessageT&) [with MessageT = px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >; Alloc = std::allocator<void>][m[K’
+   82 |   [01;36m[Kpublish[m[K(const MessageT & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:82:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kpx4_msgs::msg::OffboardControlMode[m[K’ {aka ‘[01m[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >[m[K’} to ‘[01m[Kconst px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >&[m[K’
+   82 |   publish([01;36m[Kconst MessageT & msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/target_navigation_node.dir/build.make:76: CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/target_navigation_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

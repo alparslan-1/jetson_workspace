@@ -1,0 +1,9 @@
+/root/bridges/jetson_workspace/build/pars_bringup/CMakeFiles/uninstall.dir
+/root/bridges/jetson_workspace/build/pars_bringup/CMakeFiles/pars_bringup_uninstall.dir
+/root/bridges/jetson_workspace/build/pars_bringup/CMakeFiles/test.dir
+/root/bridges/jetson_workspace/build/pars_bringup/CMakeFiles/edit_cache.dir
+/root/bridges/jetson_workspace/build/pars_bringup/CMakeFiles/rebuild_cache.dir
+/root/bridges/jetson_workspace/build/pars_bringup/CMakeFiles/list_install_components.dir
+/root/bridges/jetson_workspace/build/pars_bringup/CMakeFiles/install.dir
+/root/bridges/jetson_workspace/build/pars_bringup/CMakeFiles/install/local.dir
+/root/bridges/jetson_workspace/build/pars_bringup/CMakeFiles/install/strip.dir

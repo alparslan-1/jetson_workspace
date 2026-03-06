@@ -1,0 +1,15 @@
+[ 20%] Built target offboard_node
+[ 60%] Built target hedef_gps
+[ 60%] Built target sahte_hedef
+[ 80%] Built target telemetry_node
+[ 90%] [32mBuilding CXX object CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o[0m
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:[m[K In member function ‘[01m[Kvoid TargetNavigatingNode::run_gps_follow_control()[m[K’:
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:431:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRC[m[K’ was not declared in this scope
+  431 |         [01;31m[KRC[m[K
+      |         [01;31m[K^~[m[K
+[01m[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:420:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_local_z[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  420 |         float [01;35m[Ktarget_local_z[m[K = current_local_z - alt_error;
+      |               [01;35m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/target_navigation_node.dir/build.make:76: CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/target_navigation_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

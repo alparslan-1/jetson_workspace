@@ -1,0 +1,641 @@
+[0.000000] (-) TimerEvent: {}
+[0.002765] (-) JobUnselected: {'identifier': 'atmaca_vision'}
+[0.003571] (-) JobUnselected: {'identifier': 'microxrcedds_agent'}
+[0.004030] (-) JobUnselected: {'identifier': 'pars_msgs'}
+[0.004275] (-) JobUnselected: {'identifier': 'pkg_kamikaze'}
+[0.004639] (-) JobUnselected: {'identifier': 'pkg_srv'}
+[0.004967] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.005341] (-) JobUnselected: {'identifier': 'qr_detector'}
+[0.005590] (-) JobUnselected: {'identifier': 'siha_camera_pkg'}
+[0.005886] (-) JobUnselected: {'identifier': 'video_recorder_pkg'}
+[0.006143] (atmaca_flight_control) JobQueued: {'identifier': 'atmaca_flight_control', 'dependencies': OrderedDict([('pars_msgs', '/root/bridges/jetson_workspace/install/pars_msgs'), ('px4_msgs', '/root/bridges/jetson_workspace/install/px4_msgs')])}
+[0.006438] (atmaca_flight_control) JobStarted: {'identifier': 'atmaca_flight_control'}
+[0.098464] (-) TimerEvent: {}
+[0.199809] (-) TimerEvent: {}
+[0.301203] (-) TimerEvent: {}
+[0.403075] (-) TimerEvent: {}
+[0.490826] (atmaca_flight_control) JobProgress: {'identifier': 'atmaca_flight_control', 'progress': 'cmake'}
+[0.496474] (atmaca_flight_control) JobProgress: {'identifier': 'atmaca_flight_control', 'progress': 'build'}
+[0.501749] (atmaca_flight_control) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/bridges/jetson_workspace/build/atmaca_flight_control', '--', '-j6', '-l6'], 'cwd': '/root/bridges/jetson_workspace/build/atmaca_flight_control', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'tanyeli'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/bridges/jetson_workspace/install/px4_msgs/lib:/root/bridges/jetson_workspace/install/pars_msgs/lib:/root/bridges/jetson_workspace/install/pkg_srv/lib:/root/bridges/jetson_workspace/install/microxrcedds_agent/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/root/bridges/jetson_workspace/onnxruntime-linux-aarch64-1.16.3/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\033[1;31m\\]\\u@\\h\\[\\033[0m\\]:\\[\\033[1;34m\\]\\w\\[\\033[0m\\]#'), ('COLCON_PREFIX_PATH', '/root/bridges/jetson_workspace/install:/opt/ros/humble/install'), ('TORCH_HOME', '/data/models/torch'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/bridges/jetson_workspace/install/microxrcedds_agent/bin:/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/pkg_kamikaze:/root/bridges/jetson_workspace/install/atmaca_flight_control:/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/pars_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/root/bridges/jetson_workspace/build/atmaca_flight_control'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/root/bridges/jetson_workspace/install/px4_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pars_msgs/lib/python3.8/site-packages:/root/bridges/jetson_workspace/install/pkg_srv/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/bridges/jetson_workspace/install/px4_msgs:/root/bridges/jetson_workspace/install/pars_msgs:/root/bridges/jetson_workspace/install/video_recorder_pkg:/root/bridges/jetson_workspace/install/siha_camera_pkg:/root/bridges/jetson_workspace/install/qr_detector:/root/bridges/jetson_workspace/install/pkg_kamikaze:/root/bridges/jetson_workspace/install/atmaca_flight_control:/root/bridges/jetson_workspace/install/pkg_srv:/root/bridges/jetson_workspace/install/atmaca_vision:/root/bridges/jetson_workspace/install/microxrcedds_agent:/opt/ros/humble/install')]), 'shell': False}
+[0.509482] (-) TimerEvent: {}
+[0.611485] (-) TimerEvent: {}
+[0.713559] (-) TimerEvent: {}
+[0.814662] (-) TimerEvent: {}
+[0.915797] (-) TimerEvent: {}
+[1.016837] (-) TimerEvent: {}
+[1.090629] (atmaca_flight_control) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o\x1b[0m\n'}
+[1.092831] (atmaca_flight_control) StdoutLine: {'line': b'[ 50%] Built target telemetry_node\n'}
+[1.094468] (atmaca_flight_control) StdoutLine: {'line': b'[ 30%] Built target sahte_hedef\n'}
+[1.095359] (atmaca_flight_control) StdoutLine: {'line': b'[ 80%] Built target hedef_gps\n'}
+[1.095842] (atmaca_flight_control) StdoutLine: {'line': b'[ 90%] Built target offboard_node\n'}
+[1.117127] (-) TimerEvent: {}
+[1.218510] (-) TimerEvent: {}
+[1.320164] (-) TimerEvent: {}
+[1.421554] (-) TimerEvent: {}
+[1.522634] (-) TimerEvent: {}
+[1.623672] (-) TimerEvent: {}
+[1.724766] (-) TimerEvent: {}
+[1.825972] (-) TimerEvent: {}
+[1.927038] (-) TimerEvent: {}
+[2.028175] (-) TimerEvent: {}
+[2.129318] (-) TimerEvent: {}
+[2.230528] (-) TimerEvent: {}
+[2.331644] (-) TimerEvent: {}
+[2.432683] (-) TimerEvent: {}
+[2.533824] (-) TimerEvent: {}
+[2.634881] (-) TimerEvent: {}
+[2.735947] (-) TimerEvent: {}
+[2.837058] (-) TimerEvent: {}
+[2.938216] (-) TimerEvent: {}
+[3.039639] (-) TimerEvent: {}
+[3.140724] (-) TimerEvent: {}
+[3.241904] (-) TimerEvent: {}
+[3.343083] (-) TimerEvent: {}
+[3.444223] (-) TimerEvent: {}
+[3.545496] (-) TimerEvent: {}
+[3.646669] (-) TimerEvent: {}
+[3.747785] (-) TimerEvent: {}
+[3.848909] (-) TimerEvent: {}
+[3.950149] (-) TimerEvent: {}
+[4.051316] (-) TimerEvent: {}
+[4.152489] (-) TimerEvent: {}
+[4.253754] (-) TimerEvent: {}
+[4.354933] (-) TimerEvent: {}
+[4.456124] (-) TimerEvent: {}
+[4.557335] (-) TimerEvent: {}
+[4.658537] (-) TimerEvent: {}
+[4.759716] (-) TimerEvent: {}
+[4.860874] (-) TimerEvent: {}
+[4.962332] (-) TimerEvent: {}
+[5.063598] (-) TimerEvent: {}
+[5.164819] (-) TimerEvent: {}
+[5.268630] (-) TimerEvent: {}
+[5.369844] (-) TimerEvent: {}
+[5.470941] (-) TimerEvent: {}
+[5.571992] (-) TimerEvent: {}
+[5.673213] (-) TimerEvent: {}
+[5.774390] (-) TimerEvent: {}
+[5.875482] (-) TimerEvent: {}
+[5.976638] (-) TimerEvent: {}
+[6.077830] (-) TimerEvent: {}
+[6.178911] (-) TimerEvent: {}
+[6.280129] (-) TimerEvent: {}
+[6.381277] (-) TimerEvent: {}
+[6.482415] (-) TimerEvent: {}
+[6.583457] (-) TimerEvent: {}
+[6.684554] (-) TimerEvent: {}
+[6.785751] (-) TimerEvent: {}
+[6.886803] (-) TimerEvent: {}
+[6.987867] (-) TimerEvent: {}
+[7.088975] (-) TimerEvent: {}
+[7.190161] (-) TimerEvent: {}
+[7.291277] (-) TimerEvent: {}
+[7.392462] (-) TimerEvent: {}
+[7.493591] (-) TimerEvent: {}
+[7.594720] (-) TimerEvent: {}
+[7.695725] (-) TimerEvent: {}
+[7.796788] (-) TimerEvent: {}
+[7.897990] (-) TimerEvent: {}
+[7.999715] (-) TimerEvent: {}
+[8.100771] (-) TimerEvent: {}
+[8.201891] (-) TimerEvent: {}
+[8.302969] (-) TimerEvent: {}
+[8.404056] (-) TimerEvent: {}
+[8.505151] (-) TimerEvent: {}
+[8.606210] (-) TimerEvent: {}
+[8.707239] (-) TimerEvent: {}
+[8.808348] (-) TimerEvent: {}
+[8.910015] (-) TimerEvent: {}
+[9.011242] (-) TimerEvent: {}
+[9.112332] (-) TimerEvent: {}
+[9.213472] (-) TimerEvent: {}
+[9.314583] (-) TimerEvent: {}
+[9.415647] (-) TimerEvent: {}
+[9.516777] (-) TimerEvent: {}
+[9.618579] (-) TimerEvent: {}
+[9.719590] (-) TimerEvent: {}
+[9.820670] (-) TimerEvent: {}
+[9.921835] (-) TimerEvent: {}
+[10.022808] (-) TimerEvent: {}
+[10.123935] (-) TimerEvent: {}
+[10.224972] (-) TimerEvent: {}
+[10.326038] (-) TimerEvent: {}
+[10.427219] (-) TimerEvent: {}
+[10.528323] (-) TimerEvent: {}
+[10.629476] (-) TimerEvent: {}
+[10.730545] (-) TimerEvent: {}
+[10.831687] (-) TimerEvent: {}
+[10.932704] (-) TimerEvent: {}
+[11.033765] (-) TimerEvent: {}
+[11.134835] (-) TimerEvent: {}
+[11.235882] (-) TimerEvent: {}
+[11.336974] (-) TimerEvent: {}
+[11.438104] (-) TimerEvent: {}
+[11.539127] (-) TimerEvent: {}
+[11.640212] (-) TimerEvent: {}
+[11.741348] (-) TimerEvent: {}
+[11.842362] (-) TimerEvent: {}
+[11.943405] (-) TimerEvent: {}
+[12.044648] (-) TimerEvent: {}
+[12.145743] (-) TimerEvent: {}
+[12.246819] (-) TimerEvent: {}
+[12.347901] (-) TimerEvent: {}
+[12.448893] (-) TimerEvent: {}
+[12.549971] (-) TimerEvent: {}
+[12.651204] (-) TimerEvent: {}
+[12.752301] (-) TimerEvent: {}
+[12.853440] (-) TimerEvent: {}
+[12.954455] (-) TimerEvent: {}
+[13.055544] (-) TimerEvent: {}
+[13.156641] (-) TimerEvent: {}
+[13.257890] (-) TimerEvent: {}
+[13.358967] (-) TimerEvent: {}
+[13.460021] (-) TimerEvent: {}
+[13.561292] (-) TimerEvent: {}
+[13.662459] (-) TimerEvent: {}
+[13.763543] (-) TimerEvent: {}
+[13.864666] (-) TimerEvent: {}
+[13.965767] (-) TimerEvent: {}
+[14.066894] (-) TimerEvent: {}
+[14.168031] (-) TimerEvent: {}
+[14.269189] (-) TimerEvent: {}
+[14.370231] (-) TimerEvent: {}
+[14.471271] (-) TimerEvent: {}
+[14.572380] (-) TimerEvent: {}
+[14.673548] (-) TimerEvent: {}
+[14.774600] (-) TimerEvent: {}
+[14.875675] (-) TimerEvent: {}
+[14.976814] (-) TimerEvent: {}
+[15.078145] (-) TimerEvent: {}
+[15.179279] (-) TimerEvent: {}
+[15.280327] (-) TimerEvent: {}
+[15.381357] (-) TimerEvent: {}
+[15.482428] (-) TimerEvent: {}
+[15.583480] (-) TimerEvent: {}
+[15.684567] (-) TimerEvent: {}
+[15.785750] (-) TimerEvent: {}
+[15.886889] (-) TimerEvent: {}
+[15.987992] (-) TimerEvent: {}
+[16.089184] (-) TimerEvent: {}
+[16.190322] (-) TimerEvent: {}
+[16.291400] (-) TimerEvent: {}
+[16.392501] (-) TimerEvent: {}
+[16.493642] (-) TimerEvent: {}
+[16.595079] (-) TimerEvent: {}
+[16.696102] (-) TimerEvent: {}
+[16.797235] (-) TimerEvent: {}
+[16.898287] (-) TimerEvent: {}
+[16.999351] (-) TimerEvent: {}
+[17.100403] (-) TimerEvent: {}
+[17.201486] (-) TimerEvent: {}
+[17.302550] (-) TimerEvent: {}
+[17.403606] (-) TimerEvent: {}
+[17.504671] (-) TimerEvent: {}
+[17.605873] (-) TimerEvent: {}
+[17.706901] (-) TimerEvent: {}
+[17.808047] (-) TimerEvent: {}
+[17.909206] (-) TimerEvent: {}
+[18.010278] (-) TimerEvent: {}
+[18.111568] (-) TimerEvent: {}
+[18.212630] (-) TimerEvent: {}
+[18.313815] (-) TimerEvent: {}
+[18.414938] (-) TimerEvent: {}
+[18.516048] (-) TimerEvent: {}
+[18.617217] (-) TimerEvent: {}
+[18.718273] (-) TimerEvent: {}
+[18.819318] (-) TimerEvent: {}
+[18.835730] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TargetNavigatingNode::run_gps_follow_control()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.838324] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:422:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::TrajectorySetpoint msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.839835] (atmaca_flight_control) StderrLine: {'line': b'  422 |         px4_msgs::msg::TrajectorySetpoint \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K{};\n'}
+[18.840371] (atmaca_flight_control) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[18.840889] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:392:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.841452] (atmaca_flight_control) StderrLine: {'line': b'  392 |         px4_msgs::msg::OffboardControlMode \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K{};\n'}
+[18.841924] (atmaca_flight_control) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[18.842361] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:426:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_position_type {aka bool}[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[18.842813] (atmaca_flight_control) StderrLine: {'line': b'  426 |         msg.position[0\x1b[01;31m\x1b[K]\x1b[m\x1b[K = target_local_x;\n'}
+[18.843235] (atmaca_flight_control) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.843718] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:427:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_position_type {aka bool}[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[18.844155] (atmaca_flight_control) StderrLine: {'line': b'  427 |         msg.position[1\x1b[01;31m\x1b[K]\x1b[m\x1b[K = target_local_y;\n'}
+[18.844610] (atmaca_flight_control) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.845003] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:428:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_position_type {aka bool}[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[18.845623] (atmaca_flight_control) StderrLine: {'line': b'  428 |         msg.position[2\x1b[01;31m\x1b[K]\x1b[m\x1b[K = target_local_z;\n'}
+[18.846035] (atmaca_flight_control) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.846473] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:430:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_velocity_type {aka bool}[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[18.847079] (atmaca_flight_control) StderrLine: {'line': b'  430 |         msg.velocity[0\x1b[01;31m\x1b[K]\x1b[m\x1b[K = NAN; msg.velocity[1] = NAN; msg.velocity[2] = NAN;\n'}
+[18.847568] (atmaca_flight_control) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.848031] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:430:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_velocity_type {aka bool}[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[18.848524] (atmaca_flight_control) StderrLine: {'line': b'  430 |         msg.velocity[0] = NAN; msg.velocity[1\x1b[01;31m\x1b[K]\x1b[m\x1b[K = NAN; msg.velocity[2] = NAN;\n'}
+[18.848999] (atmaca_flight_control) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.849528] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:430:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_velocity_type {aka bool}[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[18.850032] (atmaca_flight_control) StderrLine: {'line': b'  430 |         msg.velocity[0] = NAN; msg.velocity[1] = NAN; msg.velocity[2\x1b[01;31m\x1b[K]\x1b[m\x1b[K = NAN;\n'}
+[18.850435] (atmaca_flight_control) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.850876] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:431:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_acceleration_type {aka bool}[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[18.851337] (atmaca_flight_control) StderrLine: {'line': b'  431 |         msg.acceleration[0\x1b[01;31m\x1b[K]\x1b[m\x1b[K = NAN; msg.acceleration[1] = NAN; msg.acceleration[2] = NAN;\n'}
+[18.851821] (atmaca_flight_control) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.852262] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:431:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_acceleration_type {aka bool}[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[18.852721] (atmaca_flight_control) StderrLine: {'line': b'  431 |         msg.acceleration[0] = NAN; msg.acceleration[1\x1b[01;31m\x1b[K]\x1b[m\x1b[K = NAN; msg.acceleration[2] = NAN;\n'}
+[18.853273] (atmaca_flight_control) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.853724] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:431:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid types \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >::_acceleration_type {aka bool}[int]\x1b[m\x1b[K\xe2\x80\x99 for array subscript\n'}
+[18.854171] (atmaca_flight_control) StderrLine: {'line': b'  431 |         msg.acceleration[0] = NAN; msg.acceleration[1] = NAN; msg.acceleration[2\x1b[01;31m\x1b[K]\x1b[m\x1b[K = NAN;\n'}
+[18.854612] (atmaca_flight_control) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.855009] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:432:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing OffboardControlMode = struct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kjerk\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.855612] (atmaca_flight_control) StderrLine: {'line': b'  432 |         msg.\x1b[01;31m\x1b[Kjerk\x1b[m\x1b[K[0] = NAN; msg.jerk[1] = NAN; msg.jerk[2] = NAN;\n'}
+[18.856022] (atmaca_flight_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[18.856448] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:432:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing OffboardControlMode = struct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kjerk\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.856852] (atmaca_flight_control) StderrLine: {'line': b'  432 |         msg.jerk[0] = NAN; msg.\x1b[01;31m\x1b[Kjerk\x1b[m\x1b[K[1] = NAN; msg.jerk[2] = NAN;\n'}
+[18.857369] (atmaca_flight_control) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[18.858080] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:432:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing OffboardControlMode = struct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kjerk\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.858640] (atmaca_flight_control) StderrLine: {'line': b'  432 |         msg.jerk[0] = NAN; msg.jerk[1] = NAN; msg.\x1b[01;31m\x1b[Kjerk\x1b[m\x1b[K[2] = NAN;\n'}
+[18.859152] (atmaca_flight_control) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[18.859533] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:433:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing OffboardControlMode = struct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kyaw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.859955] (atmaca_flight_control) StderrLine: {'line': b'  433 |         msg.\x1b[01;31m\x1b[Kyaw\x1b[m\x1b[K = NAN;\n'}
+[18.860392] (atmaca_flight_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[18.860790] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:434:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing OffboardControlMode = struct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kyawspeed\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.861354] (atmaca_flight_control) StderrLine: {'line': b'  434 |         msg.\x1b[01;31m\x1b[Kyawspeed\x1b[m\x1b[K = NAN;\n'}
+[18.861795] (atmaca_flight_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.862164] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:436:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp_lifecycle::LifecyclePublisher<px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> > >::publish(px4_msgs::msg::OffboardControlMode&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.862653] (atmaca_flight_control) StderrLine: {'line': b'  436 |         trajectory_setpoint_pub_->publish(msg\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[18.863095] (atmaca_flight_control) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.863478] (atmaca_flight_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:87\x1b[m\x1b[K,\n'}
+[18.863889] (atmaca_flight_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/bridges/jetson_workspace/src/atmaca_flight_control/src/target_navigation_node.cpp:4\x1b[m\x1b[K:\n'}
+[18.864377] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:66:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc>::publish(std::unique_ptr<RosMessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, std::allocator<_Tp1> >::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >; Alloc = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, std::allocator<_Tp1> >::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.864823] (atmaca_flight_control) StderrLine: {'line': b'   66 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<MessageT, MessageDeleter> msg)\n'}
+[18.865331] (atmaca_flight_control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[18.865772] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:66:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >, std::default_delete<px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.866199] (atmaca_flight_control) StderrLine: {'line': b'   66 |   publish(\x1b[01;36m\x1b[Kstd::unique_ptr<MessageT, MessageDeleter> msg\x1b[m\x1b[K)\n'}
+[18.866646] (atmaca_flight_control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.867046] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:82:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp_lifecycle::LifecyclePublisher<MessageT, Alloc>::publish(const MessageT&) [with MessageT = px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >; Alloc = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.867418] (atmaca_flight_control) StderrLine: {'line': b'   82 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const MessageT & msg)\n'}
+[18.867875] (atmaca_flight_control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[18.868311] (atmaca_flight_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:82:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kpx4_msgs::msg::OffboardControlMode_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.868737] (atmaca_flight_control) StderrLine: {'line': b'   82 |   publish(\x1b[01;36m\x1b[Kconst MessageT & msg\x1b[m\x1b[K)\n'}
+[18.869171] (atmaca_flight_control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.919545] (-) TimerEvent: {}
+[19.020684] (-) TimerEvent: {}
+[19.122179] (-) TimerEvent: {}
+[19.223305] (-) TimerEvent: {}
+[19.324280] (-) TimerEvent: {}
+[19.425443] (-) TimerEvent: {}
+[19.526509] (-) TimerEvent: {}
+[19.627591] (-) TimerEvent: {}
+[19.728622] (-) TimerEvent: {}
+[19.829763] (-) TimerEvent: {}
+[19.930900] (-) TimerEvent: {}
+[20.031976] (-) TimerEvent: {}
+[20.133026] (-) TimerEvent: {}
+[20.234218] (-) TimerEvent: {}
+[20.335287] (-) TimerEvent: {}
+[20.436363] (-) TimerEvent: {}
+[20.537509] (-) TimerEvent: {}
+[20.638619] (-) TimerEvent: {}
+[20.739995] (-) TimerEvent: {}
+[20.841135] (-) TimerEvent: {}
+[20.942198] (-) TimerEvent: {}
+[21.043246] (-) TimerEvent: {}
+[21.144354] (-) TimerEvent: {}
+[21.245554] (-) TimerEvent: {}
+[21.346632] (-) TimerEvent: {}
+[21.447931] (-) TimerEvent: {}
+[21.549010] (-) TimerEvent: {}
+[21.650170] (-) TimerEvent: {}
+[21.751948] (-) TimerEvent: {}
+[21.853007] (-) TimerEvent: {}
+[21.954123] (-) TimerEvent: {}
+[22.055177] (-) TimerEvent: {}
+[22.156268] (-) TimerEvent: {}
+[22.257337] (-) TimerEvent: {}
+[22.358417] (-) TimerEvent: {}
+[22.459432] (-) TimerEvent: {}
+[22.560469] (-) TimerEvent: {}
+[22.661573] (-) TimerEvent: {}
+[22.763119] (-) TimerEvent: {}
+[22.864210] (-) TimerEvent: {}
+[22.965318] (-) TimerEvent: {}
+[23.066348] (-) TimerEvent: {}
+[23.167406] (-) TimerEvent: {}
+[23.268404] (-) TimerEvent: {}
+[23.369562] (-) TimerEvent: {}
+[23.470623] (-) TimerEvent: {}
+[23.571689] (-) TimerEvent: {}
+[23.672759] (-) TimerEvent: {}
+[23.773925] (-) TimerEvent: {}
+[23.875021] (-) TimerEvent: {}
+[23.976069] (-) TimerEvent: {}
+[24.077213] (-) TimerEvent: {}
+[24.178259] (-) TimerEvent: {}
+[24.279293] (-) TimerEvent: {}
+[24.380386] (-) TimerEvent: {}
+[24.481515] (-) TimerEvent: {}
+[24.582600] (-) TimerEvent: {}
+[24.683665] (-) TimerEvent: {}
+[24.784768] (-) TimerEvent: {}
+[24.885924] (-) TimerEvent: {}
+[24.986980] (-) TimerEvent: {}
+[25.088087] (-) TimerEvent: {}
+[25.189217] (-) TimerEvent: {}
+[25.290342] (-) TimerEvent: {}
+[25.391391] (-) TimerEvent: {}
+[25.492507] (-) TimerEvent: {}
+[25.593606] (-) TimerEvent: {}
+[25.694654] (-) TimerEvent: {}
+[25.795667] (-) TimerEvent: {}
+[25.896721] (-) TimerEvent: {}
+[25.997846] (-) TimerEvent: {}
+[26.098971] (-) TimerEvent: {}
+[26.200024] (-) TimerEvent: {}
+[26.301265] (-) TimerEvent: {}
+[26.402347] (-) TimerEvent: {}
+[26.503412] (-) TimerEvent: {}
+[26.604496] (-) TimerEvent: {}
+[26.705649] (-) TimerEvent: {}
+[26.806712] (-) TimerEvent: {}
+[26.907721] (-) TimerEvent: {}
+[27.008855] (-) TimerEvent: {}
+[27.109964] (-) TimerEvent: {}
+[27.211057] (-) TimerEvent: {}
+[27.312169] (-) TimerEvent: {}
+[27.413282] (-) TimerEvent: {}
+[27.514287] (-) TimerEvent: {}
+[27.615380] (-) TimerEvent: {}
+[27.716463] (-) TimerEvent: {}
+[27.817544] (-) TimerEvent: {}
+[27.918766] (-) TimerEvent: {}
+[28.019897] (-) TimerEvent: {}
+[28.121005] (-) TimerEvent: {}
+[28.222095] (-) TimerEvent: {}
+[28.323147] (-) TimerEvent: {}
+[28.424228] (-) TimerEvent: {}
+[28.525294] (-) TimerEvent: {}
+[28.626329] (-) TimerEvent: {}
+[28.727358] (-) TimerEvent: {}
+[28.828327] (-) TimerEvent: {}
+[28.929475] (-) TimerEvent: {}
+[29.030520] (-) TimerEvent: {}
+[29.131564] (-) TimerEvent: {}
+[29.232630] (-) TimerEvent: {}
+[29.333799] (-) TimerEvent: {}
+[29.434850] (-) TimerEvent: {}
+[29.535964] (-) TimerEvent: {}
+[29.636992] (-) TimerEvent: {}
+[29.738100] (-) TimerEvent: {}
+[29.839159] (-) TimerEvent: {}
+[29.940219] (-) TimerEvent: {}
+[30.041253] (-) TimerEvent: {}
+[30.142234] (-) TimerEvent: {}
+[30.243388] (-) TimerEvent: {}
+[30.344884] (-) TimerEvent: {}
+[30.446047] (-) TimerEvent: {}
+[30.547213] (-) TimerEvent: {}
+[30.648287] (-) TimerEvent: {}
+[30.749339] (-) TimerEvent: {}
+[30.850422] (-) TimerEvent: {}
+[30.951496] (-) TimerEvent: {}
+[31.052527] (-) TimerEvent: {}
+[31.153696] (-) TimerEvent: {}
+[31.254759] (-) TimerEvent: {}
+[31.355815] (-) TimerEvent: {}
+[31.456904] (-) TimerEvent: {}
+[31.558223] (-) TimerEvent: {}
+[31.659262] (-) TimerEvent: {}
+[31.760335] (-) TimerEvent: {}
+[31.861477] (-) TimerEvent: {}
+[31.962496] (-) TimerEvent: {}
+[32.063574] (-) TimerEvent: {}
+[32.164663] (-) TimerEvent: {}
+[32.265904] (-) TimerEvent: {}
+[32.367008] (-) TimerEvent: {}
+[32.468102] (-) TimerEvent: {}
+[32.569231] (-) TimerEvent: {}
+[32.670368] (-) TimerEvent: {}
+[32.771412] (-) TimerEvent: {}
+[32.872458] (-) TimerEvent: {}
+[32.973594] (-) TimerEvent: {}
+[33.074719] (-) TimerEvent: {}
+[33.175781] (-) TimerEvent: {}
+[33.276844] (-) TimerEvent: {}
+[33.377949] (-) TimerEvent: {}
+[33.478981] (-) TimerEvent: {}
+[33.580038] (-) TimerEvent: {}
+[33.681145] (-) TimerEvent: {}
+[33.782192] (-) TimerEvent: {}
+[33.883263] (-) TimerEvent: {}
+[33.984297] (-) TimerEvent: {}
+[34.085413] (-) TimerEvent: {}
+[34.186452] (-) TimerEvent: {}
+[34.287484] (-) TimerEvent: {}
+[34.388597] (-) TimerEvent: {}
+[34.489690] (-) TimerEvent: {}
+[34.590662] (-) TimerEvent: {}
+[34.691702] (-) TimerEvent: {}
+[34.792775] (-) TimerEvent: {}
+[34.893948] (-) TimerEvent: {}
+[34.995010] (-) TimerEvent: {}
+[35.096100] (-) TimerEvent: {}
+[35.197251] (-) TimerEvent: {}
+[35.298311] (-) TimerEvent: {}
+[35.399376] (-) TimerEvent: {}
+[35.500442] (-) TimerEvent: {}
+[35.601560] (-) TimerEvent: {}
+[35.702613] (-) TimerEvent: {}
+[35.803675] (-) TimerEvent: {}
+[35.904766] (-) TimerEvent: {}
+[36.005867] (-) TimerEvent: {}
+[36.106899] (-) TimerEvent: {}
+[36.207956] (-) TimerEvent: {}
+[36.309011] (-) TimerEvent: {}
+[36.410142] (-) TimerEvent: {}
+[36.511178] (-) TimerEvent: {}
+[36.612240] (-) TimerEvent: {}
+[36.713324] (-) TimerEvent: {}
+[36.814361] (-) TimerEvent: {}
+[36.915402] (-) TimerEvent: {}
+[37.016451] (-) TimerEvent: {}
+[37.117635] (-) TimerEvent: {}
+[37.218768] (-) TimerEvent: {}
+[37.319819] (-) TimerEvent: {}
+[37.420870] (-) TimerEvent: {}
+[37.522034] (-) TimerEvent: {}
+[37.623120] (-) TimerEvent: {}
+[37.724189] (-) TimerEvent: {}
+[37.825288] (-) TimerEvent: {}
+[37.926436] (-) TimerEvent: {}
+[38.027553] (-) TimerEvent: {}
+[38.128588] (-) TimerEvent: {}
+[38.229675] (-) TimerEvent: {}
+[38.330753] (-) TimerEvent: {}
+[38.432036] (-) TimerEvent: {}
+[38.533164] (-) TimerEvent: {}
+[38.634259] (-) TimerEvent: {}
+[38.735318] (-) TimerEvent: {}
+[38.836397] (-) TimerEvent: {}
+[38.937480] (-) TimerEvent: {}
+[39.038546] (-) TimerEvent: {}
+[39.139637] (-) TimerEvent: {}
+[39.240782] (-) TimerEvent: {}
+[39.341957] (-) TimerEvent: {}
+[39.443070] (-) TimerEvent: {}
+[39.544163] (-) TimerEvent: {}
+[39.645278] (-) TimerEvent: {}
+[39.746370] (-) TimerEvent: {}
+[39.847442] (-) TimerEvent: {}
+[39.948520] (-) TimerEvent: {}
+[40.049610] (-) TimerEvent: {}
+[40.150687] (-) TimerEvent: {}
+[40.251760] (-) TimerEvent: {}
+[40.352844] (-) TimerEvent: {}
+[40.453977] (-) TimerEvent: {}
+[40.555071] (-) TimerEvent: {}
+[40.656215] (-) TimerEvent: {}
+[40.757305] (-) TimerEvent: {}
+[40.858455] (-) TimerEvent: {}
+[40.959843] (-) TimerEvent: {}
+[41.061020] (-) TimerEvent: {}
+[41.162290] (-) TimerEvent: {}
+[41.263506] (-) TimerEvent: {}
+[41.365239] (-) TimerEvent: {}
+[41.467172] (-) TimerEvent: {}
+[41.568616] (-) TimerEvent: {}
+[41.670245] (-) TimerEvent: {}
+[41.772319] (-) TimerEvent: {}
+[41.873692] (-) TimerEvent: {}
+[41.974922] (-) TimerEvent: {}
+[42.076368] (-) TimerEvent: {}
+[42.177626] (-) TimerEvent: {}
+[42.278986] (-) TimerEvent: {}
+[42.380183] (-) TimerEvent: {}
+[42.481387] (-) TimerEvent: {}
+[42.582610] (-) TimerEvent: {}
+[42.683719] (-) TimerEvent: {}
+[42.784833] (-) TimerEvent: {}
+[42.886331] (-) TimerEvent: {}
+[42.987624] (-) TimerEvent: {}
+[43.088830] (-) TimerEvent: {}
+[43.190088] (-) TimerEvent: {}
+[43.291279] (-) TimerEvent: {}
+[43.392449] (-) TimerEvent: {}
+[43.493859] (-) TimerEvent: {}
+[43.594993] (-) TimerEvent: {}
+[43.696204] (-) TimerEvent: {}
+[43.797411] (-) TimerEvent: {}
+[43.898782] (-) TimerEvent: {}
+[43.999982] (-) TimerEvent: {}
+[44.101255] (-) TimerEvent: {}
+[44.202455] (-) TimerEvent: {}
+[44.303707] (-) TimerEvent: {}
+[44.404973] (-) TimerEvent: {}
+[44.506321] (-) TimerEvent: {}
+[44.607596] (-) TimerEvent: {}
+[44.708812] (-) TimerEvent: {}
+[44.810155] (-) TimerEvent: {}
+[44.911329] (-) TimerEvent: {}
+[45.012528] (-) TimerEvent: {}
+[45.113846] (-) TimerEvent: {}
+[45.215291] (-) TimerEvent: {}
+[45.316542] (-) TimerEvent: {}
+[45.417903] (-) TimerEvent: {}
+[45.519167] (-) TimerEvent: {}
+[45.620389] (-) TimerEvent: {}
+[45.722097] (-) TimerEvent: {}
+[45.823258] (-) TimerEvent: {}
+[45.924948] (-) TimerEvent: {}
+[46.026828] (-) TimerEvent: {}
+[46.128689] (-) TimerEvent: {}
+[46.230537] (-) TimerEvent: {}
+[46.332560] (-) TimerEvent: {}
+[46.434301] (-) TimerEvent: {}
+[46.535857] (-) TimerEvent: {}
+[46.637378] (-) TimerEvent: {}
+[46.738778] (-) TimerEvent: {}
+[46.840306] (-) TimerEvent: {}
+[46.941927] (-) TimerEvent: {}
+[47.043714] (-) TimerEvent: {}
+[47.145525] (-) TimerEvent: {}
+[47.247180] (-) TimerEvent: {}
+[47.348490] (-) TimerEvent: {}
+[47.450408] (-) TimerEvent: {}
+[47.552471] (-) TimerEvent: {}
+[47.653986] (-) TimerEvent: {}
+[47.755942] (-) TimerEvent: {}
+[47.858721] (-) TimerEvent: {}
+[47.960551] (-) TimerEvent: {}
+[48.061921] (-) TimerEvent: {}
+[48.162979] (-) TimerEvent: {}
+[48.264169] (-) TimerEvent: {}
+[48.365868] (-) TimerEvent: {}
+[48.467425] (-) TimerEvent: {}
+[48.568806] (-) TimerEvent: {}
+[48.670342] (-) TimerEvent: {}
+[48.771834] (-) TimerEvent: {}
+[48.873402] (-) TimerEvent: {}
+[48.974775] (-) TimerEvent: {}
+[49.075979] (-) TimerEvent: {}
+[49.176960] (-) TimerEvent: {}
+[49.278015] (-) TimerEvent: {}
+[49.379002] (-) TimerEvent: {}
+[49.480019] (-) TimerEvent: {}
+[49.581032] (-) TimerEvent: {}
+[49.682176] (-) TimerEvent: {}
+[49.783217] (-) TimerEvent: {}
+[49.884651] (-) TimerEvent: {}
+[49.986125] (-) TimerEvent: {}
+[50.087498] (-) TimerEvent: {}
+[50.188500] (-) TimerEvent: {}
+[50.289595] (-) TimerEvent: {}
+[50.390714] (-) TimerEvent: {}
+[50.491821] (-) TimerEvent: {}
+[50.592896] (-) TimerEvent: {}
+[50.694009] (-) TimerEvent: {}
+[50.795116] (-) TimerEvent: {}
+[50.896225] (-) TimerEvent: {}
+[50.997483] (-) TimerEvent: {}
+[51.098604] (-) TimerEvent: {}
+[51.199676] (-) TimerEvent: {}
+[51.300855] (-) TimerEvent: {}
+[51.402011] (-) TimerEvent: {}
+[51.503060] (-) TimerEvent: {}
+[51.604175] (-) TimerEvent: {}
+[51.705262] (-) TimerEvent: {}
+[51.806322] (-) TimerEvent: {}
+[51.907478] (-) TimerEvent: {}
+[52.008549] (-) TimerEvent: {}
+[52.109695] (-) TimerEvent: {}
+[52.210747] (-) TimerEvent: {}
+[52.311802] (-) TimerEvent: {}
+[52.412859] (-) TimerEvent: {}
+[52.513978] (-) TimerEvent: {}
+[52.615058] (-) TimerEvent: {}
+[52.716134] (-) TimerEvent: {}
+[52.817258] (-) TimerEvent: {}
+[52.918312] (-) TimerEvent: {}
+[53.019384] (-) TimerEvent: {}
+[53.120484] (-) TimerEvent: {}
+[53.221655] (-) TimerEvent: {}
+[53.322778] (-) TimerEvent: {}
+[53.423933] (-) TimerEvent: {}
+[53.524966] (-) TimerEvent: {}
+[53.626082] (-) TimerEvent: {}
+[53.727143] (-) TimerEvent: {}
+[53.828228] (-) TimerEvent: {}
+[53.929342] (-) TimerEvent: {}
+[54.030528] (-) TimerEvent: {}
+[54.131553] (-) TimerEvent: {}
+[54.232647] (-) TimerEvent: {}
+[54.333844] (-) TimerEvent: {}
+[54.434950] (-) TimerEvent: {}
+[54.536004] (-) TimerEvent: {}
+[54.637156] (-) TimerEvent: {}
+[54.714275] (atmaca_flight_control) StderrLine: {'line': b'make[2]: *** [CMakeFiles/target_navigation_node.dir/build.make:76: CMakeFiles/target_navigation_node.dir/src/target_navigation_node.cpp.o] Error 1\n'}
+[54.715719] (atmaca_flight_control) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/target_navigation_node.dir/all] Error 2\n'}
+[54.717323] (atmaca_flight_control) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[54.737321] (-) TimerEvent: {}
+[54.742717] (atmaca_flight_control) CommandEnded: {'returncode': 2}
+[54.838049] (-) TimerEvent: {}
+[54.940077] (-) TimerEvent: {}
+[55.041157] (-) TimerEvent: {}
+[55.142341] (-) TimerEvent: {}
+[55.243965] (-) TimerEvent: {}
+[55.346493] (-) TimerEvent: {}
+[55.448677] (-) TimerEvent: {}
+[55.540476] (atmaca_flight_control) JobEnded: {'identifier': 'atmaca_flight_control', 'rc': 2}
+[55.548834] (-) TimerEvent: {}
+[55.553152] (-) EventReactorShutdown: {}
